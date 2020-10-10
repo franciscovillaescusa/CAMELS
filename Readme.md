@@ -7,3 +7,5 @@ This repository contains the codes and scripts we wrote to carry out the analysi
 Further details on how to access the CAMELS data can be found on the webpage: [https://www.camel-simulations.org](https://www.camel-simulations.org).
 
 For questions, comments...etc, please reach us at camel.simulations@gmail.com
+
+<meta name="google-site-verification" content="sDx2E6dqYtX-bPAM2kFWL8pAPjY-pcH4NOaKlprfGU0" />
