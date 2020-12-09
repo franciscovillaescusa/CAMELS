@@ -21,6 +21,11 @@ CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, 
 
    sets
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Data products
+      
+   images
 
 
 
