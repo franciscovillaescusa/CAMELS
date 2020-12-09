@@ -49,10 +49,6 @@ The first option is to create images by computing the column density along the c
    periodic = False  #whether treat image as periodic in the considered plane
    plane    = 'XY' #'XY', 'YZ', 'XZ'
    verbose  = False
-   
-   axis_x, axis_y = 0, 1
-   x_min, y_min   = 0, 0
-   width          = 5.0 #Mpc/h
 
    # KDTree parameters
    Nneigh  = 32 #number of neighborghs
@@ -78,6 +74,10 @@ The first option is to create images by computing the column density along the c
    T_     = T[indexes]
    Mg_    = Mg[indexes]
    Rg_    = Rg[indexes]
+
+   if   plane=='XY':  axis_x, axis_y, width = 0, 1, x_max-x_min
+   elif plane=='YZ':  axis_x, axis_y, width = 1, 2, y_max-y_min
+   elif plane=='XZ':  axis_x, axis_y, width = 0, 2, z_max-z_min
 
    # project gas mass*temperatures into a 2D map
    TM = np.zeros((grid,grid), dtype=np.float64)
