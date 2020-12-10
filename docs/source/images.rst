@@ -13,26 +13,8 @@ The first option is to create images by computing the column density along the c
 
    import numpy as np
    import MAS_library as MASL
-   import camel_library as CL
-   import scipy.spatial as SS
+   import camels_library as CL
    import h5py
-
-   # This function computes the distance of each gas particle to its Nneigh nearest 
-   # neighbourgs
-   def KDTree_distance(pos, BoxSize, Nneigh, threads=1, verbose=True):
-
-       # construct kdtree using gas particles
-       start = time.time()
-       kdtree = SS.cKDTree(pos, leafsize=16, boxsize=BoxSize)
-       if verbose:  print('Time to build KDTree = %.3f seconds'%(time.time()-start))
-
-       # find nearest neighbors of the gas particles
-       start = time.time()
-       dist, indexes = kdtree.query(pos, Nneigh, n_jobs=threads)
-       if verbose:  print('Time to find k-neighbors = %.3f seconds'%(time.time()-start))
-
-       # return the distance of each particle to its farther neighborgh
-       return dist[:,-1].astype(np.float32)
 
    ##################################### INPUT ######################################
    # input and output files
@@ -51,7 +33,7 @@ The first option is to create images by computing the column density along the c
    verbose  = False
 
    # KDTree parameters
-   Nneigh  = 32 #number of neighborghs
+   k       = 32 #number of neighborghs
    threads = -1
    ##################################################################################
    
@@ -64,7 +46,7 @@ The first option is to create images by computing the column density along the c
    Mg       = f['PartType0/Masses'][:]*1e10      #Msun/h
    f.close()
    T        = CL.temperature(snapshot)           #K
-   Rg       = KDTree_distance(pos_g, BoxSize*(1.0+1e-8), Nneigh, threads) #Mpc/h
+   Rg       = KDTree_distance(pos_g, pos_g, k, BoxSize*(1.0+1e-8), threads, verbose=False) #Mpc/h
 
    # select the particles in the considered region
    indexes = np.where((pos_g[:,0]>x_min) & (pos_g[:,0]<x_max) &
