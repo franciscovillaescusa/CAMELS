@@ -34,3 +34,12 @@ CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, 
 
    camels_library
    pylians3
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Other
+
+   team
+   contact
+   citation
+   
