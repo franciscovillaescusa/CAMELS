@@ -1,6 +1,6 @@
 # This script contains different routines to analyze the output of the CAMEL simulations
 import numpy as np
-import sys,os,h5py
+import sys,os,h5py,time
 import readgadget
 import MAS_library as MASL
 import units_library as UL
