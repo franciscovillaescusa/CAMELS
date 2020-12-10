@@ -1,7 +1,7 @@
 .. _CAMELS_library:
 
 **************
-CAMELS_library
+CAMELS library
 **************
 
 The CAMELS library is a set python routines written to simplify the analysis of CAMELS data.
