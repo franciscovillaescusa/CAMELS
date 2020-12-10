@@ -7,6 +7,7 @@ import units_library as UL
 import sorting_library as SL
 import Pk_library as PKL
 import HI_library as HIL
+import scipy.spatial as SS
 
 # define constants here
 rho_crit   = UL.units().rho_crit #h^2 Msun/Mpc^3
@@ -18,11 +19,11 @@ PROTONMASS = 1.67262178e-24      #gram  - NIST 2010
 # neighbourgs
 # pos1 -------> positions of the particles
 # pos2 -------> positions of the tracers (can be the same as pos1)
+# k ----------> compute distance to Nneigh closest neighbourghs
 # BoxSize ----> for non-periodic boundary conditions set this to None
-# Nneigh -----> compute distance to Nneigh closest neighbourghs
 # treads -----> number of openmp threads
 # verbose ----> whether to print some information on the progress
-def KDTree_distance(pos1, pos2, Nneigh, BoxSize=None, threads=1, verbose=True):
+def KDTree_distance(pos1, pos2, k, BoxSize=None, threads=1, verbose=True):
 
     # construct kdtree of the particles
     start  = time.time()
@@ -31,7 +32,7 @@ def KDTree_distance(pos1, pos2, Nneigh, BoxSize=None, threads=1, verbose=True):
 
     # find nearest neighbors of the tracer particles
     start = time.time()
-    dist, indexes = kdtree.query(pos2, Nneigh, n_jobs=threads)
+    dist, indexes = kdtree.query(pos2, k, n_jobs=threads)
     if verbose:  print('Time to find k-neighbors = %.3f seconds'%(time.time()-start))
 
     # return the distance of each particle to its farthest neighborgh
