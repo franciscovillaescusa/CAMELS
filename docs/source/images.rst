@@ -37,7 +37,7 @@ The first option is to create images by computing the column density along the c
    ##################################### INPUT ######################################
    # input and output files
    snapshot = '/mnt/ceph/users/camels/Sims/IllustrisTNG/LH_0/snap_033.hdf5'
-   f_out    = 'gas_temperature_comparison_zoom.png'
+   f_out    = 'gas_temperature.npy'
 
    # region over which make the image (should be squared)
    x_min, x_max = 0.0, 5.0 #Mpc/h
@@ -91,8 +91,10 @@ The first option is to create images by computing the column density along the c
 
    # compute mean temperature 
    T = TM/M
-   print('%.3e < T < %.3e'%(np.min(T1), np.max(T1)))
+   print('%.3e < T < %.3e'%(np.min(T), np.max(T)))
 
+   # save results to file
+   np.save(f_out, T)
 
 
 3D fields slices
