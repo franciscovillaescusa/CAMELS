@@ -14,6 +14,31 @@ BOLTZMANN  = 1.38065e-16         #erg/K - NIST 2010
 PROTONMASS = 1.67262178e-24      #gram  - NIST 2010
 
 ########################################################################################
+# This function computes the distance of each gas particle to its Nneigh nearest 
+# neighbourgs
+# pos1 -------> positions of the particles
+# pos2 -------> positions of the tracers (can be the same as pos1)
+# BoxSize ----> for non-periodic boundary conditions set this to None
+# Nneigh -----> compute distance to Nneigh closest neighbourghs
+# treads -----> number of openmp threads
+# verbose ----> whether to print some information on the progress
+def KDTree_distance(pos1, pos2, Nneigh, BoxSize=None, threads=1, verbose=True):
+
+    # construct kdtree of the particles
+    start  = time.time()
+    kdtree = SS.cKDTree(pos1, leafsize=16, boxsize=BoxSize)
+    if verbose:  print('Time to build KDTree = %.3f seconds'%(time.time()-start))
+
+    # find nearest neighbors of the tracer particles
+    start = time.time()
+    dist, indexes = kdtree.query(pos2, Nneigh, n_jobs=threads)
+    if verbose:  print('Time to find k-neighbors = %.3f seconds'%(time.time()-start))
+
+    # return the distance of each particle to its farthest neighborgh
+    return dist[:,-1]
+########################################################################################
+
+########################################################################################
 # This routine returns the suffix of the considered ptype
 def Pk_suffix(ptype):
     if   ptype==[0]:        return 'g'
