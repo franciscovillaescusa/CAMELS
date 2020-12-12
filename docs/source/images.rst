@@ -7,8 +7,14 @@ There are two different ways to create images from the simulations:
 Column density
 --------------
 
-The first option is to create images by computing the column density along the center of each pixel. The next script computes the 
+The first option is to create images by computing the column density along the center of each pixel. The next script computes the column density of the gas temperature as
 
+.. math::
+   
+   \bar{T}(x,y) = \frac{\int m(x,y,z)T(x,y,z) dz}{\int m(x,y,z)dz}
+
+where :math:`m(x,y,z)` and :math:`T(x,y,z)` are the gas mass and temperature at position :math:`(x,y,z)`.
+   
 .. code-block::  python
 
    import numpy as np

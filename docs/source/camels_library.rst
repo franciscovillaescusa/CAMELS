@@ -88,7 +88,24 @@ An example of how to use this routine is this
    d = CL.KDTree_distance(pos_stars, pos_gas, k, BoxSize*(1.0+1e-8), threads, verbose) #Mpc/h
    
 
+Gas temperature
+---------------
+
+The routine ``temperature`` can be used to compute the temperature of the gas particles in a snapshot. One example is this:
+
+.. code-block::  python
+
+   import numpy as np
+   import CAMELS_library as CL
    
-   
+   # snapshot name
+   snapshot = '/mnt/ceph/users/camels/Sims/SIMBA/1P_5/snap_033.hdf5'
+
+   # get gas temperature in Kelvin
+   T = CL.temperature(snapshot)
 
 
+Neutral hydrogen
+----------------
+
+The routine ``HI_mass`` returns the neutral hydrogen (HI) mass of the gas particles 
