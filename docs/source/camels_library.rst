@@ -105,7 +105,38 @@ The routine ``temperature`` can be used to compute the temperature of the gas pa
    T = CL.temperature(snapshot)
 
 
-Neutral hydrogen
+Gas pressure
+------------
+
+The routine ``pressure`` returns the gas pressure of the gas particle of a given snapshot, in units of :math:`(M_\odot/h)({\rm km/s})^2/({\rm kpc}/h)^3`  
+
+.. code-block::  python
+
+   import numpy as np
+   import CAMELS_library as CL
+
+   # snapshot name
+   snapshot = '/mnt/ceph/users/camels/Sims/SIMBA/CV_12/snap_020.hdf5'
+
+   # compute gas pressure in unit of (Msun/h)*(km/s)^2/(kpc/h)^3
+   P = CL.pressure(snapshot)
+   
+
+Electron density
 ----------------
 
-The routine ``HI_mass`` returns the neutral hydrogen (HI) mass of the gas particles 
+The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is equal to 0. The units of the output are :math:`10^{20}h^2{\rm cm}^{-3}`. Its usage is as follows:
+
+.. code-block::  python
+
+   import numpy as np
+   import CAMELS_library as CL
+
+   # snapshot name
+   snapshot = '/mnt/ceph/users/camels/Sims/IllustrisTNG/EX_0/snap_030.hdf5'
+
+   # compute electron number density in 1e20 electrons*h^2/cm^3 units
+   n_e = CL.electron_density(snapshot)
+   
+
+
