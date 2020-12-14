@@ -1,11 +1,13 @@
-CAMELS documentation
+.. image:: Letters2.png
+   :width:  800 px
+   :height: 200 px
+   :align: center
+
+
+Documentation
 ====================
 
 CAMELS stands for Cosmology and Astrophysics with MachinE Learning Simulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
-
-.. image:: logo.jpg
-   :scale: 30 %
-   :align: center
 	   
 .. toctree::
    :maxdepth: 2
