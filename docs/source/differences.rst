@@ -1,6 +1,6 @@
-***********
-Differences
-***********
+******************
+Suites differences
+******************
 
 The SIMBA and IllustrisTNG simulations are very different: they solve the hydrodynamic equations using completely different methods and the subgrid models employed are distinct. However, the format of the data is very similar in the two sets. The main differences are these:
 

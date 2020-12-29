@@ -8,7 +8,14 @@ What is CAMELS?
 ===============
 
 **CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
-	   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Science
+
+   goals
+   publications
+
 .. toctree::
    :maxdepth: 2
    :caption: Data accesss
@@ -22,6 +29,9 @@ What is CAMELS?
    :caption: Technical details
 
    sets
+   ics
+   snapshots
+   halos
    differences
 
 .. toctree::
@@ -42,7 +52,6 @@ What is CAMELS?
    :maxdepth: 2
    :caption: Other
 
-   publications
    team
    contact
    citation
