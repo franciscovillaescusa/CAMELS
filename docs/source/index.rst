@@ -20,15 +20,14 @@ What is CAMELS?
    :maxdepth: 2
    :caption: Data accesss
 
-   Policy
-   Binder
-   Tiger
+   data_access
 
 .. toctree::
    :maxdepth: 2
    :caption: Technical details
 
-   sets
+   structure
+   organization
    ics
    snapshots
    halos
@@ -55,3 +54,4 @@ What is CAMELS?
    team
    contact
    citation
+   logo
