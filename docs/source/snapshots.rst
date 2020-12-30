@@ -95,11 +95,11 @@ CAMELS snapshots are stored as single hdf5 files. In order to read them in pytho
 
 As can be seen, the snapshots contain different groups and blocks:
 
-- ``/Header``. This group contains different properties of the simulations such as its box size, number of particles, value of the cosmological parameters...etc.
-- ``/PartType0``. This group contains the properties of the gas particles.
-- ``/PartType1``. This group contains the properties of the dark matter particles.
-- ``/PartType4``. This group contains the properties of the star particles.
-- ``/PartType5``. This group contains the properties of the black hole particles.
+- ``Header``. This group contains different properties of the simulations such as its box size, number of particles, value of the cosmological parameters...etc.
+- ``PartType0``. This group contains the properties of the gas particles.
+- ``PartType1``. This group contains the properties of the dark matter particles.
+- ``PartType4``. This group contains the properties of the star particles.
+- ``PartType5``. This group contains the properties of the black hole particles.
 
 For instance, the block ``/PartType4/Coordinates`` contains the coordinates of the star particles. A detailed description of the different blocks can be found `here <https://www.tng-project.org/data/docs/specifications/#sec1b>`_
 
@@ -147,3 +147,7 @@ Reading the header or different blocks can be done as follows:
    
    # close file
    f.close()
+
+.. Note::
+
+   Note that the N-body simulations only contain the positions, velocities and IDs of the dark matter particles.
