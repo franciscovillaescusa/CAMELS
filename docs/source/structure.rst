@@ -8,6 +8,14 @@ The scheme below shows the general structure of CAMELS data:
 
 .. image:: Sims_scheme.pdf
 
+Each simulation follows the evolution of :math:`256^3` dark matter particles and :math:`256^3` gas resolution elements (only for the (magneto-)hydrodynamic) within a periodic volume of :math:`(25~h^{-1}{\rm Mpc})^3` from :math:`z=127` down to :math:`z=0`. All simulations share the value of these cosmological parameters:
+
++-----------------------+-----------+----------------+-----------------+-----------+---------------+-----------------+
+|:math:`\Omega_{\rm b}` |:math:`h`  |:math:`n_s`     |:math:`\sigma_8` |:math:`w`  |:math:`M_\nu`  |:math:`\Omega_k` | 
++=======================+===========+================+=================+===========+===============+=================+
+|0.049                  |0.6711     |0.9624          |0.834            |-1         |0.0 eV         |0.0              |
++-----------------------+-----------+----------------+-----------------+-----------+---------------+-----------------+
+	   
 CAMELS has been designed to explore the parameter space of cosmological (by varying :math:`\Omega_{\rm m}` and :math:`\sigma_8`) and astrophysical models (by varying :math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, :math:`A_{\rm AGN1}`, and :math:`A_{\rm AGN2}`). The physical meaning of these parameters is given in this table:
 
 +-----------------------+----------------------------------+----------------------------+
