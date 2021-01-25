@@ -44,8 +44,8 @@ Suites
 
 CAMELS contains two different suites. The name of each suite reflects the code and subgrid model used to run all the simulations in the suite. 
 
-- | **IllustrisTNG suite**. All the simulations in this suite have been run using the AREPO code and employing the IllustrisTNG subgrid model.
-- | **SIMBA suite**. All the simulations in this suite have been run using the GIZMO code and employing the SIMBA subgrid model.
+- | **IllustrisTNG suite**. All the simulations in this suite have been run using the AREPO code and employing the IllustrisTNG subgrid model. See :ref:`IllustrisTNG_params` for the value of the cosmological, astrophysical, and initial random seed for all simulations in this suite. 
+- | **SIMBA suite**. All the simulations in this suite have been run using the GIZMO code and employing the SIMBA subgrid model. See :ref:`SIMBA_params` for the value of the cosmological, astrophysical, and initial random seed for all simulations in this suite. 
 
 Each suite contains 4 sets and a total of 1,092 simulations.
   
