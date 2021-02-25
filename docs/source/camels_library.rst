@@ -45,9 +45,9 @@ Distance to k nearest neighbors
 
 The routine ``KDTree_distance`` can be used to compute the distance to the k nearest neighbors of a set of particles. Note that the neighbors can be a different type of particle as the one considered. For instance, it can be used to compute the distance to the k nearest gas particles from the positions of star particles. The ingredients needed for this routine are:
 
-- ``pos1``. The positions of the particles over which compute its nearest neighbors. In the above example, these would be the positions of the stars.
+- ``pos1``. The positions of the particles over which compute its nearest neighbors. In the above example, these would be the positions of the gas particles.
 
-- ``pos2``. The positions of the particles over which compute the distances. In the above example, these would be the positions of the gas particles. Note that ``pos2`` can be the same as ``pos1``: e.g. to compute the distance to the k nearest neighborgs from a set of dark matter particles.
+- ``pos2``. The positions of the particles over which compute the distances. In the above example, these would be the positions of the start particles. Note that ``pos2`` can be the same as ``pos1``: e.g. to compute the distance to the k nearest neighborgs from a set of dark matter particles.
 
 - ``k``. The number of neighbors to consider.
 
@@ -85,7 +85,7 @@ An example of how to use this routine is this
    # compute distance of each star particle to its k nearest gas particle
    # d is a 1D numpy array with the distance of each star particle to its
    # k nearest neighborghs
-   d = CL.KDTree_distance(pos_stars, pos_gas, k, BoxSize*(1.0+1e-8), threads, verbose) #Mpc/h
+   d = CL.KDTree_distance(pos_gas, pos_stars, k, BoxSize*(1.0+1e-8), threads, verbose) #Mpc/h
    
 
 Gas temperature

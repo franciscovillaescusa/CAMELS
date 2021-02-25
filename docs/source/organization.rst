@@ -21,6 +21,10 @@ The main CAMELS simulation folder contains different folders:
 - ``SIMBA_DM`` is the folder containing the N-body simulations of the SIMBA suite.
 - ``times.txt``. This file contains the scale factors of the simulations (with the exception of the last snapshot at :math:`z=0`). This file is used by both the GIZMO and AREPO codes to write snapshots at these times.
 
+.. Note::
+  
+   The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained :ref:`IllustrisTNG_params` and :ref:`SIMBA_params`, respectively.  
+
 Suite folder
 ~~~~~~~~~~~~
   
