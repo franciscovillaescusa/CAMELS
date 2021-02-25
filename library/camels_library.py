@@ -600,7 +600,6 @@ def electron_density(snapshot):
     m_proton = 1.6726e-27    #kg
     Msun     = 1.99e30       #kg
     kpc      = 3.0857e21     #cm
-    m_proton = m_proton/Msun #Msun
 
     # read internal energy, electron abundance  and star-formation rate
     f    = h5py.File(snapshot, 'r')
@@ -617,7 +616,7 @@ def electron_density(snapshot):
     n_e = factor * 0.76 * ne * rho #electrons*h^2/cm^3
     n_e[indexes] = 0.0 #put electron density to 0 for star-forming particles
 
-    return n_e/1e20 #without the 1e20 it can give problems
+    return n_e
 ########################################################################################
 
 # This routine computes different properties of SO halos such as mass in each component
