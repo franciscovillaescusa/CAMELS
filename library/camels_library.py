@@ -126,7 +126,7 @@ def compute_Pk(snapshot, grid, MAS, threads, ptype, root_out):
 # root_out -----> folder where to save the power spectrum
 def compute_Pk_ICs(snapshot, grid, MAS, threads, ptype, root_out):
 
-    if not(os.path.exists(snapshot)):  return 0
+    if not(os.path.exists(snapshot)) and not(os.path.exists(snapshot+'.0')):  return 0
 
     # read header
     head     = readgadget.header(snapshot)
