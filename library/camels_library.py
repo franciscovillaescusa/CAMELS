@@ -539,7 +539,7 @@ def temperature(snapshot):
 
 ########################################################################################
 # This function computes the HI mass of the gas particles of a given snapshot
-def HI_mass(snapshot, TREECOOL_file):
+def HI_mass(snapshot, TREECOOL_file, sim='IllustrisTNG'):
 
     # read redshift and h
     f = h5py.File(snapshot, 'r')
@@ -554,7 +554,12 @@ def HI_mass(snapshot, TREECOOL_file):
     indexes = np.where(SFR>0.0)[0];  del SFR
             
     # find the metallicity of star-forming particles
-    metals = f['PartType0/GFM_Metallicity'][:]
+    if sim=='IllustrisTNG':
+        metals = f['PartType0/GFM_Metallicity'][:]
+    elif sim=='SIMBA':
+        metals = f['PartType0/Metallicity'][:,0] #metallicity
+    else:
+        raise Exception('Wrong simulation type!!!')
     metals = metals[indexes]/0.0127
     f.close()
 
