@@ -126,7 +126,7 @@ def compute_Pk(snapshot, grid, MAS, threads, ptype, root_out):
 # root_out -----> folder where to save the power spectrum
 def compute_Pk_ICs(snapshot, grid, MAS, threads, ptype, root_out):
 
-    if not(os.path.exists(snapshot)):  return 0
+    if not(os.path.exists(snapshot)) and not(os.path.exists(snapshot+'.0')):  return 0
 
     # read header
     head     = readgadget.header(snapshot)
@@ -539,7 +539,7 @@ def temperature(snapshot):
 
 ########################################################################################
 # This function computes the HI mass of the gas particles of a given snapshot
-def HI_mass(snapshot, TREECOOL_file):
+def HI_mass(snapshot, TREECOOL_file, sim='IllustrisTNG'):
 
     # read redshift and h
     f = h5py.File(snapshot, 'r')
@@ -554,7 +554,12 @@ def HI_mass(snapshot, TREECOOL_file):
     indexes = np.where(SFR>0.0)[0];  del SFR
             
     # find the metallicity of star-forming particles
-    metals = f['PartType0/GFM_Metallicity'][:]
+    if sim=='IllustrisTNG':
+        metals = f['PartType0/GFM_Metallicity'][:]
+    elif sim=='SIMBA':
+        metals = f['PartType0/Metallicity'][:,0] #metallicity
+    else:
+        raise Exception('Wrong simulation type!!!')
     metals = metals[indexes]/0.0127
     f.close()
 
@@ -600,7 +605,6 @@ def electron_density(snapshot):
     m_proton = 1.6726e-27    #kg
     Msun     = 1.99e30       #kg
     kpc      = 3.0857e21     #cm
-    m_proton = m_proton/Msun #Msun
 
     # read internal energy, electron abundance  and star-formation rate
     f    = h5py.File(snapshot, 'r')
@@ -617,7 +621,7 @@ def electron_density(snapshot):
     n_e = factor * 0.76 * ne * rho #electrons*h^2/cm^3
     n_e[indexes] = 0.0 #put electron density to 0 for star-forming particles
 
-    return n_e/1e20 #without the 1e20 it can give problems
+    return n_e
 ########################################################################################
 
 # This routine computes different properties of SO halos such as mass in each component
