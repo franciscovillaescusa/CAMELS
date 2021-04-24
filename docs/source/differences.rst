@@ -32,3 +32,6 @@ In particular:
 - In SIMBA snapshots, ``Metallicity`` is an 11-element array with the elements in this order: [the total content of elements heavier than H & He, He,C,N,O,Ne,Mg,Si,S,Ca,Fe].
   
 - In SIMBA FOF+Subfind catalogs, the structure is similar to IllustrisTNG: ``Metallicity`` is the total content of elements heavier than H & He, and ``Metals`` or ``MetalFractions`` is a 11-element array with the elements in this (SIMBA-snapshot-like) order: [H,He,C,N,O,Ne,Mg,Si,S,Ca,Fe]
+
+
+In the SIMBA catalogues, the ``SubhaloStellarPhotometrics`` and ``WindMass`` fields contain some irrelevant numbers as those quantities are not calculated within the SIMBA simulations.
