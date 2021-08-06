@@ -6,8 +6,8 @@ CAMELS data is structured as follows. CAMELS contains 2 simulations suites: Illu
 
 The scheme below shows the general structure of CAMELS data:
 
-.. image:: Sims_scheme.pdf
-
+ .. image:: Sims_scheme.png
+    :alt: CAMELS Data structure
 Each simulation follows the evolution of :math:`256^3` dark matter particles and :math:`256^3` gas resolution elements (only for the (magneto-)hydrodynamic) within a periodic volume of :math:`(25~h^{-1}{\rm Mpc})^3` from :math:`z=127` down to :math:`z=0`. All simulations share the value of these cosmological parameters:
 
 +-----------------------+-----------+----------------+-----------+---------------+-----------------+
