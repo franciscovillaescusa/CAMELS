@@ -32,7 +32,8 @@ What is CAMELS?
    snapshots
    halos
    differences
-
+   CMD
+   
 .. toctree::
    :maxdepth: 2
    :caption: Post-processing
