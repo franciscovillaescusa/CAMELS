@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **HIFlow: Generating Diverse HI Maps Conditioned on Cosmology using Normalizing Flow**
+   | Sultan Hassan, Francisco Villaescusa-Navarro, Benjamin Wandelt, David N. Spergel, Daniel Anglés-Alcázar, Shy Genel, Miles Cranmer, Greg L. Bryan, Romeel Davé, Rachel S. Somerville, Michael Eickenberg, Desika Narayanan, Shirley Ho, Sambatra Andrianomena
+   | `2110.02983 <https://arxiv.org/abs/2110.02983>`_
+
 #. | **The CAMELS project: Cosmology and Astrophysics with MachinE Learning Simulations**    
    | Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, David N. Spergel, Rachel S. Somerville, Romeel Dave, Annalisa Pillepich, Lars Hernquist, Dylan Nelson, Paul Torrey, Desika Narayanan, Yin Li, Oliver Philcox, Valentina La Torre, Ana Maria Delgado, Shirley Ho, Sultan Hassan, Blakesley Burkhart, Digvijay Wadekar, Nicholas Battaglia, Gabriella Contardo
    | `astro-ph/2010.00619 <https://arxiv.org/abs/2010.00619>`_
