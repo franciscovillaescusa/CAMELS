@@ -2,7 +2,7 @@
 Instructions
 ************
 
-CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be access through the Binder system. A partial copy of the data is also stored at the Tiger cluster at Princeton University.
+CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City, and its data can be access through the Binder system. A partial copy of the data is also stored at the Tiger cluster at Princeton University.
 
 We provide instructions on how to access the data below.
 
@@ -11,9 +11,9 @@ We provide instructions on how to access the data below.
 Data access policy
 ~~~~~~~~~~~~~~~~~~
 
-CAMELS data is not publicly available yet. Its usage is regulated by the CAMELS data usage policy. If you would like to make use of this data for your research please fill up this `form <https://docs.google.com/forms/d/1LMVUmCr_uWdPYTUXyw-C3gntam5BMLiBfzogu66QLbs/edit>`_.
+CAMELS data is not publicly available yet. Its usage is regulated by the CAMELS data usage policy. If you would like to make use of this data for your research, please fill up this `form <https://docs.google.com/forms/d/1LMVUmCr_uWdPYTUXyw-C3gntam5BMLiBfzogu66QLbs/edit>`_.
 
-We are working hard to make all data publicly available as soon as possible.
+We are working hard to make all the data publicly available as soon as possible.
 
 
 Binder
@@ -25,13 +25,13 @@ The `Flatiron Institute's Binder environment <https://binder.flatironinstitute.o
 
    Please note that the Binder environment is ephemeral - after a few days of inactivity its contents are deleted, so one has to be vigilant about downloading any analysis results in time.
    
-If you are interested in getting access this way, please `contact us`_ let us know what is the Google account with which you've logged in, and we will grant you access.
+If you are interested in getting access this way, please `contact us`_, and let us know the Google account with which you've logged in, and we will grant you access.
 ​
 
 Rusty
 ~~~~~
 
-If you have an account on the Flatiron Institute Rusty cluster, the data is located on: ``/mnt/ceph/users/camels/Sims``
+If you have an account on the Flatiron Institute's Rusty cluster, the data is located on: ``/mnt/ceph/users/camels/Sims``
 
 .. code-block:: bash
 		
@@ -46,7 +46,7 @@ If you have an account on the Flatiron Institute Rusty cluster, the data is loca
 Tiger
 ~~~~~
 
-A partial copy of the data is located at the Tiger cluster of Princeton University. If you need access to GPUs please reach out to us to see if we can provide you an account on Tiger.
+A partial copy of the data is located at the Tiger cluster of Princeton University. If you need access to the GPUs, please reach out to us to see if we can provide you an account on Tiger.
 ​
 If you already have an account on Tiger, the data is located on: ``/projects/QUIJOTE/CAMELS``.
 
