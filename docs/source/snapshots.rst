@@ -95,7 +95,7 @@ CAMELS snapshots are stored as single hdf5 files. In order to read them in pytho
 
 As can be seen, the snapshots contain different groups and blocks:
 
-- ``Header``. This group contains different properties of the simulations such as its box size, number of particles, value of the cosmological parameters...etc.
+- ``Header``. This group contains different properties of the simulations such as its box size, number of particles, value of the cosmological parameters, etc.
 - ``PartType0``. This group contains the properties of the gas particles.
 - ``PartType1``. This group contains the properties of the dark matter particles.
 - ``PartType4``. This group contains the properties of the star particles.
