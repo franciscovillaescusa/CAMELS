@@ -51,7 +51,7 @@ The routine ``KDTree_distance`` can be used to compute the distance to the k nea
 
 - ``k``. The number of neighbors to consider.
 
-- ``BoxSize``. To account for periodic boundary conditions, set this number to the size of the simulation box. Note that this number may need to be just slightly larger than that, to avoid problems with particles in the edge (e.g. set it to ``BoxSize*(1.0+1e-8)``).
+- ``BoxSize``. To account for periodic boundary conditions, set this number to the size of the simulation box. Note that this number may need to be just slightly larger than that, to avoid problems with particles in the edge (e.g., set it to ``BoxSize*(1.0+1e-8)``).
 
 - ``threads``. Number of openmp threads to use in the calculation. Set to ``-1`` to use all the available threads.
 
