@@ -2,4 +2,4 @@
 Contact
 #######
 
-For problems, bugs, questions, etc., please contact us as camel.simulations@gmail.com.
+For problems, bugs, questions, etc., please contact us at camel.simulations@gmail.com.
