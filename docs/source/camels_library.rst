@@ -4,12 +4,12 @@
 CAMELS library
 **************
 
-The CAMELS library is a set python routines written to simplify the analysis of CAMELS data.
+The CAMELS library is a set of python routines specifically written to simplify the analysis of CAMELS data.
 
 Requirements
 ------------
 
-The CAMELS library has some basic dependences:
+The CAMELS library has some basic dependencies:
 
 - numpy
 - scipy
@@ -26,7 +26,7 @@ Installation
    cd CAMELS/library
    python setup.py install
 
-If you want to have more control on where the libraries are install we recommend instead:
+If you want to have more control on where the libraries are installed, we recommend instead:
 
 .. code-block:: bash
 
@@ -34,30 +34,30 @@ If you want to have more control on where the libraries are install we recommend
    cd CAMELS/library
    python setup.py build
 
-This will create a folder called build inside CAMELS/library. Inside build/ there will be a folder that start with lib. Just put the path to that folder in your PYTHONPATH and the libraries will be installed. E.g.:
+This creates a folder called 'build' inside CAMELS/library. Inside build/, there is a folder that starts with 'lib'. Just put the path to that folder in your PYTHONPATH and the libraries will be installed. E.g.:
 
 .. code-block::  bash
 		 
-   export PYTHONPATH=$PYTHONPATH//Users/fvillaescusa/Desktop/CAMELS/library/build/lib
+   export PYTHONPATH=$PYTHONPATH/Users/fvillaescusa/Desktop/CAMELS/library/build/lib
 
 Distance to k nearest neighbors
 -------------------------------
 
-The routine ``KDTree_distance`` can be used to compute the distance to the k nearest neighbors of a set of particles. Note that the neighbors can be a different type of particle as the one considered. For instance, it can be used to compute the distance to the k nearest gas particles from the positions of star particles. The ingredients needed for this routine are:
+The routine ``KDTree_distance`` can be used to compute the distance to the k nearest neighbors of a set of particles. Note that the neighbor can be a different type of particle than the one considered. For instance, it can be used to compute the distance to the k nearest gas particles from the positions of star particles. The ingredients needed for this routine are:
 
-- ``pos1``. The positions of the particles over which compute its nearest neighbors. In the above example, these would be the positions of the gas particles.
+- ``pos1``. The positions of the particles that are considered neighbors. In the above example, these would be the positions of the gas particles.
 
-- ``pos2``. The positions of the particles over which compute the distances. In the above example, these would be the positions of the start particles. Note that ``pos2`` can be the same as ``pos1``: e.g. to compute the distance to the k nearest neighborgs from a set of dark matter particles.
+- ``pos2``. The positions of the particles for which nearest neighbors are computed. In the above example, these would be the positions of the star particles. Note that ``pos2`` can be the same as ``pos1``: e.g. to compute the distance to the k nearest neighborhs from a set of dark matter particles.
 
 - ``k``. The number of neighbors to consider.
 
-- ``BoxSize``. To account for periodic boundary conditions, set this number to the size of the simulation box. Note that this number may need to be just slightly larger than that to avoid problems with particles in the edge. E.g. set it to ``BoxSize*(1.0+1e-8)``.
+- ``BoxSize``. To account for periodic boundary conditions, set this number to the size of the simulation box. Note that this number may need to be just slightly larger than that, to avoid problems with particles in the edge (e.g. set it to ``BoxSize*(1.0+1e-8)``).
 
 - ``threads``. Number of openmp threads to use in the calculation. Set to ``-1`` to use all the available threads.
 
 - ``verbose``. Whether to print some information on the progress.
   
-An example of how to use this routine is this
+An example of how to use this routine follows.
 
 .. code-block:: python
 
@@ -108,7 +108,7 @@ The routine ``temperature`` can be used to compute the temperature of the gas pa
 Gas pressure
 ------------
 
-The routine ``pressure`` returns the gas pressure of the gas particle of a given snapshot, in units of :math:`(M_\odot/h)({\rm km/s})^2/({\rm kpc}/h)^3`  
+The routine ``pressure`` returns the pressure of the gas particles of a given snapshot, in units of :math:`(M_\odot/h)({\rm km/s})^2/({\rm kpc}/h)^3`  
 
 .. code-block::  python
 
@@ -125,7 +125,7 @@ The routine ``pressure`` returns the gas pressure of the gas particle of a given
 Electron density
 ----------------
 
-The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is equal to 0. The units of the output are :math:`10^{20}h^2{\rm cm}^{-3}`. Its usage is as follows:
+The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is 0. The units of the output are :math:`10^{20}h^2{\rm cm}^{-3}`. Its usage is as follows:
 
 .. code-block::  python
 
