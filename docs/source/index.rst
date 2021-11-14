@@ -31,6 +31,7 @@ What is CAMELS?
    ics
    snapshots
    halos
+   Pk
    differences
    CMD
    
