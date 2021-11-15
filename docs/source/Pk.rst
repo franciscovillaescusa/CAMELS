@@ -7,11 +7,11 @@ The data is organized as follows:
 
 - **IllustrisTNG**: This folder contains the power spectra of all the simulations of the IllustrisTNG suite.
 
-- **IllustrisTNG_DM**: Each simulation of the IllustrisTNG suite has an N-body counterpart. This folder contains the power spectra of those simulations.
+- **IllustrisTNG_DM**: Each simulation in the IllustrisTNG suite has an N-body counterpart. This folder contains the power spectra of those simulations.
 
 - **SIMBA**: This folder contains the power spectra of all the simulations of the SIMBA suite.
 
-- **SIMBA_DM**: Each simulation of the IllustrisTNG suite has an N-body counterpart. This folder contains the power spectra of those simulations.
+- **SIMBA_DM**: Each simulation in the SIMBA suite has an N-body counterpart. This folder contains the power spectra of those simulations.
 
 - **Number_of_modes.txt**. This file contains the number of modes in each k-bin. See below.  
 
