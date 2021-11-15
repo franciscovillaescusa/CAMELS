@@ -32,6 +32,7 @@ What is CAMELS?
    snapshots
    halos
    Pk
+   Bk
    differences
    CMD
    
