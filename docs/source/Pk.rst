@@ -13,6 +13,8 @@ The data is organized as follows:
 
 - **SIMBA_DM**: Each simulation of the IllustrisTNG suite has an N-body counterpart. This folder contains the power spectra of those simulations.
 
+- **Number_of_modes.txt**. This file contains the number of modes in each k-bin. See below.  
+
 The files containing the power spectra are named as:
 
 ``Pk_type_z=Z.ZZ.txt``
@@ -33,3 +35,20 @@ The data, a simple txt file, can be read as follows
 
    # k  contains the wavenumbers in h/Mpc
    # Pk contains the power spectra measurements in (Mpc/h)^3
+
+Sometimes it is useful to know the number of modes in each k-bin (e.g. if one wants to rebin the measured power spectrum). The file ``Number_of_modes.txt`` contains that information:
+
+.. code:: python
+
+   import numpy as np
+
+   # get the name of the file containing the number of modes
+   f_in = 'CAMELS/Pk/Number_of_modes.txt'
+
+   # read the file
+   k, Nmodes = np.loadtxt(f_in, unpack=True)
+
+   # k      contains the wavenumbers in h/Mpc
+   # Nmodes contains the number of modes in each k-bin
+
+   
