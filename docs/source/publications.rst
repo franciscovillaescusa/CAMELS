@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Inferring halo masses with Graph Neural Networks**
+   | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave, Desika Narayanan
+   | `2111.08683 <https://arxiv.org/abs/2111.08683>`_
+
 #. | **HIFlow: Generating Diverse HI Maps Conditioned on Cosmology using Normalizing Flow**
    | Sultan Hassan, Francisco Villaescusa-Navarro, Benjamin Wandelt, David N. Spergel, Daniel Anglés-Alcázar, Shy Genel, Miles Cranmer, Greg L. Bryan, Romeel Davé, Rachel S. Somerville, Michael Eickenberg, Desika Narayanan, Shirley Ho, Sambatra Andrianomena
    | `2110.02983 <https://arxiv.org/abs/2110.02983>`_
