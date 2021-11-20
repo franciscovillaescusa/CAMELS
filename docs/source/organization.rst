@@ -2,7 +2,7 @@
 Data organization
 *****************
 
-CAMELS data is organized as follows.
+CAMELS data is organized as follows:
 
 CAMELS folder
 ~~~~~~~~~~~~~
@@ -23,12 +23,12 @@ The main CAMELS simulation folder contains different folders:
 
 .. Note::
   
-   The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained :ref:`IllustrisTNG_params` and :ref:`SIMBA_params`, respectively.  
+   The value of the cosmological and astrophysical parameters and initial random seeds for the IllustrisTNG and SIMBA suites can be obtained :ref:`IllustrisTNG_params` and :ref:`SIMBA_params`, respectively.  
 
 Suite folder
 ~~~~~~~~~~~~
   
-Inside each folder suite there are the simulations from the different sets:
+Inside each folder suite, lie the simulations from the different sets:
 
 .. code-block:: bash
 
@@ -52,16 +52,16 @@ Inside each folder suite there are the simulations from the different sets:
 - ``CV_X``. These folders contain the simulations of the CV set. X goes from 0 to 26.
 - ``EX_X``. These folders contain the simulations of the EX set. X goes from 0 to 3.
 - ``LH_X``. These folders contain the simulations of the LH set. X goes from 0 to 999.
-- ``CosmoAstroSeed_params.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm AGN2}` seed.
+- ``CosmoAstroSeed_params.txt``. This file contains the values of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm AGN2}` seed.
 
 .. Note::
 
-   The structure and organization of the different folders inside the ``IllustrisTNG_DM`` and ``SIMBA_DM`` is the same as in the ``IllustrisTNG`` and ``SIMBA`` folders.
+   The structure and organization of different folders inside the ``IllustrisTNG_DM`` and ``SIMBA_DM`` is the same as in the ``IllustrisTNG`` and ``SIMBA`` folders.
 
 Simulation folder
 ~~~~~~~~~~~~~~~~~
    
-Inside each simulation folder there are different files and folders, e.g.:
+There are different files and folders inside each simulation folder, e.g.:
 
 .. code-block:: bash
 
@@ -82,7 +82,7 @@ Inside each simulation folder there are different files and folders, e.g.:
    fofrad_002.txt              fofrad_017.txt  fofrad_032.txt  fof_subhalo_tab_013.hdf5  fof_subhalo_tab_028.hdf5  OUTPUT.e24                snap_007.hdf5          snap_022.hdf5  TREECOOL
    fofrad_003.txt              fofrad_018.txt  fofrad_033.txt  fof_subhalo_tab_014.hdf5  fof_subhalo_tab_029.hdf5  OUTPUT.e632254            snap_008.hdf5          snap_023.hdf5  variable_wind_scaling.txt
 
-The most relevant ones are these:
+The most relevant ones are:
 
 - ``ICs``. This folder contains the initial conditions of the simulations. See :ref:`ICs` for further details.
 

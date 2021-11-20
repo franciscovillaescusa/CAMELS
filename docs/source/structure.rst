@@ -2,7 +2,7 @@
 Data structure
 **************
 
-CAMELS data is structured as follows. CAMELS contains 2 simulations suites: IllustrisTNG and SIMBA. Each suite contains 4 different sets: LH, 1P, CV, and EX. Each set contains a different number of (magneto-)hydrodynamic simulations. Furthermore, for each (magneto-)hydrodynamic simulation CAMELS contains its N-body counterpart.
+CAMELS data is structured as follows. CAMELS contains 2 simulations suites: IllustrisTNG and SIMBA. Each suite contains 4 different sets: LH, 1P, CV, and EX. Each set contains a different number of (magneto-)hydrodynamic simulations. Furthermore, for each (magneto-)hydrodynamic simulation, CAMELS contains its N-body counterpart.
 
 The scheme below shows the general structure of CAMELS data:
 
@@ -65,7 +65,7 @@ Each suite contains four different sets, that differ on how the value of the cos
 Simulations
 ~~~~~~~~~~~
 
-Each CAMELS simulation contains 34 snapshots, corresponding to different redshifts. The relation between the snapshot number and the redshift is this:
+Each CAMELS simulation contains 34 snapshots, corresponding to different redshifts. The snapshot number and the redshift are related as:
 
 +---------------+--------+------------+
 |Snapshot number|Redshift|Scale Factor|
@@ -141,7 +141,7 @@ Each CAMELS simulation contains 34 snapshots, corresponding to different redshif
 
 .. Note::
 
-   While the above table gives the exact redshifts and scale factors for the simulations in the SIMBA suite and all N-body simulations, for the simulations in the IllustrisTNG suite these numbers can be slightly different. This is because AREPO can only write snapshots in the highest time steps in the hierarchy.
+   While the above table gives the exact redshifts and scale factors for the simulations in the SIMBA suite and all N-body simulations, for the simulations in the IllustrisTNG suite, these numbers can be slightly different. This is because AREPO can only write snapshots in the highest time steps in the hierarchy.
 
 CAMELS stores the halo/galaxy catalogue extracted from each snapshot obtained by running the SUBFIND code.
 

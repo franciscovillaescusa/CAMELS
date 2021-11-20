@@ -103,24 +103,24 @@ The image can be plotted with something like this:
    savefig(f_out, bbox_inches='tight')
    close(fig)
 
-Producing this image:
+The above script will generate the following image:
 
 .. image:: gas_temperature.png
    :align: center 
 
 The most important thing is to define the radius of the gas particles. There are multiple possibilities for this:
 
-- For IllustrisTNG, each gas particle can be approximated as sphere with the same volume as the one of its voronoi cell, i.e., :math:`R=(3M/(4\pi\rho))^{1/3}`.
+- For IllustrisTNG, each gas particle can be approximated as a sphere with the same volume as one of its voronoi cells, i.e., :math:`R=(3M/(4\pi\rho))^{1/3}`.
 
 - The above radius definition can be expanded by an overll factor to avoid empty regions.
   
 - The radius can be considered as the distance to the k nearest gas particle.
 
-The below image shows how different definitions led to different results:
+The image below shows how different definitions lead to different results:
 
 .. image:: gas_temperature_zoom.png
 
-We recommend using as radius of a gas particle the distance to its 32th nearest gas particle.
+We recommend using as radius of a gas particle, the distance to its 32nd nearest gas particle.
 
 
 3D fields slices

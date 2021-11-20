@@ -2,7 +2,7 @@
 Citation
 ********
 
-If you use CAMELS data you may considering citing the `CAMELS paper <https://arxiv.org/abs/2010.00619>`_:
+If you use CAMELS data, you may consider citing the `CAMELS paper <https://arxiv.org/abs/2010.00619>`_:
 
 ::
 
