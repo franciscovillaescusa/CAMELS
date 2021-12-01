@@ -5,12 +5,12 @@ Publications
 #. | **Weighing the Milky Way and Andromeda with Artificial Intelligence**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger, Desika Narayanan
    | `2111.14874 <https://arxiv.org/abs/2111.14874>`_
-   | `video (26'-56') <https://www.youtube.com/watch?v=07k2JH6c0lE>`
+   | `video (26'-56') <https://www.youtube.com/watch?v=07k2JH6c0lE>`_
 
 #. | **Inferring halo masses with Graph Neural Networks**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave, Desika Narayanan
    | `2111.08683 <https://arxiv.org/abs/2111.08683>`_
-   | `video (26'-51') <https://www.youtube.com/watch?v=07k2JH6c0lE>`
+   | `video (26'-51') <https://www.youtube.com/watch?v=07k2JH6c0lE>`_
 
 #. | **HIFlow: Generating Diverse HI Maps Conditioned on Cosmology using Normalizing Flow**
    | Sultan Hassan, Francisco Villaescusa-Navarro, Benjamin Wandelt, David N. Spergel, Daniel Anglés-Alcázar, Shy Genel, Miles Cranmer, Greg L. Bryan, Romeel Davé, Rachel S. Somerville, Michael Eickenberg, Desika Narayanan, Shirley Ho, Sambatra Andrianomena
