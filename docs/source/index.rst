@@ -33,6 +33,7 @@ What is CAMELS?
    halos
    Pk
    Bk
+   VIDE
    differences
    CMD
    
