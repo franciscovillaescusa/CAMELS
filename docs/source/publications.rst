@@ -47,3 +47,4 @@ Publications
    | Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, David N. Spergel, Rachel S. Somerville, Romeel Dave, Annalisa Pillepich, Lars Hernquist, Dylan Nelson, Paul Torrey, Desika Narayanan, Yin Li, Oliver Philcox, Valentina La Torre, Ana Maria Delgado, Shirley Ho, Sultan Hassan, Blakesley Burkhart, Digvijay Wadekar, Nicholas Battaglia, Gabriella Contardo
    | `astro-ph/2010.00619 <https://arxiv.org/abs/2010.00619>`_
    | `video (0'-13') <https://www.youtube.com/watch?v=NxR_kDlHhGM&t=1671s>`_
+   | `podcast (in Italian) <https://open.spotify.com/episode/36U5cKw7OAzc2HoIQeb4mq>`_
