@@ -9,9 +9,10 @@ The data is organized such that the spectra corresponding to a snapshot resides 
 
 where ``suite`` can be either ``IllustrisTNG`` or ``SIMBA``, ``sim`` is the simulation of interest, and ``##`` is the snapshot number (for snapshot numbers 0 through 9, a 0 must pad the front). For example ``IllustrisTNG/1P_0/SPECTRA_001/Lya-spectra.hdf5`` is the Lyman-alpha spectra for the IllustrisTNG suite 1P_0 simulation at redshift 5.
 
-The easiest way to read the data is using the same code that generated the spectra; see the `Fake Spectra <https://github.com/sbird/fake_spectra>`_ GitHub for instructions on how to install. The data can then be read as follows:
+The easiest way to read the data is using the same code that generated the spectra; see the `Fake Spectra <https://github.com/sbird/fake_spectra>`_ GitHub for instructions on how to install it. The data can then be read as follows:
 
 .. code::  python
+
    from fake_spectra.plot_spectra import PlottingSpectra
 
    # We use their plotting routine to read in the data.
@@ -20,13 +21,14 @@ The easiest way to read the data is using the same code that generated the spect
    # num       the simulation snapshot number as an integer (you should not pad numbers 0 through 9 for num)
    # base      the directory that the SPECTRA_0## directory is located in
    # savefile  the name of the spectra file (they are all "Lya-spectra.hdf5")
-   # label     an identifier for your spectra, this is usually unimportant
+   # label     an identifier for your spectra (this is usually unimportant)
 
-It is important to note that when given the information above, the code is looking for ``base/SPECTRA_0num/Lya-spectra.hdf5`` (where ``num`` is padded automatically with a 0 by the code if num is 0 through 9). Because of this the user is cautioned to ensure that the spectra file remains in a directory called ``SPECTRA_0num`` if they restructured the snapshot data after download or downloaded just the spectra file.
+It is important to note that when given the information above, the code is looking for ``base/SPECTRA_0num/savefile`` (where ``num`` is padded automatically with a 0 by the code if num is 0 through 9). Because of this the user is cautioned to ensure that the spectra file remains in a directory called ``SPECTRA_0num``. This will not be a problem unless you restructure the snapshot data after download or downloaded just the spectra file.
 
 Once the data is loaded in, the user can retrieve optical depths for one or all of the spectral lines in the file:
 
 .. code::  python
+
    from fake_spectra.plot_spectra import PlottingSpectra
    import numpy as np
 
