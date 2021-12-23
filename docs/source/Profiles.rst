@@ -31,10 +31,16 @@ Below is an example python script for extracting the profile data from the hdf5 
   Zsun = 0.0127
   
   def extract(simulation,snap):
+      h=0.6711
+      omegab=0.049
+      omegam,sigma8=np.loadtxt(data_dir+'/'+suite+'/'+simulation+'/CosmoAstro_params.txt',usecols=(1,2),unpack=True)
+      omegalam=1.0-omegam
+
       data_file= data_dir+'/'+suite+'/'+simulation+'/snap_'+snap+'.hdf5'
       profile_file = prof_dir+'/'+suite+'/'+simulation+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
       b=h5py.File(data_file,'r')
       z=b['/Header'].attrs[u'Redshift']
+      comoving_factor=1.0+z
       stacks=h5py.File(profile_file,'r')
       val            = stacks['Profiles']
       val_dens       = np.array(val[0,:,:]) #density 
@@ -42,7 +48,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       val_metals_mw  = np.array(val[2,:,:])/Zsun #mass-weighted metallicity in solar units
       val_temp_mw    = np.array(val[3,:,:]) #mass-weighted temperature in keV
       bins           = np.array(stacks['nbins']) #number of radial bins
-      r              = np.array(stacks['r'])/1.e3 #radial bins in Mpc/h
+      r              = np.array(stacks['r'])/1.e3 * comoving_factor #radial bins in comoving Mpc/h
       nprofs         = np.array(stacks['nprofs']) #number of halos
       mh             = np.array(stacks['Group_M_Crit200'])*1e10 #M200c in Msol/h
       rh             = np.array(stacks['Group_R_Crit200'])/1.e3 #R200c in Mpc/h
