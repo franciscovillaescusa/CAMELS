@@ -20,15 +20,16 @@ Below is an example python script for extracting the profile data from the hdf5 
   import profile_functions
   import h5py
  
-  data_dir='/mnt/ceph/users/camels/PUBLIC_RELEASE/Sims'
-  prof_dir='/mnt/home/elau/ceph/illstack_CAMELS/Profiles/'
-  #-----------------------------------input section
+  #-------------------------input section---------------
   suite='SIMBA'
   sim='1P_0'
   snap='024'
-  #--------------------------------------------------------------- 
+  #------------- --------------------------------------- 
+  data_dir='/mnt/ceph/users/camels/PUBLIC_RELEASE/Sims'
+  prof_dir='/mnt/home/elau/ceph/illstack_CAMELS/Profiles/'
 
-
+  Zsun = 0.0127
+  
   def extract(simulation,snap):
       data_file= data_dir+'/'+suite+'/'+simulation+'/snap_'+snap+'.hdf5'
       profile_file = prof_dir+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
@@ -36,17 +37,19 @@ Below is an example python script for extracting the profile data from the hdf5 
       z=b['/Header'].attrs[u'Redshift']
       stacks=h5py.File(profile_file,'r')
       val            = stacks['Profiles']
-      val_dens       = np.array(val[0,:,:])
-      val_pres       = np.array(val[1,:,:])
-      bins           = np.array(stacks['nbins'])
-      r              = np.array(stacks['r'])
-      nprofs         = np.array(stacks['nprofs'])
-      mh             = np.array(stacks['Group_M_Crit200']) #units 1e10 Msol/h, M200c
-      rh             = np.array(stacks['Group_R_Crit200']) #R200c
+      val_dens       = np.array(val[0,:,:]) #density 
+      val_pres       = np.array(val[1,:,:]) #thermal pressure
+      val_metals_mw  = np.array(val[2,:,:])/Zsun #mass-weighted metallicity in solar units
+      val_temp_mw    = np.array(val[3,:,:]) #mass-weighted temperature in keV
+      bins           = np.array(stacks['nbins']) #number of radial bins
+      r              = np.array(stacks['r'])/1.e3 #radial bins in Mpc/h
+      nprofs         = np.array(stacks['nprofs']) #number of halos
+      mh             = np.array(stacks['Group_M_Crit200'])*1e10 #M200c in Msol/h
+      rh             = np.array(stacks['Group_R_Crit200'])/1.e3 #R200c in Mpc/h
       
-      r_mpc=r/1.e3
-      
-      return z,val_dens,bins,r,val_pres,nprofs,mh,rh
+      return z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh
 
-  z,val_dens,bins,r,val_pres,nprofs,mh,rh=extract(sim,snap)
+z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh = extract(sim,snap)
+
+print(r,val_dens,val_pres,val_metals_mw,val_temp_mw)
   
