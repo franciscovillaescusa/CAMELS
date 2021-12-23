@@ -20,16 +20,18 @@ Below is an example python script for extracting the profile data from the hdf5 
   import profile_functions
   import h5py
  
+  data_dir='/mnt/ceph/users/camels/PUBLIC_RELEASE/Sims'
+  prof_dir='/mnt/home/elau/ceph/illstack_CAMELS/Profiles/'
   #-----------------------------------input section
   suite='SIMBA'
-  
   sim='1P_0'
   snap='024'
   #--------------------------------------------------------------- 
-  data_file='suite+'/'+simulation+'/snap_'+snap+'.hdf5'
-  profile_file = 'Profiles/'+suite+'_'+simulation+'_'+snap+'.hdf5
+
 
   def extract(simulation,snap):
+      data_file= data_dir'/'+suite+'/'+simulation+'/snap_'+snap+'.hdf5'
+      profile_file = prof_dir+'/'+suite+'_'+simulation+'_'+snap+'.hdf5
       b=h5py.File(data_file,'r')
       z=b['/Header'].attrs[u'Redshift']
       stacks=h5py.File(profile_file,'r')
@@ -41,11 +43,10 @@ Below is an example python script for extracting the profile data from the hdf5 
       nprofs         = np.array(stacks['nprofs'])
       mh             = np.array(stacks['Group_M_Crit200']) #units 1e10 Msol/h, M200c
       rh             = np.array(stacks['Group_R_Crit200']) #R200c
+      
+      r_mpc=r/1.e3
+      
       return z,val_dens,bins,r,val_pres,nprofs,mh,rh
 
-
   z,val_dens,bins,r,val_pres,nprofs,mh,rh=extract(sim,snap)
-  
-  r_mpc=r/1.e3
-  dens_mean=np.mean(val_dens,axis=0)
   
