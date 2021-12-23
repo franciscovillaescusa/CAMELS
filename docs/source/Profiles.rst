@@ -49,7 +49,6 @@ Below is an example python script for extracting the profile data from the hdf5 
       
       return z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh
 
-z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh = extract(sim,snap)
+  z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh = extract(sim,snap)
+  print(r,val_dens,val_pres,val_metals_mw,val_temp_mw)
 
-print(r,val_dens,val_pres,val_metals_mw,val_temp_mw)
-  
