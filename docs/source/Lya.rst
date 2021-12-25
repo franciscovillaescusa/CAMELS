@@ -1,5 +1,5 @@
 Lyman-alpha spectra
-=============
+===================
 
 For each simulation snapshot we have generated Lyman-alpha spectra for 5000 random sightlines. These spectral lines are contained within an hdf5 file and can be read using the same code they were generated with.
 
