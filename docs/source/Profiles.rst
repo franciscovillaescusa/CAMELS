@@ -1,7 +1,7 @@
 Profiles
 =============
 
-For each snapshots, we provide three-dimensional spherically-averaged profiles of gas density, thermal pressure, gas mass-weighted temperature, and gas mass-weighted metallicity for the 1P, LH, and CV runs for both IllustrisTNG and SIMBA.  
+For each snapshot, we provide three-dimensional spherically-averaged profiles of gas density, thermal pressure, gas mass-weighted temperature, and gas mass-weighted metallicity for the 1P, LH, and CV runs for both IllustrisTNG and SIMBA.  
 
 Specifically, we use `illstack_CAMELS <https://github.com/emilymmoser/illstack_CAMELS>`_, a CAMELS-specific version  of the original, more general code `illstack <https://github.com/marcelo-alvarez/illstack>`_ to generate the three-dimensional profiles, extending radially from 0.01-10 comoving Mpc in 25 log10 bins. The profiles are stored in hdf5 format which can be read with the python script provided in the repository.
 
@@ -40,18 +40,18 @@ Below is an example python script for extracting the profile data from the hdf5 
       profile_file = prof_dir+'/'+suite+'/'+simulation+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
       b=h5py.File(data_file,'r')
       z=b['/Header'].attrs[u'Redshift']
-      comoving_factor=1.0+z
+
       stacks=h5py.File(profile_file,'r')
       val            = stacks['Profiles']
-      val_dens       = np.array(val[0,:,:]) #density 
-      val_pres       = np.array(val[1,:,:]) #thermal pressure
+      val_dens       = np.array(val[0,:,:]) * 1e10 * h**2 * comoving_factor**3 #density 
+      val_pres       = np.array(val[1,:,:]) * 1e10 * h**2 / (3.086e16*3.086e16) comoving_factor**3 #thermal pressure
       val_metals_mw  = np.array(val[2,:,:])/Zsun #mass-weighted metallicity in solar units
-      val_temp_mw    = np.array(val[3,:,:]) #mass-weighted temperature in keV
+      val_temp_mw    = np.array(val[3,:,:])*1e10 #mass-weighted temperature in K
       bins           = np.array(stacks['nbins']) #number of radial bins
-      r              = np.array(stacks['r'])/1.e3 * comoving_factor #radial bins in comoving Mpc/h
+      r              = np.array(stacks['r']) / h / comoving_factor #radial bins in comoving Mpc/h
       nprofs         = np.array(stacks['nprofs']) #number of halos
-      mh             = np.array(stacks['Group_M_Crit200'])*1e10 #M200c in Msol/h
-      rh             = np.array(stacks['Group_R_Crit200'])/1.e3 #R200c in Mpc/h
+      mh             = np.array(stacks['Group_M_Crit200'])*1e10 / h #M200c in Msol
+      rh             = np.array(stacks['Group_R_Crit200'])/1.e3 / h / comoving_factor #R200c in Mpc
       
       return z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh
 
