@@ -24,19 +24,25 @@ What is CAMELS?
 
 .. toctree::
    :maxdepth: 2
-   :caption: Technical details
+   :caption: Simulations
 
-   structure
+   description
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data products
+
    organization
-   ics
    snapshots
-   halos
+   subfind
+   rockstar
    Pk
    Bk
    VIDE
    Lya
-   differences
+   Xrays
    CMD
+   SAM
    
 .. toctree::
    :maxdepth: 2
