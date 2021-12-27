@@ -1,4 +1,4 @@
-Profiles
+CAMELS CGM Profiles
 =============
 
 For each snapshot, we provide three-dimensional spherically-averaged profiles of gas density, thermal pressure, gas mass-weighted temperature, and gas mass-weighted metallicity for the 1P, LH, and CV runs for both IllustrisTNG and SIMBA.  
