@@ -2,57 +2,55 @@
 Instructions
 ************
 
-CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be access through the Binder system. A partial copy of the data is also stored at the Tiger cluster at Princeton University.
-
-We provide instructions on how to access the data below.
-
-.. _contact us: camel.simulations@gmail.com
-
-Data access policy
-~~~~~~~~~~~~~~~~~~
-
-CAMELS data is not publicly available yet. Its usage is regulated by the CAMELS data usage policy. If you would like to make use of this data for your research please fill up this `form <https://docs.google.com/forms/d/1LMVUmCr_uWdPYTUXyw-C3gntam5BMLiBfzogu66QLbs/edit>`_.
-
-We are working hard to make all data publicly available as soon as possible.
+CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be accessed through six different ways:
 
 
 Binder
 ~~~~~~
 
-The `Flatiron Institute's Binder environment <https://binder.flatironinstitute.org/v2/user/sgenel/CAMELS/>`_ provides access to the CAMELS data and some basic computing resources for analysis. Some basic documentation can be found `here <https://docs.simonsfoundation.org/index.php/Public:Binder>`_.
+Binder is a system that allows users to read and manipulate data that is hosted at the Flatiron Institute through either a Jupyter notebook or a unix shell. The user can find some basic documentation `here <https://docs.simonsfoundation.org/index.php/Public:Binder>`_. All CAMELS data can be accessed, read, and manipulated through Binder. 
 
 .. warning::
 
-   Please note that the Binder environment is ephemeral - after a few days of inactivity its contents are deleted, so one has to be vigilant about downloading any analysis results in time.
-   
-If you are interested in getting access this way, please `contact us`_ let us know what is the Google account with which you've logged in, and we will grant you access.
-​
+   Two important things need to be taken into account when using Binder. First, the Binder environment is ephemeral - after a few days of inactivity its contents are deleted, so one has to be vigilant about downloading any analysis results in time. Second, Binder is not designed to carry out long and heavy calculations. In this case we recommend the user to download the data and work with it locally.
+
+.. `Link to Binder <https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC>`_
+
+
+Globus
+~~~~~~~
+
+The full CAMELS data can be downloaded via globus, an online system designed to efficiently transfer large amounts of data. This is the method we recommend to transfer the data.
+
+.. `Globus link <https://app.globus.org/file-manager?origin_id=58bdcd24-6590-11ec-9b60-f9dfb1abb183&origin_path=%2F>`_ 
+
+url
+~~~
+
+We provide access to the full CAMELS data via a simple uniform resource locator (url). We do not recommend downloading large amounts of data through this system, as can be slow and unstable. However, for small or individual files it may be convenient.
+
+.. `URL link <https://users.flatironinstitute.org/~fvillaescusa/priv/f3Mq1fwFYReuAdJTb8xNxa43Jb48L/PUBLIC_RELEASE>`_
+
+
+FlatHUB
+~~~~~~~
+
+FlatHUB is a platform that allows users to explore and compare data from different simulations by browsing and filtering the data, making simple preview plots, and downloading sub-samples of the data. We provide access to the SUBFIND halo and subhalo catalogues of the IllustrisTNG and SIMBA suites through this platform.
+
+.. `Link to FlatHUB <http://flathub.flatironinstitute.org/group/cosmo-hydro/camels/>`_
+
 
 Rusty
 ~~~~~
 
-If you have an account on the Flatiron Institute Rusty cluster, the data is located on: ``/mnt/ceph/users/camels/Sims``
-
-.. code-block:: bash
-		
-   >> ls /mnt/ceph/users/camels/Sims
-   CosmoAstroSeed_params_IllustrisTNG.txt  IllustrisTNG_SBI
-   CosmoAstroSeed_params_SIMBA.txt         SCSAM
-   data_products                           SIMBA
-   IllustrisTNG                            SIMBA_DM
-   IllustrisTNG_DM                         times.txt
+Users with an account on the Flatiron Institute Rusty cluster, can find all CAMELS data in ``/mnt/ceph/users/camels/PUBLIC_RELEASE``.
 
 
 Tiger
 ~~~~~
 
-A partial copy of the data is located at the Tiger cluster of Princeton University. If you need access to GPUs please reach out to us to see if we can provide you an account on Tiger.
-​
-If you already have an account on Tiger, the data is located on: ``/projects/QUIJOTE/CAMELS``.
+A partial copy of the data is located at the Tiger cluster of Princeton University. Users with an account in Tiger can find the data in: ``/projects/QUIJOTE/CAMELS``.
 
-.. code-block::  bash
 
-   >> ls /projects/QUIJOTE/CAMELS
-   Analysis  Data_products  Documentation  Halos  Sims
 
 ​

@@ -2,7 +2,7 @@
 Team
 ****
 
-- **Francisco Villaescusa-Navarro** (Princeton University)
+- **Francisco Villaescusa-Navarro** (Simons Foundation & Princeton University)
 
 - **Daniel Angles-Alcazar** (UConn & Flatiron Institute)
 
