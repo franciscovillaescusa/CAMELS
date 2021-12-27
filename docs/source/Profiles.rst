@@ -38,7 +38,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       
       Inputs: 
         simulation: string, name of the simulation, e.g., 1P_0, LH_123, CV_12
-        snap: sting, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
+        snap: string, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
         
       Outputs:
         z: float, redshift
