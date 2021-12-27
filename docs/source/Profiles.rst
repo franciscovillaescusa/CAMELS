@@ -64,6 +64,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       profile_file = prof_dir+'/'+suite+'/'+simulation+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
       b=h5py.File(data_file,'r')
       z=b['/Header'].attrs[u'Redshift']
+      comoving_factor = 1.0+z
 
       stacks=h5py.File(profile_file,'r')
       val            = stacks['Profiles']
