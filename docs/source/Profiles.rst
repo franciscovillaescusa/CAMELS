@@ -17,7 +17,6 @@ Below is an example python script for extracting the profile data from the hdf5 
 
   import matplotlib.pyplot as plt 
   import numpy             as np
-  import profile_functions
   import h5py
  
   #-------------------------input section---------------
