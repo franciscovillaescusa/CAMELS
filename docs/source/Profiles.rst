@@ -30,16 +30,36 @@ Below is an example python script for extracting the profile data from the hdf5 
 
   Zsun = 0.0127
   Msun = 1.99e33 #g cm^-3
-  kpc = 3.086e21 # cm
-  
-  density_to_cgs = Msun*kpc**(-3)
-  pressure_to_cgs = density_to_cgs*1e10
+  kpc = 3.086e21 #cm
   
   def extract(simulation,snap):
+  
+      '''
+      Return values of the CGM profiles from the CAMELS simulation
+      
+      Inputs: 
+        simulation: string, name of the simulation, e.g., 1P_0, LH_123, CV_12
+        snap: sting, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
+        
+      Outputs:
+        z: float, redshift
+        r: radial bin on kpc
+        val_dens: density profile in g/cm^3
+        val_pres: volume-weighted thermal pressure profile in erg/cm^3
+        val_temp_mw: mass-weighted temperature in K
+        val_metals_mw: mass-weighted metallcity in Zsun
+        mh: halo mass (M200c) in Msun
+        rh: halo radius (R200c) in kpc
+      
+      '''
+  
       h=0.6711
       omegab=0.049
       omegam,sigma8=np.loadtxt(data_dir+'/'+suite+'/'+simulation+'/CosmoAstro_params.txt',usecols=(1,2),unpack=True)
       omegalam=1.0-omegam
+      
+      density_to_cgs = Msun*kpc**(-3)
+      pressure_to_cgs = density_to_cgs*1e10
 
       data_file= data_dir+'/'+suite+'/'+simulation+'/snap_'+snap+'.hdf5'
       profile_file = prof_dir+'/'+suite+'/'+simulation+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
@@ -53,15 +73,15 @@ Below is an example python script for extracting the profile data from the hdf5 
       val_metals_mw  = np.array(val[2,:,:])/Zsun #mass-weighted metallicity in solar units
       val_temp_mw    = np.array(val[3,:,:])*1e10 #mass-weighted temperature in K
       bins           = np.array(stacks['nbins']) #number of radial bins
-      r              = np.array(stacks['r']) / h / comoving_factor #radial bins in comoving Mpc/h
+      r              = np.array(stacks['r']) / h / comoving_factor #radial bins in comoving kpc
       nprofs         = np.array(stacks['nprofs']) #number of halos
       mh             = np.array(stacks['Group_M_Crit200'])*1e10 / h #M200c in Msol
-      rh             = np.array(stacks['Group_R_Crit200'])/1.e3 / h / comoving_factor #R200c in Mpc
+      rh             = np.array(stacks['Group_R_Crit200']) / h / comoving_factor #R200c in kpc
       
       val_dens *= density_to_cgs # density in g cm^-3
       val_pres *= pressure_to_cgs # pressure in erg cm^-3
       
-      return z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh
+      return z, r, val_dens, val_pres, val_temp_mw, val_metals_mw, mh, rh
 
   z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh = extract(sim,snap)
   print(r,val_dens,val_pres,val_metals_mw,val_temp_mw)
