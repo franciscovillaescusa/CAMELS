@@ -41,9 +41,9 @@ What is CAMELS?
    VIDE
    Lya
    Xrays
+   Profiles
    CMD
    SAM
-   Profiles
    
 .. toctree::
    :maxdepth: 2
