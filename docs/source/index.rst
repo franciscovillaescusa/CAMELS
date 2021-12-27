@@ -43,6 +43,7 @@ What is CAMELS?
    Xrays
    CMD
    SAM
+   Profiles
    
 .. toctree::
    :maxdepth: 2
