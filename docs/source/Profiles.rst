@@ -23,7 +23,7 @@ Below is an example python script for extracting the profile data from the hdf5 
   suite='SIMBA'
   sim='1P_0'
   snap='024'
-  #------------- --------------------------------------- 
+  #----------------------------------------------------- 
   data_dir='/mnt/ceph/users/camels/PUBLIC_RELEASE/Sims'
   prof_dir='/mnt/home/elau/ceph/illstack_CAMELS/Profiles/'
 
@@ -42,13 +42,13 @@ Below is an example python script for extracting the profile data from the hdf5 
         
       Outputs:
         z: float, redshift
-        r: radial bin on kpc
-        val_dens: density profile in g/cm^3
-        val_pres: volume-weighted thermal pressure profile in erg/cm^3
-        val_temp_mw: mass-weighted temperature in K
-        val_metals_mw: mass-weighted metallcity in Zsun
-        mh: halo mass (M200c) in Msun
-        rh: halo radius (R200c) in kpc
+        r: np array, radial bin on kpc
+        val_dens: np array, density profile in g/cm^3
+        val_pres: np array, volume-weighted thermal pressure profile in erg/cm^3
+        val_temp_mw: np array, mass-weighted temperature in K
+        val_metals_mw: np array, mass-weighted metallcity in Zsun
+        mh: np array, halo mass (M200c) in Msun
+        rh: np array, halo radius (R200c) in kpc
       
       '''
   
