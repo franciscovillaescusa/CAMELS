@@ -5,7 +5,7 @@ For each snapshot, we provide three-dimensional spherically-averaged profiles of
 
 Specifically, we use `illstack_CAMELS <https://github.com/emilymmoser/illstack_CAMELS>`_, a CAMELS-specific version  of the original, more general code `illstack <https://github.com/marcelo-alvarez/illstack>`_ to generate the three-dimensional profiles, extending radially from 0.01-10 comoving Mpc in 25 log10 bins. The profiles are stored in hdf5 format which can be read with the python script provided in the repository.
 
-The profiles are located in
+The profiles are located as
 
 ``Profiles/suite/sim/suite_sim_0##.hdf5``
 
