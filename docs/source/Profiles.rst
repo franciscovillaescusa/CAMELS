@@ -29,6 +29,11 @@ Below is an example python script for extracting the profile data from the hdf5 
   prof_dir='/mnt/home/elau/ceph/illstack_CAMELS/Profiles/'
 
   Zsun = 0.0127
+  Msun = 1.99e33 #g cm^-3
+  kpc = 3.086e21 # cm
+  
+  density_to_cgs = Msun*kpc**(-3)
+  pressure_to_cgs = density_to_cgs*1e10
   
   def extract(simulation,snap):
       h=0.6711
@@ -43,8 +48,8 @@ Below is an example python script for extracting the profile data from the hdf5 
 
       stacks=h5py.File(profile_file,'r')
       val            = stacks['Profiles']
-      val_dens       = np.array(val[0,:,:]) * 1e10 * h**2 * comoving_factor**3 #density 
-      val_pres       = np.array(val[1,:,:]) * 1e10 * h**2 / (3.086e16*3.086e16) comoving_factor**3 #thermal pressure
+      val_dens       = np.array(val[0,:,:]) * 1e10 * h**2 * comoving_factor**3 #density in Msun kpc^-3
+      val_pres       = np.array(val[1,:,:]) * 1e10 * h**2 / (3.086e16*3.086e16) * comoving_factor**3 #thermal pressure in Msun kpc^-3 (km/s)^2
       val_metals_mw  = np.array(val[2,:,:])/Zsun #mass-weighted metallicity in solar units
       val_temp_mw    = np.array(val[3,:,:])*1e10 #mass-weighted temperature in K
       bins           = np.array(stacks['nbins']) #number of radial bins
@@ -52,6 +57,9 @@ Below is an example python script for extracting the profile data from the hdf5 
       nprofs         = np.array(stacks['nprofs']) #number of halos
       mh             = np.array(stacks['Group_M_Crit200'])*1e10 / h #M200c in Msol
       rh             = np.array(stacks['Group_R_Crit200'])/1.e3 / h / comoving_factor #R200c in Mpc
+      
+      val_dens *= density_to_cgs # density in g cm^-3
+      val_pres *= pressure_to_cgs # pressure in erg cm^-3
       
       return z,r,val_dens,val_pres,val_temp_mw, val_metals_mw, mh, rh
 
