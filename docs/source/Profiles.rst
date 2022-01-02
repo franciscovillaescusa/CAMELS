@@ -6,7 +6,7 @@ CAMELS CGM Profiles
 
 For each snapshot of each simulation, we provide three-dimensional spherically-averaged profiles of gas density, thermal pressure, gas mass-weighted temperature, and gas mass-weighted metallicity for the simulations of the 1P, LH, and CV sets of both the IllustrisTNG and SIMBA suites. 
 
-Specifically, we use `illstack_CAMELS <https://github.com/emilymmoser/illstack_CAMELS>`_, a CAMELS-specific version  of the original, more general code `illstack <https://github.com/marcelo-alvarez/illstack>`_ to generate the three-dimensional profiles, extending radially from 0.01-10 comoving Mpc in 25 log10 bins. The profiles are stored in hdf5 format which can be read with the python script provided in the repository.
+Specifically, we use `illstack_CAMELS <https://github.com/emilymmoser/illstack_CAMELS>`_, a CAMELS-specific version  of the original, more general code `illstack <https://github.com/marcelo-alvarez/illstack>`_ to generate the three-dimensional profiles, extending radially from 0.01-10 Mpc in 25 log10 bins. The profiles are stored in hdf5 format which can be read with the python script provided in the repository.
 
 The profiles are located as
 
@@ -41,7 +41,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       
       Inputs: 
         simulation: string, name of the simulation, e.g., 1P_0, LH_123, CV_12
-        snap: sting, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
+        snap: string, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
         
       Outputs:
         z: float, redshift
