@@ -39,6 +39,7 @@ What is CAMELS?
    ahf
    Pk
    Bk
+   pdf
    VIDE
    Lya
    Xrays
