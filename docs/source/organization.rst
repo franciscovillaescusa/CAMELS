@@ -11,9 +11,11 @@ CAMELS data is organized into different `type folders`:
 - ``Rockstar``. This folder contains the Rockstar halo and subhalo catalogues.
 - ``Pk``. This folder contains the power spectra measurements.
 - ``Bk``. This folder contains the bispectra measurements.
+- ``PDF``. This folder contains the PDF measurements.
 - ``VIDE_Voids``. This folder contains the void catalogues.
 - ``Lya``. This folder contains the Lyman-:math:`\alpha` spectra.
 - ``X-rays``. This folder contains the X-rays files.
+- ``Profiles``. This folder contains the halo radial profiles.
 - ``CMD``. This folder contains the CAMELS Multifield Dataset (CMD).
 - ``SCSAM``. This folder contains the data from CAMELS-SAM.
 
