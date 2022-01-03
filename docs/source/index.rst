@@ -36,6 +36,7 @@ What is CAMELS?
    snapshots
    subfind
    rockstar
+   ahf
    Pk
    Bk
    VIDE
