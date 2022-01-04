@@ -34,7 +34,7 @@ There exist a total of 160,693 halos:
 -   70206 SIMBA_LH
 -  160693 total
 
-Each halo SIMPUT file consists of the main ``simput'' file, which is always the same size 11,520 bytes and represents the fits header, and a ``phlist'' file, which holds the photons and represents the fits data file:
+Each halo SIMPUT file consists of the main *simput* file, which is always the same size 11,520 bytes and represents the fits header, and a *phlist* file, which holds the photons and represents the fits data file:
 
 ``IllustrisTNG.LH_100.snap_032.halo_010.100ks.z0.05.z_simput.fits``
 
