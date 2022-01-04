@@ -38,7 +38,7 @@ FlatHUB
 
 FlatHUB is a platform that allows users to explore and compare data from different simulations by browsing and filtering the data, making simple preview plots, and downloading sub-samples of the data. We provide access to the SUBFIND halo and subhalo catalogues of the IllustrisTNG and SIMBA suites through this platform.
 
-.. `Link to FlatHUB <http://flathub.flatironinstitute.org/group/cosmo-hydro/camels/>`_
+`Link to FlatHUB <https://flathub.flatironinstitute.org/camels>`_
 
 
 Rusty
