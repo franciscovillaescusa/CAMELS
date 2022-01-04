@@ -2,14 +2,9 @@
 Team
 ****
 
-**Core team**
-
-- **Francisco Villaescusa-Navarro** (Simons Foundation & Princeton)
-- **Daniel Angles-Alcazar** (UConn & CCA)
-- **Shy Genel** (CCA & Columbia)
-
-**CAMELS team**
-
+- Francisco Villaescusa-Navarro :superscript:`*` (Simons Foundation & Princeton)
+- Daniel Angles-Alcazar :superscript:`*` (UConn & CCA)
+- Shy Genel :superscript:`*` (CCA & Columbia)
 - `IllustrisTNG team <https://www.tng-project.org>`_
 - `SIMBA team <http://simba.roe.ac.uk>`_
 - `SMAUG collaboration <https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/galaxy-formation/smaug/>`_
@@ -57,3 +52,5 @@ Team
 - Digvijay Wadekar (IAS)
 - Benjamin Wandelt (IAP & CCA)
 - Kaze W.K. Wong (CCA)
+
+:superscript:`*` core team
