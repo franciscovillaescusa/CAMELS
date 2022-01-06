@@ -2,15 +2,6 @@
 Publications
 ************
 
-#. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
-   | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
-   | `2201.01663 <https://arxiv.org/abs/2201.01663>`_
-
-#. | **Weighing the Milky Way and Andromeda with Artificial Intelligence**
-   | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger, Desika Narayanan
-   | `2111.14874 <https://arxiv.org/abs/2111.14874>`_
-   | `video (26'-56') <https://www.youtube.com/watch?v=07k2JH6c0lE>`_
-
 #. | **Inferring halo masses with Graph Neural Networks**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave, Desika Narayanan
    | `2111.08683 <https://arxiv.org/abs/2111.08683>`_
