@@ -2,14 +2,6 @@
 Publications
 ************
 
-#. | **The CAMELS project: public data release**
-   | Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lucia A. Perez, Pablo Villanueva-Domingo, Digvijay Wadekar, Helen Shao, Faizan G. Mohammad, Sultan Hassan, Emily Moser, Erwin T. Lau, Luis Fernando Machado Poletti Valle, Andrina Nicola, Leander Thiele, Yongseok Jo, Oliver H. E. Philcox, Benjamin D. Oppenheimer, Megan Tillman, ChangHoon Hahn, Neerav Kaushal, Alice Pisani, Matthew Gebhardt, Ana Maria Delgado, Joyce Caliendo, Christina Kreisch, Kaze W.K. Wong, William R. Coulton, Michael Eickenberg, Gabriele Parimbelli, Yueying Ni, Ulrich P. Steinwandel, Valentina La Torre, Romeel Dave, Nicholas Battaglia, Daisuke Nagai, David N. Spergel, Lars Hernquist, Blakesley Burkhart, Desika Narayanan, Benjamin Wandelt, Rachel S. Somerville, Greg L. Bryan, Matteo Viel, Yin Li, Vid Irsic, Katarina Kraljic, Mark Vogelsberger
-   | `2201.01300 <https://arxiv.org/abs/2201.01300>`_
-
-#. | **Augmenting astrophysical scaling relations with machine learning : application to reducing the SZ flux-mass scatter**
-   | Digvijay Wadekar, Leander Thiele, Francisco Villaescusa-Navarro, J. Colin Hill, David N. Spergel, Miles Cranmer, Nicholas Battaglia, Daniel Anglés-Alcázar, Lars Hernquist, Shirley Ho
-   | `2201.01305 <https://arxiv.org/abs/2201.01305>`_
-
 #. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
    | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
    | `2201.01663 <https://arxiv.org/abs/2201.01663>`_
