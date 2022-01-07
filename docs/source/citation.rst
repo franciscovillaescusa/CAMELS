@@ -27,7 +27,7 @@ If you use CAMELS data you may considering citing the CAMELS `presentation <http
    }
 
 
-   @ARTICLE{2022arXiv220101300V,
+   @ARTICLE{camels_data_release,
    author = {{Villaescusa-Navarro}, Francisco and {Genel}, Shy and {Angl{\'e}s-Alc{\'a}zar}, Daniel and {Perez}, Lucia A. and {Villanueva-Domingo}, Pablo and {Wadekar}, Digvijay and {Shao}, Helen and {Mohammad}, Faizan G. and {Hassan}, Sultan and {Moser}, Emily and {Lau}, Erwin T. and {Machado Poletti Valle}, Luis Fernando and {Nicola}, Andrina and {Thiele}, Leander and {Jo}, Yongseok and {Philcox}, Oliver H.~E. and {Oppenheimer}, Benjamin D. and {Tillman}, Megan and {Hahn}, ChangHoon and {Kaushal}, Neerav and {Pisani}, Alice and {Gebhardt}, Matthew and {Delgado}, Ana Maria and {Caliendo}, Joyce and {Kreisch}, Christina and {Wong}, Kaze W.~K. and {Coulton}, William R. and {Eickenberg}, Michael and {Parimbelli}, Gabriele and {Ni}, Yueying and {Steinwandel}, Ulrich P. and {La Torre}, Valentina and {Dave}, Romeel and {Battaglia}, Nicholas and {Nagai}, Daisuke and {Spergel}, David N. and {Hernquist}, Lars and {Burkhart}, Blakesley and {Narayanan}, Desika and {Wandelt}, Benjamin and {Somerville}, Rachel S. and {Bryan}, Greg L. and {Viel}, Matteo and {Li}, Yin and {Irsic}, Vid and {Kraljic}, Katarina and {Vogelsberger}, Mark},
    title = "{The CAMELS project: public data release}",
    journal = {arXiv e-prints},
