@@ -37,6 +37,7 @@ What is CAMELS?
    subfind
    rockstar
    ahf
+   caesar
    Pk
    Bk
    pdf
