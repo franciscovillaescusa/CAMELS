@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **The Circumgalactic Medium from the CAMELS Simulations: Forecasting Constraints on Feedback Processes from Future Sunyaev-Zeldovich Observations**
+   | Emily Moser, Nicholas Battaglia, Daisuke Nagai, Erwin Lau, Luis Fernando Machado Poletti Valle, Francisco Villaescusa-Navarro, Stefania Amodeo, Daniel Angles-Alcazar, Greg L. Bryan, Romeel Dave, Lars Hernquist, Mark Vogelsberger
+   | `2201.02708 <https://arxiv.org/abs/2201.02708>`_
+
 #. | **Cosmology with one galaxy?**
    | Francisco Villaescusa-Navarro, Jupiter Ding, Shy Genel, Stephanie Tonnesen, Valentina La Torre, David N. Spergel, Romain Teyssier, Yin Li, Caroline Heneka, Pablo Lemos, Daniel Anglés-Alcázar, Daisuke Nagai, Mark Vogelsberger
    | `2201.02202 <https://arxiv.org/abs/2201.02202>`_
