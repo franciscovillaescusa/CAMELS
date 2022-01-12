@@ -19,6 +19,7 @@ Publications
 #. | **Augmenting astrophysical scaling relations with machine learning : application to reducing the SZ flux-mass scatter**
    | Digvijay Wadekar, Leander Thiele, Francisco Villaescusa-Navarro, J. Colin Hill, David N. Spergel, Miles Cranmer, Nicholas Battaglia, Daniel Anglés-Alcázar, Lars Hernquist, Shirley Ho
    | `2201.01305 <https://arxiv.org/abs/2201.01305>`_
+   | `video <https://www.youtube.com/watch?v=w_ohkLYMSzs>`_
 
 #. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
    | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
@@ -28,7 +29,6 @@ Publications
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger, Desika Narayanan
    | `2111.14874 <https://arxiv.org/abs/2111.14874>`_
    | `video (26'-56') <https://www.youtube.com/watch?v=07k2JH6c0lE>`_
-
 
 #. | **Inferring halo masses with Graph Neural Networks**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Daniel Anglés-Alcázar, Shy Genel, Federico Marinacci, David N. Spergel, Lars Hernquist, Mark Vogelsberger, Romeel Dave, Desika Narayanan
