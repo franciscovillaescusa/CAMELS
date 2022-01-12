@@ -64,6 +64,8 @@ Below is an example python script for extracting the profile data from the hdf5 
       XH = 0.76 #primordial hydrogen fraction
       mu = 0.58824; # X=0.76 assumed
       mu_e = mue = 2.0/(1.0+XH); # X=0.76 assumed
+      Msun = 1.989e33 
+      kpc = 3.0856e21
 
       data_file= data_dir+'/'+suite+'/'+simulation+'/snap_'+snap+'.hdf5'
       profile_file = prof_dir+'/'+suite+'/'+simulation+'/'+suite+'_'+simulation+'_'+snap+'.hdf5'
@@ -86,7 +88,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       bins           = np.array(stacks['nbins']) #number of radial bins
       r              = np.array(stacks['r']) / h / comoving_factor #radial bins in comoving kpc
       nprofs         = np.array(stacks['nprofs']) #number of halos
-      m200c             = np.array(stacks['Group_M_Crit200'])*1e10 / h #M200c in Msol
-      r200c             = np.array(stacks['Group_R_Crit200']) / h / comoving_factor #R200c in kpc
+      m200c          = np.array(stacks['Group_M_Crit200'])*1e10 / h #M200c in Msol
+      r200c          = np.array(stacks['Group_R_Crit200']) / h / comoving_factor #R200c in kpc
       
       return z, r, val_dens, val_pres, val_temp_mw, val_metals_mw, m200c, r200c
