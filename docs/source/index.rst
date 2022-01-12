@@ -67,6 +67,7 @@ What is CAMELS?
    :caption: Other
 
    team
+   videos
    contact
    citation
    logo
