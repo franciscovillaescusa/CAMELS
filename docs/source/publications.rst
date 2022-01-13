@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Breaking baryon-cosmology degeneracy with the electron density power spectrum**
+   | Andrina Nicola, Francisco Villaescusa-Navarro, David N. Spergel, Jo Dunkley, Daniel Anglés-Alcázar, Romeel Davé, Shy Genel, Lars Hernquist, Daisuke Nagai, Rachel S. Somerville, Benjamin D. Wandelt
+   | `2201.04142 <https://arxiv.org/abs/2201.04142>`_
+
 #. | **The Circumgalactic Medium from the CAMELS Simulations: Forecasting Constraints on Feedback Processes from Future Sunyaev-Zeldovich Observations**
    | Emily Moser, Nicholas Battaglia, Daisuke Nagai, Erwin Lau, Luis Fernando Machado Poletti Valle, Francisco Villaescusa-Navarro, Stefania Amodeo, Daniel Angles-Alcazar, Greg L. Bryan, Romeel Dave, Lars Hernquist, Mark Vogelsberger
    | `2201.02708 <https://arxiv.org/abs/2201.02708>`_
