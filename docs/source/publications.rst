@@ -10,16 +10,19 @@ Publications
 #. | **The Circumgalactic Medium from the CAMELS Simulations: Forecasting Constraints on Feedback Processes from Future Sunyaev-Zeldovich Observations**
    | Emily Moser, Nicholas Battaglia, Daisuke Nagai, Erwin Lau, Luis Fernando Machado Poletti Valle, Francisco Villaescusa-Navarro, Stefania Amodeo, Daniel Angles-Alcazar, Greg L. Bryan, Romeel Dave, Lars Hernquist, Mark Vogelsberger
    | `2201.02708 <https://arxiv.org/abs/2201.02708>`_
+   | `blog <https://www.camel-simulations.org/single-post/the-circumgalactic-medium-with-the-sunyaev-zeldovich-effect>`_
 
 #. | **Cosmology with one galaxy?**
    | Francisco Villaescusa-Navarro, Jupiter Ding, Shy Genel, Stephanie Tonnesen, Valentina La Torre, David N. Spergel, Romain Teyssier, Yin Li, Caroline Heneka, Pablo Lemos, Daniel Anglés-Alcázar, Daisuke Nagai, Mark Vogelsberger
    | `2201.02202 <https://arxiv.org/abs/2201.02202>`_
    | `video <https://www.youtube.com/watch?v=4AfjqEj_MaI>`_
+   | `Quanta Magazine article <https://www.quantamagazine.org/with-one-galaxy-ai-defines-a-whole-simulated-universe-20220120/>`_
 
 #. | **The CAMELS project: public data release**
    | Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lucia A. Perez, Pablo Villanueva-Domingo, Digvijay Wadekar, Helen Shao, Faizan G. Mohammad, Sultan Hassan, Emily Moser, Erwin T. Lau, Luis Fernando Machado Poletti Valle, Andrina Nicola, Leander Thiele, Yongseok Jo, Oliver H. E. Philcox, Benjamin D. Oppenheimer, Megan Tillman, ChangHoon Hahn, Neerav Kaushal, Alice Pisani, Matthew Gebhardt, Ana Maria Delgado, Joyce Caliendo, Christina Kreisch, Kaze W.K. Wong, William R. Coulton, Michael Eickenberg, Gabriele Parimbelli, Yueying Ni, Ulrich P. Steinwandel, Valentina La Torre, Romeel Dave, Nicholas Battaglia, Daisuke Nagai, David N. Spergel, Lars Hernquist, Blakesley Burkhart, Desika Narayanan, Benjamin Wandelt, Rachel S. Somerville, Greg L. Bryan, Matteo Viel, Yin Li, Vid Irsic, Katarina Kraljic, Mark Vogelsberger
    | `2201.01300 <https://arxiv.org/abs/2201.01300>`_
    | `video <https://www.youtube.com/watch?v=6Vgc72a_VpY>`_
+   | `press release <https://www.simonsfoundation.org/2022/01/06/the-largest-suite-of-cosmic-simulations-for-ai-training-is-now-free-to-download-already-spurring-discoveries/>`_
 
 #. | **Augmenting astrophysical scaling relations with machine learning : application to reducing the SZ flux-mass scatter**
    | Digvijay Wadekar, Leander Thiele, Francisco Villaescusa-Navarro, J. Colin Hill, David N. Spergel, Miles Cranmer, Nicholas Battaglia, Daniel Anglés-Alcázar, Lars Hernquist, Shirley Ho
@@ -29,6 +32,7 @@ Publications
 #. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
    | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
    | `2201.01663 <https://arxiv.org/abs/2201.01663>`_
+   | `video <https://www.youtube.com/watch?v=u2tEG1nLwV8&t=2s>`_
 
 #. | **Weighing the Milky Way and Andromeda with Artificial Intelligence**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger, Desika Narayanan
@@ -66,6 +70,7 @@ Publications
    | Helen Shao, Francisco Villaescusa-Navarro, Shy Genel, David N. Spergel, Daniel Angles-Alcazar, Lars Hernquist, Romeel Dave, Desika Narayanan, Gabriella Contardo, Mark Vogelsberger
    | `astro-ph/2109.04484 <https://arxiv.org/abs/2109.04484>`_
    | `video <https://www.youtube.com/watch?v=_lIXL4-wkZ0&t=1724s>`_
+   | `blog <https://www.camel-simulations.org/single-post/dark-matter-halos-and-universal-relations>`_
 
 #. | **Neural networks as optimal estimators to marginalize over baryonic effects**
    | Francisco Villaescusa-Navarro, Benjamin D. Wandelt, Daniel Anglés-Alcázar, Shy Genel, Jose Manuel Zorrilla Mantilla, Shirley Ho, David N. Spergel
