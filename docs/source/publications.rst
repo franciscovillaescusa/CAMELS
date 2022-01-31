@@ -82,3 +82,4 @@ Publications
    | `video (0'-13') <https://www.youtube.com/watch?v=NxR_kDlHhGM&t=1671s>`_
    | `podcast (in Italian) <https://open.spotify.com/episode/36U5cKw7OAzc2HoIQeb4mq>`_
    | `blog <https://www.camel-simulations.org/single-post/the-camels-project>`_
+   | `press release <https://www.simonsfoundation.org/2021/07/07/record-breaking-suite-of-cosmic-simulations-aims-to-identify-universes-parameters/>`_
