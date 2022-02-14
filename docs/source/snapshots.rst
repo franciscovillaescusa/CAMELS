@@ -15,7 +15,7 @@ The ``Sims`` folder contains the raw data from all CAMELS simulations. This fold
 
 .. Note::
   
-   The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained in :ref:`IllustrisTNG_params` and in :ref:`SIMBA_params`, respectively. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
+   The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained in :ref:`params`, respectively. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
 
 Suite folder
 ~~~~~~~~~~~~
