@@ -4,21 +4,21 @@
 Simulations
 ***********
 
-The ``Sims`` folder contains the raw data from all CAMELS simulations. This folder contains four different `suite folders`:
+The ``Sims`` folder contains the raw data from all CAMELS simulations. The data is organized following the general hierarchical structure described in :ref:`suite_folders`. We however repeat it here for clarity:
+
+The ``Sims`` folder contains four different `suite folders`:
 
 - ``IllustrisTNG``. This folder contains all simulations of the IllustrisTNG suite.
 - ``IllustrisTNG_DM``. This folder contains all the N-body simulations corresponding the IllustrisTNG suite.
 - ``SIMBA``. This folder contains all simulations of the SIMBA suite. 
 - ``SIMBA_DM``. This folder contains all the N-body simulations corresponding the SIMBA suite.
 
-.. - ``times.txt``. This file contains the scale factors of the simulations (with the exception of the last snapshot at :math:`z=0`). This file is used by both the GIZMO and AREPO codes to write snapshots at these times.
-
 .. Note::
   
    The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained in :ref:`params`, respectively. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
 
-Suite folder
-~~~~~~~~~~~~
+Suite folders
+~~~~~~~~~~~~~
   
 Inside each `suite folder` there are `simulation folders` from all available simulations, e.g.
 
@@ -39,19 +39,21 @@ Inside each `suite folder` there are `simulation folders` from all available sim
    LH_105  LH_156  LH_206  LH_257  LH_307  LH_358  LH_408  LH_459  LH_509  LH_56   LH_61   LH_660  LH_710  LH_761  LH_811  LH_862  LH_912  LH_963
    LH_106  LH_157  LH_207  LH_258  LH_308  LH_359  LH_409  LH_46   LH_51   LH_560  LH_610  LH_661  LH_711  LH_762  LH_812  LH_863  LH_913  LH_964
    ...
-
-- ``1P_X``. These folders contain the simulations of the 1P set. X goes from 0 to 65.
+   
+- ``1P_X_Y``. These folders contain the data from 1P simulations. ``X`` ranges from ``1`` to ``6`` while ``Y`` goes from ``n5`` (-5) to ``5``.
 - ``CV_X``. These folders contain the simulations of the CV set. X goes from 0 to 26.
 - ``EX_X``. These folders contain the simulations of the EX set. X goes from 0 to 3.
 - ``LH_X``. These folders contain the simulations of the LH set. X goes from 0 to 999.
 - ``CosmoAstroSeed_params.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN2}` seed.
 
+See :ref:`simulation_folders` for details about the naming of the simulations in the 1P set.
+  
 .. Note::
 
    The structure and organization of the different folders inside the ``IllustrisTNG_DM`` and ``SIMBA_DM`` is the same as in the ``IllustrisTNG`` and ``SIMBA`` folders.
 
-Simulation folder
-~~~~~~~~~~~~~~~~~
+Simulation folders
+~~~~~~~~~~~~~~~~~~
    
 Inside each simulation folder there are different files and folders, e.g.:
 

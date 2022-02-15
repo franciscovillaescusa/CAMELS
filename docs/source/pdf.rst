@@ -4,7 +4,9 @@
 Probability distribution functions
 **********************************
 
-We estimate the probability distribution functions (PDF) for all the 3D grid files in the CAMELS Multifield Dataset (CMD) (See :ref:`CMD`), each containing 1,000 grids from the LH set.
+The ``PDF`` folder contains the estimated probability distribution functions (PDFs). The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+We provide PDFs for all the 3D grid files in the CAMELS Multifield Dataset (CMD) (See :ref:`CMD`), each containing 1,000 grids from the LH set.
 
 The PDFs are stored as ``.npy`` files and they are named as ``hist_Grids_prefix_sim_LH_grid_z=redshift.npy``, where ``prefix`` is the word identifying
 each field (``HI``, ``Vgas``, etc.), ``sim`` can be ``IllustrisTNG``, ``SIMBA``, ``Nbody_IllustrisTNG``, or ``Nbody_SIMBA``, ``grid`` can be 

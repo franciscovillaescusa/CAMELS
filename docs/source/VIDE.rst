@@ -1,7 +1,9 @@
 VIDE Voids
 ==========
 
-For each hydrodynamic simulation we have identified voids in the galaxy distribution at redshift 0 with the `VIDE <https://bitbucket.org/cosmicvoids/vide_public/wiki/Home>`_ void finder. 
+The ``VIDE_Voids`` contains the void catalogues. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+For each hydrodynamic simulation we provide voids identified in the galaxy distribution at redshift 0 with the `VIDE <https://bitbucket.org/cosmicvoids/vide_public/wiki/Home>`_ void finder. 
 
 The data is organized as follows:
 

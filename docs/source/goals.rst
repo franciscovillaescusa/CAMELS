@@ -2,6 +2,9 @@
 Scientific goals
 ****************
 
+.. image:: CAMELS_diagram.png
+
+
 In order to maximize the scientific return of cosmological missions such as CMB-S4, DESI, eROSITA, Euclid, Roman Observatory, Rubin Observatory, Simons Observatory, PFS, and SKA, accurate theoretical predictions in the non-linear regime, for generic statistics, are needed. Furthermore, these predictions need to incorporate the uncertainity associated to our poor knowledge of baryonic effects such as AGN feedback. 
 
 CAMELS is a large suite of N-body and state-of-the-art (magneto-)hydrodynamic simulations designed to tackle this problem. At its core, CAMELS represents a large dataset to train machine learning algorithms. The main scientific goals of CAMELS are these:

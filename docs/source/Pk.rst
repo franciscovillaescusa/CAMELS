@@ -1,7 +1,10 @@
 Power spectra
 =============
 
-For each simulation we have computed the power spectrum of the total matter at all available redshifts. For the hydrodynamic simulations we have also compute power spectra for the gas, dark matter, stars, and black-holes components at all redshifts.
+The ``Pk`` folder contains the power spectra. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+
+For each simulation we povide the power spectrum of the total matter at all available redshifts. For the hydrodynamic simulations we have also provide power spectra for the gas, dark matter, stars, and black-holes components at all redshifts.
 
 The data is organized as follows:
 

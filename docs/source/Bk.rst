@@ -1,7 +1,9 @@
 Bispectra
 ===========
 
-For each latin hypercube simulation we have computed the bispectrum of the total matter at redshift zero. For the hydrodynamic simulations we have also compute bispectra for the gas and dark matter at redshift zero. We do not compute bispectra of the stellar or black-hole components, due to the small number of particles in those datasets, hence the low signal-to-noise.
+The ``Bk`` folder contains the bispectra measurements. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+For each simulation of the latin hypercube sets we have computed the bispectrum of the total matter at redshift zero. For the hydrodynamic simulations we have also compute bispectra for the gas and dark matter at redshift zero. We do not compute bispectra of the stellar or black-hole components, due to the small number of particles in those datasets, hence the low signal-to-noise.
 
 Bispectra are computed using two approaches. At low-k, the spectra are computed using an FFT-based approach, as implemented in the `Pylians <https://github.com/franciscovillaescusa/Pylians/>`_ code. This estimates B(k1, k2, mu), where mu is the angle between k1 and k2. Data are assigned to a 128 x 128 x 128 grid, using triangular-shaped-cloud interpolation, before the bispectra are computed for a range of k values up to k = 5 h/Mpc.
 

@@ -4,6 +4,8 @@
 CAMELS CGM Profiles
 *******************
 
+The folder ``Profiles`` contains the CGM profiles. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
 For each snapshot of each simulation, we provide three-dimensional spherically-averaged profiles of gas density, thermal pressure, gas mass-weighted temperature, and gas mass-weighted metallicity for the simulations of the 1P, LH, and CV sets of both the IllustrisTNG and SIMBA suites. 
 
 Specifically, we use `illstack_CAMELS <https://github.com/emilymmoser/illstack_CAMELS>`_, a CAMELS-specific version  of the original, more general code `illstack <https://github.com/marcelo-alvarez/illstack>`_ to generate the three-dimensional profiles, extending radially from 0.01-10 Mpc in 25 log10 bins. The profiles are stored in hdf5 format which can be read with the python script provided in the repository.
@@ -12,7 +14,7 @@ The profiles are located as
 
 ``Profiles/suite/sim/suite_sim_0##.hdf5``
 
-where ``suite`` is either ``IllustrisTNG`` or ``SIMBA``, ``sim`` is the simulation of interest, e.g. ``1P_0``, ``LH_42``, ``CV_130``, and ``0##`` is the snapshot number, ranging from ``000`` to ``033``. 
+where ``suite`` is either ``IllustrisTNG`` or ``SIMBA``, ``sim`` is the simulation of interest, e.g. ``1P_4_n5``, ``LH_42``, ``CV_130``, and ``0##`` is the snapshot number, ranging from ``000`` to ``033``. 
 
 Below is an example python script for extracting the profile data from the hdf5 file: 
 
@@ -24,7 +26,7 @@ Below is an example python script for extracting the profile data from the hdf5 
  
   #-------------------------input section---------------
   suite='SIMBA'
-  sim='1P_0'
+  sim='CV_0'
   snap='024'
   #----------------------------------------------------- 
   data_dir='/mnt/ceph/users/camels/PUBLIC_RELEASE/Sims'
@@ -36,7 +38,7 @@ Below is an example python script for extracting the profile data from the hdf5 
       Return values of the CGM profiles from the CAMELS simulation
       
       Inputs: 
-        simulation: string, name of the simulation, e.g., 1P_0, LH_123, CV_12
+        simulation: string, name of the simulation, e.g., 1P_5_2, LH_123, CV_12
         snap: string, number of the snapshot, from '000' to '033', '033' being the last snapshot corresponding to z=0
         
       Outputs:
