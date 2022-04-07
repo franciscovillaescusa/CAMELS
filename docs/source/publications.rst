@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Constraining cosmology with machine learning and galaxy clustering: the CAMELS-SAM suite**
+   | Lucia A. Perez, Shy Genel, Francisco Villaescusa-Navarro, Rachel S. Somerville, Austen Gabrielpillai, Daniel Anglés-Alcázar, Benjamin D. Wandelt, L.Y. Aaron Yung
+   | | `2204.02408 <https://arxiv.org/abs/2204.02408>`_ | `video <https://www.youtube.com/watch?v=sx0RCW2p4eU&t=178s>`__ | 
+
 #. | **Breaking baryon-cosmology degeneracy with the electron density power spectrum**
    | Andrina Nicola, Francisco Villaescusa-Navarro, David N. Spergel, Jo Dunkley, Daniel Anglés-Alcázar, Romeel Davé, Shy Genel, Lars Hernquist, Daisuke Nagai, Rachel S. Somerville, Benjamin D. Wandelt
    | | `2201.04142 <https://arxiv.org/abs/2201.04142>`_ | `video <https://www.youtube.com/watch?v=D_CLangkIDE>`__ | 
