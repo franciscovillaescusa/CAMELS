@@ -2,9 +2,9 @@
 Publications
 ************
 
-#. | **Learning cosmology and clustering with cosmic graphs**
-   | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro
-   | `2204.13713 <https://arxiv.org/abs/2204.13713>`_
+#. | **Constraining cosmology with machine learning and galaxy clustering: the CAMELS-SAM suite**
+   | Lucia A. Perez, Shy Genel, Francisco Villaescusa-Navarro, Rachel S. Somerville, Austen Gabrielpillai, Daniel Anglés-Alcázar, Benjamin D. Wandelt, L.Y. Aaron Yung
+   | | `2204.02408 <https://arxiv.org/abs/2204.02408>`_ | `video <https://www.youtube.com/watch?v=sx0RCW2p4eU&t=178s>`__ | 
 
 #. | **Breaking baryon-cosmology degeneracy with the electron density power spectrum**
    | Andrina Nicola, Francisco Villaescusa-Navarro, David N. Spergel, Jo Dunkley, Daniel Anglés-Alcázar, Romeel Davé, Shy Genel, Lars Hernquist, Daisuke Nagai, Rachel S. Somerville, Benjamin D. Wandelt
@@ -16,7 +16,7 @@ Publications
 
 #. | **Cosmology with one galaxy?**
    | Francisco Villaescusa-Navarro, Jupiter Ding, Shy Genel, Stephanie Tonnesen, Valentina La Torre, David N. Spergel, Romain Teyssier, Yin Li, Caroline Heneka, Pablo Lemos, Daniel Anglés-Alcázar, Daisuke Nagai, Mark Vogelsberger
-   | | `2201.02202 <https://arxiv.org/abs/2201.02202>`_ | `video <https://www.youtube.com/watch?v=4AfjqEj_MaI>`__ | `Quanta Magazine article <https://www.quantamagazine.org/with-one-galaxy-ai-defines-a-whole-simulated-universe-20220120/>`_ | 
+   | | `2201.02202 <https://arxiv.org/abs/2201.02202>`_ | `video <https://www.youtube.com/watch?v=4AfjqEj_MaI>`__ | `Quanta Magazine article <https://www.quantamagazine.org/with-one-galaxy-ai-defines-a-whole-simulated-universe-20220120/>`_ | `New Yorker article <https://www.newyorker.com/science/elements/what-can-we-learn-about-the-universe-from-just-one-galaxy>`_ | 
 
 #. | **The CAMELS project: public data release**
    | Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lucia A. Perez, Pablo Villanueva-Domingo, Digvijay Wadekar, Helen Shao, Faizan G. Mohammad, Sultan Hassan, Emily Moser, Erwin T. Lau, Luis Fernando Machado Poletti Valle, Andrina Nicola, Leander Thiele, Yongseok Jo, Oliver H. E. Philcox, Benjamin D. Oppenheimer, Megan Tillman, ChangHoon Hahn, Neerav Kaushal, Alice Pisani, Matthew Gebhardt, Ana Maria Delgado, Joyce Caliendo, Christina Kreisch, Kaze W.K. Wong, William R. Coulton, Michael Eickenberg, Gabriele Parimbelli, Yueying Ni, Ulrich P. Steinwandel, Valentina La Torre, Romeel Dave, Nicholas Battaglia, Daisuke Nagai, David N. Spergel, Lars Hernquist, Blakesley Burkhart, Desika Narayanan, Benjamin Wandelt, Rachel S. Somerville, Greg L. Bryan, Matteo Viel, Yin Li, Vid Irsic, Katarina Kraljic, Mark Vogelsberger
