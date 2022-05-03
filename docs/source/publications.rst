@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learning cosmology and clustering with cosmic graphs**
+   | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro
+   | `2204.13713 <https://arxiv.org/abs/2204.13713>`_
+
 #. | **Constraining cosmology with machine learning and galaxy clustering: the CAMELS-SAM suite**
    | Lucia A. Perez, Shy Genel, Francisco Villaescusa-Navarro, Rachel S. Somerville, Austen Gabrielpillai, Daniel Anglés-Alcázar, Benjamin D. Wandelt, L.Y. Aaron Yung
    | | `2204.02408 <https://arxiv.org/abs/2204.02408>`_ | `video <https://www.youtube.com/watch?v=sx0RCW2p4eU&t=178s>`__ | 
