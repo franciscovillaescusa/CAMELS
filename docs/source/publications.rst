@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **The halo finding problem revisited: a deep revision of the ASOHF code**
+   | David Valles-Perez, Susana Planelles, Vicent Quilis
+   | `2205.02245 <https://arxiv.org/abs/2205.02245>`_
+
 #. | **Learning cosmology and clustering with cosmic graphs**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro
    | `2204.13713 <https://arxiv.org/abs/2204.13713>`_
