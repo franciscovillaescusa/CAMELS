@@ -30,7 +30,7 @@ Each simulation suite contains four different simulation sets:
 
 The scheme below shows the general structure of CAMELS data:
 
- .. image:: Sims_scheme.png
+ .. image:: Sims_Scheme.png
     :alt: CAMELS Data structure
 
 Characteristics
