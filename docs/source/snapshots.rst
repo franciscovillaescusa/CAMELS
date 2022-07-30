@@ -12,10 +12,12 @@ The ``Sims`` folder contains four different `suite folders`:
 - ``IllustrisTNG_DM``. This folder contains all the N-body simulations corresponding the IllustrisTNG suite.
 - ``SIMBA``. This folder contains all simulations of the SIMBA suite. 
 - ``SIMBA_DM``. This folder contains all the N-body simulations corresponding the SIMBA suite.
+- ``Astrid``. This folder contains all simulations of the Astrid suite. 
+- ``Astrid_DM``. This folder contains all the N-body simulations corresponding the Astrid suite.
 
 .. Note::
   
-   The value of the cosmological, astrophysical, and initial random seed for the IllustrisTNG and SIMBA suites can be obtained in :ref:`params`, respectively. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
+   The value of the cosmological, astrophysical, and initial random seed for simulations in the different suites can be found in :ref:`params`. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
 
 Suite folders
 ~~~~~~~~~~~~~

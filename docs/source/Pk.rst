@@ -4,21 +4,7 @@ Power spectra
 The ``Pk`` folder contains the power spectra. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
 
 
-For each simulation we povide the power spectrum of the total matter at all available redshifts. For the hydrodynamic simulations we have also provide power spectra for the gas, dark matter, stars, and black-holes components at all redshifts.
-
-The data is organized as follows:
-
-- **IllustrisTNG**: This folder contains the power spectra of all the simulations of the IllustrisTNG suite.
-
-- **IllustrisTNG_DM**: Each simulation in the IllustrisTNG suite has an N-body counterpart. This folder contains the power spectra of those simulations.
-
-- **SIMBA**: This folder contains the power spectra of all the simulations of the SIMBA suite.
-
-- **SIMBA_DM**: Each simulation in the SIMBA suite has an N-body counterpart. This folder contains the power spectra of those simulations.
-
-- **Number_of_modes.txt**. This file contains the number of modes in each k-bin. See below.  
-
-The files containing the power spectra are named as:
+For each simulation we povide the power spectrum of the total matter at all available redshifts. For the hydrodynamic simulations we have also provide power spectra for the gas, dark matter, stars, and black-holes components at all redshifts. The files containing the power spectra are named as:
 
 ``Pk_type_z=Z.ZZ.txt``
 
@@ -56,7 +42,7 @@ Sometimes it is useful to know the number of modes in each k-bin (e.g. if one wa
 
 For snapshots at redshift zero, we additionally compute the power spectrum on all scales up to k = 1000 h/Mpc, with the small-computations performed using the `HIPSTER <https://github.com/oliverphilox/HIPSTER/>`_ code. This computes the Legendre multipoles of the power spectrum, P_ell(k), with a linear binning for k < 25 h/Mpc, and a logarithmic binning beyond. 
 
-All-scale spectra are computed for each LH simulation from the IllustrisTNG, IllustrisTNG_DM and SIMBA suites in both real- and redshift-space and take the form ``Pk_type_allk_rsd_z=Z.ZZ.txt``, where `rsd`` specifies the treatment of redshift-space distortions, either unspecified (real-space), or ``RSDX`` for distortions added along axis X. The file headers contain a variety of useful information about the sample and method hyperparameters.
+All-scale spectra are computed for each LH simulation from the IllustrisTNG, IllustrisTNG_DM and SIMBA suites in both real- and redshift-space and take the form ``Pk_type_allk_rsd_z=Z.ZZ.txt``, where ``rsd`` specifies the treatment of redshift-space distortions, either unspecified (real-space), or ``RSDX`` for distortions added along axis X. The file headers contain a variety of useful information about the sample and method hyperparameters.
 
 As an example, the all-scale power spectrum of gas from simulation 42 in redshift-space is read in as follows:
 

@@ -1,5 +1,9 @@
-.. _data_access:
+.. attention::
 
+   All the simulations in the IllustrisTNG, SIMBA, and N-body suites are publicly available. To access the simulations of the Astrid suite please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+
+.. _data_access:
+   
 ************
 Instructions
 ************

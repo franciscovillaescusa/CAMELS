@@ -2,7 +2,7 @@
 Description
 ***********
 
-As of July 2022, CAMELS contains 6,325 simulations: 3,049 N-body simulations and 3,276 hydrodynamic simulations. 
+CAMELS contains 6,325 simulations: 3,049 N-body simulations and 3,276 hydrodynamic simulations. 
 
 Suites
 ~~~~~~
