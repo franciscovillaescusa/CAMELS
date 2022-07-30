@@ -34,7 +34,7 @@ When possible, we have tried to organize the data inside the `type folders` in a
 Suite folders
 ~~~~~~~~~~~~~
 
-Inside the considered `type folder`, there are typically four different `suite folders`:
+Inside the considered `type folder`, there are different `suite folders`:
 
 - **IllustrisTNG**. This folder contains the data generated from the simulations of the IllustrisTNG suite
 - **IllustrisTNG_DM**. This folder contains the data generated from the N-body counterparts of the simulations in the IllustrisTNG suite.
