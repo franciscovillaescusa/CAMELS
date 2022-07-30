@@ -2,16 +2,21 @@
 Description
 ***********
 
-CAMELS contains 4,233 simulations: 2,049 N-body simulations and 2,184 hydrodynamic simulations.
+As of July 2022, CAMELS contains 6,325 simulations: 3,049 N-body simulations and 3,276 hydrodynamic simulations. 
 
 Suites
 ~~~~~~
 
-The CAMELS simulations can be organized in three different suites:
+The CAMELS simulations can be organized in four different suites:
 
 - **IllustrisTNG**. This suite contains 1,092 hydrodynamic simulations that have been run with the AREPO code employing the same subgrid physics as the original `IllustrisTNG <https://www.tng-project.org>`_ simulations. 
-- **SIMBA**. This suite contains 1,092 hydrodynamic simulations that have been run with the GIZMO code employing the same subgrid physics as the original `SIMBA <http://simba.roe.ac.uk>`_ simulation. 
-- **N-body**. This suite contains 2,049 N-body simulation. For each CAMELS hydrodynamic simulation there is an N-body simulation with the same cosmology and value of the initial random seed as its hydrodynamic counterpart.
+- **SIMBA**. This suite contains 1,092 hydrodynamic simulations that have been run with the GIZMO code employing the same subgrid physics as the original `SIMBA <http://simba.roe.ac.uk>`_ simulation.
+- **Astrid**. This suite contains 1,092 hydrodynamics simulations have that been run with the MP-Gadget code employing the same subgrid physics as the original `Astrid <https://arxiv.org/abs/2110.14154>`_ simulation.
+- **N-body**. This suite contains 3,049 N-body simulations. For each CAMELS hydrodynamic simulation there is an N-body simulation with the same cosmology and value of the initial random seed as its hydrodynamic counterpart.
+
+.. Note::
+
+   All the simulations in the IllustrisTNG, SIMBA, and N-body suites are publicly available (see :ref:`data_access`). To access the data from the Astrid suite please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
 
 Sets
 ~~~~
@@ -6896,14 +6901,14 @@ The CAMELS simulations have different values of the cosmological and astrophysic
    </details>
    <br />
 
-If you need access to the raw
+If you need access to the above data in a traditional format use the links below:
+
+- `IllustrisTNG parameters <https://github.com/franciscovillaescusa/CAMELS/blob/master/docs/params/CosmoAstroSeed_IllustrisTNG.txt>`_
+- `SIMBA parameters <https://github.com/franciscovillaescusa/CAMELS/blob/master/docs/params/CosmoAstroSeed_SIMBA.txt>`_
+- `Astrid parameters <https://github.com/franciscovillaescusa/CAMELS/blob/master/docs/params/CosmoAstroSeed_Astrid.txt>`_
    
 
 .. Note::
 
-   The value of the cosmological parameters and of the initial random seed for the N-body simulations can be found from the above links. We remind the user that for each hydrodynamic simulation there is an N-body counterpart with the same value of the cosmological parameters and of the initial random seed.
+   We remind the user that for each hydrodynamic simulation there is an N-body counterpart with the same value of the cosmological parameters and of the initial random seed. Thus, the value of the cosmological parameters and of the initial random seed for the N-body simulations can be found in the above links. For instance, for the N-body simulation ``Astrid_DM/LH_345`` the value of :math:`\Omega_{\rm m}`, :math:`\sigma_8`, and the initial random seed is 0.4714, 0.689, and 10350, respectively.
 
-
-..
-   - For the simulations of the IllustrisTNG suite the value of the parameters can be found in :ref:`IllustrisTNG_params`.
-   - For the simulations of the SIMBA suite the value of the parameters can be found in :ref:`SIMBA_params`.
