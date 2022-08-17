@@ -4,13 +4,15 @@
 SUBFIND catalogues
 ******************
 
-The ``FOF_Subfind`` folder contains the SUBFIND halo/subhalo/galaxy catalogues. The catalogues are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalogue for each snapshot. The halos and subhalos are identified through SUBFIND.
+The ``FOF_Subfind`` folder contains the SUBFIND halo/subhalo/galaxy catalogues. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+The catalogues are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalogue for each snapshot. The halos and subhalos are identified through SUBFIND.
 
 The easiest way to inspect the content of these files is:
 
 .. code-block:: bash
 
-   >> h5ls -r SIMBA/1P_5/fof_subhalo_tab_031.hdf5
+   >> h5ls -r SIMBA/CV_5/fof_subhalo_tab_031.hdf5
    /                        Group
    /Config                  Group
    /Group                   Group
@@ -110,7 +112,7 @@ Reading these files with python is straightforward:
    import h5py
    
    # catalogue name
-   catalogue = 'SIMBA/1P_5/fof_subhalo_tab_033.hdf5'
+   catalogue = 'SIMBA/CV_5/fof_subhalo_tab_033.hdf5'
 
    # value of the scale factor
    scale_factor = 1.0
@@ -149,7 +151,6 @@ In particular:
 - In SIMBA snapshots, ``Metallicity`` is an 11-element array with the elements in this order: [the total content of elements heavier than H & He, He,C,N,O,Ne,Mg,Si,S,Ca,Fe].
   
 - In SIMBA FOF+Subfind catalogs, the structure is similar to IllustrisTNG: ``Metallicity`` is the total content of elements heavier than H & He, and ``Metals`` or ``MetalFractions`` is a 11-element array with the elements in this (SIMBA-snapshot-like) order: [H,He,C,N,O,Ne,Mg,Si,S,Ca,Fe]
-
 
 In the SIMBA catalogues, the ``SubhaloStellarPhotometrics`` and ``WindMass`` fields contain some irrelevant numbers as those quantities are not calculated within the SIMBA simulations.
 

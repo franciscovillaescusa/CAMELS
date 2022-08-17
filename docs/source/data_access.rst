@@ -1,3 +1,9 @@
+.. attention::
+
+   All the simulations in the IllustrisTNG, SIMBA, and N-body suites are publicly available. To access the simulations of the Astrid suite please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+
+.. _data_access:
+   
 ************
 Instructions
 ************
@@ -14,7 +20,7 @@ Binder is a system that allows users to read and manipulate data that is hosted 
 
    Two important things need to be taken into account when using Binder. First, the Binder environment is ephemeral - after a few days of inactivity its contents are deleted, so one has to be vigilant about downloading any analysis results in time. Second, Binder is not designed to carry out long and heavy calculations. In this case we recommend the user to download the data and work with it locally.
 
-.. `Link to Binder <https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC>`_
+`Link to Binder <https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC>`_
 
 
 Globus
@@ -22,14 +28,15 @@ Globus
 
 The full CAMELS data can be downloaded via globus, an online system designed to efficiently transfer large amounts of data. This is the method we recommend to transfer the data.
 
-.. `Globus link <https://app.globus.org/file-manager?origin_id=58bdcd24-6590-11ec-9b60-f9dfb1abb183&origin_path=%2F>`_ 
+`Globus link <https://app.globus.org/file-manager?origin_id=58bdcd24-6590-11ec-9b60-f9dfb1abb183&origin_path=%2F>`_ 
 
+   
 url
 ~~~
 
 We provide access to the full CAMELS data via a simple uniform resource locator (url). We do not recommend downloading large amounts of data through this system, as can be slow and unstable. However, for small or individual files it may be convenient.
 
-.. `URL link <https://users.flatironinstitute.org/~fvillaescusa/priv/f3Mq1fwFYReuAdJTb8xNxa43Jb48L/PUBLIC_RELEASE>`_
+`URL link <https://users.flatironinstitute.org/~camels/>`_
 
 
 FlatHUB
@@ -37,7 +44,7 @@ FlatHUB
 
 FlatHUB is a platform that allows users to explore and compare data from different simulations by browsing and filtering the data, making simple preview plots, and downloading sub-samples of the data. We provide access to the SUBFIND halo and subhalo catalogues of the IllustrisTNG and SIMBA suites through this platform.
 
-.. `Link to FlatHUB <http://flathub.flatironinstitute.org/group/cosmo-hydro/camels/>`_
+`Link to FlatHUB <https://flathub.flatironinstitute.org/camels>`_
 
 
 Rusty

@@ -1,19 +1,13 @@
 Bispectra
 ===========
 
-For each latin hypercube simulation we have computed the bispectrum of the total matter at redshift zero. For the hydrodynamic simulations we have also compute bispectra for the gas and dark matter at redshift zero. We do not compute bispectra of the stellar or black-hole components, due to the small number of particles in those datasets, hence the low signal-to-noise.
+The ``Bk`` folder contains the bispectra measurements. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+For each simulation of the latin hypercube sets we have computed the bispectrum of the total matter at redshift zero. For the hydrodynamic simulations we have also compute bispectra for the gas and dark matter at redshift zero. We do not compute bispectra of the stellar or black-hole components, due to the small number of particles in those datasets, hence the low signal-to-noise.
 
 Bispectra are computed using two approaches. At low-k, the spectra are computed using an FFT-based approach, as implemented in the `Pylians <https://github.com/franciscovillaescusa/Pylians/>`_ code. This estimates B(k1, k2, mu), where mu is the angle between k1 and k2. Data are assigned to a 128 x 128 x 128 grid, using triangular-shaped-cloud interpolation, before the bispectra are computed for a range of k values up to k = 5 h/Mpc.
 
 At high-k, the FFT-based approach is inefficient, since it requires a large FFT grid. In this case, we compute bispectra using the `HIPSTER <https://github.com/oliverphilox/HIPSTER/>`_ code, which uses a configuration-space estimator to extend to small scales without computational penalties (strictly via a convolution with a smooth window which is of negligible importance on small scales). This estimates the Legendre multipoles of the bispectrum, B_ell(k1, k2), for a range of ell up to ell = 5 and k from 0 to 50 h/Mpc. Additional details of the method hyperparameters can be found in the bispectrum headers.
-
-The data is organized as follows:
-
-- **IllustrisTNG**: This folder contains the bispectra of all the LH simulations of the IllustrisTNG suite at redshift zero.
-
-- **IllustrisTNG_DM**: Each simulation in the IllustrisTNG suite has an N-body counterpart. This folder contains the redshift-zero bispectra of those simulations.
-
-- **SIMBA**: This folder contains the bispectra of all the LH simulations of the SIMBA suite.
 
 The files containing the power spectra are named as:
 

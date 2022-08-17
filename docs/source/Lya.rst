@@ -1,13 +1,16 @@
 Lyman-alpha spectra
 ===================
 
-For each simulation snapshot we have generated Lyman-alpha spectra for 5000 random sightlines. These spectral lines are contained within an hdf5 file and can be read using the same code they were generated with.
+The ``Lya`` folder contains the mock Lyman-:math:`\alpha` spectra. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+
+
+For each simulation snapshot we provide Lyman-alpha spectra for 5,000 random sightlines. These spectral lines are contained within an hdf5 file and can be read using the same code they were generated with.
 
 The data is organized such that the spectra corresponding to a snapshot resides in an appropriately named folder within the simulation folder. The spectra files are located at
 
 ``suite/sim/SPECTRA_0##/Lya-spectra.hdf5``
 
-where ``suite`` can be either ``IllustrisTNG`` or ``SIMBA``, ``sim`` is the simulation of interest, and ``##`` is the snapshot number (for snapshot numbers 0 through 9, a 0 must pad the front). For example ``IllustrisTNG/1P_0/SPECTRA_001/Lya-spectra.hdf5`` is the Lyman-alpha spectra for the IllustrisTNG suite 1P_0 simulation at redshift 5.
+where ``suite`` can be either ``IllustrisTNG`` or ``SIMBA``, ``sim`` is the simulation of interest, and ``##`` is the snapshot number (for snapshot numbers 0 through 9, a 0 must pad the front). For example ``IllustrisTNG/1P_1_n5/SPECTRA_001/Lya-spectra.hdf5`` is the Lyman-alpha spectra for the IllustrisTNG suite ``1P_1_n5`` simulation at redshift 5.
 
 The easiest way to read the data is using the same code that generated the spectra; see the `Fake Spectra <https://github.com/sbird/fake_spectra>`_ GitHub for instructions on how to install it. The data can then be read as follows:
 
@@ -32,8 +35,8 @@ Once the data is loaded in, the user can retrieve optical depths for one or all 
    from fake_spectra.plot_spectra import PlottingSpectra
    import numpy as np
 
-   # Loading in spectra for the IllustrisTNG suite, 1P_0 simulation, and snapshot 001.
-   fs = PlottingSpectra(num=1, base="IllustrisTNG/1P_0", savefile="Lya-spectra.hdf5", label="My label")
+   # Loading in spectra for the IllustrisTNG suite, 1P_4_3 simulation, and snapshot 001.
+   fs = PlottingSpectra(num=1, base="IllustrisTNG/1P_4_3", savefile="Lya-spectra.hdf5", label="My label")
 
    # To retrieve optical depths for all 5000 spectral lines:
    taus = fs.get_tau("H", 1, 1215)

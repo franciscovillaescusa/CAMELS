@@ -2,14 +2,55 @@
 Team
 ****
 
-- **Francisco Villaescusa-Navarro** (Simons Foundation & Princeton University)
-
-- **Daniel Angles-Alcazar** (UConn & Flatiron Institute)
-
-- **Shy Genel** (Flatiron Institute)
-
+- Francisco Villaescusa-Navarro :superscript:`*` (Simons Foundation & Princeton)
+- Daniel Angles-Alcazar :superscript:`*` (UConn & CCA)
+- Shy Genel :superscript:`*` (CCA & Columbia)
 - `IllustrisTNG team <https://www.tng-project.org>`_
-
 - `SIMBA team <http://simba.roe.ac.uk>`_
-
 - `SMAUG collaboration <https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/galaxy-formation/smaug/>`_
+- Nicholas Battaglia (Cornell)
+- Greg L. Bryan (Columbia)
+- Blakesley Burkhart (Rutgers & CCA)
+- Joyce Caliendo (UMass)
+- William R. Coulton (CCA)
+- Romeel Dave (Edinburg)
+- Ana Maria Delgado (Harvard)
+- ChangHoon Hahn (Princeton)
+- Sultan Hassan (CCA)
+- Lars Hernquist (Harvard)
+- Michael Eickenberg (CCM)
+- Matthew Gebhardt (UConn)
+- Vid Irsic (Cambridge)
+- Yongseok Jo (CTP/Seoul)
+- Neerav Kaushal (Michigan Tech)
+- Katarina Kraljic (LAM/Marseille)
+- Christina Kreisch (Princeton)
+- Valentina La Torre (Tufts)
+- Erwin T. Lau (Harvard)
+- Yin Li (CCA/CCM)
+- Luis Fernando Machado Poletti Valle (Zurich)  
+- Faizan G. Mohammad (Waterloo)
+- Emily Moser (Cornell)
+- Daisuke Nagai (Yale)
+- Desika Narayanan (Florida)
+- Yueying Ni (Carnegie Mellon)  
+- Andrina Nicola (Princeton)
+- Benjamin D. Oppenheimer (Colorado)
+- Gabriele Parimbelli (Rome)
+- Lucia A. Perez (Arizona)
+- Oliver H. E. Philcox (Princeton)
+- Alice Pisani (CCA/Cooper Union)
+- Helen Shao (Princeton)
+- Rachel S. Somerville (CCA)
+- David N. Spergel (Simons Foundation)
+- Ulrich P. Steinwandel (CCA)
+- Leander Thiele (Princeton)
+- Megan Tillman (Rutgers)
+- Matteo Viel (SISSA)
+- Pablo Villanueva-Domingo (IFIC/Valencia)
+- Mark Vogelsberger (MIT)
+- Digvijay Wadekar (IAS)
+- Benjamin Wandelt (IAP & CCA)
+- Kaze W.K. Wong (CCA)
+
+:superscript:`*` core team
