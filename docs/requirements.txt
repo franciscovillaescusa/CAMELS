@@ -1,1 +1,4 @@
 six 
+sphinx-tabs
+nbsphinx
+sphinx_gallery

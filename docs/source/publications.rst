@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Predictive uncertainty on improved astrophysics recovery from multifield cosmology**
+   | Sambatra Andrianomena, Sultan Hassan
+   | `2208.08927 <https://arxiv.org/abs/2208.08927>`_
+
 #. | **The halo finding problem revisited: a deep revision of the ASOHF code**
    | David Valles-Perez, Susana Planelles, Vicent Quilis
    | `2205.02245 <https://arxiv.org/abs/2205.02245>`_
