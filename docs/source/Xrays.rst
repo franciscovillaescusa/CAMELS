@@ -6,15 +6,7 @@ X-Rays
 
 The ``X-rays`` folder contains the X-rays data. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
 
-
-We provide X-ray SIMPUT files for every halo above 10^12 M_solar for the 032 snapshot at z=0.05. The data is organized as follows:
-
-- **IllustrisTNG**: This folder contains the X-ray SIMPUT files of all the simulations of the IllustrisTNG suite.
-
-- **SIMBA**: This folder contains the X-ray SIMPUT files of all the simulations of the SIMBA suite.
-
-Within each subdirectory containing a single simulation (e.g. ``LH_100``) is a directory for the snapshot, of which there is currently only one ``snap_032``.  For every FoF halo above 10^12 M_solar, there is a SIMPUT fits file of \
-the form:
+We provide X-ray SIMPUT files for every halo above 10^12 M_solar for the 032 snapshot at z=0.05. Within each subdirectory containing a single simulation (e.g. ``LH_100``) is a directory for the snapshot, of which there is currently only one ``snap_032``.  For every FoF halo above 10^12 M_solar, there is a SIMPUT fits file of the form:
 
 ``IllustrisTNG.LH_100.snap_032.halo_010.100ks.z0.05.z_simput.fits``
 

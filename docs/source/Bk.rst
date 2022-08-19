@@ -9,14 +9,6 @@ Bispectra are computed using two approaches. At low-k, the spectra are computed 
 
 At high-k, the FFT-based approach is inefficient, since it requires a large FFT grid. In this case, we compute bispectra using the `HIPSTER <https://github.com/oliverphilox/HIPSTER/>`_ code, which uses a configuration-space estimator to extend to small scales without computational penalties (strictly via a convolution with a smooth window which is of negligible importance on small scales). This estimates the Legendre multipoles of the bispectrum, B_ell(k1, k2), for a range of ell up to ell = 5 and k from 0 to 50 h/Mpc. Additional details of the method hyperparameters can be found in the bispectrum headers.
 
-The data is organized as follows:
-
-- **IllustrisTNG**: This folder contains the bispectra of all the LH simulations of the IllustrisTNG suite at redshift zero.
-
-- **IllustrisTNG_DM**: Each simulation in the IllustrisTNG suite has an N-body counterpart. This folder contains the redshift-zero bispectra of those simulations.
-
-- **SIMBA**: This folder contains the bispectra of all the LH simulations of the SIMBA suite.
-
 The files containing the power spectra are named as:
 
 ``Pk_type_method_rsd_z=0.00.txt``

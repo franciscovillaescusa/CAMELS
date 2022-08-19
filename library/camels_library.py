@@ -554,7 +554,7 @@ def HI_mass(snapshot, TREECOOL_file, sim='IllustrisTNG'):
     indexes = np.where(SFR>0.0)[0];  del SFR
             
     # find the metallicity of star-forming particles
-    if sim=='IllustrisTNG':
+    if sim in ['IllustrisTNG', 'Astrid']:
         metals = f['PartType0/GFM_Metallicity'][:]
     elif sim=='SIMBA':
         metals = f['PartType0/Metallicity'][:,0] #metallicity
@@ -1133,3 +1133,141 @@ def mean_std_T_old(root, sim, name, realizations, Mmin_T, Mmax_T, bins_T,
     dT = np.sqrt(T2/N - T**2)
     np.savetxt(fout, np.transpose([mass_mean, T, dT, N]))
 ########################################################################################
+
+########################################################################################
+# This routine will read data from a snapshot and will return the relevant quantities
+# for a given field. For instance, for the field T, it will return the positions, 
+# masses, and temperature of gas particles.
+# snapshot -------> the name of considered snapshot
+# field ----------> the considered field, e.g. 'T', or 'Mgas'
+# sim ------------> 'IllustrisTNG' or 'SIMBA'
+def field_properties(snapshot, field, sim):
+
+    # check whether the snapshot exists
+    if not(os.path.exists(snapshot)):  raise Exception('%s does not exists'%snapshot)
+
+    # check that the field is included
+    if field not in ['Mgas', 'Mcdm', 'Mtot', 'Mstar', 'T', 'Z', 'P', 
+                     'ne', 'HI', 'Vgas', 'Vcdm', 'B', 'MgFe']:
+        raise Exception('%s not implemented'%field)
+
+    # read the main properties of the snapshot
+    f = h5py.File(snapshot, 'r')
+    BoxSize  = f['Header'].attrs[u'BoxSize']/1e3 #Mpc/h
+    redshift = f['Header'].attrs[u'Redshift']
+    h        = f['Header'].attrs[u'HubbleParam']
+    Masses   = f['Header'].attrs[u'MassTable'][:]*1e10 #Msun/h
+    Ntot     = f['Header'].attrs[u'NumPart_ThisFile']
+
+    # read the positions and masses of the gas particles for all these fields
+    if field in ['Mgas', 'T', 'Z', 'P', 'ne', 'HI', 'Vgas', 'B', 'MgFe', 'Mtot']:
+        pos_g = f['PartType0/Coordinates'][:]/1e3 #Mpc/h
+        pos_g = pos_g.astype(np.float32)          #Mpc/h
+        Mg    = f['PartType0/Masses'][:]*1e10     #Msun/h  
+
+    # read the positions and masses of the dark matter particles for these fields
+    if field in ['Mcdm', 'Vcdm', 'Mtot']:
+        pos_c = f['PartType1/Coordinates'][:]/1e3 #Mpc/h
+        pos_c = pos_c.astype(np.float32)          #Mpc/h
+        if sim=='IllustrisTNG':
+            Mc = np.ones(pos_c.shape[0], dtype=np.float32)*Masses[1] #Msun/h
+        if sim=='SIMBA':
+            Mc = f['PartType1/Masses'][:]*1e10 #Msun/h
+
+    # read the positions and masses of the star particles for these fields
+    if field in ['Mstar', 'Mtot']:
+        if sim=='IllustrisTNG':
+            pos_sw = (f['PartType4/Coordinates'][:]/1e3).astype(np.float32)
+            Msw    = f['PartType4/Masses'][:]*1e10     #Msun/h
+            #Age    = f['PartType4/GFM_StellarFormationTime'][:] #stars have Age>0
+            #indexes = np.where(Age>0)[0]
+            #pos_s  = pos_sw[indexes] # FIXME unused! -- Paco double check
+            #Ms     = Msw[indexes]
+        else:
+            pos_sw = (f['PartType4/Coordinates'][:]/1e3).astype(np.float32) #Mpc/h
+            Msw    = f['PartType4/Masses'][:]*1e10 #Msun/h
+            #pos_s  = np.copy(pos_sw)
+            #Ms     = np.copy(Msw)
+
+    # gas mass
+    if field=='Mgas':  
+        return pos_g, Mg
+
+    # dark matter mass
+    if field=='Mcdm':
+        return pos_c, Mc
+
+    # stellar mass
+    if field=='Mstar':
+        return pos_sw, Msw
+
+    # gas temperature
+    if field=='T':
+        T  = temperature(snapshot) #K
+        return pos_g, Mg, T
+
+    # gas metallicity
+    if field=='Z':
+        if sim=='IllustrisTNG':
+            Z = f['PartType0/GFM_Metallicity'][:] #metallicity
+        if sim=='SIMBA':
+            Z = f['PartType0/Metallicity'][:,0]+8e-10 #metallicity
+        return pos_g, Mg, Z
+
+    # gas pressure
+    if field=='P':
+        P = pressure(snapshot) #Msun*(km/s)^2/kpc^3
+        return pos_g, Mg, P
+
+    # electron density
+    if field=='ne':
+        rho_g = f['PartType0/Density'][:]*1e19    #(Msun/h)/(Mpc/h)^3
+        Vol_g = Mg/rho_g;  del rho_g              #(Mpc/h)^3
+        ne = electron_density(snapshot)*Vol_g #electrons/h
+        return pos_g, Mg, ne
+
+    # neutral hydrogen
+    if field=='HI':
+        HI = HI_mass(snapshot, TREECOOL_file, sim)
+        return pos_g, HI
+
+    # gas velocity
+    if field=='Vgas':
+        vel_g = f['PartType0/Velocities'][:]/np.sqrt(1.0+redshift)
+        vel_g = np.sqrt(vel_g[:,0]**2 + vel_g[:,1]**2 + vel_g[:,2]**2)
+        return pos_g, Mg, vel_g
+
+    # dark matter velocity
+    if field=='Vcdm':
+        vel_c = f['PartType1/Velocities'][:]/np.sqrt(1.0+redshift)
+        vel_c = np.sqrt(vel_c[:,0]**2 + vel_c[:,1]**2 + vel_c[:,2]**2)
+        return pos_c, Mc, vel_c
+
+    # magnetic fields
+    if field=='B' and sim=='IllustrisTNG':
+        B = np.linalg.norm(f['PartType0/MagneticField'][:]*2.6e-6*h/(1.0+redshift)**2, 
+                           axis=-1) #Gauss
+        return pos_g, Mg, B
+
+    # magnesium over iron
+    if field=='MgFe':
+        if sim=='IllustrisTNG':
+            Mmg = f['PartType0/GFM_Metals'][:,6]*Mg #magnesium
+            Mfe = f['PartType0/GFM_Metals'][:,8]*Mg #iron
+        if sim=='SIMBA':
+            Mmg = (f['PartType0/Metallicity'][:,6]+1e-10)*Mg  #magnesium
+            Mfe = (f['PartType0/Metallicity'][:,10]+1e-10)*Mg #iron
+        return pos_g, Mmg, Mfe
+
+    # total matter mass
+    if field=='Mtot':
+        if Ntot[5]>0:  
+            pos_bh = f['PartType5/Coordinates'][:]/1e3 #Mpc/h
+            pos_bh = pos_bh.astype(np.float32)         #Mpc/h
+            Mbh    = f['PartType5/Masses'][:]*1e10     #Msun/h        
+            return pos_g, Mg, pos_c, Mc, pos_sw, Msw, pos_bh, Mbh
+        else:
+            return pos_g, Mg, pos_c, Mc, pos_sw, Msw, pos_bh, Mbh
+
+    # close file
+    f.close()

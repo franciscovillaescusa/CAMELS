@@ -34,16 +34,18 @@ When possible, we have tried to organize the data inside the `type folders` in a
 Suite folders
 ~~~~~~~~~~~~~
 
-Inside the considered `type folder`, there are typically four different `suite folders`:
+Inside the considered `type folder`, there are different `suite folders`:
 
 - **IllustrisTNG**. This folder contains the data generated from the simulations of the IllustrisTNG suite
 - **IllustrisTNG_DM**. This folder contains the data generated from the N-body counterparts of the simulations in the IllustrisTNG suite.
 - **SIMBA**. This folder contains the data generated from the simulations of the SIMBA suite
 - **SIMBA_DM**. This folder contains the data generated from the N-body counterparts of the simulations in the SIMBA suite.
+- **Astrid**. This folder contains the data generated from the simulations of the Astrid suite.
+- **Astrid_DM**. This folder contains the data generated from the N-body counterparts of the simulations in the Astrid suite.
 
 .. Note::
 
-   For some data products some `suite folders` may be missing. For instance, Lyman-:math:`\alpha` spectra can not be generated from N-body simulations. Thus, in that case, only the IllustrisTNG and SIMBA `suite folders` are present.
+   For some data products some `suite folders` may be missing. For instance, Lyman-:math:`\alpha` spectra are not generated from N-body simulations. Thus, in that case, only the IllustrisTNG and SIMBA `suite folders` are present.
 
    
 .. _simulation_folders:
@@ -69,9 +71,9 @@ Actual data
    
 Finally, inside a `simulation folder` the user can find the associated data for that particular simulation. We note that these folders can contain multiple files, e.g. the power spectra of the considered simulations at all redshifts.
 
-The image below shows an scheme with the above generic data structure.
+The image below shows an scheme with the generic data structure for the case of the power spectra:
   
-.. image:: Scheme_data_release.pdf
+.. image:: Scheme_data_release.png
    :alt: Generic data structure
 
 .. Warning::

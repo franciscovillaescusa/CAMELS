@@ -1,13 +1,30 @@
+.. attention::
+
+   CAMELS has grown! The Astrid suite  --containing 1,092 state-of-the-art hydrodynamic simulations run with the MP-Gadget code employing the same subgrid model as the Astrid simulation-- has been added to CAMELS. The N-body counterparts of these simulations are also available.
+
 .. image:: Letters2.png
    :width:  800 px
    :height: 200 px
    :align: center
 
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and is a suite 6,325 cosmological simulations: 3,049 N-body and 3,276 state-of-the-art (magneto-)hydrodynamic:
 
-What is CAMELS?
-===============
++--------------+--------------+---------------+-------------+
+| Type         | Code         | Subgrid model | Simulations |
++==============+==============+===============+=============+
+| Hydrodynamic | Arepo        |  IllustrisTNG |    1,092    |
++--------------+--------------+---------------+-------------+
+| Hydrodynamic | Gizmo        |  SIMBA        |    1,092    |
++--------------+--------------+---------------+-------------+
+| Hydrodynamic | MP-Gadget    |  Astrid       |    1,092    |
++--------------+--------------+---------------+-------------+
+| N-body       | Gadget-III   |      ---      |    3,049    |
++--------------+--------------+---------------+-------------+
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and is a suite 4,233 cosmological simulations: 2,049 N-body and 2,184 state-of-the-art (magneto-)hydrodynamic.
+CAMELS is a massive dataset designed to build bridges between cosmology and astrophysics through machine learning. Containing almost half a petabyte of data, it is currently the largest set of cosmological hydrodynamic simulations ever run.
+
+.. image:: CAMELS_diagram.png
+   :alt: Cosmology, Astrophysics, Machine Learning, and Simulations
 
 .. toctree::
    :maxdepth: 2
