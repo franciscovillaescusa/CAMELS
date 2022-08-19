@@ -64,6 +64,12 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
    Profiles
    CMD
    SAM
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
+
+   tutorials
    
 .. toctree::
    :maxdepth: 2
