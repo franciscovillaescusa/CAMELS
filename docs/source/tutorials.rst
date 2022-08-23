@@ -5,6 +5,6 @@ We provide multiple tutorials to help the user to read and manipulate CAMELS dat
 
 .. nbgallery::
    
-   examples/Reading & Manipulating Snapshots
+   examples/Reading_Manipulating_Snapshots
    examples/Pk
 
