@@ -80,7 +80,7 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
 
 .. toctree::
    :maxdepth: 2
-   :caption: Libraries
+   :caption: Software
 
    camels_library
    pylians3

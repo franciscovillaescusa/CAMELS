@@ -4,44 +4,39 @@
 CAMELS library
 **************
 
-The CAMELS library is a set python routines written to simplify the analysis of CAMELS data.
-
-Requirements
-------------
-
-The CAMELS library has some basic dependences:
-
-- numpy
-- scipy
-- h5py
-- `Pylians3 <https://github.com/franciscovillaescusa/Pylians3>`_ 
+The `CAMELS library <https://github.com/franciscovillaescusa/CAMELS>`_ is a set python routines written to simplify the analysis of CAMELS data.
   
 
 Installation
 ------------
 
-.. code-block:: bash
-
-   git clone https://github.com/franciscovillaescusa/CAMELS.git
-   cd CAMELS/library
-   python setup.py install
-
-If you want to have more control on where the libraries are install we recommend instead:
+For the stable version do:
 
 .. code-block:: bash
+		
+   python -m pip install CAMELS-library
 
-   git clone https://github.com/franciscovillaescusa/CAMELS.git
-   cd CAMELS/library
-   python setup.py build
+For the development version do:
 
-This will create a folder called build inside CAMELS/library. Inside build/ there will be a folder that start with lib. Just put the path to that folder in your PYTHONPATH and the libraries will be installed. E.g.:
+.. code-block:: bash
+		
+   git clone https://github.com/franciscovillaescusa/CAMELS
+   cd CAMELS
+   python -m pip install .
 
-.. code-block::  bash
-		 
-   export PYTHONPATH=$PYTHONPATH//Users/fvillaescusa/Desktop/CAMELS/library/build/lib
+.. note::
+
+   The CAMELS library is already installed in our CAMELS binder.
+   
+   .. image:: https://mybinder.org/badge_logo.svg
+      :target: https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC
+
+
+Routines
+--------
 
 Distance to k nearest neighbors
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The routine ``KDTree_distance`` can be used to compute the distance to the k nearest neighbors of a set of particles. Note that the neighbors can be a different type of particle as the one considered. For instance, it can be used to compute the distance to the k nearest gas particles from the positions of star particles. The ingredients needed for this routine are:
 
@@ -89,7 +84,7 @@ An example of how to use this routine is this
    
 
 Gas temperature
----------------
+~~~~~~~~~~~~~~~
 
 The routine ``temperature`` can be used to compute the temperature of the gas particles in a snapshot. One example is this:
 
@@ -106,7 +101,7 @@ The routine ``temperature`` can be used to compute the temperature of the gas pa
 
 
 Gas pressure
-------------
+~~~~~~~~~~~~
 
 The routine ``pressure`` returns the gas pressure of the gas particle of a given snapshot, in units of :math:`(M_\odot/h)({\rm km/s})^2/({\rm kpc}/h)^3`  
 
@@ -123,7 +118,7 @@ The routine ``pressure`` returns the gas pressure of the gas particle of a given
    
 
 Electron density
-----------------
+~~~~~~~~~~~~~~~~
 
 The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is equal to 0. The units of the output are :math:`10^{20}h^2{\rm cm}^{-3}`. Its usage is as follows:
 
