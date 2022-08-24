@@ -1,11 +1,11 @@
-.. attention::
-
-   CAMELS has grown! The Astrid suite  --containing 1,092 state-of-the-art hydrodynamic simulations run with the MP-Gadget code employing the same subgrid model as the Astrid simulation-- has been added to CAMELS. The N-body counterparts of these simulations are also available.
-
 .. image:: Letters2.png
    :width:  800 px
    :height: 200 px
    :align: center
+
+.. attention::
+
+   CAMELS has grown! The Astrid suite  --containing 1,092 state-of-the-art hydrodynamic simulations run with the MP-Gadget code employing the same subgrid model as the Astrid simulation-- has been added to CAMELS. The N-body counterparts of these simulations are also available.
 
 **CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and is a suite 6,325 cosmological simulations: 3,049 N-body and 3,276 state-of-the-art (magneto-)hydrodynamic:
 
@@ -66,7 +66,7 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
    SAM
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Tutorials
 
    tutorials
