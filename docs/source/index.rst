@@ -1,7 +1,5 @@
-.. image:: Letters2.png
-   :width:  800 px
-   :height: 200 px
-   :align: center
+CAMELS
+======
 
 .. attention::
 
