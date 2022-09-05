@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Studying the Warm Hot Intergalactic Medium in emission: a reprise**
+   | Gabriele Parimbelli, Enzo Branchini, Matteo Viel, Francisco Villaescusa-Navarro, John ZuHone
+   | `2209.00657 <https://arxiv.org/abs/2209.00657>`_
+
 #. | **Predictive uncertainty on improved astrophysics recovery from multifield cosmology**
    | Sambatra Andrianomena, Sultan Hassan
    | `2208.08927 <https://arxiv.org/abs/2208.08927>`_
