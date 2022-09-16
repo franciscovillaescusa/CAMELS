@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Robust field-level inference with dark matter halos**
+   | Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier, Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal, Greg L. Bryan, Daniel Angles-Alcazar, Tiago Castro, Elena Hernandez-Martinez, Klaus Dolag
+   | `2209.06843 <https://arxiv.org/abs/2209.06843>`_ | `video <https://www.youtube.com/watch?v=qkw92Z6owJU>`_
+
 #. | **Predictive uncertainty on improved astrophysics recovery from multifield cosmology**
    | Sambatra Andrianomena, Sultan Hassan
    | `2208.08927 <https://arxiv.org/abs/2208.08927>`_
