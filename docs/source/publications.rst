@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Evidence for efficient long-range AGN jet feedback from the low redshift Lyman-α forest**
+   | Megan Taylor Tillman, Blakesley Burkhart, Stephanie Tonnesen, Simeon Bird, Greg L. Bryan, Daniel Angles-Alcazar, Romeel Dave, Shy Genel
+   | `2210.02467 <https://arxiv.org/abs/2210.02467>`_
+
 #. | **Robust field-level inference with dark matter halos**
    | Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier, Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal, Greg L. Bryan, Daniel Angles-Alcazar, Tiago Castro, Elena Hernandez-Martinez, Klaus Dolag
    | `2209.06843 <https://arxiv.org/abs/2209.06843>`_ | `video <https://www.youtube.com/watch?v=qkw92Z6owJU>`_
