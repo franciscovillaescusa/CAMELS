@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Emulating cosmological multifields with generative adversarial networks**
+   | Sambatra Andrianomena, Francisco Villaescusa-Navarro, Sultan Hassan
+   | `2211.05000 <https://arxiv.org/abs/2211.05000>`_ 
+
 #. | **Evidence for efficient long-range AGN jet feedback from the low redshift Lyman-α forest**
    | Megan Taylor Tillman, Blakesley Burkhart, Stephanie Tonnesen, Simeon Bird, Greg L. Bryan, Daniel Angles-Alcazar, Romeel Dave, Shy Genel
    | `2210.02467 <https://arxiv.org/abs/2210.02467>`_
