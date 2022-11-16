@@ -26,6 +26,10 @@ Publications
    | Sambatra Andrianomena, Sultan Hassan
    | `2208.08927 <https://arxiv.org/abs/2208.08927>`_
 
+#. | **Hybrid Physical-Neural ODEs for Fast N-body Simulations**
+   | Denise Lanzieri, François Lanusse, Jean-Luc Starck
+   | `2207.05509 <https://arxiv.org/abs/2207.05509>`_
+
 #. | **The halo finding problem revisited: a deep revision of the ASOHF code**
    | David Valles-Perez, Susana Planelles, Vicent Quilis
    | `2205.02245 <https://arxiv.org/abs/2205.02245>`_
