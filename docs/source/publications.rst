@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **HIGlow: Conditional Normalizing Flows for High-Fidelity HI Map Modeling**
+   | Roy Friedman, Sultan Hassan
+   | `2211.12724 <https://arxiv.org/abs/2211.12724>`_
+
+#. | **Can denoising diffusion probabilistic models generate realistic astrophysical fields?**
+   | Nayantara Mudur, Douglas P. Finkbeiner
+   | `2211.12444 <https://arxiv.org/abs/2211.12444>`_
+   
 #. | **Emulating cosmological multifields with generative adversarial networks**
    | Sambatra Andrianomena, Francisco Villaescusa-Navarro, Sultan Hassan
    | `2211.05000 <https://arxiv.org/abs/2211.05000>`_ 
