@@ -24,7 +24,7 @@ Publications
 
 #. | **The SZ flux-mass (Y-M) relation at low halo masses: improvements with symbolic regression and strong constraints on baryonic feedback**
    | Digvijay Wadekar, Leander Thiele, J. Colin Hill, Shivam Pandey, Francisco Villaescusa-Navarro, David N. Spergel, Miles Cranmer, Daisuke Nagai, Daniel Anglés-Alcázar, Shirley Ho, Lars Hernquist
-   | `2209.02075 <https://arxiv.org/abs/2209.02075>`_
+   | `2209.02075 <https://arxiv.org/abs/2209.02075>`_ | `video <https://www.youtube.com/watch?v=JKpXrMb4dJg>`_ |
 
 #. | **Studying the Warm Hot Intergalactic Medium in emission: a reprise**
    | Gabriele Parimbelli, Enzo Branchini, Matteo Viel, Francisco Villaescusa-Navarro, John ZuHone
