@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **Calibrating cosmological simulations with implicit likelihood inference using galaxy growth observables**
+   | Yongseok Jo, Shy Genel, Benjamin Wandelt, Rachel Somerville, Francisco Villaescusa-Navarro, Greg L. Bryan, Daniel Angles-Alcazar, Daniel Foreman-Mackey, Dylan Nelson, Ji-hoon Kim
+   | `2211.16461 <https://arxiv.org/abs/2211.16461>`_
+
+#. | **X-ray Absorption Lines in the Warm-Hot Intergalactic Medium: Probing Chandra observations with the CAMEL simulations**
+   | Amanda Butler Contreras, Erwin T. Lau, Benjamin D. Oppenheimer, Ákos Bogdán, Megan Tillman, Daisuke Nagai, Orsolya E. Kovács, Blakesley Burkhart
+   | `2211.15675 <https://arxiv.org/abs/2211.15675>`_
+
 #. | **HIGlow: Conditional Normalizing Flows for High-Fidelity HI Map Modeling**
    | Roy Friedman, Sultan Hassan
    | `2211.12724 <https://arxiv.org/abs/2211.12724>`_
