@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Baryonic Imprints on DM Halos: The concentration-mass relation in the CAMELS simulations**
+   | Mufan Shao, Dhayaa Anbajagane, Chihway Chang
+   | `2212.05964 <https://arxiv.org/abs/2212.05964>`_
+
 #. | **Calibrating cosmological simulations with implicit likelihood inference using galaxy growth observables**
    | Yongseok Jo, Shy Genel, Benjamin Wandelt, Rachel Somerville, Francisco Villaescusa-Navarro, Greg L. Bryan, Daniel Angles-Alcazar, Daniel Foreman-Mackey, Dylan Nelson, Ji-hoon Kim
    | `2211.16461 <https://arxiv.org/abs/2211.16461>`_
