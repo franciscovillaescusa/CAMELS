@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **Predicting the impact of feedback on matter clustering with machine learning in CAMELS**
+   | Ana Maria Delgado, Daniel Angles-Alcazar, Leander Thiele, Michelle Ntampaka, Shivam Pandey, Kai Lehman, Rachel S. Somerville, Shy Genel, Francisco Villaescusa-Navarro
+   | `2301.02231 <https://arxiv.org/abs/2301.02231>`_
+
+#. | **Inferring the impact of feedback on the matter distribution using the Sunyaev Zel'dovich effect: Insights from CAMELS simulations and ACT+DES data**
+   | Shivam Pandey, Kai Lehman, Eric J. Baxter, Yueying Ni, Daniel Anglés-Alcázar, Shy Genel, Francisco Villaescusa-Navarro, Ana Maria Delgado, Tiziana di Matteo
+   | `2301.02186 <https://arxiv.org/abs/2301.02186>`_
+
 #. | **Baryonic Imprints on DM Halos: The concentration-mass relation in the CAMELS simulations**
    | Mufan Shao, Dhayaa Anbajagane, Chihway Chang
    | `2212.05964 <https://arxiv.org/abs/2212.05964>`_
