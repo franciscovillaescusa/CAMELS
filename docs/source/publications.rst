@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **On the choice of the most suitable indicator for the assembly state of dark matter haloes through cosmic time**
+   | David Vallés-Pérez, Susana Planelles, Óscar Monllor-Berbegal, Vicent Quilis
+   | `2301.02253 <https://arxiv.org/abs/2301.02253>`_
+
 #. | **Predicting the impact of feedback on matter clustering with machine learning in CAMELS**
    | Ana Maria Delgado, Daniel Angles-Alcazar, Leander Thiele, Michelle Ntampaka, Shivam Pandey, Kai Lehman, Rachel S. Somerville, Shy Genel, Francisco Villaescusa-Navarro
    | `2301.02231 <https://arxiv.org/abs/2301.02231>`_
