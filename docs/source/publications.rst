@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Perturbation-theory informed integrators for cosmological simulations**
+   | Florian List, Oliver Hahn
+   | `2301.09655 <https://arxiv.org/abs/2301.09655>`_
+
 #. | **On the choice of the most suitable indicator for the assembly state of dark matter haloes through cosmic time**
    | David Vallés-Pérez, Susana Planelles, Óscar Monllor-Berbegal, Vicent Quilis
    | `2301.02253 <https://arxiv.org/abs/2301.02253>`_
