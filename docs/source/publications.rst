@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Topological data analysis reveals differences between simulated galaxies and dark matter haloes**
+   | Aaron Ouellette, Gilbert Holder, Ely Kerman
+   | `2302.01363 <https://arxiv.org/abs/2302.01363>`_
+
 #. | **Perturbation-theory informed integrators for cosmological simulations**
    | Florian List, Oliver Hahn
    | `2301.09655 <https://arxiv.org/abs/2301.09655>`_
