@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **A universal equation to predict** :math:`\Omega_{\rm m}` **from halo and galaxy catalogues**
+   | Helen Shao, Natali S. M. de Santi, Francisco Villaescusa-Navarro, Romain Teyssier, Yueying Ni, Daniel Angles-Alcazar, Shy Genel, Ulrich P. Steinwandel, Elena Hernandez-Martınez, Klaus Dolag, Christopher C. Lovell, Lehman H. Garrison, Eli Visbal, Mihir Kulkarni, Lars Hernquist, Tiago Castro, Mark Vogelsberger
+   | `2302.14591 <https://arxiv.org/abs/2302.14591>`_
+
+#. | **Robust field-level likelihood-free inference with galaxies**
+   | Natalí S. M. de Santi, Helen Shao, Francisco Villaescusa-Navarro, L. Raul Abramo, Romain Teyssier, Pablo Villanueva-Domingo, Yueying Ni, Daniel Anglés-Alcázar, Shy Genel, Elena Hernandez-Martinez, Ulrich P. Steinwandel, Christopher C. Lovell, Klaus Dolag, Tiago Castro, Mark Vogelsberger
+   | `2302.14101 <https://arxiv.org/abs/2302.14101>`_
+
 #. | **Topological data analysis reveals differences between simulated galaxies and dark matter haloes**
    | Aaron Ouellette, Gilbert Holder, Ely Kerman
    | `2302.01363 <https://arxiv.org/abs/2302.01363>`_
