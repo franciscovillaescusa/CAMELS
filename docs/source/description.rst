@@ -6920,7 +6920,7 @@ This table shows the snapshot number for the different suites as a function of r
 
 .. Warning::
 
-   While for the simulations of the IllustrisTNG and SIMBA suites all 34 snapshots are available, for the Astrid simulations we only kept the even snapshots (i.e. 000, 002, ..., 088, 090). However, we have saved the odd snapshots to tape. If you need these please `reach out <camel.simulations@gmail.com>`_.
+   While for the simulations of the IllustrisTNG and SIMBA suites all 34 snapshots are available, for the Astrid simulations we only kept the even snapshots (i.e. 000, 002, ..., 088, 090). However, we have saved the odd snapshots to tape, so if you need these please `reach out <camel.simulations@gmail.com>`_. Note that the group catalogs and merger trees are based on, and available for, the full 91 snapshots.
 
 
 .. raw:: html
