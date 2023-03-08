@@ -52,6 +52,7 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
    organization
    snapshots
    subfind
+   SubLink
    rockstar
    ahf
    caesar
