@@ -7,4 +7,4 @@ News
 
 **March 2023:** SubLink merger trees have been added for the IllustrisTNG suite.
 
-**March 2023:** A new set has been added to the IllustrisTNG suite: the BF set, for "butterfly". These 27 simulations all have the exact same initial conditions and are run with the fiducial TNG model, while capturing the intrinsic randomness of the simulation results.
+**March 2023:** A new set has been added to the IllustrisTNG suite: the BE set, for "Butterfly Effect". These 27 simulations all have the exact same initial conditions and are run with the fiducial TNG model, while capturing the intrinsic randomness of the simulation results.
