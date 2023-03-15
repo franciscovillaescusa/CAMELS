@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Invertible mapping between fields in CAMELS**
+   | Sambatra Andrianomena, Sultan Hassan, Francisco Villaescusa-Navarro
+   | `2303.07473 <https://arxiv.org/abs/2303.07473>`_
+
 #. | **A universal equation to predict** :math:`\Omega_{\rm m}` **from halo and galaxy catalogues**
    | Helen Shao, Natali S. M. de Santi, Francisco Villaescusa-Navarro, Romain Teyssier, Yueying Ni, Daniel Angles-Alcazar, Shy Genel, Ulrich P. Steinwandel, Elena Hernandez-Martınez, Klaus Dolag, Christopher C. Lovell, Lehman H. Garrison, Eli Visbal, Mihir Kulkarni, Lars Hernquist, Tiago Castro, Mark Vogelsberger
    | `2302.14591 <https://arxiv.org/abs/2302.14591>`_ | `video <https://www.youtube.com/watch?v=STZHvDHkVgo&ab_channel=CAMELS>`_ |
