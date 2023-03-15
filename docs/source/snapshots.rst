@@ -44,8 +44,9 @@ Inside each `suite folder` there are `simulation folders` from all available sim
    
 - ``1P_X_Y``. These folders contain the data from 1P simulations. ``X`` ranges from ``1`` to ``6`` while ``Y`` goes from ``n5`` (-5) to ``5``.
 - ``CV_X``. These folders contain the simulations of the CV set. X goes from 0 to 26.
-- ``EX_X``. These folders contain the simulations of the EX set. X goes from 0 to 3.
 - ``LH_X``. These folders contain the simulations of the LH set. X goes from 0 to 999.
+- ``EX_X``. These folders contain the simulations of the EX set. X goes from 0 to 3.
+- ``BE_X``. These folders contain the simulations of the BE set. X goes from 0 to 26.
 - ``CosmoAstroSeed_params.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN2}` seed.
 
 See :ref:`simulation_folders` for details about the naming of the simulations in the 1P set.
