@@ -112,7 +112,7 @@ Publications
 
 #. | **Augmenting astrophysical scaling relations with machine learning : application to reducing the SZ flux-mass scatter**
    | Digvijay Wadekar, Leander Thiele, Francisco Villaescusa-Navarro, J. Colin Hill, David N. Spergel, Miles Cranmer, Nicholas Battaglia, Daniel Anglés-Alcázar, Lars Hernquist, Shirley Ho
-   | | `2201.01305 <https://arxiv.org/abs/2201.01305>`_ | `video <https://www.youtube.com/watch?v=w_ohkLYMSzs>`__ | 
+   | | `2201.01305 <https://arxiv.org/abs/2201.01305>`_ | `video <https://www.youtube.com/watch?v=w_ohkLYMSzs>`__ | `press release 1 <https://www.ias.edu/news/astrophysicists-weigh-galaxy-clusters-artificial-intelligence>`_ | `press release 2 <https://www.simonsfoundation.org/2023/03/23/artificial-intelligence-discovers-secret-equation-for-weighing-galaxy-clusters/>`_ |
 
 #. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
    | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
