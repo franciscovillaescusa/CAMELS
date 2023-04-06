@@ -1,6 +1,6 @@
 .. attention::
 
-   All the simulations in the IllustrisTNG, SIMBA, and N-body suites are publicly available. To access the simulations of the Astrid suite please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+   All the simulations in the IllustrisTNG, SIMBA, Astrid, and N-body suites are publicly available. To access other simulations (e.g. IllustrisTNG SB28, Magneticum, SWIFT-Eagle...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
 
 .. _data_access:
    
@@ -52,12 +52,6 @@ Rusty
 ~~~~~
 
 Users with an account on the Flatiron Institute Rusty cluster, can find all CAMELS data in ``/mnt/ceph/users/camels/PUBLIC_RELEASE``.
-
-
-Tiger
-~~~~~
-
-A partial copy of the data is located at the Tiger cluster of Princeton University. Users with an account in Tiger can find the data in: ``/projects/QUIJOTE/CAMELS``.
 
 
 
