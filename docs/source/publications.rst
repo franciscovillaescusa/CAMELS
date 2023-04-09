@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **The CAMELS project: Expanding the galaxy formation model space with new ASTRID and 28-parameter TNG and SIMBA suites**
+   | Yueying Ni, Shy Genel, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro, Yongseok Jo, Simeon Bird, Tiziana Di Matteo, Rupert Croft, Nianyi Chen, Natalí S. M. de Santi, Matthew Gebhardt, Helen Shao, Shivam Pandey, Lars Hernquist, Romeel Dave
+   | `2304.02096 <https://arxiv.org/abs/2304.02096>`_
+
 #. | **Invertible mapping between fields in CAMELS**
    | Sambatra Andrianomena, Sultan Hassan, Francisco Villaescusa-Navarro
    | `2303.07473 <https://arxiv.org/abs/2303.07473>`_
