@@ -84,6 +84,10 @@ Each CAMEL simulation has a different value of :math:`\Omega_{\rm m}`, :math:`\s
    0.25 \le & A_{\rm AGN1} & \le 4.0\\
    0.50 \le & A_{\rm AGN2} & \le 2.0\\
 
+.. warning::
+
+   For simulations in the Astrid suite, :math:`A_{\rm AGN2}` ranges from 0.25 to 4, instead of 0.5 to 2 as stated above.
+
 .. Note::
    
    A value of 1 in the astrophysical parameters :math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, :math:`A_{\rm AGN1}`, :math:`A_{\rm AGN2}`, represents the value chosen in the original flagship simulation of each suite. For instance, the original IllustrisTNG simulation has :math:`A_{\rm SN1}=1`, :math:`A_{\rm SN2}=1`, :math:`A_{\rm AGN1}=1`, :math:`A_{\rm AGN2}=1`.
