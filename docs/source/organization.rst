@@ -53,12 +53,13 @@ Inside the considered `type folder`, there are different `suite folders`:
 Simulation folders
 ~~~~~~~~~~~~~~~~~~
    
-Inside a `suite folder` there are typically many `simulation folders`: 
+Inside a `suite folder` there are typically many `simulation folders`, such as: 
    
 - ``1P_X_Y``. These folders contain the data from 1P simulations. ``X`` ranges from ``1`` to ``6`` while ``Y`` goes from ``n5`` (-5) to ``5``.
 - ``CV_X``. These folders contain the data from CV simulations. ``X`` ranges from ``0`` to ``26``.
-- ``EX_X``. These folders contain the data from EX simulations. ``X`` ranges from ``0`` to ``3``.
 - ``LH_X``. These folders contain the data from LX simulations. ``X`` ranges from ``0`` to ``999``.
+- ``EX_X``. These folders contain the data from EX simulations. ``X`` ranges from ``0`` to ``3``.
+- ``BE_X``. These folders contain the data from BE simulations. ``X`` ranges from ``0`` to ``26``.
 
 As can be seen, the name of the folder can be used to identify the simulation set and its parameters.
   
