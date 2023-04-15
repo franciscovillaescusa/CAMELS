@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Cosmology with one galaxy? -- The ASTRID model and robustness**
+   | Nicolas Echeverri, Francisco Villaescusa-Navarro, Chaitanya Chawak, Yueying Ni, ChangHoon Hahn, Elena Hernandez-Martinez, Romain Teyssier, Daniel Angles-Alcazar, Klaus Dolag, Tiago Castro
+   | `2304.06084 <https://arxiv.org/abs/2304.06084>`_
+
 #. | **The CAMELS project: Expanding the galaxy formation model space with new ASTRID and 28-parameter TNG and SIMBA suites**
    | Yueying Ni, Shy Genel, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro, Yongseok Jo, Simeon Bird, Tiziana Di Matteo, Rupert Croft, Nianyi Chen, Natalí S. M. de Santi, Matthew Gebhardt, Helen Shao, Shivam Pandey, Lars Hernquist, Romeel Dave
    | `2304.02096 <https://arxiv.org/abs/2304.02096>`_
