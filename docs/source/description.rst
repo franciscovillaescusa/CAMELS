@@ -6918,7 +6918,9 @@ This table shows the snapshot number for the different suites as a function of r
 | 0.02     |  0.977       |    ---       |  ---    |   089  |
 +----------+--------------+--------------+---------+--------+
 | 0.00     |  1.000       |    033       |  033    |   090  |
-+----------+--------------+--------------+---------+--------+   
++----------+--------------+--------------+---------+--------+
+
+`This file <https://github.com/franciscovillaescusa/CAMELS/blob/master/setup/times/times.txt>`_ contains the value of the scale factors for the simulations with 34 snapshots. `This other file <https://github.com/franciscovillaescusa/CAMELS/blob/master/setup/times/times_extended.txt>`_ contains instead the value of the scale factors for the simulations with 91 snapshots.
 
 .. Note::
 
