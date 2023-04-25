@@ -2,7 +2,7 @@
 Citation
 ********
 
-If you use CAMELS data you may considering citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_ and `data release <https://arxiv.org/abs/2201.01300>`_ papers:
+If you use CAMELS data you may considering citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_, `first data release <https://arxiv.org/abs/2201.01300>`_ and `second data release <https://arxiv.org/abs/2304.02096>`_ papers:
 
 
 ::
@@ -27,7 +27,7 @@ If you use CAMELS data you may considering citing the CAMELS `presentation <http
    }
 
 
-   @ARTICLE{camels_data_release,
+   @ARTICLE{camels_data_release1,
    author = {{Villaescusa-Navarro}, Francisco and {Genel}, Shy and {Angl{\'e}s-Alc{\'a}zar}, Daniel and {Perez}, Lucia A. and {Villanueva-Domingo}, Pablo and {Wadekar}, Digvijay and {Shao}, Helen and {Mohammad}, Faizan G. and {Hassan}, Sultan and {Moser}, Emily and {Lau}, Erwin T. and {Machado Poletti Valle}, Luis Fernando and {Nicola}, Andrina and {Thiele}, Leander and {Jo}, Yongseok and {Philcox}, Oliver H.~E. and {Oppenheimer}, Benjamin D. and {Tillman}, Megan and {Hahn}, ChangHoon and {Kaushal}, Neerav and {Pisani}, Alice and {Gebhardt}, Matthew and {Delgado}, Ana Maria and {Caliendo}, Joyce and {Kreisch}, Christina and {Wong}, Kaze W.~K. and {Coulton}, William R. and {Eickenberg}, Michael and {Parimbelli}, Gabriele and {Ni}, Yueying and {Steinwandel}, Ulrich P. and {La Torre}, Valentina and {Dave}, Romeel and {Battaglia}, Nicholas and {Nagai}, Daisuke and {Spergel}, David N. and {Hernquist}, Lars and {Burkhart}, Blakesley and {Narayanan}, Desika and {Wandelt}, Benjamin and {Somerville}, Rachel S. and {Bryan}, Greg L. and {Viel}, Matteo and {Li}, Yin and {Irsic}, Vid and {Kraljic}, Katarina and {Vogelsberger}, Mark},
    title = "{The CAMELS project: public data release}",
    journal = {arXiv e-prints},
@@ -40,5 +40,23 @@ If you use CAMELS data you may considering citing the CAMELS `presentation <http
    eprint = {2201.01300},
    primaryClass = {astro-ph.CO},
    adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220101300V},
+   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+   }
+
+
+   @ARTICLE{camels_data_release2,
+   author = {{Ni}, Yueying and {Genel}, Shy and {Angl{\'e}s-Alc{\'a}zar}, Daniel and {Villaescusa-Navarro}, Francisco and {Jo}, Yongseok and {Bird}, Simeon and {Di Matteo}, Tiziana and {Croft}, Rupert and {Chen}, Nianyi and {de Santi}, Natal{\'\i} S.~M. and {Gebhardt}, Matthew and {Shao}, Helen and {Pandey}, Shivam and {Hernquist}, Lars and {Dave}, Romeel},
+   title = "{The CAMELS project: Expanding the galaxy formation model space with new ASTRID and 28-parameter TNG and SIMBA suites}",
+   journal = {arXiv e-prints},
+   keywords = {Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies, Computer Science - Machine Learning},
+   year = 2023,
+   month = apr,
+   eid = {arXiv:2304.02096},
+   pages = {arXiv:2304.02096},
+   doi = {10.48550/arXiv.2304.02096},
+   archivePrefix = {arXiv},
+   eprint = {2304.02096},
+   primaryClass = {astro-ph.CO},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230402096N},
    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
    }
