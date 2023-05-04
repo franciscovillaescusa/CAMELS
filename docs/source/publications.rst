@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Interpreting Sunyaev-Zel'dovich observations with MillenniumTNG: Mass and environment scaling relations**
+   | Boryana Hadzhiyska, Simone Ferraro, Rüdiger Pakmor, Sownak Bose, Ana Maria Delgado, César Hernández-Aguayo, Rahul Kannan, Volker Springel, Simon D. M. White, Lars Hernquist
+   | `2305.00992 <https://arxiv.org/abs/2305.00992>`_
+
 #. | **Cosmology with one galaxy? -- The ASTRID model and robustness**
    | Nicolas Echeverri, Francisco Villaescusa-Navarro, Chaitanya Chawak, Yueying Ni, ChangHoon Hahn, Elena Hernandez-Martinez, Romain Teyssier, Daniel Angles-Alcazar, Klaus Dolag, Tiago Castro
    | `2304.06084 <https://arxiv.org/abs/2304.06084>`_
