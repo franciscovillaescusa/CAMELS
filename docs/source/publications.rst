@@ -20,11 +20,11 @@ Publications
 
 #. | **A universal equation to predict** :math:`\Omega_{\rm m}` **from halo and galaxy catalogues**
    | Helen Shao, Natali S. M. de Santi, Francisco Villaescusa-Navarro, Romain Teyssier, Yueying Ni, Daniel Angles-Alcazar, Shy Genel, Ulrich P. Steinwandel, Elena Hernandez-Martınez, Klaus Dolag, Christopher C. Lovell, Lehman H. Garrison, Eli Visbal, Mihir Kulkarni, Lars Hernquist, Tiago Castro, Mark Vogelsberger
-   | `2302.14591 <https://arxiv.org/abs/2302.14591>`_ | `video <https://www.youtube.com/watch?v=STZHvDHkVgo&ab_channel=CAMELS>`_ |
+   | `2302.14591 <https://arxiv.org/abs/2302.14591>`_ | `video <https://www.youtube.com/watch?v=STZHvDHkVgo&ab_channel=CAMELS>`__ |
 
 #. | **Robust field-level likelihood-free inference with galaxies**
    | Natalí S. M. de Santi, Helen Shao, Francisco Villaescusa-Navarro, L. Raul Abramo, Romain Teyssier, Pablo Villanueva-Domingo, Yueying Ni, Daniel Anglés-Alcázar, Shy Genel, Elena Hernandez-Martinez, Ulrich P. Steinwandel, Christopher C. Lovell, Klaus Dolag, Tiago Castro, Mark Vogelsberger
-   | `2302.14101 <https://arxiv.org/abs/2302.14101>`_ | `video <https://www.youtube.com/watch?v=b59ep7cyPOs&ab_channel=NatalideSanti>`_ |
+   | `2302.14101 <https://arxiv.org/abs/2302.14101>`_ | `video <https://www.youtube.com/watch?v=b59ep7cyPOs&ab_channel=NatalideSanti>`__ |
 
 #. | **Topological data analysis reveals differences between simulated galaxies and dark matter haloes**
    | Aaron Ouellette, Gilbert Holder, Ely Kerman
@@ -76,11 +76,11 @@ Publications
 
 #. | **Robust field-level inference with dark matter halos**
    | Helen Shao, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Romain Teyssier, Lehman H. Garrison, Marco Gatti, Derek Inman, Yueying Ni, Ulrich P. Steinwandel, Mihir Kulkarni, Eli Visbal, Greg L. Bryan, Daniel Angles-Alcazar, Tiago Castro, Elena Hernandez-Martinez, Klaus Dolag
-   | `2209.06843 <https://arxiv.org/abs/2209.06843>`_ | `video <https://www.youtube.com/watch?v=qkw92Z6owJU>`_ |
+   | `2209.06843 <https://arxiv.org/abs/2209.06843>`_ | `video <https://www.youtube.com/watch?v=qkw92Z6owJU>`__ |
 
 #. | **The SZ flux-mass (Y-M) relation at low halo masses: improvements with symbolic regression and strong constraints on baryonic feedback**
    | Digvijay Wadekar, Leander Thiele, J. Colin Hill, Shivam Pandey, Francisco Villaescusa-Navarro, David N. Spergel, Miles Cranmer, Daisuke Nagai, Daniel Anglés-Alcázar, Shirley Ho, Lars Hernquist
-   | `2209.02075 <https://arxiv.org/abs/2209.02075>`_ | `video <https://www.youtube.com/watch?v=JKpXrMb4dJg>`_ |
+   | `2209.02075 <https://arxiv.org/abs/2209.02075>`_ | `video <https://www.youtube.com/watch?v=JKpXrMb4dJg>`__ |
 
 #. | **Studying the Warm Hot Intergalactic Medium in emission: a reprise**
    | Gabriele Parimbelli, Enzo Branchini, Matteo Viel, Francisco Villaescusa-Navarro, John ZuHone

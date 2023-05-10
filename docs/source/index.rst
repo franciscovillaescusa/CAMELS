@@ -1,21 +1,21 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and is a collection of 6,325 cosmological simulations: 3,049 N-body and 3,276 state-of-the-art (magneto-)hydrodynamic:
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and currently contains 10,421 cosmological simulations: 5,097 N-body and 5,324 state-of-the-art (magneto-)hydrodynamic:
 
 +--------------+--------------+---------------+-------------+
 | Type         | Code         | Subgrid model | Simulations |
 +==============+==============+===============+=============+
-| Hydrodynamic | Arepo        |  IllustrisTNG |    1,092    |
+| Hydrodynamic | Arepo        |  IllustrisTNG |    2,116    |
 +--------------+--------------+---------------+-------------+
 | Hydrodynamic | Gizmo        |  SIMBA        |    1,092    |
 +--------------+--------------+---------------+-------------+
-| Hydrodynamic | MP-Gadget    |  Astrid       |    1,092    |
+| Hydrodynamic | MP-Gadget    |  Astrid       |    2,116    |
 +--------------+--------------+---------------+-------------+
-| N-body       | Gadget-III   |      ---      |    3,049    |
+| N-body       | Gadget-III   |      ---      |    5,097    |
 +--------------+--------------+---------------+-------------+
 
-CAMELS is a massive dataset designed to build bridges between cosmology and astrophysics through machine learning. Containing almost half a petabyte of data, it is currently the largest set of cosmological hydrodynamic simulations ever run.
+CAMELS is a massive dataset designed to build bridges between cosmology and astrophysics through machine learning. Containing more than 700 Terabytes of data, it is currently the largest set of cosmological hydrodynamic simulations ever run.
 
 .. image:: CAMELS_diagram.png
    :alt: Cosmology, Astrophysics, Machine Learning, and Simulations
