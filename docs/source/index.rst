@@ -44,6 +44,8 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
    :caption: Simulations
 
    description
+   parameters
+   redshifts
 
 .. toctree::
    :maxdepth: 2
