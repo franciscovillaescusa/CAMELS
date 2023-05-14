@@ -4,9 +4,9 @@
 
 .. _data_access:
    
-************
-Instructions
-************
+***********
+Data Access
+***********
 
 CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be accessed through six different ways:
 

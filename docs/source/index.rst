@@ -1,42 +1,44 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and currently contains 10,421 cosmological simulations: 5,097 N-body and 5,324 state-of-the-art (magneto-)hydrodynamic:
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 10,680 cosmological simulations --5,164 N-body and 5,516 state-of-the-art (magneto-)hydrodynamic-- and more than 700 Terabytes of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
 
 +--------------+--------------+---------------+-------------+
 | Type         | Code         | Subgrid model | Simulations |
 +==============+==============+===============+=============+
-| Hydrodynamic | Arepo        |  IllustrisTNG |    2,116    |
+| Hydrodynamic | Arepo        |  IllustrisTNG |    2,143    |
++              +--------------+---------------+-------------+
+|              | Gizmo        |  SIMBA        |    1,092    |
++              +--------------+---------------+-------------+
+|              | MP-Gadget    |  Astrid       |    2,116    |
++              +--------------+---------------+-------------+
+|              | OpenGadget   |  Magneticum   |    77       |
++              +--------------+---------------+-------------+
+|              | SWIFT        |  EAGLE        |    77       |
++              +--------------+---------------+-------------+
+|              | Ramses       |               |    5        |
++              +--------------+---------------+-------------+
+|              | Enzo         |               |    6        |
 +--------------+--------------+---------------+-------------+
-| Hydrodynamic | Gizmo        |  SIMBA        |    1,092    |
-+--------------+--------------+---------------+-------------+
-| Hydrodynamic | MP-Gadget    |  Astrid       |    2,116    |
-+--------------+--------------+---------------+-------------+
-| N-body       | Gadget-III   |      ---      |    5,097    |
+| N-body       | Gadget-III   |      ---      |    5,164    |
 +--------------+--------------+---------------+-------------+
 
-CAMELS is a massive dataset designed to build bridges between cosmology and astrophysics through machine learning. Containing more than 700 Terabytes of data, it is currently the largest set of cosmological hydrodynamic simulations ever run.
+The video below shows an example of a CAMELS hydrodynamic simulation run with the Ramses code. Gas density and gas temperature are shown in blue and red, respectively as a function of time. CAMELS contains thousands of simulations like this one.
 
-.. image:: CAMELS_diagram.png
-   :alt: Cosmology, Astrophysics, Machine Learning, and Simulations
+.. raw:: html
 
-.. toctree::
-   :maxdepth: 2
-   :caption: News
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/WnNfkok9sJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-   news
+
+   
 	 
 .. toctree::
    :maxdepth: 2
-   :caption: Science
+   :caption: CAMELS
 
+   news
    goals
    publications
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Data accesss
-
    data_access
 
 .. toctree::
@@ -44,6 +46,9 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
    :caption: Simulations
 
    description
+   suites_sets
+   codes
+   sims_available
    parameters
    redshifts
 
@@ -70,21 +75,10 @@ CAMELS is a massive dataset designed to build bridges between cosmology and astr
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tutorials
+   :caption: Useful
 
    tutorials
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Post-processing
-      
    images
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Software
-
    camels_library
    pylians3
 

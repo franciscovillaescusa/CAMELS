@@ -1,43 +1,13 @@
-***************
-Suites and sets
-***************
+*******************
+General description
+*******************
 
-CAMELS contains 10,421 simulations: 5,097 N-body simulations and 5,324 hydrodynamic simulations. The simulations can be classified into different suites and sets depending on the code used to run them and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
+As of May 15th 2023, CAMELS contains 10,680 cosmological simulations: 5,164 N-body and 5,516 hydrodynamic simulations.
 
- .. image:: Sims_Scheme.png
-    :alt: CAMELS Data structure
+All simulations follow the evolution of :math:`256^3` dark matter particles and :math:`256^3` gas resolution elements (only for the (magneto-)hydrodynamic) within a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3` from :math:`z=127` down to :math:`z=0`. We store multiple snapshots and also multiple post-processed data such as halo catalogs, power spectra...etc; see :ref:`organization`.
 
+All N-body simulations have been run with the Gadget-III code, while the hydrodynamic simulations have been run with different codes: AREPO, GIZMO, MP-Gadget, OpenGadget, SWIFT, Ramses, and Enzo. The simulations can be classified into suites and sets, depending on the code used to run them and how their parameters are organized. See :ref:`suites_sets` for details. See :ref:`Codes` for details on the different codes and subgrid physics models available in CAMELS.
 
+See :ref:`sims_chart` to see how many simulations are available as a function of suite and set. The value of the cosmological, astrophysical, and initial random seed of the different simulations can be found :ref:`params`. The redshifts associated to the different simulations snapshots can be found here :ref:`redshifts`.
 
-Suites
-~~~~~~
-
-The CAMELS simulations are organized in different `suites`:
-
-- **IllustrisTNG**. This suite contains 1,092 hydrodynamic simulations that have been run with the AREPO code employing the same subgrid physics as the original `IllustrisTNG <https://www.tng-project.org>`_ simulations. 
-- **SIMBA**. This suite contains 1,092 hydrodynamic simulations that have been run with the GIZMO code employing the same subgrid physics as the original `SIMBA <http://simba.roe.ac.uk>`_ simulation.
-- **Astrid**. This suite contains 1,092 hydrodynamics simulations have that been run with the MP-Gadget code employing the same subgrid physics as the original Astrid simulation (see `this paper <https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..670N/abstract>`__ and `this paper <https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.3703B/abstract>`__).
-- **N-body**. This suite contains 3,049 N-body simulations. For each CAMELS hydrodynamic simulation there is an N-body simulation with the same cosmology and value of the initial random seed as its hydrodynamic counterpart.
-
-.. Note::
-
-   All the simulations in the IllustrisTNG, SIMBA, and N-body suites are publicly available (see :ref:`data_access`). To access the data from the Astrid suite please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
-
-   
-Sets
-~~~~
-
-Each simulation suite contains various simulation `sets`:
-
-- | **LH**. This set contains 1,000 simulations. Each simulation has a different value of the cosmological and astrophysical parameters, that are arranged in a latin-hypercube. Each simulation has a different value of the random seed used to generate the initial conditions. This set represents the main CAMELS dataset. LH stands for Latin-Hypercube.
-- | **1P**. This set contains 61 simulations. In this set, the value of the cosmological and astrophysical parameters in the simulations is varied only one at a time. The value of the random seed used to generate the initial conditions is the same in all simulations. This set is typically used to study the change induced by cosmology and astrophysics in a given quantity. 1P stands for 1-parameter at a time.
-- | **CV**. This set contains 27 simulations. All the simulations share the value of the cosmological and astrophysical parameters, and they only differ in the value of their initial conditions random seed. This set is typically used to study the effect of cosmic variance. CV stands for Cosmic Variance.
-- | **EX**. This set contains 4 simulations. All simulations share the value of the cosmological parameters, but differ in the value of the astrophysical parameters. One simulation has fiducial values; the other three represent extreme cases with 1) very efficient supernova feedback, 2) very efficient AGN feedback, and 3) no feedback. All simulations share the value of the initial conditions random seed. This set can be used to study the maximum effect astrophysics can have on a given quantity. EX stands for Extreme.
-- | **BE**. This set contains 27 simulations and is currently available only for the IllustrisTNG suite. All of these simulations share the exact same initial conditions with the 1P set and all are run with the fiducial model, but they use different random number sequences for the evolution of the simulation (not to be confused with the random seed that is used to generate the initial conditions). Hence, the differences between them represent the intrinsic randomness of the simulation results, which can serve as a benchmark for the performance of various predictive models. BE stands for Butterfly Effect.
-
-	  
-Characteristics
-~~~~~~~~~~~~~~~
-	  
-All simulations follows the evolution of :math:`256^3` dark matter particles and :math:`256^3` gas resolution elements (only for the (magneto-)hydrodynamic) within a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3` from :math:`z=127` down to :math:`z=0`. 
 

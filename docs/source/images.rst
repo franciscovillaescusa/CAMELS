@@ -1,6 +1,6 @@
-******
-Images
-******
+***********************
+Post-processing: images
+***********************
 
 There are two different ways to create images from the simulations:
 

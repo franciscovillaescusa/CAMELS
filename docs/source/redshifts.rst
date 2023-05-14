@@ -1,14 +1,14 @@
+.. _redshifts:
+
 *********
 Redshifts
 *********
 
 The simulations in the different suites and sets contain a different number of snapshots. This table shows the number of snapshots for the simulations as a function of their suite and set:
 
-+-----------------+-----------------------------+
-| Suite           | Set                         |
-+=================+====+====+====+====+====+====+
-|                 | SB | LH | 1P | CV | EX | BE |
 +-----------------+----+----+----+----+----+----+
+| Suite \\ Set    | SB | LH | 1P | CV | EX | BE |
++=================+====+====+====+====+====+====+
 | IllustrisTNG    | 91 | 34 | 34 | 34 | 34 | 34 |
 +-----------------+----+----+----+----+----+----+
 | SIMBA           | 91 | 34 | 34 | 34 | 34 | 34 |
