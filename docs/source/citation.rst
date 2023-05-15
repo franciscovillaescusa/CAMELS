@@ -2,7 +2,7 @@
 Citation
 ********
 
-If you use CAMELS data you may considering citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_, `first data release <https://arxiv.org/abs/2201.01300>`_ and `second data release <https://arxiv.org/abs/2304.02096>`_ papers:
+If you use CAMELS data you may consider citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_, `first data release <https://arxiv.org/abs/2201.01300>`_, and `second data release <https://arxiv.org/abs/2304.02096>`_ papers:
 
 
 ::

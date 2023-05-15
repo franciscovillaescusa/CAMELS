@@ -40,6 +40,7 @@ The video below shows an example of a CAMELS hydrodynamic simulation run with th
    goals
    publications
    data_access
+   citation
 
 .. toctree::
    :maxdepth: 2
@@ -88,5 +89,4 @@ The video below shows an example of a CAMELS hydrodynamic simulation run with th
 
    team
    contact
-   citation
    logo
