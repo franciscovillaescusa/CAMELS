@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Forecasting the power of Higher Order Weak Lensing Statistics with automatically differentiable simulations**
+   | Denise Lanzieri, François Lanusse, Chirag Modi, Benjamin Horowitz, Joachim Harnois-Déraps, Jean-Luc Starck, The LSST Dark Energy Science Collaboration
+   | `2305.07531 <https://arxiv.org/abs/2305.07531>`_
+
 #. | **Interpreting Sunyaev-Zel'dovich observations with MillenniumTNG: Mass and environment scaling relations**
    | Boryana Hadzhiyska, Simone Ferraro, Rüdiger Pakmor, Sownak Bose, Ana Maria Delgado, César Hernández-Aguayo, Rahul Kannan, Volker Springel, Simon D. M. White, Lars Hernquist
    | `2305.00992 <https://arxiv.org/abs/2305.00992>`_
