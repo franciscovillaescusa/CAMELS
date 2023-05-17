@@ -9,7 +9,7 @@ As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified int
 IllustrisTNG
 ~~~~~~~~~~~~
 
-The simulations in the IllustrisTNG suite have been run with the AREPO code using the same subgrid physics as the IllustrisTNG simulation.
+The simulations in the IllustrisTNG suite have been run with the Arepo code using the same subgrid physics as the IllustrisTNG simulation. Arepo uses TreePM to solve for gravity and a moving Voronoi mesh to solve for ideal magnetohydrodynamics (MHD). The IllustrisTNG galaxy formation physics implementation includes sub-grid models for star-formation, stellar evolution and galactic winds, as well as supermassive black hole (SMBH) seeding, merging, accretion and feedback. The latter operates in two modes, selected based on SMBH mass and Eddington ratio, where the high-accretion mode is thermal and the low accretion mode is kinetic and is the more efficient one in ejecting gas and quenching massive galaxies. The galactic winds feedback is kinetic, implemented via briefly hydrodynamically decoupled wind particles, with energy and mass loading factors that are prescribed based on local velocity dispersion and metallicity. Much more detail can be found on the `IllustrisTNG project website <https://www.tng-project.org/>`_.
 
 SIMBA
 ~~~~~

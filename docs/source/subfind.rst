@@ -4,9 +4,9 @@
 SUBFIND catalogues
 ******************
 
-The ``FOF_Subfind`` folder contains the SUBFIND halo/subhalo/galaxy catalogues. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+The ``FOF_Subfind`` folder contains the FOF+SUBFIND halo/subhalo/galaxy catalogues. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
 
-The catalogues are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalogue for each snapshot. The halos and subhalos are identified through SUBFIND.
+The catalogues are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalogue for each snapshot. The halos are identified through FOF and subhalos are identified through SUBFIND.
 
 The easiest way to inspect the content of these files is:
 
@@ -100,9 +100,15 @@ The easiest way to inspect the content of these files is:
 The catalogues contain two main groups:
 
 - ``Group``. This group contains the properties of the halos.
-- ``Subhalos``. This group contains the properties of the subhalos. Galaxies, are considered as subhalos with stellar mass larger than 0.
+- ``Subhalos``. This group contains the properties of the subhalos. Galaxies are generally considered to be subhalos with stellar mass larger than 0.
 
 A detailed description of the different blocks in the catalogues can be found `here <https://www.tng-project.org/data/docs/specifications/#sec2>`_.
+
+.. Note::
+
+   For the IllustrisTNG suite, the particles in the snapshots are organized according to their FOF/Subfind group membership, as described `here <https://www.tng-project.org/data/docs/specifications/#sec1a>`_. However, for the snapshots in the other suites (e.g. IllustrisTNG_DM, SIMBA, Astrid), that is not the case. In those cases, instead, in order to access the particles of a specific FOF group or Subfind subhalo, a special hdf5 group called /IDs that exists in the group catalog files (as appears above for example for the SIMBA CV_5 case) needs to be used. This is a list of particle IDs (not ordered by type -- all types mixed together) that is ordered according to the group membership in a similar way to how the particles are ordered in the native IllustrisTNG files. Namely, if one reorders the particles from e.g. an Astrid snapshot such that their IDs in the reordered list is the same as the IDs/ dataset from the corresponding group catalog, and then separates them by type, then by working with this reordered sets of particles, one can assign particles to groups in the standard IllustrisTNG-like approach.
+   Note that there is an exception to the above with regards to SIMBA snapshots, which typically have duplicate IDs. There is no way to distinguish which of the particles with duplicate IDs truly belongs to a particular group except by sanity checks. For example, one in a pair of such particles may be physically too far away from the group center to plausibly truly belong to it. It is the user's responsibility to apply such sanity checks and filtering.
+
 
 Reading these files with python is straightforward:
 
@@ -153,4 +159,6 @@ In particular:
 - In SIMBA FOF+Subfind catalogs, the structure is similar to IllustrisTNG: ``Metallicity`` is the total content of elements heavier than H & He, and ``Metals`` or ``MetalFractions`` is a 11-element array with the elements in this (SIMBA-snapshot-like) order: [H,He,C,N,O,Ne,Mg,Si,S,Ca,Fe]
 
 In the SIMBA catalogues, the ``SubhaloStellarPhotometrics`` and ``WindMass`` fields contain some irrelevant numbers as those quantities are not calculated within the SIMBA simulations.
+
+Please also note the differences with respect to the ordering of the particles in the snapshots and its relation to the group catalogs, which are detailed in a blue Note box above in this page.
 
