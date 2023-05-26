@@ -120,7 +120,7 @@ The routine ``pressure`` returns the gas pressure of the gas particle of a given
 Electron density
 ~~~~~~~~~~~~~~~~
 
-The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is equal to 0. The units of the output are :math:`10^{20}h^2{\rm cm}^{-3}`. Its usage is as follows:
+The routine ``electron_density`` computes the electron number density of the gas particles of a snapshot. This routine assumes that star-forming particles are fully neutral and therefore their electron number density is equal to 0. The units of the output are :math:`h^2{\rm cm}^{-3}`. Its usage is as follows:
 
 .. code-block::  python
 
