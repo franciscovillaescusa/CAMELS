@@ -23,11 +23,26 @@ CAMELS
 | N-body       | Gadget-III   |      ---      |    5,164    |
 +--------------+--------------+---------------+-------------+
 
-The video below shows an example of a CAMELS hydrodynamic simulation run with the Ramses code. Gas density and gas temperature are shown in blue and red, respectively as a function of time. CAMELS contains thousands of simulations like this one.
+.. raw:: html
+
+   <p>Introductory video to the CAMELS project:</p>
+	 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/0ntjD7PDWG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <br><br><br>
 
 .. raw:: html
 
+   <p>The video below shows an example of a CAMELS hydrodynamic simulation run with the Ramses code. Gas density and gas temperature are shown in blue and red, respectively as a function of time. CAMELS contains thousands of simulations like this one.</p>
+	 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/WnNfkok9sJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br><br><br>
+
+.. raw:: html
+
+   <p>The video below illustrates the differences between different hydrodynamic simulations. All simulations share the same cosmology, initial conditions, and have fiducial astrophysics values. Differences in the gas density (blue) and gas temperature (red) are due to the intrinsic differences between the subgrid models employed in the simulatons.</p>
+	 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/-Za5Eer0DXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br><br><br>
 
 
    
