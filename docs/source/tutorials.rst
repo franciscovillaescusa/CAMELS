@@ -10,4 +10,5 @@ We provide multiple tutorials showing how to read and manipulate CAMELS data. In
    examples/Reading_Manipulating_Snapshots
    examples/Pk
    examples/Images
+   examples/particles_subhalos
 
