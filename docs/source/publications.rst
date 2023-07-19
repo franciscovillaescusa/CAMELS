@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **A Hierarchy of Normalizing Flows for Modelling the Galaxy-Halo Relationship**
+   | Christopher C. Lovell, Sultan Hassan, Daniel Anglés-Alcázar, Greg Bryan, Giulio Fabbian, Shy Genel, ChangHoon Hahn, Kartheik Iyer, James Kwon, Natalí de Santi, Francisco Villaescusa-Navarro
+   | `2307.06967 <https://arxiv.org/abs/2307.06967>`_
+
+#. | **An Exploration of AGN and Stellar Feedback Effects in the Intergalactic Medium via the Low Redshift Lyman-:math:`\alpha` Forest**
+   | Megan Taylor Tillman, Blakesley Burkhart, Stephanie Tonnesen, Simeon Bird, Greg L. Bryan, Daniel Anglés-Alcázar, Sultan Hassan, Rachel S. Somerville, Romeel Davé, Federico Marinacci, Lars Hernquist, Mark Vogelsberger
+   | `2307.06360 <https://arxiv.org/abs/2307.06360>`_
+
 #. | **Forecasting the power of Higher Order Weak Lensing Statistics with automatically differentiable simulations**
    | Denise Lanzieri, François Lanusse, Chirag Modi, Benjamin Horowitz, Joachim Harnois-Déraps, Jean-Luc Starck, The LSST Dark Energy Science Collaboration
    | `2305.07531 <https://arxiv.org/abs/2305.07531>`_
