@@ -1,6 +1,10 @@
 ************
 Publications
 ************
+
+#. | **Cosmological baryon spread and impact on matter clustering in CAMELS**
+   | Matthew Gebhardt, Daniel Angles-Alcazar, Josh Borrow, Shy Genel, Francisco Villaescusa-Navarro, Yueying Ni, Christopher Lovell, Daisuke Nagai, Romeel Dave, Federico Marinacci, Mark Vogelsberger, Lars Hernquist
+   | `2307.11832 <https://arxiv.org/abs/2307.11832>`_
    
 #. | **A Hierarchy of Normalizing Flows for Modelling the Galaxy-Halo Relationship**
    | Christopher C. Lovell, Sultan Hassan, Daniel Anglés-Alcázar, Greg Bryan, Giulio Fabbian, Shy Genel, ChangHoon Hahn, Kartheik Iyer, James Kwon, Natalí de Santi, Francisco Villaescusa-Navarro
