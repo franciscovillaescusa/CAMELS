@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learnable wavelet neural networks for cosmological inference**
+   | Christian Pedersen, Michael Eickenberg, Shirley Ho
+   | `2307.14362 <https://arxiv.org/abs/2307.14362>`_
+
 #. | **Cosmological baryon spread and impact on matter clustering in CAMELS**
    | Matthew Gebhardt, Daniel Angles-Alcazar, Josh Borrow, Shy Genel, Francisco Villaescusa-Navarro, Yueying Ni, Christopher Lovell, Daisuke Nagai, Romeel Dave, Federico Marinacci, Mark Vogelsberger, Lars Hernquist
    | `2307.11832 <https://arxiv.org/abs/2307.11832>`_
