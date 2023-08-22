@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Data Compression and Inference in Cosmology with Self-Supervised Machine Learning**
+   | Aizhan Akhmetzhanova, Siddharth Mishra-Sharma, Cora Dvorkin
+   | `2308.09751 <https://arxiv.org/abs/2308.09751>`_
+
 #. | **Learnable wavelet neural networks for cosmological inference**
    | Christian Pedersen, Michael Eickenberg, Shirley Ho
    | `2307.14362 <https://arxiv.org/abs/2307.14362>`_
