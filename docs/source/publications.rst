@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **CASCO: Cosmological and AStrophysical parameters from Cosmological simulations and Observations -- I. Constraining physical processes in local star-forming galaxies**
+   | Valerio Busillo, Crescenzo Tortora, Nicola R. Napolitano, Leon V. E. Koopmans, Giovanni Covone, Fabrizio Gentile, Leslie K. Hunt
+   | `2308.14822 <https://arxiv.org/abs/2308.14822>`_
+
 #. | **Data Compression and Inference in Cosmology with Self-Supervised Machine Learning**
    | Aizhan Akhmetzhanova, Siddharth Mishra-Sharma, Cora Dvorkin
    | `2308.09751 <https://arxiv.org/abs/2308.09751>`_
