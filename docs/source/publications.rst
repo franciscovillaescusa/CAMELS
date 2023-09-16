@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **An Observationally Driven Multifield Approach for Probing the Circum-Galactic Medium with Convolutional Neural Networks**
+   | Naomi Gluck, Benjamin D. Oppenheimer, Daisuke Nagai, Francisco Villaescusa-Navarro, Daniel Angles-Alcazar 
+   | `2309.07912 <https://arxiv.org/abs/2309.07912>`_
+
 #. | **CASCO: Cosmological and AStrophysical parameters from Cosmological simulations and Observations -- I. Constraining physical processes in local star-forming galaxies**
    | Valerio Busillo, Crescenzo Tortora, Nicola R. Napolitano, Leon V. E. Koopmans, Giovanni Covone, Fabrizio Gentile, Leslie K. Hunt
    | `2308.14822 <https://arxiv.org/abs/2308.14822>`_
