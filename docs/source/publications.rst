@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Cosmology with multiple galaxies**
+   | Chaitanya Chawak, Francisco Villaescusa-Navarro, Nicolas Echeverri Rojas, Yueying Ni, ChangHoon Hahn, Daniel Angles-Alcazar
+   | `2309.12048 <https://arxiv.org/abs/2309.12048>`_
+
 #. | **An Observationally Driven Multifield Approach for Probing the Circum-Galactic Medium with Convolutional Neural Networks**
    | Naomi Gluck, Benjamin D. Oppenheimer, Daisuke Nagai, Francisco Villaescusa-Navarro, Daniel Angles-Alcazar 
    | `2309.07912 <https://arxiv.org/abs/2309.07912>`_
