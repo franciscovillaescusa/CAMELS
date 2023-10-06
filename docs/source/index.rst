@@ -39,9 +39,10 @@ CAMELS
 
 .. raw:: html
 
-   <p>The video below illustrates the differences between different hydrodynamic simulations. All simulations share the same cosmology, initial conditions, and have fiducial astrophysics values. Differences in the gas density (blue) and gas temperature (red) are due to the intrinsic differences between the subgrid models employed in the simulatons.</p>
-	 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/-Za5Eer0DXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>The video below illustrates the differences between different hydrodynamic simulations. All simulations share the same cosmology, initial conditions, and have fiducial astrophysics values. Differences in the different fields shown are due to the intrinsic differences between the subgrid models employed in the simulatons.</p>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/XVvarp6bJHU?si=7JVECFHm-2sANgWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
       <br><br><br>
 
 
