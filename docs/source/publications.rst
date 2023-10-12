@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Exploring chemical enrichment of the intracluster medium with the Line Emission Mapper**
+   | François Mernier, Yuanyuan Su, Maxim Markevitch, Congyao Zhang, Aurora Simionescu, Elena Rasia, Sheng-Chieh Lin, Irina Zhuravleva, Arnab Sarkar, Ralph P. Kraft, Anna Ogorzalek, Mohammadreza Ayromlou, William R. Forman, Christine Jones, Joel N. Bregman, Stefano Ettori, Klaus Dolag, Veronica Biffi, Eugene Churazov, Ming Sun, John ZuHone, Ákos Bogdán, Ildar I. Khabibullin, Norbert Werner, Nhut Truong, Priyanka Chakraborty, Stephen A. Walker, Mark Vogelsberger, Annalisa Pillepich, Mohammad S. Mirakhor
+   | `2310.04499 <https://arxiv.org/abs/2310.04499>`_
+
 #. | **Cosmology with multiple galaxies**
    | Chaitanya Chawak, Francisco Villaescusa-Navarro, Nicolas Echeverri Rojas, Yueying Ni, ChangHoon Hahn, Daniel Angles-Alcazar
    | `2309.12048 <https://arxiv.org/abs/2309.12048>`_
