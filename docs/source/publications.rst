@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Field-level simulation-based inference with galaxy catalogs: the impact of systematic effects**
+   | Natalí S. M. de Santi, Francisco Villaescusa-Navarro, L. Raul Abramo, Helen Shao, Lucia A. Perez, Tiago Castro, Yueying Ni, Christopher C. Lovell, Elena Hernandez-Martinez, Federico Marinacci, David N. Spergel, Klaus Dolag, Lars Hernquist, Mark Vogelsberger
+   | `2310.15234 <https://arxiv.org/abs/2310.15234>`_
+
 #. | **Cosmology with Galaxy Photometry Alone**
    | ChangHoon Hahn, Francisco Villaescusa-Navarro, Peter Melchior, Romain Teyssier
    | `2310.08634 <https://arxiv.org/abs/2310.08634>`_
