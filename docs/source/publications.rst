@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **HIDM: Emulating Large Scale HI Maps using Score-based Diffusion Models**
+   | Sultan Hassan, Sambatra Andrianomena
+   | `2311.00833 <https://arxiv.org/abs/2311.00833>`_
+
+#. | **Latent space representations of cosmological fields**
+   | Sambatra Andrianomena, Sultan Hassan
+   | `2311.00799 <https://arxiv.org/abs/2311.00799>`_ 
+
 #. | **Field-level simulation-based inference with galaxy catalogs: the impact of systematic effects**
    | Natalí S. M. de Santi, Francisco Villaescusa-Navarro, L. Raul Abramo, Helen Shao, Lucia A. Perez, Tiago Castro, Yueying Ni, Christopher C. Lovell, Elena Hernandez-Martinez, Federico Marinacci, David N. Spergel, Klaus Dolag, Lars Hernquist, Mark Vogelsberger
    | `2310.15234 <https://arxiv.org/abs/2310.15234>`_
