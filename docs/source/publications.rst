@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Domain Adaptive Graph Neural Networks for Constraining Cosmological Parameters Across Multiple Data Sets**
+   | Andrea Roncoli, Aleksandra Ćiprijanović, Maggie Voetberg, Francisco Villaescusa-Navarro, Brian Nord
+   | `2311.01588 <https://arxiv.org/abs/2311.01588>`_
+
 #. | **HIDM: Emulating Large Scale HI Maps using Score-based Diffusion Models**
    | Sultan Hassan, Sambatra Andrianomena
    | `2311.00833 <https://arxiv.org/abs/2311.00833>`_
