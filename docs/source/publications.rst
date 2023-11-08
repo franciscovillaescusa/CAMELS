@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on halo and galaxy properties**
+   | Mufan Shao, Dhayaa Anbajagane
+   | `2311.03491 <https://arxiv.org/abs/2311.03491>`_
+
 #. | **Domain Adaptive Graph Neural Networks for Constraining Cosmological Parameters Across Multiple Data Sets**
    | Andrea Roncoli, Aleksandra Ćiprijanović, Maggie Voetberg, Francisco Villaescusa-Navarro, Brian Nord
    | `2311.01588 <https://arxiv.org/abs/2311.01588>`_
