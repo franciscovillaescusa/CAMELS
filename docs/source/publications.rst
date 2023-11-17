@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Probabilistic reconstruction of Dark Matter fields from biased tracers using diffusion models**
+   | Core Francisco Park, Victoria Ono, Nayantara Mudur, Yueying Ni, Carolina Cuesta-Lazaro
+   | `2311.08558 <https://arxiv.org/abs/2311.08558>`_
+
 #. | **Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on halo and galaxy properties**
    | Mufan Shao, Dhayaa Anbajagane
    | `2311.03491 <https://arxiv.org/abs/2311.03491>`_
