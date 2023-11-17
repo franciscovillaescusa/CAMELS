@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Taming assembly bias for primordial non-Gaussianity**
+   | Emanuele Fondi, Licia Verde, Francisco Villaescusa-Navarro, Marco Baldi, William R. Coulton, Gabriel Jung, Dionysios Karagiannis, Michele Liguori, Andrea Ravenni, Benjamin D. Wandelt
+   | `2311.10088 <https://arxiv.org/abs/2311.10088>`_
+
 #. | **Probabilistic reconstruction of Dark Matter fields from biased tracers using diffusion models**
    | Core Francisco Park, Victoria Ono, Nayantara Mudur, Yueying Ni, Carolina Cuesta-Lazaro
    | `2311.08558 <https://arxiv.org/abs/2311.08558>`_
