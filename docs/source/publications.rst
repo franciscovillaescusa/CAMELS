@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learning an Effective Evolution Equation for Particle-Mesh Simulations Across Cosmologies**
+   | Nicolas Payot, Pablo Lemos, Laurence Perreault-Levasseur, Carolina Cuesta-Lazaro, Chirag Modi, Yashar Hezaveh
+   | `2311.18017 <https://arxiv.org/abs/2311.18017>`_
+
 #. | **Taming assembly bias for primordial non-Gaussianity**
    | Emanuele Fondi, Licia Verde, Francisco Villaescusa-Navarro, Marco Baldi, William R. Coulton, Gabriel Jung, Dionysios Karagiannis, Michele Liguori, Andrea Ravenni, Benjamin D. Wandelt
    | `2311.10088 <https://arxiv.org/abs/2311.10088>`_
