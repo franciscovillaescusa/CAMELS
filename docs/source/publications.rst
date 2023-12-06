@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Towards out-of-distribution generalization in large-scale astronomical surveys: robust networks learn similar representations**
+   | Yash Gondhalekar, Sultan Hassan, Naomi Saphra, Sambatra Andrianomena
+   | `2311.18007 <https://arxiv.org/abs/2311.18007>`_
+
 #. | **Learning an Effective Evolution Equation for Particle-Mesh Simulations Across Cosmologies**
    | Nicolas Payot, Pablo Lemos, Laurence Perreault-Levasseur, Carolina Cuesta-Lazaro, Chirag Modi, Yashar Hezaveh
    | `2311.18017 <https://arxiv.org/abs/2311.18017>`_
