@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Cosmological Field Emulation and Parameter Inference with Diffusion Models**
+   | Nayantara Mudur, Carolina Cuesta-Lazaro, Douglas P. Finkbeiner
+   | `2312.07534 <https://arxiv.org/abs/2312.07534>`_
+
 #. | **Towards out-of-distribution generalization in large-scale astronomical surveys: robust networks learn similar representations**
    | Yash Gondhalekar, Sultan Hassan, Naomi Saphra, Sambatra Andrianomena
    | `2311.18007 <https://arxiv.org/abs/2311.18007>`_
