@@ -1,0 +1,29 @@
+ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
+Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
+sigma8,0.2,0,0.8,0.6,1.0,sigma8
+WindEnergyIn1e51erg,4,1,3.6,0.9,14.4,ASN1 - galactic winds energy
+RadioFeedbackFactor,4,1,1.0,.25,4.0,AAGN1 - AGN FB kinetic mode energy
+VariableWindVelFactor,2,1,7.4,3.7,14.8,ASN2 - galactic winds speed
+RadioFeedbackReiorientationFactor,2,1,20.0,10.0,40.0,AAGN2 - AGN FB kinetic mode burstiness
+OmegaBaryon,0.02,0,0.0490,.0290,.0690,OmegaBaryon
+HubbleParam,0.2,0,0.6711,.4711,.8711,Hubble parameter
+n_s,0.2,0,0.9624,0.7624,1.1624,power spectrum spectral index
+MaxSfrTimescale,2,1,2.27,1.135,4.54,gas consumption timescale
+FactorForSofterEQS,3,1,0.3,0.1,0.9,softening factor for SH03 eEOS
+IMFslope,0.5,0,-2.3,-2.8,-1.8,IMF slope above 1Msun
+SNII_MinMass_Msun,4,0,8.0,4.0,12.0,minimum stellar mass that goes SN
+ThermalWindFraction,4,1,0.1,0.025,0.4,fraction of wind energy injected thermally (versus kinetically)
+VariableWindSpecMomentum,2000,0,0.0,0.0,4000.0,wind momentum per unit star-formation
+WindFreeTravelDensFac,10,1,0.05,.005,0.5,density of wind recoupling
+MinWindVel,200,0,350.0,150.0,550.0,wind speed floor
+WindEnergyReductionFactor,4,1,0.25,.0625,1.00,magnitude of wind energy dependence on metallicity
+WindEnergyReductionMetallicity,4,1,0.002,.0005,.008,metallicity at which wind energy pivots
+WindEnergyReductionExponent,1,0,2,1,3,sharpness of wind energy dependence on metallicity
+WindDumpFactor,0.4,0,0.6,0.2,1.0,(1 minus metal loading of winds)
+SeedBlackHoleMass,3.16,1,0.00008,0.000025316,0.0002528,seed BH mass
+BlackHoleAccretionFactor,4,1,1.0,.25,4.0,Bondi rate multiplier
+BlackHoleEddingtonFactor,10,1,1.0,0.1,10.0,Eddington rate multiplier for the BH accretion rate limiter
+BlackHoleFeedbackFactor,4,1,0.1,.025,0.4,high-accretion mode feedback efficiency
+BlackHoleRadiativeEfficiency,4,1,0.2,.05,0.8,BH radiative efficiency
+QuasarThreshold,31.6,1,0.002,.0000633,0.0632,Eddington ratio for transition between BH feedback modes
+QuasarThresholdPower,2,0,2.0,0.0,4.0,power-law in Weinberger+ 2017 eq.5 - steepness of mass transition between AGN feedback modes
