@@ -1,12 +1,12 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 10,680 cosmological simulations --5,164 N-body and 5,516 state-of-the-art (magneto-)hydrodynamic-- and more than 700 Terabytes of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 11,862 cosmological simulations --5,164 N-body and 6,698 state-of-the-art (magneto-)hydrodynamic-- and more than 700 Terabytes of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
 
 +--------------+--------------+---------------+-------------+
 | Type         | Code         | Subgrid model | Simulations |
 +==============+==============+===============+=============+
-| Hydrodynamic | Arepo        |  IllustrisTNG |    2,143    |
+| Hydrodynamic | Arepo        |  IllustrisTNG |    3,167    |
 |              +--------------+---------------+-------------+
 |              | Gizmo        |  SIMBA        |    1,092    |
 |              +--------------+---------------+-------------+
@@ -14,9 +14,9 @@ CAMELS
 |              +--------------+---------------+-------------+
 |              | OpenGadget   |  Magneticum   |    77       |
 |              +--------------+---------------+-------------+
-|              | SWIFT        |  EAGLE        |    77       |
+|              | SWIFT        |  EAGLE        |    138      |
 |              +--------------+---------------+-------------+
-|              | Ramses       |               |    5        |
+|              | Ramses       |               |    102      |
 |              +--------------+---------------+-------------+
 |              | Enzo         |               |    6        |
 +--------------+--------------+---------------+-------------+
