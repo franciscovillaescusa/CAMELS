@@ -1,12 +1,12 @@
 .. _subfind:
 
-******************
-SUBFIND catalogues
-******************
+****************
+SUBFIND catalogs
+****************
 
-The ``FOF_Subfind`` folder contains the FOF+SUBFIND halo/subhalo/galaxy catalogues. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
+The ``FOF_Subfind`` folder contains the FOF+SUBFIND halo/subhalo/galaxy catalogs. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
 
-The catalogues are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalogue for each snapshot. The halos are identified through FOF and subhalos are identified through SUBFIND.
+The catalogs are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalog for each snapshot. The halos are identified through FOF and subhalos are identified through SUBFIND.
 
 The easiest way to inspect the content of these files is:
 
@@ -97,12 +97,12 @@ The easiest way to inspect the content of these files is:
    /Subhalo/SubhaloVmaxRad  Dataset {22315}
    /Subhalo/SubhaloWindMass Dataset {22315}
 
-The catalogues contain two main groups:
+The catalogs contain two main groups:
 
 - ``Group``. This group contains the properties of the halos.
 - ``Subhalos``. This group contains the properties of the subhalos. Galaxies are generally considered to be subhalos with stellar mass larger than 0.
 
-A detailed description of the different blocks in the catalogues can be found `here <https://www.tng-project.org/data/docs/specifications/#sec2>`_.
+A detailed description of the different blocks in the catalogs can be found `here <https://www.tng-project.org/data/docs/specifications/#sec2>`_.
 
 .. Note::
 
@@ -117,14 +117,14 @@ Reading these files with python is straightforward:
    import numpy as np
    import h5py
    
-   # catalogue name
-   catalogue = 'SIMBA/CV_5/fof_subhalo_tab_033.hdf5'
+   # catalog name
+   catalog = 'SIMBA/CV_5/fof_subhalo_tab_033.hdf5'
 
    # value of the scale factor
    scale_factor = 1.0
    
    # open the catalogue
-   f = h5py.File(catalogue, 'r')
+   f = h5py.File(catalog, 'r')
 
    # read the positions, velocities and masses of the FoF halos
    pos_h  = f['Group/GroupPos'][:]/1e3           #positions in Mpc/h
@@ -148,7 +148,7 @@ Reading these files with python is straightforward:
 Suite differences
 ~~~~~~~~~~~~~~~~~
 
-The halo/subhalo catalogues are designed to be as uniform as possible across the two suites. Thus, the metallicity field in the subfind catalogues of SIMBA differ from the metallicity field of the SIMBA snapshots. The ``Metallicity`` and ``MetalFraction`` fields in the subfind catalogues follow the same convention as those from the IllustrisTNG catalogues, except that the elements are the same as in the SIMBA snapshots.
+The halo/subhalo catalogs are designed to be as uniform as possible across the two suites. Thus, the metallicity field in the subfind catalogs of SIMBA differ from the metallicity field of the SIMBA snapshots. The ``Metallicity`` and ``MetalFraction`` fields in the subfind catalogs follow the same convention as those from the IllustrisTNG catalogs, except that the elements are the same as in the SIMBA snapshots.
 
 In particular:
 
@@ -158,7 +158,7 @@ In particular:
   
 - In SIMBA FOF+Subfind catalogs, the structure is similar to IllustrisTNG: ``Metallicity`` is the total content of elements heavier than H & He, and ``Metals`` or ``MetalFractions`` is a 11-element array with the elements in this (SIMBA-snapshot-like) order: [H,He,C,N,O,Ne,Mg,Si,S,Ca,Fe]
 
-In the SIMBA catalogues, the ``SubhaloStellarPhotometrics`` and ``WindMass`` fields contain some irrelevant numbers as those quantities are not calculated within the SIMBA simulations.
+In the SIMBA catalogs, the ``SubhaloStellarPhotometrics`` and ``WindMass`` fields contain some irrelevant numbers as those quantities are not calculated within the SIMBA simulations.
 
 Please also note the differences with respect to the ordering of the particles in the snapshots and its relation to the group catalogs, which are detailed in a blue Note box above in this page.
 
