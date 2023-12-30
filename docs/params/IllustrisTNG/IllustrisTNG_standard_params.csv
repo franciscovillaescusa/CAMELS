@@ -1,7 +1,7 @@
 ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
 Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
 sigma8,0.2,0,0.8,0.6,1.0,sigma8
-WindEnergyIn1e51erg,4,1,1.0,0.25,4.0,ASN1 - galactic winds energy
-RadioFeedbackFactor,4,1,1.0,.25,4.0,AAGN1 - AGN FB kinetic mode energy
-VariableWindVelFactor,2,1,1.0,0.5,2.0,ASN2 - galactic winds speed
-RadioFeedbackReiorientationFactor,2,1,1.0,0.5,2.0,AAGN2 - AGN FB kinetic mode burstiness
+ASN1,4,1,1.0,0.25,4.0,galactic winds energy
+AAGN1,4,1,1.0,0.25,4.0,AAGN1 - AGN FB kinetic mode energy
+ASN2,2,1,1.0,0.5,2.0,ASN2 - galactic winds speed
+AAGN2,2,1,1.0,0.5,2.0,AAGN2 - AGN FB kinetic mode burstiness
