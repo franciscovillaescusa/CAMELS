@@ -34,6 +34,8 @@ The CAMELS simulations are organized in different `suites`:
   
    For every of the above suites, there is an collection of N-body simulations that represent the dark matter only counterparts of the above hydrodynamic simulations. For instance, **IllustrisTNG_DM** represents the N-body counterpart of the simulations in the **IllustrisTNG** suite.
 
+We refer the reader to :ref:`Codes` for more details on the codes and subgrid physics models of the different suites.
+
    
 Volumes
 ~~~~~~~

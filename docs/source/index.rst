@@ -65,9 +65,9 @@ CAMELS
    description
    suites_sets
    codes
-   sims_available
    parameters
    redshifts
+   sims_available
 
 .. toctree::
    :maxdepth: 2
