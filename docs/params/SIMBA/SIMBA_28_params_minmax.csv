@@ -1,0 +1,29 @@
+ParamName,Fid,AbsMaxDiff,LogFlag,Meaning
+Omega0,0.3,0.2,0,Omega_m
+sigma8,0.8,0.2,0,sigma8
+GALSF_SUBGRID_DAA_LOADFACTOR,1,4,1,SN mass - ASN1
+BH_BAL_KICK_MOMENTUM_FLUX,20,4,1,AGN mass - AAGN1
+GALSF_SUBGRID_FIREVEL,1.6,2,1,SN speed - ASN2
+BH_QUENCH_JET,7000,2,1,AGN speed - AAGN2
+OmegaBaryon,0.049,0.02,0,OmegaBaryon
+HubbleParam,0.6711,0.2,0,HubbleParam
+ns,0.9624,0.2,0,power spectrum spectral index
+CritPhysDensity,0.2,10,1,density threshold for star formation
+SfEffPerFreeFall,0.02,2,1,star formation efficiency
+TempClouds,1000,10,1,temperature of cold winds
+WindFreeTravelMaxTime,0.02,10,1,maximum time for wind recoupling (units of the Hubble time)  
+WindFreeTravelDensFac,0.01,10,1,density of wind recoupling
+SeedBlackHoleMass,1e-06,10,1,seed BH mass
+BlackHoleAccretionFactor,1,4,1,accretion rate multiplier
+BlackHoleRadiativeEfficiency,0.1,4,1,BH radiative efficiency
+BlackHoleEddingtonFactor,3,4,1,Eddington rate multiplier for the BH accretion rate limiter
+BlackHoleNgbFactor,4,2,0,sets number of gas elements in BH kernel
+BlackHoleMaxAccretionRadius,4,2,1,maximum size of BH kernel
+GALSF_JEANS_MIN_T,1,4,1,pressurize ISM to resolve 1 Jeans mass with GALSF_JEANS_MIN_T*All.DesNumNgb particles
+GALSF_SUBGRID_FIREVEL_SLOPE,0.12,0.5,0,power-law dependence of wind velocity with Vcirc
+GALSF_SUBGRID_HOTWIND,0.3,0.3,0,fraction of wind particles ejected hot
+GALSF_AGBWINDHEATING,100,4,1,AGB wind velocity
+BH_HOST_TO_SEED_RATIO,300000,10,1,sets stellar mass threshold for seeding
+BH_QUENCH_JET_HOTWIND,2000,4,1,sets velocity above which jets are heated to Tvir
+BH_BONDI_HOT,5,1,0,sets threshold temperature for bondi vs torque accretion
+MBH_JET_MIN,4.5e7,10,1,sets threshold BH mass for jet feedback
