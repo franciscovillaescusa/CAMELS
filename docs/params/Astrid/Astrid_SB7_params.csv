@@ -1,0 +1,8 @@
+ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
+Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
+sigma8,0.2,0,0.8,0.6,1.0,sigma8
+ASN1,4,1,1.0,0.25,4.0,energy per SFR of galactic winds
+AAGN1,4,1,1.0,0.25,4.0,energy per black-hole accretion rate of the kinetic black-hole feedback
+ASN2,2,1,1.0,0.5,2.0,galactic winds speed
+AAGN2,4,1,1.0,0.25,4.0,energy per unit black-hole accretion rate of the thermal model of the black-hole feedback
+OmegaB,0.04,0,0.05,0.01,0.09,Omega_baryon
