@@ -66,7 +66,7 @@ The simulations in the SWIFT-EAGLe suite have been run with the SWIFT code using
 Ramses
 ~~~~~~
 
-The simulations in the Ramses suite have been run with the Ramses code.
+The simulations in the RAMSES suite have been run with the `RAMSES code <https://bitbucket.org/rteyssie/ramses/src/master/>`__ using the same subgrid physics as in `Kretschmer & Teyssier (2021) <https://arxiv.org/abs/1906.11836>`__ and `Teyssier et al. (2011) <https://arxiv.org/abs/1003.4744>`__. RAMSES uses Adaptive Particle Mesh to solve for gravity and the Godunov Finite Volume Constrained Transport method to solve for ideal magnetohydrodynamics (MHD). The galaxy formation physics implementation includes a multi-freefall sub-grid model for star-formation and supernovae momentum feedback as in `Kretschmer and Teyssier (2021) <https://arxiv.org/abs/1906.11836>`__, as well as supermassive black hole (SMBH) seeding, merging, accretion and feedback as in `Teyssier et al. (2011) <https://arxiv.org/abs/1003.4744>`__ and `Pellissier et al. (2023) <https://arxiv.org/abs/2301.02684>`__. RAMSES also models metallicity dependent radiative cooling, as well as radiation heating from a self-shielded UV background consistent with standard reionization models.
 
 The video below shows an example of a CAMELS-Ramses simulation:
 
