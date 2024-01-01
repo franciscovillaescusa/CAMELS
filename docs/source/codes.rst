@@ -48,7 +48,7 @@ The video below shows an example of a CAMELS-Astrid simulation:
 Magneticum
 ~~~~~~~~~~
 
-The simulations in the Magneticum suite have been run with the OpenGadget code using an updated and improved version of the Magneticum simulation.
+The simulations in the Magneticum suite have been run with the parallel cosmological Tree-PM code `OpenGadget3 <https://arxiv.org/abs/2301.03612>`__. The code uses an entropy-conserving formulation of Smoothed Particle Hydrodynamics (SPH) `(Springel & Hernquist 2002) <https://academic.oup.com/mnras/article/333/3/649/1002394>`__, with SPH modifications according to `Dolag et al. (2004) <https://arxiv.org/abs/astro-ph/0401470>`__, `Dolag et al. (2005) <https://arxiv.org/abs/astro-ph/0507480>`__, and `Dolag et al. (2006) <https://arxiv.org/abs/astro-ph/0511357>`__. It includes also prescriptions for multiphase interstellar medium based on the model by `Springel & Hernquist (2003) <https://academic.oup.com/mnras/article/339/2/289/1003780>`__ as well as `Tornatore et al. (2007) <https://academic.oup.com/mnras/article/382/3/1050/1008452>`__ for the metal enrichment prescription. The model follows the growth and evolution of BHs and their associated AGN feedback based on the model presented by `Springel et al. (2005) <https://academic.oup.com/mnras/article/364/4/1105/1042826>`__ and `Di Matteo et al. (2005) <https://arxiv.org/abs/astro-ph/0502199>`__, but includes modifications based on `Fabjan et al. (2011) <https://academic.oup.com/mnras/article/416/2/801/1054051>`__, `Hirschmann et al. (2014b) <https://academic.oup.com/mnras/article/442/3/2304/1039443>`__, and `Steinborn et al. (2016) <https://academic.oup.com/mnras/article/458/1/1013/2622553>`__. 
 
 The video below shows an example of a CAMELS-Magneticum simulation:
 
