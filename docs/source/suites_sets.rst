@@ -1,12 +1,12 @@
 .. _suites_sets:
 
-***************
-Suites and sets
-***************
+*********************
+Simulations structure
+*********************
 
 .. include:: sims.txt
 
-The simulations can be classified into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
+The CAMELS simulations can be classified into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
 
  .. image:: Sims_Scheme.png
     :alt: CAMELS Data structure
