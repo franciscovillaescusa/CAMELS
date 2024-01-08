@@ -61,7 +61,8 @@ The video below shows an example of a CAMELS-Magneticum simulation:
 SWIFT-EAGLE
 ~~~~~~~~~~~
 
-The simulations in the SWIFT-EAGLe suite have been run with the SWIFT code using a subgrid model that approximates the one of the EAGLE simulation.
+The simulations in the SWIFT-EAGLE suite have been run with the smoothed particle hydrodynamics and gravity code `SWIFT <https://arxiv.org/abs/2305.13380>`__. SWIFT is a parallel, open-source, versatile and modular code, with a range of hydrodynamics solvers, gravity solvers, and sub-grid models for galaxy formation. In this suite we use the `SPHENIX <https://academic.oup.com/mnras/article/511/2/2367/6423434?login=true>`__  flavour of SPH, coupled with a modified version of the Evolution and Assembly of GaLaxies and their Environments (EAGLE) subgrid model for galaxy formation and evolution (see `Schaye et al. 2015 <https://academic.oup.com/mnras/article/446/1/521/1316115?login=true>`__ and `Crain et al. 2015 <https://academic.oup.com/mnras/article/450/2/1937/984366?login=true>`__). This includes element-by-element radiative cooling and heating rates from `Ploeckinger & Schaye 2020 <https://academic.oup.com/mnras/article/497/4/4857/5876367?login=true>`__, stellar evolution and enrichment from `Wiersma  et al. 2009 <https://academic.oup.com/mnras/article/399/2/574/1059162?login=true>`__, and single thermal-mode feedback from massive stars and accreting AGN (see `Schaye & Dalla Vecchia <https://academic.oup.com/mnras/article/383/3/1210/1037943>`__, `Booth & Schaye 2009 <https://academic.oup.com/mnras/article/398/1/53/1092579?login=true>`__, `Rosas-Guevara et al. 2015 <https://academic.oup.com/mnras/article/454/1/1038/1143767?login=true>`__).
+
 
 Ramses
 ~~~~~~
