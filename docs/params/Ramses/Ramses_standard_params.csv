@@ -1,0 +1,7 @@
+ParamName, LogFlag, FiducialVal, MinVal, MaxVal, Description
+Omega0,    0,       0.3,         0.1,    0.5,    OmegaMatter
+sigma8,    0,       0.8,         0.6,    1.0,    sigma8
+ASN1,      1,       1.0,         0.1,    10.0,   supernova mechanical energy
+ASN2,      1,       0.5,         0.05,   5.0,    star-formation efficiency
+AAGN1,     1,       4,           2,      8,      size of the accretion and feedback region around SMBH
+AAGN2,     1,       2,           1,      4,      SMBH softening
