@@ -6,15 +6,13 @@ Organization
 
 .. include:: sims.txt
 
-The CAMELS simulations are organized into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
+The CAMELS simulations are organized into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. We refer the reader to :ref:`sims_description` for details on the number of simulations available per suite, volume, and set. The following scheme shows the way data is organized:
 
  .. image:: Sims_Scheme.png
     :alt: CAMELS Data structure
 
 
-Knowing this structure is important to know where the data is located. For instance, the 25 Mpc/h IllustrisTNG simulations of the CV set are located in ``/Sims/IllustrisTNG/L25n256/CV``.
-
-We refer the reader to :ref:`sims_description` for details on the number of simulations available per suite, volume, and set.
+Knowing this structure is important to know where the data is located and which data to use for different tasks. For instance, the 25 Mpc/h IllustrisTNG simulations of the CV set are located in ``/Sims/IllustrisTNG/L25n256/CV``. 
 
 
 Suites
@@ -30,11 +28,11 @@ The CAMELS simulations are organized in different `suites`:
 - | **Ramses**. This suite contains all hydrodynamic simulations that have been run with the `Ramses code <https://arxiv.org/abs/astro-ph/0111367>`_ using an state-of-the-art subgrid physics.
 - | **Enzo**. This suite contains all hydrodynamic simulations that have been run with the `Enzo code <https://arxiv.org/abs/1307.2265>`_ using an state-of-the-art subgrid physics model.
 
+We refer the reader to :ref:`Codes` for more details on the codes and subgrid physics models of the different suites.
+  
 .. Note::
   
    For every of the above suites, there is an collection of N-body simulations that represent the dark matter only counterparts of the above hydrodynamic simulations. For instance, **IllustrisTNG_DM** represents the N-body counterpart of the simulations in the **IllustrisTNG** suite.
-
-We refer the reader to :ref:`Codes` for more details on the codes and subgrid physics models of the different suites.
 
    
 Volumes
@@ -64,6 +62,8 @@ Each volume of each suite contains various simulation `sets`:
 - | **EX**. This set contains 4 simulations. All simulations share the value of the cosmological parameters, but differ in the value of the astrophysical parameters. One simulation has fiducial values; the other three represent extreme cases with 1) very efficient AGN feedback, 2) very efficient supernova feedback, and 3) no feedback. All simulations share the value of the initial conditions random seed. This set can be used to study the maximum effect astrophysics can have on a given quantity. EX stands for Extreme.
 - | **BE**. This set contains 27 simulations and is currently available only for the IllustrisTNG suite. All of these simulations share the exact same initial conditions with the 1P set and all are run with the fiducial model, but they use different random number sequences for the evolution of the simulation (not to be confused with the random seed that is used to generate the initial conditions). Hence, the differences between them represent the intrinsic randomness of the simulation results, which can serve as a benchmark for the performance of various predictive models. BE stands for Butterfly Effect.
 
+We refer the reader to :ref:`params` for further details on the value and meaning of the varied parameters in the different sets.
+  
 .. Note::
 
    The SB and LH sets are very simular. The main difference is that SB uses a Sobol sequence to sample the parameter space while LH uses a Latin-hypercube. Given the fact that Sobol sequences have better properties to sample the parameter space than latin-hypercubes (e.g. it is very easy to expand the number of simulations, they sample the parameter space more uniformingly...etc), all new CAMELS simulations will use Sobol sequences instead of Latin-hypercubes. We keep the LH set for historical reasons, and while they are very useful for many things we encourage users to use SB sets (if available) instead of LH sets. 
