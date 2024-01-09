@@ -1,8 +1,8 @@
 .. _Codes:
 
-***********
-Suite codes
-***********
+*****
+Codes
+*****
 
 As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified into different suites depending on the code and subgrid model used to run them. Below we provide some details on the codes, physics, and subgrid models employed.
 

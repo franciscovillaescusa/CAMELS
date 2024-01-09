@@ -14,7 +14,7 @@ CAMELS
 |              +--------------+---------------+-------------+
 |              | OpenGadget   |  Magneticum   |    77       |
 |              +--------------+---------------+-------------+
-|              | SWIFT        |  EAGLE        |    138      |
+|              | Swift        |  EAGLE        |    138      |
 |              +--------------+---------------+-------------+
 |              | Ramses       |               |    102      |
 |              +--------------+---------------+-------------+
@@ -66,8 +66,6 @@ CAMELS
    suites_sets
    codes
    parameters
-   redshifts
-   sims_available
 
 .. toctree::
    :maxdepth: 2

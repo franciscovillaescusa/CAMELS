@@ -1,36 +1,38 @@
 .. _params:   
 
-*********************
-Simulation parameters
-*********************
+**********
+Parameters
+**********
 
 As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified into different sets, depending on how their parameters (cosmological, astrophysical, and initial random seed) are organized. Here we provide details about this.
 
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-|              | CV                                       | 1P                                       | EX                                        | LH                                       | BE                                       | SB                                       |
-+==============+==========================================+==========================================+===========================================+==========================================+==========================================+==========================================+
-| IllustrisTNG | `params <http://tinyurl.com/35m7bby5>`__ | `params <http://tinyurl.com/5672e633>`__ | `params <http://tinyurl.com/ypvh7ytc>`__  | `params <http://tinyurl.com/3am3cyzh>`__ | `params <http://tinyurl.com/4m3z3hbb>`__ | `params <http://tinyurl.com/8s39cyf6>`__ |
-|              |                                          |                                          |                                           |                                          |                                          |                                          |
-|              | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   | `info <http://tinyurl.com/vrk33fx2>`__    | `info <http://tinyurl.com/vrk33fx2>`__   | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   |
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| SIMBA        | `params <http://tinyurl.com/4243xyb8>`__ |                                          | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ |                                          |                                          |
-|              |                                          |                                          |                                           |                                          |                                          |                                          |
-|              | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   |                                          |                                          |
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| Astrid       | `params <http://tinyurl.com/mrxc9e4z>`__ | `params <http://tinyurl.com/wzj8xs6y>`__ | `params <http://tinyurl.com/a6ex8bsv>`__  | `params <http://tinyurl.com/mk7ynydf>`__ |                                          | `params <http://tinyurl.com/vzy68cp3>`__ |
-|              |                                          |                                          |                                           |                                          |                                          |                                          |
-|              | fiducial                                 | `info <http://tinyurl.com/ywu54r4n>`__   | `info <http://tinyurl.com/ywu54r4n>`__    | `info <http://tinyurl.com/ywu54r4n>`__   |                                          | `info <http://tinyurl.com/3mrua4ee>`__   |
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| Magneticum   |                                          |                                          |                                           |                                          |                                          |                                          | 
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| SWIFT-Eagle  |                                          |                                          |                                           |                                          |                                          |                                          | 
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| Ramses       | `params <http://tinyurl.com/4f2cx44d>`__ | `params <http://tinyurl.com/yzmbjrew>`__ |                                           |                                          |                                          | `params <http://tinyurl.com/msjeftsn>`__ |
-|              |                                          |                                          |                                           |                                          |                                          |                                          |
-|              | fiducial                                 |                                          |                                           |                                          |                                          |                                          |
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| Enzo         |                                          |                                          |                                           |                                          |                                          |                                          | 
-+--------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   Suite          | Set                                                                                                                                                                                                                                                              |
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+|                  | CV                                       | 1P                                       | EX                                        | LH                                       | BE                                       | SB                                       |
++==================+==========================================+==========================================+===========================================+==========================================+==========================================+==========================================+
+| **IllustrisTNG** | `params <http://tinyurl.com/35m7bby5>`__ | `params <http://tinyurl.com/5672e633>`__ | `params <http://tinyurl.com/ypvh7ytc>`__  | `params <http://tinyurl.com/3am3cyzh>`__ | `params <http://tinyurl.com/4m3z3hbb>`__ | `params <http://tinyurl.com/8s39cyf6>`__ |
+|                  |                                          |                                          |                                           |                                          |                                          |                                          |
+|                  | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   | `info <http://tinyurl.com/vrk33fx2>`__    | `info <http://tinyurl.com/vrk33fx2>`__   | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   |
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **SIMBA**        | `params <http://tinyurl.com/4243xyb8>`__ |                                          | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ |                                          |                                          |
+|                  |                                          |                                          |                                           |                                          |                                          |                                          |
+|                  | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   |                                          |                                          |
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **Astrid**       | `params <http://tinyurl.com/mrxc9e4z>`__ | `params <http://tinyurl.com/wzj8xs6y>`__ | `params <http://tinyurl.com/a6ex8bsv>`__  | `params <http://tinyurl.com/mk7ynydf>`__ |                                          | `params <http://tinyurl.com/vzy68cp3>`__ |
+|                  |                                          |                                          |                                           |                                          |                                          |                                          |
+|                  | fiducial                                 | `info <http://tinyurl.com/ywu54r4n>`__   | `info <http://tinyurl.com/ywu54r4n>`__    | `info <http://tinyurl.com/ywu54r4n>`__   |                                          | `info <http://tinyurl.com/3mrua4ee>`__   |
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **Magneticum**   |                                          |                                          |                                           |                                          |                                          |                                          | 
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **Swift-Eagle**  |                                          |                                          |                                           |                                          |                                          |                                          | 
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **Ramses**       | `params <http://tinyurl.com/4f2cx44d>`__ | `params <http://tinyurl.com/yzmbjrew>`__ |                                           |                                          |                                          | `params <http://tinyurl.com/msjeftsn>`__ |
+|                  |                                          |                                          |                                           |                                          |                                          |                                          |
+|                  | fiducial                                 |                                          |                                           |                                          |                                          |                                          |
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
+| **Enzo**         |                                          |                                          |                                           |                                          |                                          |                                          | 
++------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
 
 
 
@@ -219,10 +221,16 @@ The Ramses suite contains 3 different sets: CV, 1P, SB. This table shows which p
 | SB5   | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
+The mean and range of variation of the 4 *standard* Ramses parameters are these:
+
+- :math:`A_{\rm SN1}`: this parameter controls the amplitude of the supernovae mechanical energy. It can vary from 0.1 to 10. Fiducial value is 1.
+- :math:`A_{\rm SN2}`: this parameter controls the amplitude of the star-formation efficiency of the Ramses multi-free-fall subgrid model. It can vary from 0.05 to 5. Fiducial value is 0.5.
+- :math:`A_{\rm AGN1}`: this parameter represents the size of the accretion and feedback region around the sink particles (representing SMBH in Ramses). Sizes are in units of the cell size (usually held quasi-constant in physical scale). Fiducial value is 4.
+- :math:`A_{\rm AGN2}`: this parameter represents the gravitational softening of the sink particles (representing SMBH in Ramses). Sizes are in units of the cell size (usually held quasi-constant in physical scale). Fiducial value is 2.
 
 .. Important::
 
-   The value of :math:`A_{\rm AGN2}` in Ramses is set to :math:`A_{\rm AGN1}/2`. Thus, in SB5 there are only two cosmological parameters (:math:`\Omega_{\rm m}` and :math:`\sigma_8`) and three free astrophysical parameters (:math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, and :math:`A_{\rm AGN1}`).
+   The value of :math:`A_{\rm AGN2}` in Ramses is set to :math:`A_{\rm AGN1}/2` in all Ramses simulations. Thus, in SB5 there are only two free cosmological parameters (:math:`\Omega_{\rm m}` and :math:`\sigma_8`) and three free astrophysical parameters (:math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, and :math:`A_{\rm AGN1}`).
 
 .. Note::
 

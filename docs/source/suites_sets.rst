@@ -1,12 +1,12 @@
 .. _suites_sets:
 
-*********************
-Simulations structure
-*********************
+************
+Organization
+************
 
 .. include:: sims.txt
 
-The CAMELS simulations can be classified into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
+The CAMELS simulations are organized into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. The following scheme shows the way data is organized:
 
  .. image:: Sims_Scheme.png
     :alt: CAMELS Data structure
@@ -14,7 +14,7 @@ The CAMELS simulations can be classified into different suites, volumes, and set
 
 Knowing this structure is important to know where the data is located. For instance, the 25 Mpc/h IllustrisTNG simulations of the CV set are located in ``/Sims/IllustrisTNG/L25n256/CV``.
 
-We refer the reader to :ref:`sims_chart` for details on the number of simulations available per suite, volume, and set.
+We refer the reader to :ref:`sims_description` for details on the number of simulations available per suite, volume, and set.
 
 
 Suites
@@ -26,7 +26,7 @@ The CAMELS simulations are organized in different `suites`:
 - | **SIMBA**. This suite contains all hydrodynamic simulations that have been run with the `GIZMO code <https://arxiv.org/abs/1409.7395>`_ employing the same subgrid physics as the original `SIMBA <http://simba.roe.ac.uk>`_ simulation.
 - | **Astrid**. This suite contains all hydrodynamics simulations that have been run with the `MP-Gadget code <https://github.com/MP-Gadget/MP-Gadget>`_ employing the same subgrid physics as the original Astrid simulation (see `this paper <https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..670N/abstract>`__ and `this paper <https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.3703B/abstract>`__).
 - | **Magneticum**. This suite contains all hydrodynamic simulations that have been run with the `Open-Gadget code <https://arxiv.org/abs/2301.03612>`_ using an updated version of the `Magneticum <http://www.magneticum.org/>`_ subgrid model. 
-- | **SWIFT-Eagle**. This suite contains all hydrodynamic simulations that have been run with the `SWIFT code <https://arxiv.org/abs/2305.13380>`_ using the `Eagle subgrid physics model <https://eagle.strw.leidenuniv.nl/>`_ (see `this paper <https://arxiv.org/abs/1407.7040>`__ and `this paper <https://arxiv.org/abs/1501.01311>`__). 
+- | **Swift-Eagle**. This suite contains all hydrodynamic simulations that have been run with the `Swift code <https://arxiv.org/abs/2305.13380>`_ using the `Eagle subgrid physics model <https://eagle.strw.leidenuniv.nl/>`_ (see `this paper <https://arxiv.org/abs/1407.7040>`__ and `this paper <https://arxiv.org/abs/1501.01311>`__). 
 - | **Ramses**. This suite contains all hydrodynamic simulations that have been run with the `Ramses code <https://arxiv.org/abs/astro-ph/0111367>`_ using an state-of-the-art subgrid physics.
 - | **Enzo**. This suite contains all hydrodynamic simulations that have been run with the `Enzo code <https://arxiv.org/abs/1307.2265>`_ using an state-of-the-art subgrid physics model.
 

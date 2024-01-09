@@ -12,7 +12,7 @@ CAESAR computes a large number of properties for each halo and galaxy, including
 For each snapshot CAESAR generates two files:
 
 - ``fof6d_0XX``. This file contains the galaxies identified using the 6D Friends-of-Friends (FoF) algorithm. ``XX`` represents the snapshot number (from 00 to 33).
-- ``caesar_0XX.hdf5``. This file is the actual CAESAR catalog. ``XX`` represents the snapshot number (from 00 to 33).
+- ``caesar_0XX.hdf5``. This file is the actual CAESAR catalog. ``XX`` represents the snapshot number (from 00 to 90).
 
 The user can find details on how to read and manipulate CAESAR catalogs in the `CAESAR documentation <https://caesar.readthedocs.io>`_. 
   
