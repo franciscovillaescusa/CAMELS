@@ -1,8 +1,6 @@
 News
 ====
 
-**January 2024** All the simulations in the IllustrisTNG SB28 set are now publicly available. This is a collection of 2,048 hydrodynamic simulations that sample a 28-dimensional parameter space (5 cosmological and 23 astrophysical) using a Sobol sequence. For more details see 
-
 **May 2023** The snapshots of the N-body simulations have been compressed. In order to read those snapshots with python, you need to use ``import hdf5`` and ``import hdf5plugin``. See :ref:`snapshots` for details.
 
 **April 2023** All simulations in the Astrid suite are now publicly available. The CAMELS Multifield Dataset has also been updated and now incorporates 2D maps and 3D grids from the Astrid simulations. Halo and galaxy catalogues from both Subfind and Rockstar are also publicly available together with merger trees from SubLink and Consistent trees.
