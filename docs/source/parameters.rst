@@ -203,13 +203,33 @@ This table shows which parameters are varied in each set:
    What we call here *fiducial* Magneticum does not correspond exactly with the original Magneticum simulation, but with its updated model. See :ref:`Codes` for more details.
 
 
-SWIFT-Eagle
+Swift-EAGLE
 ~~~~~~~~~~~
+
+The Swift-EAGLE suite contains 3 different sets: CV, 1P, and LH. This table shows which parameters are varied in each set:
+
++-------+-------------------------------------------+
+|       | Astrophysical parameters                  |
++=======+===========================================+
+| CV    | *fiducial* Ramses                         |
++-------+-------------------------------------------+
+| 1P    | *standard* 4 astrophysical parameters     |
++-------+-------------------------------------------+
+| LH    | *standard* 4 astrophysical parameters     |
++-------+-------------------------------------------+
+
+The mean and range of variation of the 4 *standard* Ramses parameters are these:
+
+- :math:`A_{\rm SN1}` represents the thermal energy injected in each SNII event. It can vary from 0.25 to 4.
+- :math:`A_{\rm SN2}` represents the metallicity dependence of the stellar feedback fraction per unit stellar mass. It can vary from 0.5 to 2.
+- :math:`A_{\rm AGN1}` represents the scaling of the black hole Bondi accretion rate. It can vary from 0.25 to 4.
+- :math:`A_{\rm AGN2}` represents the temperature jump of gas particles in AGN feedback events. It can vary from 0.5 to 2.
+
 
 Ramses
 ~~~~~~
 
-The Ramses suite contains 3 different sets: CV, 1P, SB. This table shows which parameters are varied in each set:
+The Ramses suite contains 3 different sets: CV, 1P, and SB. This table shows which parameters are varied in each set:
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |

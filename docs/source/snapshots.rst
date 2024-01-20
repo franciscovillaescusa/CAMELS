@@ -21,7 +21,7 @@ The ``Sims`` folder contains different *suite folders*, that contain all simulat
 - ``Astrid``. This folder contains all simulations of the Astrid suite.
 - ``Magneticum``. This folder contains all simulations of the Magneticum suite.
 - ``Ramses``. This folder contains all simulations of the Ramses suite.
-- ``SWIFT_EAGLE``. This folder contains all simulations of the SWIFT-EAGLE suite.
+- ``EAGLE``. This folder contains all simulations of the Swift-EAGLE suite.
 - ``Enzo``. This folder contains all simulations of the Enzo suite.
 
 Each of the above suites have an associated N-body suite. Those simulations are located in a folder with the name of the suite followed by ``DM``. For instance, the folder ``IllustrisTNG_DM`` contains all the N-body simulations that are the counterpart of the full hydrodynamic simulations contained in the ``IllustrisTNG`` folder.

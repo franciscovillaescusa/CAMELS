@@ -1,7 +1,7 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 11,862 cosmological simulations --5,164 N-body and 6,698 state-of-the-art (magneto-)hydrodynamic-- and more than 700 Terabytes of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 12,876 cosmological simulations --5,164 N-body and 7,712 state-of-the-art (magneto-)hydrodynamic-- and more than 1 Petabyte of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
 
 +--------------+--------------+---------------+-------------+
 | Type         | Code         | Subgrid model | Simulations |
@@ -14,13 +14,13 @@ CAMELS
 |              +--------------+---------------+-------------+
 |              | OpenGadget   |  Magneticum   |    77       |
 |              +--------------+---------------+-------------+
-|              | Swift        |  EAGLE        |    138      |
+|              | Swift        |  EAGLE        |    1,088    |
 |              +--------------+---------------+-------------+
-|              | Ramses       |               |    102      |
+|              | Ramses       |               |    166      |
 |              +--------------+---------------+-------------+
 |              | Enzo         |               |    6        |
 +--------------+--------------+---------------+-------------+
-| N-body       | Gadget-III   |      ---      |    5,164    |
+| N-body       | Gadget-III   |      ---      |    7,712    |
 +--------------+--------------+---------------+-------------+
 
 .. raw:: html
