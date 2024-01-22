@@ -35,7 +35,7 @@ The video below shows an example of a CAMELS-SIMBA simulation:
 Astrid
 ~~~~~~
 
-The simulations in the Astrid suite have been run with the MP-Gadget code using the same subgrid physics as the Astrid simulation.
+The simulations in the ASTRID suite have been run with the `MP-Gadget <https://github.com/MP-Gadget/MP-Gadget>`__ code, a massively scalable version of the cosmological structure formation code Gadget-3, to solve the gravity (with TreePM), hydrodynamics (using entropy-conserving formulation of Smoothed Particle Hydrodynamics method). ASTRID models galaxy formation physics including sub-grid models for multi-phase ISM and star-formation (`Springel & Hernquist 2003 <https://academic.oup.com/mnras/article/339/2/289/1003780>`__), stellar evolution and metal enrichment (`Vogelsberger et al. 2014 <https://academic.oup.com/mnras/article/444/2/1518/1749887>`__), galactic winds, as well as supermassive black hole (SMBH) seeding, merging, accretion and feedback (`Di Matteo et al. 2005 <https://arxiv.org/abs/astro-ph/0502199>`__). The details of ASTRID subgrid model are described in `Bird et al. 2022 <https://academic.oup.com/mnras/article/512/3/3703/6546174>`__ and  `Ni et al. 2022 <https://academic.oup.com/mnras/article/513/1/670/6533522>`__.
 
 The video below shows an example of a CAMELS-Astrid simulation:
 
