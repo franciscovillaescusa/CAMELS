@@ -15,9 +15,9 @@ As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified int
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
 |                  | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   | `info <http://tinyurl.com/vrk33fx2>`__    | `info <http://tinyurl.com/vrk33fx2>`__   | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| **SIMBA**        | `params <http://tinyurl.com/4243xyb8>`__ |                                          | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ |                                          |                                          |
+| **SIMBA**        | `params <http://tinyurl.com/4243xyb8>`__ |                                          | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ | `params <http://tinyurl.com/4as25t4h>`__ |                                          |
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
-|                  | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   |                                          |                                          |
+|                  | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   | fiducial                                 |                                          |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
 | **Astrid**       | `params <http://tinyurl.com/mrxc9e4z>`__ | `params <http://tinyurl.com/wzj8xs6y>`__ | `params <http://tinyurl.com/a6ex8bsv>`__  | `params <http://tinyurl.com/mk7ynydf>`__ |                                          | `params <http://tinyurl.com/vzy68cp3>`__ |
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
@@ -120,6 +120,8 @@ The SIMBA suite contains 4 different sets: 1P, CV, LH, and EX. This table shows 
 |       | Astrophysical parameters                  |
 +=======+===========================================+
 | CV    | *fiducial* SIMBA                          |
++-------+-------------------------------------------+
+| BE    | *fiducial* SIMBA                          |
 +-------+-------------------------------------------+
 | LH    | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
