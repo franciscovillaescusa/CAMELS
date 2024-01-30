@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **A field-level emulator for modeling baryonic effects across hydrodynamic simulations**
+   | Divij Sharma, Biwei Dai, Francisco Villaescusa-Navarro, Uros Seljak
+   | `2401.15891 <https://arxiv.org/abs/2401.15891>`_
+
 #. | **Modeling the Kinematics of Central and Satellite Galaxies Using Normalizing Flows**
    | K.J. Kwon, ChangHoon Hahn
    | `2401.12318 <https://arxiv.org/abs/2401.12318>`_
