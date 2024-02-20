@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Cosmological multifield emulator**
+   | Sambatra Andrianomena, Sultan Hassan, Francisco Villaescusa-Navarro
+   | `2402.10997 <https://arxiv.org/abs/2402.10997>`_
+
 #. | **A field-level emulator for modeling baryonic effects across hydrodynamic simulations**
    | Divij Sharma, Biwei Dai, Francisco Villaescusa-Navarro, Uros Seljak
    | `2401.15891 <https://arxiv.org/abs/2401.15891>`_
