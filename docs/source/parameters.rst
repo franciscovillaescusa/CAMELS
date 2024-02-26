@@ -98,7 +98,7 @@ The IllustrisTNG suite contains all sets: 1P, CV, LH, EX, BE, and SB. This table
 | SB28  | *extended* 23 astrophysical parameters    |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* IllustrisTNG parameters are these:
+The meaning and range of variation of the 4 *standard* IllustrisTNG parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the energy per unit SFR of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -132,7 +132,7 @@ The SIMBA suite contains 4 different sets: 1P, CV, LH, and EX. This table shows 
 | 1P    | *extended* 23 astrophysical parameters    |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* SIMBA parameters are these:
+The meaning and range of variation of the 4 *standard* SIMBA parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the mass loading of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -168,7 +168,7 @@ The Astrid suite contains 5 different sets: 1P, CV, LH, EX, and SB. This table s
 | SB7   | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* Astrid parameters are these:
+The meaning and range of variation of the 4 *standard* Astrid parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the energy per SFR of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -202,6 +202,14 @@ This table shows which parameters are varied in each set:
 | LH    | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
+
+The meaning and range of variation of the 4 *standard* Magneticum parameters are these:
+
+- :math:`A_{\rm SN1}` represents the energy per unit of SFR of the galactic winds. It can vary from 0.25 to 4.
+- :math:`A_{\rm SN2}` represents the wind speed of the galactic winds. It can vary from 0.5 to 2.
+- :math:`A_{\rm AGN1}` represents the rate of energy injection from AGN into the ISM,. It can vary from 0.25 to 4.
+- :math:`A_{\rm AGN2}` represents the threshold for switching to radio mode. It can vary from 0.5 to 2.
+
 .. Attention::
 
    What we call here *fiducial* Magneticum does not correspond exactly with the original Magneticum simulation, but with its updated model. See :ref:`Codes` for more details.
@@ -222,7 +230,7 @@ The Swift-EAGLE suite contains 3 different sets: CV, 1P, and LH. This table show
 | LH    | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* EAGLE parameters are these:
+The meaning and range of variation of the 4 *standard* EAGLE parameters are these:
 
 - :math:`A_{\rm SN1}` represents the thermal energy injected in each SNII event. It can vary from 0.25 to 4.
 - :math:`A_{\rm SN2}` represents the metallicity dependence of the stellar feedback fraction per unit stellar mass. It can vary from 0.5 to 2.
@@ -245,7 +253,7 @@ The Ramses suite contains 3 different sets: CV, 1P, and SB. This table shows whi
 | SB5   | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* Ramses parameters are these:
+The meaning and range of variation of the 4 *standard* Ramses parameters are these:
 
 - :math:`A_{\rm SN1}`: this parameter controls the amplitude of the supernovae mechanical energy. It can vary from 0.1 to 10. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: this parameter controls the amplitude of the star-formation efficiency of the Ramses multi-free-fall subgrid model. It can vary from 0.05 to 5. Fiducial value is 0.5.
