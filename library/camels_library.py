@@ -8,6 +8,7 @@ import sorting_library as SL
 import Pk_library as PKL
 import HI_library as HIL
 import scipy.spatial as SS
+import hdf5plugin
 
 # define constants here
 rho_crit   = UL.units().rho_crit #h^2 Msun/Mpc^3
@@ -32,7 +33,7 @@ def KDTree_distance(pos1, pos2, k, BoxSize=None, threads=1, verbose=True):
 
     # find nearest neighbors of the tracer particles
     start = time.time()
-    dist, indexes = kdtree.query(pos2, k, n_jobs=threads)
+    dist, indexes = kdtree.query(pos2, k, workers=threads)
     if verbose:  print('Time to find k-neighbors = %.3f seconds'%(time.time()-start))
 
     # return the distance of each particle to its farthest neighborgh
