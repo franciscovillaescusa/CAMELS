@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Probing the Circum-Galactic Medium with Fast Radio Bursts: Insights from the CAMELS Simulations**
+   | Isabel Medlock, Daisuke Nagai, Priyanka Singh, Benjamin Oppenheimer, Daniel Angles Alcazar, Francisco Villaescusa-Navarro 
+   | `2403.02313 <https://arxiv.org/abs/2403.02313>`_
+
 #. | **Cosmological multifield emulator**
    | Sambatra Andrianomena, Sultan Hassan, Francisco Villaescusa-Navarro
    | `2402.10997 <https://arxiv.org/abs/2402.10997>`_
