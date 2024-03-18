@@ -22,7 +22,7 @@ The video below shows an example of a CAMELS-IllustrisTNG simulation:
 SIMBA
 ~~~~~
 
-The simulations in the SIMBA suite have been run with GIZMO code using the same subgrid physics as the SIMBA simulation.
+The simulations in the SIMBA suite have been run with the `GIZMO code <https://bitbucket.org/phopkins/gizmo-public/src/master/>`__ using the same subgrid physics as the original SIMBA simulation, presented in `Davé et al. 2019 <https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2827D/abstract>`__. SIMBA builds on the MUFASA model (`Davé et al. 2016 <https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.3265D/abstract>`__) and the gravitational torque accretion and kinetic AGN feedback implementation of `Anglés-Alcázar et al. 2017a. <https://ui.adsabs.harvard.edu/abs/2017MNRAS.464.2840A/abstract>`__ SIMBA uses the “Meshless Finite Mass” hydrodynamics mode of GIZMO (`Hopkins 2015 <https://ui.adsabs.harvard.edu/abs/2015MNRAS.450...53H/abstract>`__) and computes gravitational forces using a modified version of the TreePM algorithm of `Springel 2005 <https://ui.adsabs.harvard.edu/abs/2005MNRAS.364.1105S/abstract>`__, including adaptive gravitational softenings.  Radiative cooling and photoionization are implemented using Grackle-3.1 (`Smith et al. 2017 <https://ui.adsabs.harvard.edu/abs/2017MNRAS.466.2217S/abstract>`__), stars form from molecular gas following `Krumholz & Gnedin (2011) <https://ui.adsabs.harvard.edu/abs/2011ApJ...729...36K/abstract>`__, and dust formation and evolution is modelled on-the-fly (`Li et al. 2019 <https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.1425L/abstract>`__). Stellar feedback includes two-phase galactic winds with their mass loading factor and velocity taken from the FIRE simulations (`Muratov et al. 2015 <https://ui.adsabs.harvard.edu/abs/2015MNRAS.454.2691M/abstract>`__; `Anglés-Alcázar et al. 2017b <https://ui.adsabs.harvard.edu/abs/2017MNRAS.470.4698A/abstract>`__).  SMBHs grow through cold gas accretion driven by gravitational torques (`Hopkins & Quataert 2011 <https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.1027H/abstract>`__; `Anglés-Alcázar et al. 2017a <https://ui.adsabs.harvard.edu/abs/2017MNRAS.464.2840A/abstract>`__) and hot gas accretion following `Bondi 1952 <https://ui.adsabs.harvard.edu/abs/1952MNRAS.112..195B/abstract>`__.  Kinetic AGN feedback follows a two-mode approach with quasar winds transitioning into high-speed collimated jets at low Eddington accretion rates, and X-ray radiative feedback follows `Choi et al. (2012) <https://ui.adsabs.harvard.edu/abs/2012ApJ...754..125C/abstract>`__.
 
 The video below shows an example of a CAMELS-SIMBA simulation:
 
@@ -35,7 +35,7 @@ The video below shows an example of a CAMELS-SIMBA simulation:
 Astrid
 ~~~~~~
 
-The simulations in the Astrid suite have been run with the MP-Gadget code using the same subgrid physics as the Astrid simulation.
+The simulations in the ASTRID suite have been run with the `MP-Gadget <https://github.com/MP-Gadget/MP-Gadget>`__ code, a massively scalable version of the cosmological structure formation code Gadget-3, to solve the gravity (with TreePM), hydrodynamics (using entropy-conserving formulation of Smoothed Particle Hydrodynamics method). ASTRID models galaxy formation physics including sub-grid models for multi-phase ISM and star-formation (`Springel & Hernquist 2003 <https://academic.oup.com/mnras/article/339/2/289/1003780>`__), stellar evolution and metal enrichment (`Vogelsberger et al. 2014 <https://academic.oup.com/mnras/article/444/2/1518/1749887>`__), galactic winds, as well as supermassive black hole (SMBH) seeding, merging, accretion and feedback (`Di Matteo et al. 2005 <https://arxiv.org/abs/astro-ph/0502199>`__). The details of ASTRID subgrid model are described in `Bird et al. 2022 <https://academic.oup.com/mnras/article/512/3/3703/6546174>`__ and  `Ni et al. 2022 <https://academic.oup.com/mnras/article/513/1/670/6533522>`__.
 
 The video below shows an example of a CAMELS-Astrid simulation:
 
@@ -86,7 +86,7 @@ The simulations in the Enzo suite have been run with the Enzo code.
 N-body
 ~~~~~~
 
-All the N-body simulations hve been run with the Gadget-III code.
+All the N-body simulations hve been run with the TreePM code `Gadget-III code <https://ui.adsabs.harvard.edu/abs/2005MNRAS.364.1105S/abstract>`__. The number of voxels in the PM grid is typically set to be 8 times that of the number of particles. The gravitational softening is set to :math:`1/40` of the mean inter-particle distance.  
 
 The video below shows an example of a CAMELS-Nbody simulation:
 

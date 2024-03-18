@@ -2,6 +2,26 @@
 Publications
 ************
 
+#. | **Galaxy dispersion measured by Fast Radio Bursts as a probe of baryonic feedback models**
+   | Alexander Theis, Steffen Hagstotz, Robert Reischke, Jochen Weller
+   | `2403.08611 <https://arxiv.org/abs/2403.08611>`_
+
+#. | **Probing the Circum-Galactic Medium with Fast Radio Bursts: Insights from the CAMELS Simulations**
+   | Isabel Medlock, Daisuke Nagai, Priyanka Singh, Benjamin Oppenheimer, Daniel Angles Alcazar, Francisco Villaescusa-Navarro 
+   | `2403.02313 <https://arxiv.org/abs/2403.02313>`_
+
+#. | **Cosmological multifield emulator**
+   | Sambatra Andrianomena, Sultan Hassan, Francisco Villaescusa-Navarro
+   | `2402.10997 <https://arxiv.org/abs/2402.10997>`_
+
+#. | **A field-level emulator for modeling baryonic effects across hydrodynamic simulations**
+   | Divij Sharma, Biwei Dai, Francisco Villaescusa-Navarro, Uros Seljak
+   | `2401.15891 <https://arxiv.org/abs/2401.15891>`_
+
+#. | **Modeling the Kinematics of Central and Satellite Galaxies Using Normalizing Flows**
+   | K.J. Kwon, ChangHoon Hahn
+   | `2401.12318 <https://arxiv.org/abs/2401.12318>`_
+
 #. | **Cosmological Field Emulation and Parameter Inference with Diffusion Models**
    | Nayantara Mudur, Carolina Cuesta-Lazaro, Douglas P. Finkbeiner
    | `2312.07534 <https://arxiv.org/abs/2312.07534>`_

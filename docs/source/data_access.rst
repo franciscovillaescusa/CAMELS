@@ -1,6 +1,6 @@
 .. attention::
 
-   All the simulations in the IllustrisTNG, SIMBA, Astrid, and N-body suites are publicly available. To access other simulations (e.g. Magneticum, SWIFT-Eagle, Ramses...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+   All the simulations in the IllustrisTNG, SIMBA, Astrid, and N-body suites are publicly available. To access other simulations (e.g. Magneticum, Swift-EAGLE, Ramses...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
 
 .. _data_access:
    

@@ -15,17 +15,19 @@ As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified int
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
 |                  | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   | `info <http://tinyurl.com/vrk33fx2>`__    | `info <http://tinyurl.com/vrk33fx2>`__   | fiducial                                 | `info <http://tinyurl.com/2xpd59cz>`__   |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| **SIMBA**        | `params <http://tinyurl.com/4243xyb8>`__ |                                          | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ |                                          |                                          |
+| **SIMBA**        | `params <http://tinyurl.com/4243xyb8>`__ | `params <http://tinyurl.com/5bv25jmu>`__ | `params <http://tinyurl.com/y5hmnvxd>`__  | `params <http://tinyurl.com/mu3775e7>`__ | `params <http://tinyurl.com/4as25t4h>`__ |                                          |
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
-|                  | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   |                                          |                                          |
+|                  | fiducial                                 | `info <http://tinyurl.com/bddbunae>`__   | `info <http://tinyurl.com/yem8xdth>`__    | `info <http://tinyurl.com/yem8xdth>`__   | fiducial                                 |                                          |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
 | **Astrid**       | `params <http://tinyurl.com/mrxc9e4z>`__ | `params <http://tinyurl.com/wzj8xs6y>`__ | `params <http://tinyurl.com/a6ex8bsv>`__  | `params <http://tinyurl.com/mk7ynydf>`__ |                                          | `params <http://tinyurl.com/vzy68cp3>`__ |
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
 |                  | fiducial                                 | `info <http://tinyurl.com/ywu54r4n>`__   | `info <http://tinyurl.com/ywu54r4n>`__    | `info <http://tinyurl.com/ywu54r4n>`__   |                                          | `info <http://tinyurl.com/3mrua4ee>`__   |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| **Magneticum**   |                                          |                                          |                                           |                                          |                                          |                                          | 
+| **Magneticum**   | `params <http://tinyurl.com/2s7nbp3a>`__ |                                          |                                           | `params <http://tinyurl.com/4vwf5ske>`__ |                                          |                                          |
+|                  |                                          |                                          |                                           |                                          |                                          |                                          |
+|                  | fiducial                                 |                                          |                                           |                                          |                                          |                                          |
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
-| **Swift-Eagle**  |                                          |                                          |                                           |                                          |                                          |                                          | 
+| **Swift-EAGLE**  |                                          |                                          |                                           |                                          |                                          |                                          | 
 +------------------+------------------------------------------+------------------------------------------+-------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------+
 | **Ramses**       | `params <http://tinyurl.com/4f2cx44d>`__ | `params <http://tinyurl.com/yzmbjrew>`__ |                                           |                                          |                                          | `params <http://tinyurl.com/msjeftsn>`__ |
 |                  |                                          |                                          |                                           |                                          |                                          |                                          |
@@ -96,7 +98,7 @@ The IllustrisTNG suite contains all sets: 1P, CV, LH, EX, BE, and SB. This table
 | SB28  | *extended* 23 astrophysical parameters    |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* IllustrisTNG parameters are these:
+The meaning and range of variation of the 4 *standard* IllustrisTNG parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the energy per unit SFR of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -121,6 +123,8 @@ The SIMBA suite contains 4 different sets: 1P, CV, LH, and EX. This table shows 
 +=======+===========================================+
 | CV    | *fiducial* SIMBA                          |
 +-------+-------------------------------------------+
+| BE    | *fiducial* SIMBA                          |
++-------+-------------------------------------------+
 | LH    | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 | EX    | *standard* 4 astrophysical parameters     |
@@ -128,7 +132,7 @@ The SIMBA suite contains 4 different sets: 1P, CV, LH, and EX. This table shows 
 | 1P    | *extended* 23 astrophysical parameters    |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* SIMBA parameters are these:
+The meaning and range of variation of the 4 *standard* SIMBA parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the mass loading of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -164,7 +168,7 @@ The Astrid suite contains 5 different sets: 1P, CV, LH, EX, and SB. This table s
 | SB7   | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* Astrid parameters are these:
+The meaning and range of variation of the 4 *standard* Astrid parameters are these:
 
 - :math:`A_{\rm SN1}`: it represents the energy per SFR of the galactic winds. It can vary from 0.25 to 4. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: it represents the wind speed of the galactic winds. It can vary from 0.5 to 2. Fiducial value is 1.
@@ -198,18 +202,46 @@ This table shows which parameters are varied in each set:
 | LH    | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
+
+The meaning and range of variation of the 4 *standard* Magneticum parameters are these:
+
+- :math:`A_{\rm SN1}` represents the energy per unit of SFR of the galactic winds. It can vary from 0.25 to 4.
+- :math:`A_{\rm SN2}` represents the wind speed of the galactic winds. It can vary from 0.5 to 2.
+- :math:`A_{\rm AGN1}` represents the rate of energy injection from AGN into the ISM,. It can vary from 0.25 to 4.
+- :math:`A_{\rm AGN2}` represents the threshold for switching to radio mode. It can vary from 0.5 to 2.
+
 .. Attention::
 
    What we call here *fiducial* Magneticum does not correspond exactly with the original Magneticum simulation, but with its updated model. See :ref:`Codes` for more details.
 
 
-SWIFT-Eagle
+Swift-EAGLE
 ~~~~~~~~~~~
+
+The Swift-EAGLE suite contains 3 different sets: CV, 1P, and LH. This table shows which parameters are varied in each set:
+
++-------+-------------------------------------------+
+|       | Astrophysical parameters                  |
++=======+===========================================+
+| CV    | *fiducial* Ramses                         |
++-------+-------------------------------------------+
+| 1P    | *standard* 4 astrophysical parameters     |
++-------+-------------------------------------------+
+| LH    | *standard* 4 astrophysical parameters     |
++-------+-------------------------------------------+
+
+The meaning and range of variation of the 4 *standard* EAGLE parameters are these:
+
+- :math:`A_{\rm SN1}` represents the thermal energy injected in each SNII event. It can vary from 0.25 to 4.
+- :math:`A_{\rm SN2}` represents the metallicity dependence of the stellar feedback fraction per unit stellar mass. It can vary from 0.5 to 2.
+- :math:`A_{\rm AGN1}` represents the scaling of the black hole Bondi accretion rate. It can vary from 0.25 to 4.
+- :math:`A_{\rm AGN2}` represents the temperature jump of gas particles in AGN feedback events. It can vary from 0.5 to 2.
+
 
 Ramses
 ~~~~~~
 
-The Ramses suite contains 3 different sets: CV, 1P, SB. This table shows which parameters are varied in each set:
+The Ramses suite contains 3 different sets: CV, 1P, and SB. This table shows which parameters are varied in each set:
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
@@ -221,7 +253,7 @@ The Ramses suite contains 3 different sets: CV, 1P, SB. This table shows which p
 | SB5   | *standard* 4 astrophysical parameters     |
 +-------+-------------------------------------------+
 
-The mean and range of variation of the 4 *standard* Ramses parameters are these:
+The meaning and range of variation of the 4 *standard* Ramses parameters are these:
 
 - :math:`A_{\rm SN1}`: this parameter controls the amplitude of the supernovae mechanical energy. It can vary from 0.1 to 10. Fiducial value is 1.
 - :math:`A_{\rm SN2}`: this parameter controls the amplitude of the star-formation efficiency of the Ramses multi-free-fall subgrid model. It can vary from 0.05 to 5. Fiducial value is 0.5.

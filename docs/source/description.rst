@@ -30,7 +30,7 @@ The simulations can be classified into suites, volumes, and sets, depending on t
 |                   |                    |        |        |        |        |        |           | 
 |                   | *(28 parameters)*  |        |        |        |        |        |           |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
-| **SIMBA**         |                    | 1000   | 61     | 27     | 4      |        | 1092      |
+| **SIMBA**         |                    | 1000   | 61     | 27     | 4      | 27     | 1119      |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
 | **Astrid**        | 1024               | 1000   | 61     | 27     | 4      |        | 2116      |
 |                   |                    |        |        |        |        |        |           | 
@@ -38,16 +38,16 @@ The simulations can be classified into suites, volumes, and sets, depending on t
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
 | **Magneticum**    |                    | 50     |        | 27     |        |        | 77        |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
-| **SWIFT-Eagle**   |                    | 50     | 61     | 27     |        |        | 138       |
+| **Swift-EAGLE**   |                    | 1000   | 61     | 27     |        |        | 1088      |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
-| **Ramses**        | 64                 |        | 11     | 27     |        |        | 102       |
+| **Ramses**        | 128                |        | 11     | 27     |        |        | 166       |
 |                   |                    |  --    |        |        |        |        |           | 
 |                   | *(5 parameters)*   |        |        |        |        |        |           |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
 | **Enzo**          |                    |  --    | 5      | 1      |        |        | 6         |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
-| **All**           | 3136               | 3100   | 260    | 163    | 12     | 27     | **6698**  |
+| **All**           | 3200               | 4050   | 260    | 163    | 12     | 54     | **7739**  |
 +-------------------+--------------------+--------+--------+--------+--------+--------+-----------+
 
 +-------------------------------------------------------------------------------------------------+
@@ -69,7 +69,7 @@ The simulations can be classified into suites, volumes, and sets, depending on t
 +-------------------+--------------------+--------+        +        +        +--------+-----------+
 | **Magneticum**    |                    |        |        |        |        |        | 89        |
 +-------------------+--------------------+--------+        +        +        +--------+-----------+
-| **SWIFT-Eagle**   |                    |        |        |        |        |        | 89        |
+| **Swift-EAGLE**   |                    |        |        |        |        |        | 89        |
 +-------------------+--------------------+--------+        +        +        +--------+-----------+
 | **Ramses**        |                    | --     |        |        |        |        | 89        |
 +-------------------+--------------------+--------+        +        +        +--------+-----------+
@@ -85,7 +85,7 @@ The value of the cosmological, astrophysical, and initial random seed of the dif
 Codes
 ~~~~~
 
-All N-body simulations have been run with the Gadget-III code, while the hydrodynamic simulations have been run with different codes: AREPO, GIZMO, MP-Gadget, OpenGadget, SWIFT, Ramses, and Enzo. See :ref:`Codes` for details on the different codes and subgrid physics models available in CAMELS.
+All N-body simulations have been run with the Gadget-III code, while the hydrodynamic simulations have been run with different codes: AREPO, GIZMO, MP-Gadget, OpenGadget, Swift, Ramses, and Enzo. See :ref:`Codes` for details on the different codes and subgrid physics models available in CAMELS.
 
 
 .. _redshifts: 
