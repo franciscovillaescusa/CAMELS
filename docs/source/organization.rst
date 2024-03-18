@@ -65,7 +65,7 @@ As can be seen, the name of the folder can be used to identify the simulation se
   
 .. note::
 
-   The numeric scheme of the 1P set labels was chosen to help the user to identify which parameter and its variation is the one considered. This may be more useful than just listing the simulations from 0 to 65. The value of ``X`` represents the considered parameter ``1`` (:math:`\Omega_{\rm m}`), ``2`` (:math:`\sigma_8`), ``3`` (:math:`A_{\rm SN1}`), ``4`` (:math:`A_{\rm AGN1}`), ``5`` (:math:`A_{\rm SN2}`), ``6`` (:math:`A_{\rm AGN2}`). The value of ``Y`` can be ``n5``, ``n4``, ``n3``, ``n2``, ``n1``, ``0``, ``1``, ``2``, ``3``, ``4``, or ``5``. The letter ``n`` denotes a negative value. The fiducial value corresponds to ``Y=0``. Thus, ``Y=5`` and ``Y=n5`` are the more distant models to the fiducial one.
+   The numeric scheme of the 1P set labels was chosen to help the user to identify which parameter and its variation is the one considered. This may be more useful than just listing the simulations from 0 to, e.g., 65. The value of ``X`` represents the considered parameter ``1`` (:math:`\Omega_{\rm m}`), ``2`` (:math:`\sigma_8`), ``3`` (:math:`A_{\rm SN1}`), ``4`` (:math:`A_{\rm AGN1}`), ``5`` (:math:`A_{\rm SN2}`), ``6`` (:math:`A_{\rm AGN2}`)...etc. The value of ``Y`` can be ``n2``, ``n1``, ``0``, ``1``, or ``2``. The letter ``n`` denotes a negative value. The fiducial value corresponds to ``Y=0``. Thus, ``Y=2`` and ``Y=n2`` are the more distant models to the fiducial one.
 
 Actual data
 ~~~~~~~~~~~
