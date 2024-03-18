@@ -10,7 +10,7 @@ All simulations follow the evolution of :math:`256^3` dark matter particles and 
 
 .. Note::
 
-   CAMELS is expanding and will soon include simulations with :math:`512^3` dark matter particles and :math:`512^3` gas resolution elements in periodic boxes of :math:`(50~h^{-1}{\rm Mpc})^3`. 
+   CAMELS is expanding and will soon include simulations with :math:`512^3` dark matter particles and :math:`512^3` gas resolution elements in periodic boxes of :math:`(50~h^{-1}{\rm Mpc})^3`. CAMELS has recently expanded to include a set of zoom-in simulations of massive halos, which are centered in periodic boxes of :math:`(200~h^{-1}{\rm Mpc})^3`. 
 
 For each simulation, we store multiple snapshots. We also keep a variety of post-processed data such as halo catalogs, power spectra...etc; see :ref:`organization`.
 

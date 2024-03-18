@@ -87,6 +87,7 @@ CAMELS
    Profiles
    CMD
    SAM
+   zoomGZ
 
 .. toctree::
    :maxdepth: 2

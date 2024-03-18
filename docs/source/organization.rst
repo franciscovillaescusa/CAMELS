@@ -61,6 +61,9 @@ Inside a `suite folder` there are typically many `simulation folders`, such as:
 - ``EX_X``. These folders contain the data from EX simulations. ``X`` ranges from ``0`` to ``3``.
 - ``BE_X``. These folders contain the data from BE simulations. ``X`` ranges from ``0`` to ``26``.
 
+.. note::
+   The IllustrisTNG suite folder contains a new set of zoom-in simulations under the simulation folder ``zoom``. See :ref:`zoomGZ` for more details.
+
 As can be seen, the name of the folder can be used to identify the simulation set and its parameters.
   
 .. note::
