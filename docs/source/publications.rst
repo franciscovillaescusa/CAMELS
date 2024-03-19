@@ -2,6 +2,14 @@
 Publications
 ************
 
+#. | **Debiasing with Diffusion: Probabilistic reconstruction of Dark Matter fields from galaxies with CAMELS**
+   | Victoria Ono, Core Francisco Park, Nayantara Mudur, Yueying Ni, Carolina Cuesta-Lazaro, Francisco Villaescusa-Navarro
+   | `2403.10648 <https://arxiv.org/abs/2403.10648>`_
+
+#. | **Zooming by in the CARPoolGP lane: new CAMELS-TNG simulations of zoomed-in massive halos**
+   | Max E. Lee, Shy Genel, Benjamin D. Wandelt, Benjamin Zhang, Ana Maria Delgado, Shivam Pandey, Erwin T. Lau, Christopher Carr, Harrison Cook, Daisuke Nagai, Daniel Angles-Alcazar, Francisco Villaescusa-Navarro, Greg L. Bryan
+   | `2403.10609 <https://arxiv.org/abs/2403.10609>`_
+
 #. | **Galaxy dispersion measured by Fast Radio Bursts as a probe of baryonic feedback models**
    | Alexander Theis, Steffen Hagstotz, Robert Reischke, Jochen Weller
    | `2403.08611 <https://arxiv.org/abs/2403.08611>`_
