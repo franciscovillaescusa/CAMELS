@@ -1,6 +1,8 @@
 News
 ====
 
+**March 2024** A new suite, "GZ28," of 768 massive hydrodynamical zoom-in simulations spanning the IllustrisTNG parameter space has been added. GZ28 employs a novel parameter space sampling method, "CARPoolGP," that leverages correlations between the initial conditions of simulations. See :ref:`CAMELS-zoomGZ` for more details.
+
 **May 2023** The snapshots of the N-body simulations have been compressed. In order to read those snapshots with python, you need to use ``import hdf5`` and ``import hdf5plugin``. See :ref:`snapshots` for details.
 
 **April 2023** All simulations in the Astrid suite are now publicly available. The CAMELS Multifield Dataset has also been updated and now incorporates 2D maps and 3D grids from the Astrid simulations. Halo and galaxy catalogues from both Subfind and Rockstar are also publicly available together with merger trees from SubLink and Consistent trees.

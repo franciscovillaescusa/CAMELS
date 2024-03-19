@@ -60,6 +60,7 @@ Inside each *suite folder* (or *volume folder*) there are the *set folders* (see
 - ``EX``. This folder contains the simulation of the EX set. The subfolders in this folder are named ``EX_X`` where X goes from 0 to 3.
 - ``BE``. This folder contains the simulation of the BE set. The subfolders in this folder are named ``BE_X``, where X goes from 0 to 26.
 - ``SB``. This folder contains the simulation of the SB set. In general, this set is named as ``SBY``, where Y is the number of dimensions sampled in the Sobol Sequence (e.g. SB28 for IllustrisTNG). The subfolders in this folder are named ``SBY_X``, where X goes from 0 to N-1, where N is the number of simulations in the Sobol sequence.
+- ``zoom``. This folder contains sets of zoom-in simulations. The subfolders correspond to the halo type of zoom-in simulations, e.g. ``GZY`` representing Group Zoom, and Y the number of parameter space dimensions sampled. The individual zoom-in simulations are in the corresponding subfolders with GZY_X where X goes from 0 to N-1 with N being the number of simulations.
 - ``CosmoAstroSeed_params.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN2}` seed.
 
 Besides the above, the *set folders* may also contain some files with the value of the cosmological and astrophysical parameters for the Sobol sequences. 
@@ -219,6 +220,7 @@ As can be seen, the snapshots contain different groups and blocks:
 - ``Header``. This group contains different properties of the simulations such as its box size, number of particles, value of the cosmological parameters...etc.
 - ``PartType0``. This group contains the properties of the gas particles.
 - ``PartType1``. This group contains the properties of the dark matter particles.
+- ``PartType2``. This group contains low-resolution dark matter particles, only relevant in zoom-in simulations. 
 - ``PartType4``. This group contains the properties of the star particles.
 - ``PartType5``. This group contains the properties of the black hole particles.
 
@@ -227,6 +229,10 @@ For instance, the block ``/PartType4/Coordinates`` contains the coordinates of t
 .. Note::
 
    While the format of the snapshots in the different suites is almost identical, there are a few differences. See :ref:`suite_differences` for more information.
+
+.. Note::
+
+   The zoom-in simulations contain snapshot directories as opposed to individual files.
 
 .. _read_snaps:
    
