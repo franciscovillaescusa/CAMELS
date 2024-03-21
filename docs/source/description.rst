@@ -93,6 +93,13 @@ All N-body simulations have been run with the Gadget-III code, while the hydrody
 Redshifts
 ~~~~~~~~~
 
+.. important::
+
+   A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+
+   - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
+
+
 All simulations have 91 snapshots. `This file <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/setup/times/times_extended.txt>`_ contains the scale factors of the snapshots. The user can click below to see the redshift, scale factor, and snapshot number for the different snapshots:
 
 .. raw:: html

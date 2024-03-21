@@ -4,6 +4,15 @@
 SUBFIND catalogs
 ****************
 
+.. important::
+
+   A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+
+   - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
+   - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
+   - Snapshot files have been renamed from ``snap_###.hdf5`` to ``snapshot_###.hdf5`` and fof/subfind files from ``fof_subhalo_tab_###.hdf5`` to ``groups_###.hdf5``.
+     
+
 The ``FOF_Subfind`` folder contains the FOF+SUBFIND halo/subhalo/galaxy catalogs. The data is organized following the general hierarchical structure described in :ref:`suite_folders`.
 
 The catalogs are stored as hdf5 files. ``h5py`` is needed in order to read these files using python. CAMELS provides a halo/subhalo catalog for each snapshot. The halos are identified through FOF and subhalos are identified through SUBFIND.
@@ -12,7 +21,7 @@ The easiest way to inspect the content of these files is:
 
 .. code-block:: bash
 
-   >> h5ls -r SIMBA/CV_5/fof_subhalo_tab_031.hdf5
+   >> h5ls -r SIMBA/CV_5/groups_031.hdf5
    /                        Group
    /Config                  Group
    /Group                   Group
@@ -118,7 +127,7 @@ Reading these files with python is straightforward:
    import h5py
    
    # catalog name
-   catalog = 'SIMBA/CV_5/fof_subhalo_tab_033.hdf5'
+   catalog = 'SIMBA/CV_5/groups_090.hdf5'
 
    # value of the scale factor
    scale_factor = 1.0

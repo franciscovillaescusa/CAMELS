@@ -4,6 +4,15 @@
 Simulations
 ***********
 
+.. important::
+
+   A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+
+   - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
+   - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
+   - Snapshot files have been renamed from ``snap_###.hdf5`` to ``snapshot_###.hdf5`` and fof/subfind files from ``fof_subhalo_tab_###.hdf5`` to ``groups_###.hdf5``.
+     
+
 The ``Sims`` folder contains the raw data from all CAMELS simulations. The data is organized following the general hierarchical structure described in :ref:`suite_folders`. Thus, the simulations are organized by:
 
 1. the code used to run the simulations: *suite folder*
@@ -111,9 +120,9 @@ The most relevant ones are these:
 
 - ``ICs``. This folder contains the initial conditions of the simulations. See :ref:`ICs` for further details.
 
-- ``snap_0XY.hdf5``. These are the simulation snapshots. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the positions, velocities, IDs and other properties of the dark matter particles and the fluid resolution elements of the simulation. See :ref:`snapshots` for details on how to read these files.
+- ``snapshot_0XY.hdf5``. These are the simulation snapshots. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the positions, velocities, IDs and other properties of the dark matter particles and the fluid resolution elements of the simulation. See :ref:`snapshots` for details on how to read these files.
   
-- ``fof_subhalo_tab_0XY.hdf5``. These files contain the halo/galaxy catalogues. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the properties of the halos and subhalos identified by SUBFIND. See :ref:`subfind` to see how to read these files.
+- ``groups_0XY.hdf5``. These files contain the halo/galaxy catalogues. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the properties of the halos and subhalos identified by SUBFIND. See :ref:`subfind` to see how to read these files.
 
 - ``CosmoAstro_params.txt``. This file contains the value of the cosmological and astrophysical parameter of the simulation. In general, the format is: :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm SN2}`   :math:`A_{\rm AGN1}`   :math:`A_{\rm AGN2}`, but it may vary for simulations varying more or less parameters.
 
@@ -131,7 +140,7 @@ CAMELS snapshots are stored as single hdf5 files. In order to read them in pytho
 
 .. code-block:: bash
 
-   >> h5ls -r Sims/IllustrisTNG/L25n256/CV/CV_14/snap_024.hdf5
+   >> h5ls -r Sims/IllustrisTNG/L25n256/CV/CV_14/snapshot_024.hdf5
    /                        Group
    /Config                  Group
    /Header                  Group
@@ -245,7 +254,7 @@ Reading the snapshot header and blocks can be done as follows:
    import hdf5plugin
 
    # snapshot name
-   snapshot = 'Sims/IllustrisTNG/L25n256/CV/CV_14/snap_014.hdf5'
+   snapshot = 'Sims/IllustrisTNG/L25n256/CV/CV_14/snapshot_014.hdf5'
 
    # open file
    f = h5py.File(snapshot, 'r')
