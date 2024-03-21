@@ -6,7 +6,7 @@ Simulations
 
 .. important::
 
-   A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+   A reorganization of the data has been performed in 2024 in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
 
    - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
    - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
@@ -63,7 +63,7 @@ Set folders
   
 Inside each *suite folder* (or *volume folder*) there are the *set folders* (see :ref:`suites_sets` for details):
 
-- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_X_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. See :ref:`simulation_folders` for details about the naming of the simulations in the 1P set.
+- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_pX_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. See :ref:`simulation_folders` for details about the naming of the simulations in the 1P set.
 - ``CV``. This folder contains the simulation of the CV set. The subfolders in this folder are named ``CV_X``, where X goes from 0 to 26.
 - ``LH``. This folder contains the simulation of the LH set. The subfolders in this folder are named ``LH_X`` where X goes from 0 to 999.
 - ``EX``. This folder contains the simulation of the EX set. The subfolders in this folder are named ``EX_X`` where X goes from 0 to 3.

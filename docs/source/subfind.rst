@@ -6,7 +6,7 @@ SUBFIND catalogs
 
 .. important::
 
-   A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+   A reorganization of the data has been performed in 2024 in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
 
    - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
    - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.

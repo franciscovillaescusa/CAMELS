@@ -55,7 +55,7 @@ Simulation folders
    
 Inside a `suite folder` there are typically many `simulation folders`, such as: 
    
-- ``1P_X_Y``. These folders contain the data from 1P simulations. ``X`` ranges from ``1`` to ``N`` while ``Y`` goes from ``n2`` (-5) to ``2``. Where ``NN`` is the number of parameters (e.g. 28 in IllustrisTNG, 6 in Astrid...etc).
+- ``1P_pX_Y``. These folders contain the data from 1P simulations. ``X`` ranges from ``1`` to ``N`` while ``Y`` goes from ``n2`` (-2) to ``2``. Where ``N`` is the number of parameters (e.g. 28 in IllustrisTNG, 6 in Astrid...etc).
 - ``CV_X``. These folders contain the data from CV simulations. ``X`` ranges from ``0`` to ``26``.
 - ``LH_X``. These folders contain the data from LX simulations. ``X`` ranges from ``0`` to ``999``.
 - ``EX_X``. These folders contain the data from EX simulations. ``X`` ranges from ``0`` to ``3``.
