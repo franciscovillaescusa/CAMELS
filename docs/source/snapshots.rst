@@ -63,7 +63,7 @@ Set folders
   
 Inside each *suite folder* (or *volume folder*) there are the *set folders* (see :ref:`suites_sets` for details):
 
-- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_pX_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. See :ref:`simulation_folders` for details about the naming of the simulations in the 1P set.
+- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_pX_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. See :ref:`set_folders` for details about the naming of the simulations in the 1P set.
 - ``CV``. This folder contains the simulation of the CV set. The subfolders in this folder are named ``CV_X``, where X goes from 0 to 26.
 - ``LH``. This folder contains the simulation of the LH set. The subfolders in this folder are named ``LH_X`` where X goes from 0 to 999.
 - ``EX``. This folder contains the simulation of the EX set. The subfolders in this folder are named ``EX_X`` where X goes from 0 to 3.
