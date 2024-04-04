@@ -70,7 +70,7 @@ Inside each *suite folder* (or *volume folder*) there are the *set folders* (see
 - ``BE``. This folder contains the simulation of the BE set. The subfolders in this folder are named ``BE_X``, where X goes from 0 to 26.
 - ``SB``. This folder contains the simulation of the SB set. In general, this set is named as ``SBY``, where Y is the number of dimensions sampled in the Sobol Sequence (e.g. SB28 for IllustrisTNG). The subfolders in this folder are named ``SBY_X``, where X goes from 0 to N-1, where N is the number of simulations in the Sobol sequence.
 - ``zoom``. This folder contains sets of zoom-in simulations. The subfolders correspond to the halo type of zoom-in simulations, e.g. ``GZY`` representing Group Zoom, and Y the number of parameter space dimensions sampled. The individual zoom-in simulations are in the corresponding subfolders with GZY_X where X goes from 0 to N-1 with N being the number of simulations.
-- ``CosmoAstroSeed_params.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the suite. The format of the file is: simulation_name :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm AGN1}`  :math:`A_{\rm SN2}`  :math:`A_{\rm AGN2}` seed.
+- ``CosmoAstroSeed_<suitname>_<setname>.txt``. This file contains the value of the cosmological and astrophysical parameter, together with the value of the random seed, for each simulation in the set. The format of the file is: simulation_name [parameter1 parameter2 … parameterN] seed.
 
 Besides the above, the *set folders* may also contain some files with the value of the cosmological and astrophysical parameters for the Sobol sequences. 
   
@@ -123,8 +123,6 @@ The most relevant ones are these:
 - ``snapshot_0XY.hdf5``. These are the simulation snapshots. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the positions, velocities, IDs and other properties of the dark matter particles and the fluid resolution elements of the simulation. See :ref:`snapshots` for details on how to read these files.
   
 - ``groups_0XY.hdf5``. These files contain the halo/galaxy catalogues. Numbers go from 000 (corresponding to :math:`z=15`) to 090 (corresponding to :math:`z=0`). See :ref:`redshifts` to know the redshifts associated to the different numbers. These files contain the properties of the halos and subhalos identified by SUBFIND. See :ref:`subfind` to see how to read these files.
-
-- ``CosmoAstro_params.txt``. This file contains the value of the cosmological and astrophysical parameter of the simulation. In general, the format is: :math:`\Omega_{\rm m}`  :math:`\sigma_8`  :math:`A_{\rm SN1}`  :math:`A_{\rm SN2}`   :math:`A_{\rm AGN1}`   :math:`A_{\rm AGN2}`, but it may vary for simulations varying more or less parameters.
 
 .. _Reach out to us: camel.simulations@gmail.com
   
