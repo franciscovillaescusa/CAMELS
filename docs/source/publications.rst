@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Parameter estimation from Lyα forest in Fourier space using Information Maximising Neural Network**
+   | Soumak Maitra, Stefano Cristiani, Matteo Viel, Roberto Trotta, Guido Cupani
+   | `2404.04327 <https://arxiv.org/abs/2404.04327>`_
+
 #. | **Debiasing with Diffusion: Probabilistic reconstruction of Dark Matter fields from galaxies with CAMELS**
    | Victoria Ono, Core Francisco Park, Nayantara Mudur, Yueying Ni, Carolina Cuesta-Lazaro, Francisco Villaescusa-Navarro
    | `2403.10648 <https://arxiv.org/abs/2403.10648>`_
