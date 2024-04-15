@@ -1,0 +1,7 @@
+ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
+Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
+sigma8,0.2,0,0.8,0.6,1.0,sigma8
+ASN1,4,1,1.0,0.25,4.0,thermal energy per SNII event
+AAGN1,4,1,1.0,0.25,4.0,scaling of the black hole Bondi accretion rate
+ASN2,2,1,1.0,0.5,2.0,metallicity dependence of the stellar feedback fraction per unit stellar mass
+AAGN2,4,1,1.0,0.25,4.0,temperature jump of gas particles in AGN feedback events
