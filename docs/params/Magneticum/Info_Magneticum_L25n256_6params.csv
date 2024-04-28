@@ -1,0 +1,7 @@
+ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
+Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
+sigma8,0.2,0,0.8,0.6,1.0,sigma8
+ASN1,4,1,1.0,0.25,4.0,energy per unit of star-formation
+AAGN1,4,1,1.0,0.25,4.0,rate of energy injection from AGN into the ISM
+ASN2,2,1,1.0,0.5,2.0,wind speed of the galactic winds
+AAGN2,4,1,1.0,0.25,4.0,threshold for switching to radio mode
