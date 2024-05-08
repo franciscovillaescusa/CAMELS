@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Cosmology from one galaxy in voids?**
+   | Bonny Y. Wang, Alice Pisani
+   | `2405.04447 <https://arxiv.org/abs/2405.04447>`_
+
 #. | **Parameter estimation from Lyα forest in Fourier space using Information Maximising Neural Network**
    | Soumak Maitra, Stefano Cristiani, Matteo Viel, Roberto Trotta, Guido Cupani
    | `2404.04327 <https://arxiv.org/abs/2404.04327>`_
