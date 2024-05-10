@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Diffusion-HMC: Parameter Inference with Diffusion Model driven Hamiltonian Monte Carlo**
+   | Nayantara Mudur, Carolina Cuesta-Lazaro, Douglas P. Finkbeiner
+   | `2405.05255 <https://arxiv.org/abs/2405.05255>`_
+
 #. | **Cosmology from one galaxy in voids?**
    | Bonny Y. Wang, Alice Pisani
    | `2405.04447 <https://arxiv.org/abs/2405.04447>`_
