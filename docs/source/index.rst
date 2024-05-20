@@ -1,7 +1,7 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 13,013 cosmological simulations --5,112 N-body and 7,901 state-of-the-art (magneto-)hydrodynamic-- and more than 1 Petabyte of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 14,037 cosmological simulations --6,136 N-body and 7,901 state-of-the-art (magneto-)hydrodynamic-- and more than 1 Petabyte of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
 
 +--------------+--------------+---------------+-------------+
 | Type         | Code         | Subgrid model | Simulations |
@@ -20,7 +20,7 @@ CAMELS
 |              +--------------+---------------+-------------+
 |              | Enzo         |               |    6        |
 +--------------+--------------+---------------+-------------+
-| N-body       | Gadget-III   |      ---      |    5,112    |
+| N-body       | Gadget-III   |      ---      |    6,136    |
 +--------------+--------------+---------------+-------------+
 
 .. raw:: html
