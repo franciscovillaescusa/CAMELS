@@ -141,7 +141,7 @@ Reading these files with python is straightforward:
    mass_h = f['Group/GroupMass'][:]*1e10         #masses in Msun/h
 
    # read the positions, black hole masses and stellar masses of the subhalos/galaxies
-   pos_g  = f['Subhalo/SubhaloMass'][:]/1e3        #positions in Mpc/h
+   pos_g  = f['Subhalo/SubhaloPos'][:]/1e3         #positions in Mpc/h
    BH_g   = f['Subhalo/SubhaloBHMass'][:]*1e10     #black-hole masses in Msun/h
    M_star = f['Subhalo/SubhaloMassType'][:,4]*1e10 #stellar masses in Msun/h
    
