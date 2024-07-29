@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15072024-101341/publico/tesenatalisolermatubarodesanti.pdf**
+   | Natali de Santi
+   | `PhD thesis <https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15072024-101341/publico/tesenatalisolermatubarodesanti.pdf>`__
+
 #. | **Diffusion-HMC: Parameter Inference with Diffusion Model driven Hamiltonian Monte Carlo**
    | Nayantara Mudur, Carolina Cuesta-Lazaro, Douglas P. Finkbeiner
    | `2405.05255 <https://arxiv.org/abs/2405.05255>`_
