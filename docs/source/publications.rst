@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **The evolving role of astrophysical modelling in dark matter halo relaxation response**
+   | Premvijay Velmani, Aseem Paranjape
+   | `2408.04864 <https://arxiv.org/abs/2408.04864>`_
+
 #. | **Stirring the cosmic pot: how black hole feedback shapes the matter power spectrum in the Fable simulations**
    | Sergio Martin-Alvarez, Vid Iršič, Sophie Koudmani, Martin Bourne, Leah Bigwood, Debora Sijacki
    | `2407.18349 <https://arxiv.org/abs/2407.18349>`_
