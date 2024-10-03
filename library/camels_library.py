@@ -559,6 +559,9 @@ def HI_mass(snapshot, TREECOOL_file, sim='IllustrisTNG'):
         metals = f['PartType0/GFM_Metallicity'][:]
     elif sim=='SIMBA':
         metals = f['PartType0/Metallicity'][:,0] #metallicity
+    elif sim=='Magneticum':
+        Mg     = f['PartType0/Masses'][:]*1e10     #Msun/h
+        metals = np.sum(f['PartType0/Mass of Metals'][:,1:], axis=1)*1e10/Mg
     else:
         raise Exception('Wrong simulation type!!!')
     metals = metals[indexes]/0.0127
