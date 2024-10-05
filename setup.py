@@ -8,7 +8,7 @@ with open("README.md", "r") as f:
 
 setup(
     name         = 'CAMELS_library',
-    version      = "0.5", 
+    version      = "0.6", 
     author       = 'Francisco Villaescusa-Navarro',
     author_email = 'villaescusa.francisco@gmail.com',
     description  = "Python routines to analyze the data from the simulations of the Cosmology and Astrophysics with MachinE Learning Simulations (CAMELS) project",
