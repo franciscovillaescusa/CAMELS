@@ -10,6 +10,10 @@ Publications
    | Yongseok Jo, Shy Genel, Joel Leja, Benjamin Wandelt
    | `2410.21722 <https://arxiv.org/abs/2410.21722>`_
 
+#. | **Quantifying Baryonic Feedback on Warm-Hot Circumgalactic Medium in CAMELS Simulations**
+   | Isabel Medlock, Chloe Neufeld, Daisuke Nagai, Daniel Angles Alcazar, Shy Genel, Benjamin Oppenheimer, Priyanka Singh, Francisco Villaescusa-Navarro
+   | `2410.16361 <https://arxiv.org/abs/2410.16361>`_
+
 #. | **Cosmological and Astrophysical Parameter Inference from Stacked Galaxy Cluster Profiles Using CAMELS-zoomGZ**
    | Elena Hernández-Martínez, Shy Genel, Francisco Villaescusa-Navarro, Ulrich P. Steinwandel, Max E. Lee, Erwin T. Lau, David N. Spergel
    | `2410.10942 <https://arxiv.org/abs/2410.10942>`_
