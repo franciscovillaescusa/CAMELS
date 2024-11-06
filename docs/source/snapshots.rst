@@ -8,8 +8,8 @@ Simulations
 
    A reorganization of the data has been performed in 2024 in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
 
-   - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
-   - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
+   - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2. In a few exceptions (e.g. when fiducial value is 0 and negative values are not physical), a parameter may vary from 0 (fiducial) to 4 instead of from n2 to 2.
+   - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations had only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
    - Snapshot files have been renamed from ``snap_###.hdf5`` to ``snapshot_###.hdf5`` and fof/subfind files from ``fof_subhalo_tab_###.hdf5`` to ``groups_###.hdf5``.
      
 
@@ -63,7 +63,7 @@ Set folders
   
 Inside each *suite folder* (or *volume folder*) there are the *set folders* (see :ref:`suites_sets` for details):
 
-- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_pX_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. See :ref:`set_folders` for details about the naming of the simulations in the 1P set.
+- ``1P``. This folder constains the simulations of the 1P set. Inside this folder, there are subfolders named ``1P_pX_Y`` that contain the different simulations in the 1P set. ``X`` ranges from ``1`` to ``N``, where ``N`` is the number of parameters  while ``Y`` goes from ``n2`` (-2) to ``2`` and denotes the variation of the parameter where 0 is the fiducial value. In a few exceptions (e.g. when fiducial value is 0 and negative values are not physical), a parameter may vary from 0 (fiducial) to 4 instead of from n2 to 2. See :ref:`set_folders` for details about the naming of the simulations in the 1P set.
 - ``CV``. This folder contains the simulation of the CV set. The subfolders in this folder are named ``CV_X``, where X goes from 0 to 26.
 - ``LH``. This folder contains the simulation of the LH set. The subfolders in this folder are named ``LH_X`` where X goes from 0 to 999.
 - ``EX``. This folder contains the simulation of the EX set. The subfolders in this folder are named ``EX_X`` where X goes from 0 to 3.

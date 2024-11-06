@@ -557,8 +557,11 @@ def HI_mass(snapshot, TREECOOL_file, sim='IllustrisTNG'):
     # find the metallicity of star-forming particles
     if sim in ['IllustrisTNG', 'Astrid']:
         metals = f['PartType0/GFM_Metallicity'][:]
-    elif sim=='SIMBA':
+    elif sim in ['SIMBA', 'Obsidian']:
         metals = f['PartType0/Metallicity'][:,0] #metallicity
+    elif sim=='Magneticum':
+        Mg     = f['PartType0/Masses'][:]*1e10     #Msun/h
+        metals = np.sum(f['PartType0/Mass of Metals'][:,1:], axis=1)*1e10/Mg
     else:
         raise Exception('Wrong simulation type!!!')
     metals = metals[indexes]/0.0127
