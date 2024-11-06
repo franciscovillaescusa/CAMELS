@@ -2,6 +2,18 @@
 Publications
 ************
 
+#. | **Reconstruction of Continuous Cosmological Fields from Discrete Tracers with Graph Neural Networks**
+   | Yurii Kvasiuk, Jordan Krywonos, Matthew C. Johnson, Moritz Münchmeyer
+   | `2411.02496 <https://arxiv.org/abs/2411.02496>`_
+
+#. | **On the Significance of Covariance for Constraining Theoretical Models From Galaxy Observables**
+   | Yongseok Jo, Shy Genel, Joel Leja, Benjamin Wandelt
+   | `2410.21722 <https://arxiv.org/abs/2410.21722>`_
+
+#. | **Cosmological and Astrophysical Parameter Inference from Stacked Galaxy Cluster Profiles Using CAMELS-zoomGZ**
+   | Elena Hernández-Martínez, Shy Genel, Francisco Villaescusa-Navarro, Ulrich P. Steinwandel, Max E. Lee, Erwin T. Lau, David N. Spergel
+   | `2410.10942 <https://arxiv.org/abs/2410.10942>`_
+
 #. | **The evolving role of astrophysical modelling in dark matter halo relaxation response**
    | Premvijay Velmani, Aseem Paranjape
    | `2408.04864 <https://arxiv.org/abs/2408.04864>`_
