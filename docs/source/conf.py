@@ -75,3 +75,5 @@ html_theme_options = {
     'logo_only': True,
     'display_version': False,
 }
+
+html_extra_path = ["robots.txt"]

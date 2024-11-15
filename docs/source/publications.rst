@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learning Optimal and Interpretable Summary Statistics of Galaxy Catalogs with SBI**
+   | Kai Lehman, Sven Krippendorf, Jochen Weller, Klaus Dolag
+   | `2411.08957 <https://arxiv.org/abs/2411.08957>`_
+
 #. | **Reconstruction of Continuous Cosmological Fields from Discrete Tracers with Graph Neural Networks**
    | Yurii Kvasiuk, Jordan Krywonos, Matthew C. Johnson, Moritz Münchmeyer
    | `2411.02496 <https://arxiv.org/abs/2411.02496>`_
