@@ -72,27 +72,12 @@ If you use CAMELS data you may consider citing the CAMELS `presentation <https:/
 CAMELS photometry
 ~~~~~~~~~~~~~~~~~
 
-If you use data from the CAMELS photometry catalogues please consider citing the `CAMELS photometry release paper <https://arxiv.org/abs/2204.02408>`_
+If you use data from the CAMELS photometry catalogues please consider citing the `CAMELS photometry release paper <https://arxiv.org/abs/>`_
 
 ::
 
    @ARTICLE{CAMELS-photometry,
-   author = {{Perez}, Lucia A. and {Genel}, Shy and {Villaescusa-Navarro}, Francisco and {Somerville}, Rachel S. and {Gabrielpillai}, Austen and {Angl{\'e}s-Alc{\'a}zar}, Daniel and {Wandelt}, Benjamin D. and {Yung}, L.~Y. Aaron},
-   title = "{Constraining Cosmology with Machine Learning and Galaxy Clustering: The CAMELS-SAM Suite}",
-   journal = {\apj},
-   keywords = {Large-scale structure of the universe, Neural networks, Cosmological parameters from large-scale structure, N-body simulations, Galaxy formation, 902, 1933, 340, 1083, 595, Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
-   year = 2023,
-   month = sep,
-   volume = {954},
-   number = {1},
-   eid = {11},
-   pages = {11},
-   doi = {10.3847/1538-4357/accd52},
-   archivePrefix = {arXiv},
-   eprint = {2204.02408},
-   primaryClass = {astro-ph.GA},
-   adsurl = {https://ui.adsabs.harvard.edu/abs/2023ApJ...954...11P},
-   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+      TBC
    }
 
 
