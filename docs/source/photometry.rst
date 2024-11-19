@@ -1,4 +1,4 @@
-.. _subfind:
+.. _photometry:
 
 *******************
 Photometry catalogs

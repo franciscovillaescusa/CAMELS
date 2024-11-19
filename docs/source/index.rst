@@ -82,6 +82,7 @@ CAMELS
    rockstar
    ahf
    caesar
+   photometry
    Pk
    Bk
    pdf
