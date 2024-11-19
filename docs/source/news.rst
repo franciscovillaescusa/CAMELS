@@ -1,6 +1,8 @@
 News
 ====
 
+**November 2024** Photometric catalogues for the IllustrisTNG, Simba, Astrid and Swift-EAGLE simulation sets have been added. These have been run on all snapshots, and are based on the SUBFIND catalogues. They include two different stellar population synthesis models, intrinsic and dust attenuated emission, luminosities and observer-frame fluxes, and a range of filters from the ultraviolet to the near-infrared. See :ref:`photometry` for details.
+
 **March 2024** A reorganization of the data has been performed in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
 
 - Folders in the 1P sets are now named ``1P_pX_Y`` and each parameter only has 4 variations, rather than 10, such that ``X`` ranges from n2 to 2.
