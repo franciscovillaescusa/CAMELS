@@ -68,6 +68,19 @@ If you use CAMELS data you may consider citing the CAMELS `presentation <https:/
    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
    }
 
+
+CAMELS photometry
+~~~~~~~~~~~~~~~~~
+
+If you use data from the CAMELS photometry catalogues please consider citing the `CAMELS photometry release paper <https://arxiv.org/abs/>`_
+
+::
+
+   @ARTICLE{CAMELS-photometry,
+      TBC
+   }
+
+
 CAMELS-SAM
 ~~~~~~~~~~
 

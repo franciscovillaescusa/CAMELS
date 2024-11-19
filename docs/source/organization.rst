@@ -23,6 +23,7 @@ At the highest level, CAMELS contains different `type folders`:
 - ``Lya``. This folder contains the Lyman-:math:`\alpha` spectra.
 - ``X-rays``. This folder contains the X-rays files.
 - ``Profiles``. This folder contains the halo radial profiles.
+- ``Photometry``. This folder contains the photometric catalogues.
 - ``CMD``. This folder contains the CAMELS Multifield Dataset (CMD).
 - ``SCSAM``. This folder contains the data from CAMELS-SAM.
 
