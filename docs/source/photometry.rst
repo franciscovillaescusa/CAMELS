@@ -21,7 +21,8 @@ Where each property is defined as follows:
 - ``format``: format of the emission output, currently only ``photometry`` available.
 - ``emission``: specify whether we want rest-frame ``luminosity``, or observer-frame ``flux``.
 - ``spectra_type``: the form of the spectra, currently only ``intrinsic`` for pure stellar emission, or ``attenuated`` for dust attenuated emission.
-- ``filter`: filter code, as specified by the `SVO database <http://svo2.cab.inta-csic.es/theory/fps/>`_.
+- ``filter``: filter code, as specified by the `SVO database <http://svo2.cab.inta-csic.es/theory/fps/>`_.
+
 
 For example, to view the rest-frame filters available at $z = 0.1$ (snapshot 086) using the dust attenuated BC03 model:
 
@@ -37,6 +38,19 @@ For example, to view the rest-frame filters available at $z = 0.1$ (snapshot 086
     UKIRT                    Group
     UV1500                   Dataset {529}
     UV2800                   Dataset {529}
+
+.. Note::
+   
+      The full list of filters provided are as so:
+      
+      - GALEX FUV & NUV bands
+      - Top-hat filters centred at 1500 Å and 2800 Å
+      - SDSS ugriz
+      - UKIRT UKIDSS YJHK
+      - Johnson UBVJ
+      - HST ACS F435W, F606W, F775W, F814W, and F850LP
+      - HST WFC3 F098M, F105W, F110W, F125W, F140W and F160W
+      - JWST NIRCam F070W, F090W, F115W, F150W, F200W, F277W, F356W and F444W
 
 Additionally, under each ``snapshot`` group there is a dataset called ``SubhaloIndex`` which specifies the integer index of the object in the original subfind tables.
 
