@@ -33,6 +33,7 @@ Team
 - Valentina La Torre (Tufts)
 - Erwin T. Lau (Harvard)
 - Yin Li (CCA/CCM)
+- Chris Lovell (Portsmouth)
 - Luis Fernando Machado Poletti Valle (Zurich)  
 - Faizan G. Mohammad (Waterloo)
 - Emily Moser (Cornell)
