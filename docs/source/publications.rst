@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Towards cosmological inference on unlabeled out-of-distribution HI observational data**
+   | Sambatra Andrianomena, Sultan Hassan
+   | `2411.10515 <https://arxiv.org/abs/2411.10515>`_
+
 #. | **Learning Optimal and Interpretable Summary Statistics of Galaxy Catalogs with SBI**
    | Kai Lehman, Sven Krippendorf, Jochen Weller, Klaus Dolag
    | `2411.08957 <https://arxiv.org/abs/2411.08957>`_
