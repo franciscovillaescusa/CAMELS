@@ -72,13 +72,19 @@ If you use CAMELS data you may consider citing the CAMELS `presentation <https:/
 CAMELS photometry
 ~~~~~~~~~~~~~~~~~
 
-If you use data from the CAMELS photometry catalogues please consider citing the `CAMELS photometry release paper <https://arxiv.org/abs/>`_
+If you use data from the CAMELS photometry catalogues please consider citing the `CAMELS photometry release paper <https://arxiv.org/abs/2411.13960>`_
 
 ::
 
-   @ARTICLE{CAMELS-photometry,
-      TBC
-   }
+   @misc{lovell2024learninguniversecosmologicalastrophysical,
+      title={Learning the Universe: Cosmological and Astrophysical Parameter Inference with Galaxy Luminosity Functions and Colours}, 
+      author={Christopher C. Lovell and Tjitske Starkenburg and Matthew Ho and Daniel Anglés-Alcázar and Romeel Davé and Austen Gabrielpillai and Kartheik Iyer and Alice E. Matthews and William J. Roper and Rachel Somerville and Laura Sommovigo and Francisco Villaescusa-Navarro},
+      year={2024},
+      eprint={2411.13960},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.GA},
+      url={https://arxiv.org/abs/2411.13960}, 
+}
 
 
 CAMELS-SAM
