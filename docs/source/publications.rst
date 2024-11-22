@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learning the Universe: Cosmological and Astrophysical Parameter Inference with Galaxy Luminosity Functions and Colours**
+   | Christopher C. Lovell, Tjitske Starkenburg, Matthew Ho, Daniel Anglés-Alcázar, Romeel Davé, Austen Gabrielpillai, Kartheik Iyer, Alice E. Matthews, William J. Roper, Rachel Somerville, Laura Sommovigo, Francisco Villaescusa-Navarro
+   | `2411.13960 <https://arxiv.org/abs/2411.13960>`_
+
 #. | **Towards cosmological inference on unlabeled out-of-distribution HI observational data**
    | Sambatra Andrianomena, Sultan Hassan
    | `2411.10515 <https://arxiv.org/abs/2411.10515>`_
