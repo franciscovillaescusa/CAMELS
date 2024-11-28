@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **An analytical model for the dispersion measure of Fast Radio Burst host galaxies**
+   | Robert Reischke, Michael Kovac, Andrina Nicola, Steffen Hagstotz, Aurel Schneider
+   | `2411.17682 <https://arxiv.org/abs/2411.17682>`_
+
 #. | **Learning the Universe: Cosmological and Astrophysical Parameter Inference with Galaxy Luminosity Functions and Colours**
    | Christopher C. Lovell, Tjitske Starkenburg, Matthew Ho, Daniel Anglés-Alcázar, Romeel Davé, Austen Gabrielpillai, Kartheik Iyer, Alice E. Matthews, William J. Roper, Rachel Somerville, Laura Sommovigo, Francisco Villaescusa-Navarro
    | `2411.13960 <https://arxiv.org/abs/2411.13960>`_
