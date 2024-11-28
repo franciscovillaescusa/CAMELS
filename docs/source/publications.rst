@@ -42,7 +42,7 @@ Publications
    | Sergio Martin-Alvarez, Vid Iršič, Sophie Koudmani, Martin Bourne, Leah Bigwood, Debora Sijacki
    | `2407.18349 <https://arxiv.org/abs/2407.18349>`_
 
-#. | **https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15072024-101341/publico/tesenatalisolermatubarodesanti.pdf**
+#. | **Machine Learning methods for extracting cosmological information**
    | Natali de Santi
    | `PhD thesis <https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15072024-101341/publico/tesenatalisolermatubarodesanti.pdf>`__
 
