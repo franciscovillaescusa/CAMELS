@@ -48,8 +48,19 @@ CAMELS
    <iframe width="560" height="315" src="https://www.youtube.com/embed/XVvarp6bJHU?si=7JVECFHm-2sANgWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	
       <br><br><br>
+      
 
+Do you want to play a game? See how well you can distinguish between different physical fields created from CAMELS:
 
+.. raw:: html
+
+   <script
+   type="module"
+   src="https://gradio.s3-us-west-2.amazonaws.com/5.6.0/gradio.js"
+   ></script>
+
+   <gradio-app src="https://fvillaescusa-camels-fields.hf.space"></gradio-app>
+      
    
 	 
 .. toctree::

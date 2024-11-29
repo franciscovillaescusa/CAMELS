@@ -111,7 +111,7 @@ The meaning and range of variation of the 4 *standard* IllustrisTNG parameters a
    
    A value of 1 in the astrophysical parameters :math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, :math:`A_{\rm AGN1}`, :math:`A_{\rm AGN2}`, represents the value chosen in the original flagship simulation of each suite. For instance, the original IllustrisTNG simulation has :math:`A_{\rm SN1}=1`, :math:`A_{\rm SN2}=1`, :math:`A_{\rm AGN1}=1`, :math:`A_{\rm AGN2}=1`.
 
-The *extended* 23 IllustrisTNG parameters represent an almost-complete set of the IllustrisTNG model, i.e. it contains almost all parameters in the subgrid physics model. The range of the parameters was chosen to cover a very wide range of effects. For SB28, the user can find the list of parameters, their range, and meaning `here <https://tinyurl.com/bdfpc5zr>`_.
+The *extended* 23 IllustrisTNG parameters represent an almost-complete set of the IllustrisTNG model, i.e. it contains almost all parameters in the subgrid physics model. The range of the parameters was chosen to cover a very wide range of effects. For SB28, the user can find the list of parameters, their range, and meaning `here <https://tinyurl.com/bdfpc5zr>`__.
   
   
 
@@ -150,7 +150,7 @@ The meaning and range of variation of the 4 *standard* SIMBA parameters are thes
 
    While we call these parameters in the same way as the ones of IllustrisTNG, we emphasize that they are completely independent of each other. For instance, a neural network trained to predict :math:`A_{\rm SN1}` from IllustrisTNG simulation should fail if tested on SIMBA.
 
-The *extended* 23 SIMBA parameters represent an almost-complete set of the SIMBA model, i.e. it contains almost all parameters in the subgrid physics model. The range of the parameters was chosen to cover a very wide range of effects. For SB28, the user can find the list of parameters, their range, and meaning `here <https://tinyurl.com/bdczbarm>`_.
+The *extended* 23 SIMBA parameters represent an almost-complete set of the SIMBA model, i.e. it contains almost all parameters in the subgrid physics model. The range of the parameters was chosen to cover a very wide range of effects. For SB28, the user can find the list of parameters, their range, and meaning `here <https://tinyurl.com/bdczbarm>`__.
 
 
 Astrid

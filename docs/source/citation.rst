@@ -84,7 +84,7 @@ If you use data from the CAMELS photometry catalogues please consider citing the
       archivePrefix={arXiv},
       primaryClass={astro-ph.GA},
       url={https://arxiv.org/abs/2411.13960}, 
-}
+      }
 
 
 CAMELS-SAM
