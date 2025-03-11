@@ -2,6 +2,42 @@
 Publications
 ************
 
+#. | ****
+   |
+   | `<>`_
+
+#. | **Cosmology with One Galaxy: Auto-Encoding the Galaxy Properties Manifold**
+   | Amanda Lue, Shy Genel, Marc Huertas-Company, Francisco Villaescusa-Navarro, Matthew Ho
+   | `2502.17568 <https://arxiv.org/abs/2502.17568>`_
+
+#. | **CASCO: Cosmological and AStrophysical parameters from Cosmological simulations and Observations III. The physics behind the emergence of the golden mass scale**
+   | C. Tortora, V. Busillo, N. R. Napolitano, L. V. E. Koopmans, G. Covone, S. Genel, F. Villaescusa-Navarro, M. Silvestrini
+   | `2502.13589 <https://arxiv.org/abs/2502.13589>`_
+
+#. | **Towards Robustness Across Cosmological Simulation Models TNG, SIMBA, ASTRID, and EAGLE**
+   | Yongseok Jo, Shy Genel, Anirvan Sengupta, Benjamin Wandelt, Rachel Somerville, Francisco Villaescusa-Navarro
+   | `2502.13239 <https://arxiv.org/abs/2502.13239>`_
+
+#. | **Hydrodynamic methods and sub-resolution models for cosmological simulations**
+   | Milena Valentini, Klaus Dolag
+   | `2502.06954 <https://arxiv.org/abs/2502.06954>`_
+
+#. | **Constraining the Effect of Baryonic Feedback on the Matter Power Spectrum with Fast Radio Bursts**
+   | Isabel Medlock, Daisuke Nagai, Daniel Angles Alcazar, Matthew Gebhardt 
+   | `2501.17922 <https://arxiv.org/abs/2501.17922>`_
+
+#. | **A Neural Network Model for the Cosmic Dispersion Measure in the CAMELS Simulations**
+   | Qi Guo, Khee-Gan Lee
+   | `2501.16709 <https://arxiv.org/abs/2501.16709>`_
+
+#. | **Probabilistic Galaxy Field Generation with Diffusion Models**
+   | Tanner Sether, Elena Giusarma, Mauricio Reyes-Hurtado
+   | `2412.05131 <https://arxiv.org/abs/2412.05131>`_
+
+#. | **X-raying CAMELS: Constraining Baryonic Feedback in the Circum-Galactic Medium with the CAMELS simulations and eRASS X-ray Observations**
+   | Erwin T. Lau, Daisuke Nagai, Akos Bogdán, Isabel Medlock, Benjamin D. Oppenheimer, Nicholas Battaglia, Daniel Angles-Alcazar, Shy Genel, Yueying Ni, Francisco Villaescusa-Navarro
+   | `2412.04559 <https://arxiv.org/abs/2412.04559>`_
+
 #. | **An analytical model for the dispersion measure of Fast Radio Burst host galaxies**
    | Robert Reischke, Michael Kovac, Andrina Nicola, Steffen Hagstotz, Aurel Schneider
    | `2411.17682 <https://arxiv.org/abs/2411.17682>`_
