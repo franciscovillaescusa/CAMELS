@@ -71,6 +71,7 @@ Do you want to play a game? See how well you can distinguish between different p
    goals
    publications
    data_access
+   agents
    citation
 
 .. toctree::
