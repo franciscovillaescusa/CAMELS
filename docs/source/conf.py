@@ -73,7 +73,7 @@ html_logo = 'Letters2.png'
 
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
+    #'display_version': False,
 }
 
 html_extra_path = ["robots.txt"]

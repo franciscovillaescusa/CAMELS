@@ -3,29 +3,33 @@ CAMELS
 
 **CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 14,607 cosmological simulations --6,163 N-body and 8,444 state-of-the-art (magneto-)hydrodynamic-- and more than 1 Petabyte of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
 
-+--------------+---------------+---------------+-------------+
-| Type         | Code          | Subgrid model | Simulations |
-+==============+===============+===============+=============+
-| Hydrodynamic | Arepo         |  IllustrisTNG |    3,219    |
-|              +---------------+---------------+-------------+
-|              | Gizmo         |  SIMBA        |    1,171    |
-|              +---------------+---------------+-------------+
-|              | MP-Gadget     |  Astrid       |    2,080    |
-|              +---------------+---------------+-------------+
-|              | OpenGadget    |  Magneticum   |    77       |
-|              +---------------+---------------+-------------+
-|              | Swift         |  EAGLE        |    1,052    |
-|              +---------------+---------------+-------------+
-|              | Ramses        |               |    552      |
-|              +---------------+---------------+-------------+
-|              | Enzo          |               |    6        |
-|              +---------------+---------------+-------------+
-|              | Gadget4-Osaka | CROCODILE     |    260      |
-|              +---------------+---------------+-------------+
-|              | Gizmo         | Obsidian      |    27       |
-+--------------+---------------+---------------+-------------+
-| N-body       | Gadget-III    |      ---      |    6,136    |
-+--------------+---------------+---------------+-------------+
++--------------+---------------+---------------+------------------------------+
+| Type         | Code          | Subgrid model | Simulations / Generation     |
+|              |               |               +----------+---------+---------+
+|              |               |               | First    | Second  | Third   |
++==============+===============+===============+==========+=========+=========+
+| Hydrodynamic | Arepo         | IllustrisTNG  |  3,219   | 1,192   |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Gizmo         | SIMBA         |  1,171   |         |         |
++              +---------------+---------------+----------+---------+---------+
+|              | MP-Gadget     | Astrid        |  2,080   |         |         |
++              +---------------+---------------+----------+---------+---------+
+|              | OpenGadget    | Magneticum    |    77    |         |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Swift         | EAGLE         |  1,052   |         |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Ramses        |               |   552    | 48      |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Enzo          |               |     6    |         |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Gadget4-Osaka | CROCODILE     |   260    | 27      |         |
++              +---------------+---------------+----------+---------+---------+
+|              | Gizmo         | Obsidian      |    27    |         |         |
++--------------+---------------+---------------+----------+---------+---------+
+| N-body       | Gadget-III    | ---           |  6,136   | 1,072   |         |
++--------------+---------------+---------------+----------+---------+---------+
+
+
 
 .. raw:: html
 
@@ -60,7 +64,11 @@ Do you want to play a game? See how well you can distinguish between different p
    ></script>
 
    <gradio-app src="https://fvillaescusa-camels-fields.hf.space"></gradio-app>
-      
+
+
+CAMELS have AI agents to help you with the data, literature, coding...etc. You can use them in `this website <https://camels-agents.streamlit.app/>`__.
+
+.. image:: logo3.png
    
 	 
 .. toctree::
