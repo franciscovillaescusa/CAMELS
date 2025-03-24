@@ -139,3 +139,30 @@ If you use data from the CAMELS Multifield Dataset (CMD) consider citing the `CM
    adsurl = {https://ui.adsabs.harvard.edu/abs/2022ApJS..259...61V},
    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
    }
+
+
+CAMELS-zoomGZ
+~~~~~~~~~~~~~
+
+If you use data from the CAMELS zoomGZ simulations consider citing the `CAMELS-zoomGZ paper <https://arxiv.org/abs/2403.10609>`_
+
+::
+
+   @ARTICLE{CAMELS-zoomGZ,
+   author = {{Lee}, Max E. and {Genel}, Shy and {Wandelt}, Benjamin D. and {Zhang}, Benjamin and {Delgado}, Ana Maria and {Pandey}, Shivam and {Lau}, Erwin T. and {Carr}, Christopher and {Cook}, Harrison and {Nagai}, Daisuke and {Angles-Alcazar}, Daniel and {Villaescusa-Navarro}, Francisco and {Bryan}, Greg L.},
+   title = "{Zooming by in the CARPoolGP Lane: New CAMELS-TNG Simulations of Zoomed-in Massive Halos}",
+   journal = {\apj},
+   keywords = {Cosmological parameters, Galaxy processes, Computational methods, Hydrodynamical simulations, Galaxy clusters, Galaxy groups, 339, 614, 1965, 767, 584, 597, Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
+   year = 2024,
+   month = jun,
+   volume = {968},
+   number = {1},
+   eid = {11},
+   pages = {11},
+   doi = {10.3847/1538-4357/ad3d4a},
+   archivePrefix = {arXiv},
+   eprint = {2403.10609},
+   primaryClass = {astro-ph.GA},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2024ApJ...968...11L},
+   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+   }
