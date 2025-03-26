@@ -1,1 +1,3 @@
-As of May 2024, CAMELS contains 14,037 cosmological simulations: 6,136 N-body and 7,901 hydrodynamic simulations.
+As of March 2025, CAMELS host more than 2 petabytes of data from 16,960 cosmological simulations: 7,208 N-body and 9,752 hydrodynamic simulations. This project is the result of a large, collaborative effort and represents the most extensive suite of cosmological hydrodynamic simulations ever conducted.
+
+

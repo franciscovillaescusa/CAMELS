@@ -6,21 +6,44 @@ General description
 
 .. include:: sims.txt
 
-All simulations follow the evolution of :math:`256^3` dark matter particles and :math:`256^3` initial gas resolution elements (only for the hydrodynamic) within a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3` from :math:`z=127` down to :math:`z=0`. 
-
-.. Note::
-
-   CAMELS is expanding and will soon include simulations with :math:`512^3` dark matter particles and :math:`512^3` gas resolution elements in periodic boxes of :math:`(50~h^{-1}{\rm Mpc})^3`. CAMELS has recently expanded to include a set of zoom-in simulations of massive halos, which are centered in periodic boxes of :math:`(200~h^{-1}{\rm Mpc})^3`. 
-
-For each simulation, we store multiple snapshots. We also keep a variety of post-processed data such as halo catalogs, power spectra...etc; see :ref:`organization`.
+The N-body simulations only model the spatial phase-space distribution of total matter under the influence of gravity, while the hydrodynamic simulations account for gravity + (magento-)hydrodynamics + astrophysical processes (e.g. supernova and AGN feedback). All simulations start at redshift :math:`z=127` and finish at :math:`z=0`. The simulations are run with different codes, have different volumes and number of particles and sample different points in parameter space (defined as the space formed from cosmological and astrophysical parameters and different initial conditions). For each simulation, we store multiple snapshots. We also keep a variety of post-processed data such as halo catalogs, power spectra...etc; see :ref:`organization`.
 
 Organization
 ~~~~~~~~~~~~
 
-The simulations can be classified into suites, volumes, and sets, depending on the code used to run them, their volume, and how their parameters are organized. See :ref:`suites_sets` for further details. The table below shows the number of available hydrodynamic and N-body simulations:
+The simulations can be classified into:
+
+- **Suites**: depending on the code and subgrid physics model used to run them. CAMELS has 9 suites:
+  
+  - **IllustrisTNG**: simulations run with AREPO code and IllustrisTNG subgrid physics model
+  - **SIMBA**: simulations run with GIZMO and SIMBA subgrid physics model
+  - **Astrid**: simulations run with MP-Gadget and Astrid subgrid physics model
+  - **Magneticum**: simulations run with OpenGadget and Magneticum-like subgrid physics model
+  - **Swift-EAGLE**: simulations run Swift with EAGLE subgrid physics model
+  - **Ramses**: simulations run with Ramses code.
+  - **Enzo**: simulations run with Enzo code
+  - **CROCODILE**: simulations run with Gadget4-Osaka and CROCODILE subgrid physics model
+  - **Obsidian**: simulations run with GIZMO and Obsidian subgrid physics model
+    
+- **Generations**: depending on the volume and number of particles in the simulations. CAMELS has 3 generations:
+  
+  - **First generation**: :math:`256^3` dark matter plus :math:`256^3` intial fluid elements in a 25 Mpc/h box
+  - **Second generation**: :math:`512^3` dark matter plus :math:`512^3` intial fluid elements in a 50 Mpc/h box
+  - **Third generation**: :math:`1024^3` dark matter plus :math:`1024^3` intial fluid elements in a 100 Mpc/h box
+    
+- **Sets**: depending on how their cosmological and astrophysical parameters, and initial random seed values are organized. CAMELS has 6 sets:
+  
+  - **SB**: variations in cosmology, astrophysics and initial conditions at the same time
+  - **LH**: variations in cosmology, astrophysics and initial conditions at the same time
+  - **1P**: variations on a single cosmological or astrophysical parameter. Initial conditions fixed
+  - **CV**: fixed cosmology and astrophysics. Variations in initial conditions
+  - **EX**: fixed cosmology and initial conditions. Extreme variations in astrophysics
+  - **BE**: fixed cosmology, astrophysics, and initial conditions
+
+See :ref:`suites_sets` for further details. The table below shows the number of available hydrodynamic and N-body simulations:
 
 +------------------------------------------------------------------------------------------------------+
-|                                    **Hydrodynamic simulations**                                      |
+|                                    **First generation hydrodynamic simulations**                     |
 +-------------------+----------------------------------------------------------------------------------+
 |                   |                     Set                                                          |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
@@ -46,18 +69,63 @@ The simulations can be classified into suites, volumes, and sets, depending on t
 |                   |                |            |             |        |        |        |           |
 |                   |                | (6 params) | (6 params)  |        |        |        |           |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
-| **Ramses**        | 256            |            | 13          | 27     |        |        | 296       |
+| **Ramses**        | 512            |            | 13          | 27     |        |        | 552       |
 |                   |                |  --        |             |        |        |        |           | 
 |                   | (5 params)     |            | (5 params)  |        |        |        |           |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
 | **Enzo**          |                |  --        | 5           | 1      |        |        | 6         |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
+| **CROCODILE**     | 128            |            | 25          | 27     |        |        | 180       |
+|                   |                |  --        |             |        |        |        |           | 
+|                   | (6 params)     |            | (6 params)  |        |        |        |           |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
-| **All**           | 3328           | 4050       | 294         | 163    | 12     | 54     | **7901**  |
+| **Obsidian**      |                |  --        |             | 27     |        |        | 27        |
++-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
++-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
+| **All**           | 3712           | 4050       | 319         | 217    | 12     | 54     | **8364**  |
 +-------------------+----------------+------------+-------------+--------+--------+--------+-----------+
 
++-----------------------------------------------------------------------------------------+
+|                                    **Second generation hydrodynamic simulations**       |
++-------------------+---------------------------------------------------------------------+
+|                   |                     Set                                             |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| Suite             | **SB**         | **1P**      | **CV** | **EX** | **BE** | **Total** |
++===================+================+=============+========+========+========+===========+
+| **IllustrisTNG**  | 1024           | 141         | 27     |        |        | 1192      |
+|                   |                |             |        |        |        |           | 
+|                   | (35 params)    | (35 params) |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **SIMBA**         |                |             |        |        |        |           |
+|                   |                |             |        |        |        |           |
+|                   |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Astrid**        |                |             |        |        |        |           |
+|                   |                |             |        |        |        |           | 
+|                   |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Magneticum**    |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Swift-EAGLE**   |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Ramses**        |                | 21          | 27     |        |        |  48       |
+|                   |                |             |        |        |        |           |
+|                   |                | (5 params)  |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Enzo**          |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **CROCODILE**     | 16             | 105         | 27     |        |        | 148       |
+|                   |                |             |        |        |        |           |
+|                   |                | (26 params) |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **Obsidian**      |                |             |        |        |        |           |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+| **All**           | 1040           | 267         | 81     |        |        | **1388**  |
++-------------------+----------------+-------------+--------+--------+--------+-----------+
+
 +-----------------------------------------------------------------------------------------------------+
-|                                   **N-body simulations**                                            |
+|                                   **First generation N-body simulations**                           |
 +-------------------+---------------------------------------------------------------------------------+
 |                   |                 Set                                                             |
 +-------------------+----------------+------------+------------+--------+--------+--------+-----------+
@@ -82,10 +150,49 @@ The simulations can be classified into suites, volumes, and sets, depending on t
 | **Ramses**        |                | --         |            |        |        |        | 64        |
 +-------------------+----------------+------------+            +        +        +        +-----------+
 | **Enzo**          |                | --         |            |        |        |        | 64        |
++-------------------+----------------+------------+            +        +        +        +-----------+
+| **CROCODILE**     |                | --         |            |        |        |        | 64        |
++-------------------+----------------+------------+            +        +        +        +-----------+
+| **Obsidian**      |                | --         |            |        |        |        | 64        |
 +-------------------+----------------+------------+------------+--------+--------+--------+-----------+
 +-------------------+----------------+------------+------------+--------+--------+--------+-----------+
 | **All**           | 3072           | 3000       | 9          | 27     | 1      | 27     | **6136**  |
 +-------------------+----------------+------------+------------+--------+--------+--------+-----------+
+
++----------------------------------------------------------------------------------------+
+|                     **Second generation N-body simulations**                           |
++-------------------+--------------------------------------------------------------------+
+|                   |                 Set                                                |
++-------------------+----------------+------------+--------+--------+--------+-----------+
+| Suite             | **SB**         | **1P**     | **CV** | **EX** | **BE** | **Total** |
++===================+================+============+========+========+========+===========+
+| **IllustrisTNG**  | 1024           | 21         | 27     |        |        | 1072      |
+|                   |                |            |        |        |        |           | 
+|                   | (5 params)     | (5 params) |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **SIMBA**         |                |            |        |        |        |           |
+|                   |                |            |        |        |        |           |
+|                   |                |            |        |        |        |           | 
++-------------------+----------------+            +        +        +        +-----------+
+| **Astrid**        |                |            |        |        |        |           |
+|                   |                |            |        |        |        |           | 
+|                   |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **Magneticum**    |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **Swift-EAGLE**   |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **Ramses**        |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **Enzo**          |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **CROCODILE**     |                |            |        |        |        |           |
++-------------------+----------------+            +        +        +        +-----------+
+| **Obsidian**      |                |            |        |        |        |           |
++-------------------+----------------+------------+--------+--------+--------+-----------+
++-------------------+----------------+------------+--------+--------+--------+-----------+
+| **All**           | 1024           | 21         | 27     |        |        | **1072**  |
++-------------------+----------------+------------+--------+--------+--------+-----------+
 
 .. Note::
 
@@ -96,7 +203,7 @@ The value of the cosmological, astrophysical, and initial random seed of the dif
 Codes
 ~~~~~
 
-All N-body simulations have been run with the Gadget-III code, while the hydrodynamic simulations have been run with different codes: AREPO, GIZMO, MP-Gadget, OpenGadget, Swift, Ramses, and Enzo. See :ref:`Codes` for details on the different codes and subgrid physics models available in CAMELS.
+All N-body simulations have been run with the Gadget-III code, while the hydrodynamic simulations have been run with different codes: AREPO, GIZMO, MP-Gadget, OpenGadget, Swift, Ramses, Gadget4-Osaka, and Enzo. See :ref:`Codes` for details on the different codes and subgrid physics models available in CAMELS.
 
 
 .. _redshifts: 
@@ -106,7 +213,7 @@ Redshifts
 
 .. important::
 
-   A reorganization of the data has been performed in 2024 in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
+   A reorganization of the data was performed in 2024 in order to enhance its uniformity and simplicity. This will require slight changes to existing codes that access the data.
 
    - Snapshot numbers in the IllustrisTNG and SIMBA suites, where simulations have only 34 snapshots, have been updated to match the numbering in the Astrid suite (and some TNG simulations) that have 91 snapshots. For example, where 33 used to be the z=0 snapshot, now it is 90 uniformly for all suites.
 

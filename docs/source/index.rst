@@ -1,7 +1,9 @@
 CAMELS
 ======
 
-**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning. CAMELS contains 14,607 cosmological simulations --6,163 N-body and 8,444 state-of-the-art (magneto-)hydrodynamic-- and more than 1 Petabyte of data. CAMELS is the largest set of cosmological hydrodynamic simulations ever run.
+**CAMELS** stands for **C**\osmology and **A**\strophysics with **M**\achin\ **E** **L**\earning **S**\imulations, and it is a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning.
+
+.. include:: sims.txt
 
 +--------------+---------------+---------------+------------------------------+
 | Type         | Code          | Subgrid model | Simulations / Generation     |
@@ -22,7 +24,7 @@ CAMELS
 +              +---------------+---------------+----------+---------+---------+
 |              | Enzo          |               |     6    |         |         |
 +              +---------------+---------------+----------+---------+---------+
-|              | Gadget4-Osaka | CROCODILE     |   260    | 27      |         |
+|              | Gadget4-Osaka | CROCODILE     |   260    | 148     |         |
 +              +---------------+---------------+----------+---------+---------+
 |              | Gizmo         | Obsidian      |    27    |         |         |
 +--------------+---------------+---------------+----------+---------+---------+
