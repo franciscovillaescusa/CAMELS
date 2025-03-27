@@ -6,13 +6,13 @@ Organization
 
 .. include:: sims.txt
 
-The CAMELS simulations are organized into different suites, volumes, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. We refer the reader to :ref:`sims_description` for details on the number of simulations available per suite, volume, and set. The following scheme shows the way data is organized:
+The CAMELS simulations are organized into different suites, generations, and sets depending on the code used to run them, their volume, and how the values of the cosmological parameters, the astrophysical parameters, and the initial random seeds are arranged. We refer the reader to :ref:`sims_description` for details on the number of simulations available per suite, generation, and set. The following scheme shows the way data is organized:
 
  .. image:: Sims_Scheme.png
     :alt: CAMELS Data structure
 
 
-Knowing this structure is important to know where the data is located and which data to use for different tasks. For instance, the 25 Mpc/h IllustrisTNG simulations of the CV set are located in ``/Sims/IllustrisTNG/L25n256/CV``. 
+Knowing this structure is important to know where the data is located and which data to use for different tasks. For instance, the first-generaton IllustrisTNG simulations of the CV set are located in ``/Sims/IllustrisTNG/L25n256/CV``. 
 
 
 Suites
@@ -27,6 +27,8 @@ The CAMELS simulations are organized in different `suites`:
 - | **Swift-EAGLE**. This suite contains all hydrodynamic simulations that have been run with the `Swift code <https://arxiv.org/abs/2305.13380>`_ using the `EAGLE subgrid physics model <https://eagle.strw.leidenuniv.nl/>`_ (see `Schaye et al. 2015 <https://arxiv.org/abs/1407.7040>`__ and `Crain et al. 2015 <https://arxiv.org/abs/1501.01311>`__). 
 - | **Ramses**. This suite contains all hydrodynamic simulations that have been run with the `Ramses code <https://arxiv.org/abs/astro-ph/0111367>`_ using an state-of-the-art subgrid physics.
 - | **Enzo**. This suite contains all hydrodynamic simulations that have been run with the `Enzo code <https://arxiv.org/abs/1307.2265>`_ using an state-of-the-art subgrid physics model.
+- | **CROCODILE**. This suite contains all hydrodynamic simulations that have been run with the Gadget4-Osaka `Oku & Nagamine 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv240106324O/abstract>`__ employing the same subgrid physics as the original CROCODILE simulation `Oku & Nagamine 2024 <https://ui.adsabs.harvard.edu/abs/2024arXiv240106324O/abstract>`__.
+- | **Obsidian**. This suite contains all hydrodynamic simulations that have been run with the `GIZMO code <https://arxiv.org/abs/1409.7395>`_ employing the `Obsidian <https://arxiv.org/abs/2309.15898>`_ subgrid physics model.
 
 We refer the reader to :ref:`Codes` for more details on the codes and subgrid physics models of the different suites.
   
@@ -35,29 +37,29 @@ We refer the reader to :ref:`Codes` for more details on the codes and subgrid ph
    For every of the above suites, there is an collection of N-body simulations that represent the dark matter only counterparts of the above hydrodynamic simulations. For instance, **IllustrisTNG_DM** represents the N-body counterpart of the simulations in the **IllustrisTNG** suite.
 
    
-Volumes
-~~~~~~~
+Generations
+~~~~~~~~~~~
 
-Each suite contains simulations run at different volumes and number of particles:
+Each suite contains simulations run at different volumes and number of particles. This allow us to classify the simulations into three generations:
 
-- | **L25n256**. All simulations follow the evolution of :math:`256^3` dark matter particles plus :math:`256^3` initial gas elements in a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3`.
-- | **L50n512**. All simulations follow the evolution of :math:`512^3` dark matter particles plus :math:`512^3` initial gas elements in a periodic comoving volume of :math:`(50~h^{-1}{\rm Mpc})^3`.
-- | **L100n1024**. All simulations follow the evolution of :math:`1024^3` dark matter particles plus :math:`1024^3` initial gas elements in a periodic comoving volume of :math:`(100~h^{-1}{\rm Mpc})^3`.
+- | **First generation**. All simulations follow the evolution of :math:`256^3` dark matter particles plus :math:`256^3` initial gas elements in a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3`. The first generation simulations are located in folders called L25n256.
+- | **Second generation**. All simulations follow the evolution of :math:`512^3` dark matter particles plus :math:`512^3` initial gas elements in a periodic comoving volume of :math:`(50~h^{-1}{\rm Mpc})^3`. The second generation simulations are located in folders called L50n512.
+- | **Third generation**. All simulations follow the evolution of :math:`1024^3` dark matter particles plus :math:`1024^3` initial gas elements in a periodic comoving volume of :math:`(100~h^{-1}{\rm Mpc})^3`. The third generation simulations are located in folders called L100n1024.
 
 .. Note::
 
-   As of December 2023, most of the simulations belong to the ``L25n256`` category. As the CAMELS project matures and expands it will incorporate simulations at larger volumes. If there is no *volume* folder present, then the data should be considered to belong to the ``L25n256`` category.
+   If there is no *generation* folder present, then the data should be considered to belong to the ``L25n256`` category.
 
   
    
 Sets
 ~~~~
 
-Each volume of each suite contains various simulation `sets`:
+Each generation of each suite contains various simulation `sets`:
 
 - | **SB**. This set contains at least 128 simulations. For instance, the Ramses suite contains 128 simulations while the IllustrisTNG suite contains 2048 simulations. Each simulation has a different value of the cosmological and astrophysical parameters, that are arranged in a Sobol sequence with :math:`2^N` elements, where :math:`N` is an integer number. Besides, each simulation has a different value of the initial random seed. This set will be named as ``SBX``, where is the number of dimensions; for the instance, the ``SB28`` set of the IllustrisTNG suite. SB stands for Sobol sequence. 
 - | **LH**. This set contains 1,000 simulations. Each simulation has a different value of the cosmological and astrophysical parameters, that are arranged in a latin-hypercube. Each simulation has a different value of the random seed used to generate the initial conditions. LH stands for Latin-Hypercube.
-- | **1P**. This set contains 4 simulations per parameter plus one fiducial. For example, in the IllustrisTNG suite we vary 28 parameters, so there are 113 simulations. For Ramses, where we only vary 5 parameters, we have 21 simulations. In this set, the value of the cosmological and astrophysical parameters in the simulations is varied only one at a time. The value of the random seed used to generate the initial conditions is the same in all simulations. This set is typically used to study the change induced by cosmology and astrophysics in a given quantity. 1P stands for 1-parameter at-a-time.
+- | **1P**. This set contains 4 simulations per parameter plus one fiducial. For example, in the first-generation IllustrisTNG suite we vary 28 parameters, so there are 113 simulations. For the first-generation Ramses, where we only vary 5 parameters, we have 21 simulations. In this set, the value of the cosmological and astrophysical parameters in the simulations is varied only one at a time. The value of the random seed used to generate the initial conditions is the same in all simulations. This set is typically used to study the change induced by cosmology and astrophysics in a given quantity. 1P stands for 1-parameter at-a-time.
 - | **CV**. This set contains 27 simulations. All the simulations share the value of the cosmological and astrophysical parameters (that are set to their fiducial values), and they only differ in the value of their initial conditions random seed. This set is typically used to study the effect of cosmic variance. CV stands for Cosmic Variance.
 - | **EX**. This set contains 4 simulations. All simulations share the value of the cosmological parameters, but differ in the value of the astrophysical parameters. One simulation has fiducial values; the other three represent extreme cases with 1) very efficient AGN feedback, 2) very efficient supernova feedback, and 3) no feedback. All simulations share the value of the initial conditions random seed. This set can be used to study the maximum effect astrophysics can have on a given quantity. EX stands for Extreme.
 - | **BE**. This set contains 27 simulations and is currently available only for the IllustrisTNG suite. All of these simulations share the exact same initial conditions with the 1P set and all are run with the fiducial model, but they use different random number sequences for the evolution of the simulation (not to be confused with the random seed that is used to generate the initial conditions). Hence, the differences between them represent the intrinsic randomness of the simulation results, which can serve as a benchmark for the performance of various predictive models. BE stands for Butterfly Effect.

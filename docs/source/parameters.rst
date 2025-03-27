@@ -6,9 +6,11 @@ Parameters
 
 As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified into different sets, depending on how their parameters (cosmological, astrophysical, and initial random seed) are organized. Here we provide details about this.
 
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    First generation                                                                                                                                                                                                                                                                      |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |   Suite          | Set                                                                                                                                                                                                                                                                   |
-+------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+
++                  +-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+
 |                  | CV                                        | 1P                                        | EX                                        | LH                                        | BE                                        | SB                                        |
 +==================+===========================================+===========================================+===========================================+===========================================+===========================================+===========================================+
 | **IllustrisTNG** | `params <https://tinyurl.com/29352aub>`__ | `params <https://tinyurl.com/mr53zfe7>`__ | `params <https://tinyurl.com/4mdac2hk>`__ | `params <https://tinyurl.com/2u844n46>`__ | `params <https://tinyurl.com/2v3eanmh>`__ | `params <https://tinyurl.com/mwwkkxj2>`__ |
@@ -92,21 +94,24 @@ IllustrisTNG
 
 The IllustrisTNG suite contains all sets: 1P, CV, LH, EX, BE, and SB. This table shows which parameters are varied in each set:
 
-+-------+-------------------------------------------+
-|       | Astrophysical parameters                  |
-+=======+===========================================+
-| CV    | *fiducial* IllustrisTNG                   |
-+-------+-------------------------------------------+
-| BE    | *fiducial* IllustrisTNG                   |
-+-------+-------------------------------------------+
-| LH    | *standard* 4 astrophysical parameters     |
-+-------+-------------------------------------------+
-| EX    | *standard* 4 astrophysical parameters     |
-+-------+-------------------------------------------+
-| 1P    | *extended* 23 astrophysical parameters    |
-+-------+-------------------------------------------+
-| SB28  | *extended* 23 astrophysical parameters    |
-+-------+-------------------------------------------+
++-------+-------------------------------------------------------------------------------+
+|       | Astrophysical parameters                                                      |
++-------+-------------------------------------------+-----------------------------------+
+|       | First generation                          | Second generation                 |
++=======+===========================================+===================================+
+| CV    | *fiducial* IllustrisTNG                                                       |
++-------+-------------------------------------------+-----------------------------------+
+| BE    | *fiducial* IllustrisTNG                                                       |
++-------+-------------------------------------------+-----------------------------------+
+| LH    | *standard* 4 astrophysical parameters     |         ---                       |
++-------+-------------------------------------------+-----------------------------------+
+| EX    | *standard* 4 astrophysical parameters     |                                   |
++-------+-------------------------------------------+-----------------------------------+
+| 1P    |            23 astrophysical parameters    | 30 astrophysical parameters       |
++-------+-------------------------------------------+-----------------------------------+
+| SB    |   SB28:    23 astrophysical parameters    | SB35: 30 astrophysical parameters |
++-------+-------------------------------------------+-----------------------------------+
+
 
 The meaning and range of variation of the 4 *standard* IllustrisTNG parameters are these:
 
@@ -119,7 +124,9 @@ The meaning and range of variation of the 4 *standard* IllustrisTNG parameters a
    
    A value of 1 in the astrophysical parameters :math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, :math:`A_{\rm AGN1}`, :math:`A_{\rm AGN2}`, represents the value chosen in the original flagship simulation of each suite. For instance, the original IllustrisTNG simulation has :math:`A_{\rm SN1}=1`, :math:`A_{\rm SN2}=1`, :math:`A_{\rm AGN1}=1`, :math:`A_{\rm AGN2}=1`.
 
-The *extended* 23 IllustrisTNG parameters represent an almost-complete set of the IllustrisTNG model, i.e. it contains almost all parameters in the subgrid physics model. The range of the parameters was chosen to cover a very wide range of effects. For SB28, the user can find the list of parameters, their range, and meaning `here <https://tinyurl.com/bdfpc5zr>`__.
+We refer the reader to `here <https://tinyurl.com/bdfpc5zr>`__ for a description and range of the 23 astrophysical parameters varied in the first generation of IllustrisTNG simulations.
+   
+
   
   
 
@@ -130,6 +137,8 @@ The SIMBA suite contains 4 different sets: 1P, CV, LH, and EX. This table shows 
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
++       +-------------------------------------------+
+|       | First generation                          |
 +=======+===========================================+
 | CV    | *fiducial* SIMBA                          |
 +-------+-------------------------------------------+
@@ -168,6 +177,8 @@ The Astrid suite contains 5 different sets: 1P, CV, LH, EX, and SB. This table s
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
++       +-------------------------------------------+
+|       | First generation                          |
 +=======+===========================================+
 | CV    | *fiducial* Astrid                         |
 +-------+-------------------------------------------+
@@ -208,6 +219,8 @@ This table shows which parameters are varied in each set:
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
++       +-------------------------------------------+
+|       | First generation                          |
 +=======+===========================================+
 | CV    | *fiducial* Magneticum                     |
 +-------+-------------------------------------------+
@@ -234,6 +247,8 @@ The Swift-EAGLE suite contains 3 different sets: CV, 1P, and LH. This table show
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
++       +-------------------------------------------+
+|       | First generation                          |
 +=======+===========================================+
 | CV    | *fiducial* Ramses                         |
 +-------+-------------------------------------------+
@@ -257,6 +272,8 @@ The Ramses suite contains 3 different sets: CV, 1P, and SB. This table shows whi
 
 +-------+-------------------------------------------+
 |       | Astrophysical parameters                  |
++       +-------------------------------------------+
+|       | First generation                          |
 +=======+===========================================+
 | CV    | *fiducial* Ramses                         |
 +-------+-------------------------------------------+
