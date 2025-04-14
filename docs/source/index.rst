@@ -35,42 +35,51 @@ CAMELS
 
 .. raw:: html
 
-   <p>Introductory video to the CAMELS project:</p>
-	 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/0ntjD7PDWG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   <br><br><br>
+   <figure>
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/0ntjD7PDWG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	 <figcaption><p>Introductory video to the CAMELS project</p></figcaption>
+   </figure>
+   <br>
 
-.. raw:: html
+   <figure>
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/WnNfkok9sJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	 <figcaption><p>The video below shows an example of a CAMELS hydrodynamic simulation run with the Ramses code. Gas density and gas temperature are shown in blue and red, respectively as a function of time. CAMELS contains thousands of simulations like this one.</p></figcaption>
+   </figure>
+   <br>
 
-   <p>The video below shows an example of a CAMELS hydrodynamic simulation run with the Ramses code. Gas density and gas temperature are shown in blue and red, respectively as a function of time. CAMELS contains thousands of simulations like this one.</p>
-	 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/WnNfkok9sJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <br><br><br>
+   <figure>
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/XVvarp6bJHU?si=7JVECFHm-2sANgWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	 <figcaption><p>The video below illustrates the differences between different hydrodynamic simulations. All simulations share the same cosmology, initial conditions, and have fiducial astrophysics values. Differences in the different fields shown are due to the intrinsic differences between the subgrid models employed in the simulatons.</p></figcaption>
+   </figure>
+   <br>
 
-.. raw:: html
+   <figure>
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/NUq2UIg9RDM?si=hnBT16qrjlTqac1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	 <figcaption><p>The video shows a comparison between a first- and second-generation CAMELS simulation. Both simulations have the same mass and spatial resolution, but the second-generation one, has a volume 8x larger than its first-generation one.</p></figcaption>
+   </figure>
+   <br>
 
-   <p>The video below illustrates the differences between different hydrodynamic simulations. All simulations share the same cosmology, initial conditions, and have fiducial astrophysics values. Differences in the different fields shown are due to the intrinsic differences between the subgrid models employed in the simulatons.</p>
+   <figure>
+     <figcaption><b>Do you want to play a game?</b><br>
+     See how well you can distinguish between different physical fields created from CAMELS.</figcaption>
+     
+     <script type="module"
+             src="https://gradio.s3-us-west-2.amazonaws.com/5.6.0/gradio.js"></script>
+     
+     <gradio-app src="https://fvillaescusa-camels-fields.hf.space"></gradio-app>
+   </figure>
+   <br>
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/XVvarp6bJHU?si=7JVECFHm-2sANgWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	
-      <br><br><br>
-      
+   <figure>
+   <figcaption>
+	 CAMELS have AI agents to help you with data, paper, coding...etc.
+	 Click on the image to use them!
+	 </figcaption>
+	 <a href="https://camels-agents.streamlit.app/" target="_blank">
+	 <img src="_images/logo3.png" alt="CAMELS Agent Logo" style="width:100%; height:auto;">
+   </a>
+   </figure>
 
-Do you want to play a game? See how well you can distinguish between different physical fields created from CAMELS:
-
-.. raw:: html
-
-   <script
-   type="module"
-   src="https://gradio.s3-us-west-2.amazonaws.com/5.6.0/gradio.js"
-   ></script>
-
-   <gradio-app src="https://fvillaescusa-camels-fields.hf.space"></gradio-app>
-
-
-CAMELS have AI agents to help you with the data, literature, coding...etc. You can use them in `this website <https://camels-agents.streamlit.app/>`__.
-
-.. image:: logo3.png
    
 	 
 .. toctree::
