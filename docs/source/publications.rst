@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Local Primordial non-Gaussian Bias from Time Evolution**
+   | James M. Sullivan, Uros Seljak
+   | `2503.21736 <https://arxiv.org/abs/2503.21736>`_ 
+
 #. | **Cosmology with One Galaxy: Auto-Encoding the Galaxy Properties Manifold**
    | Amanda Lue, Shy Genel, Marc Huertas-Company, Francisco Villaescusa-Navarro, Matthew Ho
    | `2502.17568 <https://arxiv.org/abs/2502.17568>`_
