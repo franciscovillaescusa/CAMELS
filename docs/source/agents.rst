@@ -5,6 +5,9 @@ CAMELS Agents
 *************
 
 .. image:: logo3.png
+   :width: 100%
+   :target: https://camels-agents.streamlit.app/
+   
 
 As the CAMELS project matures:
 
@@ -22,4 +25,4 @@ To help researchers use CAMELS data, we have created a set of AI agents tailored
 - Writing code to analyze CAMELS data
 - Using general-purpose LLMs with CAMELS-specific context
 
-To use the CAMELS agents, please click on `this link <https://camels-agents.streamlit.app/>`__.
+To use the CAMELS agents, please click on the above image.

@@ -1,7 +1,3 @@
-.. attention::
-
-   All the simulations in the IllustrisTNG, SIMBA, Astrid, and N-body suites are publicly available. To access other simulations (e.g. Magneticum, Swift-EAGLE, Ramses...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
-
 .. _data_access:
    
 ***********
@@ -9,6 +5,18 @@ Data Access
 ***********
 
 CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be accessed in different ways:
+
++-----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+----------------------------------------------------------------+-------------------------------------------+
+| **Binder**                                                                  | **Globus**                                                                                                          | **URL**                                                    | **FlatHUB**                                                    | **Rusty**                                 |
++-----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+----------------------------------------------------------------+-------------------------------------------+
+| `Binder link <https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC>`_ | `Globus link <https://app.globus.org/file-manager?origin_id=58bdcd24-6590-11ec-9b60-f9dfb1abb183&origin_path=%2F>`_ | `URL link <https://users.flatironinstitute.org/~camels/>`_ | `FlatHUB link <https://flathub.flatironinstitute.org/camels>`_ | ``/mnt/ceph/users/camels/PUBLIC_RELEASE`` |
++-----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+----------------------------------------------------------------+-------------------------------------------+
+
+.. attention::
+
+   All the simulations in the IllustrisTNG, SIMBA, Astrid, Swift-EAGLE, and N-body suites are publicly available. To access other simulations (e.g. Magneticum, Ramses, IllustrisTNG second-generation...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+
+
 
 
 Binder
@@ -126,8 +134,8 @@ We provide access to the full CAMELS data via a simple uniform resource locator 
 `URL link <https://users.flatironinstitute.org/~camels/>`_
 
 
-FlatHUB
-~~~~~~~
+FlatHUB (deprecated)
+~~~~~~~~~~~~~~~~~~~~
 
 FlatHUB is a platform that allows users to explore and compare data from different simulations by browsing and filtering the data, making simple preview plots, and downloading sub-samples of the data. We provide access to the SUBFIND halo and subhalo catalogues of the IllustrisTNG and SIMBA suites through this platform.
 
