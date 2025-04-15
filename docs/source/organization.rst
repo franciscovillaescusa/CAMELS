@@ -14,6 +14,7 @@ At the highest level, CAMELS contains different `type folders`:
 - ``Sims``. This folder contains the raw output from the simulations.
 - ``FOF_Subfind``. This folder contains the Subfind halo and subhalo catalogues.
 - ``Rockstar``. This folder contains the Rockstar halo and subhalo catalogues.
+- ``Parameters``. This folder contains the value of the cosmological, astrophysical, and initial random seed.
 - ``Caesar``. This folder contains the CAESAR halo and subhalo catalogues.
 - ``AHF``. This folder contains the AMIGA Halo Finder (AHF) halo and subhalo catalogues.
 - ``Pk``. This folder contains the power spectra measurements.
@@ -26,6 +27,8 @@ At the highest level, CAMELS contains different `type folders`:
 - ``Photometry``. This folder contains the photometric catalogues.
 - ``CMD``. This folder contains the CAMELS Multifield Dataset (CMD).
 - ``SCSAM``. This folder contains the data from CAMELS-SAM.
+- ``SubLink``. This folder contains the SubLink merger trees.
+- ``SubLink_gal``. This folder contains the SubLink gal merger trees.
 
 When possible, we have tried to organize the data inside the `type folders` in a self-similar way.
 
@@ -37,20 +40,45 @@ Suite folders
 
 Inside the considered `type folder`, there are different `suite folders`:
 
-- ``IllustrisTNG``. This folder contains the data generated from the simulations of the IllustrisTNG suite
-- ``IllustrisTNG_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the IllustrisTNG suite.
-- ``SIMBA``. This folder contains the data generated from the simulations of the SIMBA suite
-- ``SIMBA_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the SIMBA suite.
-- ``Astrid``. This folder contains the data generated from the simulations of the Astrid suite.
-- ``Astrid_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the Astrid suite.
-- ``Magneticum``. This folder contains the data generated from the simulations of the Magneticum suite.
-- ``Magneticum_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the Magneticum suite.
-- ``EAGLE``. This folder contains the data generated from the simulations of the Swift-EAGLE suite.
-- ``EAGLE_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the Swift-EAGLE suite.
-- ``Ramses``. This folder contains the data generated from the simulations of the Ramses suite.
-- ``Ramses_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the Ramses suite.
-- ``Enzo``. This folder contains the data generated from the simulations of the Enzo suite.
-- ``Enzo_DM``. This folder contains the data generated from the N-body counterparts of the simulations in the Enzo suite.
++---------------------+-------------------------------------------------------------------------+
+| Folder              | Description                                                             |
++=====================+=========================================================================+
+| ``IllustrisTNG``    | Data from the simulations of the IllustrisTNG suite                     |
++---------------------+-------------------------------------------------------------------------+
+| ``IllustrisTNG_DM`` | N-body counterparts of the IllustrisTNG simulations                     |
++---------------------+-------------------------------------------------------------------------+
+| ``SIMBA``           | Data from the simulations of the SIMBA suite                            |
++---------------------+-------------------------------------------------------------------------+
+| ``SIMBA_DM``        | N-body counterparts of the SIMBA simulations                            |
++---------------------+-------------------------------------------------------------------------+
+| ``Astrid``          | Data from the simulations of the Astrid suite                           |
++---------------------+-------------------------------------------------------------------------+
+| ``Astrid_DM``       | N-body counterparts of the Astrid simulations                           |
++---------------------+-------------------------------------------------------------------------+
+| ``Magneticum``      | Data from the simulations of the Magneticum suite                       |
++---------------------+-------------------------------------------------------------------------+
+| ``Magneticum_DM``   | N-body counterparts of the Magneticum simulations                       |
++---------------------+-------------------------------------------------------------------------+
+| ``Swift-EAGLE``     | Data from the simulations of the Swift-EAGLE suite                      |
++---------------------+-------------------------------------------------------------------------+
+| ``Swift-EAGLE_DM``  | N-body counterparts of the Swift-EAGLE simulations                      |
++---------------------+-------------------------------------------------------------------------+
+| ``Ramses``          | Data from the simulations of the Ramses suite                           |
++---------------------+-------------------------------------------------------------------------+
+| ``Ramses_DM``       | N-body counterparts of the Ramses simulations                           |
++---------------------+-------------------------------------------------------------------------+
+| ``CROCODILE``       | Data from the simulations of the CROCODILE suite                        |
++---------------------+-------------------------------------------------------------------------+
+| ``CROCODILE_DM``    | N-body counterparts of the CROCODILE simulations                        |
++---------------------+-------------------------------------------------------------------------+
+| ``Enzo``            | Data from the simulations of the Enzo suite                             |
++---------------------+-------------------------------------------------------------------------+
+| ``Enzo_DM``         | N-body counterparts of the Enzo simulations                             |
++---------------------+-------------------------------------------------------------------------+
+| ``Obsidian``        | Data from the simulations of the Obsidian suite                         |
++---------------------+-------------------------------------------------------------------------+
+| ``Obsidian_DM``     | N-body counterparts of the Obsidian simulations                         |
++---------------------+-------------------------------------------------------------------------+
 
 .. Note::
 
@@ -58,10 +86,10 @@ Inside the considered `type folder`, there are different `suite folders`:
 
 .. _volume_folders:
 
-Volume folders
-~~~~~~~~~~~~~~
+Generation folders
+~~~~~~~~~~~~~~~~~~
 
-Inside a `suite folder` there three different `volume folders`:
+Inside a `suite folder` there are different `generation folders`:
 
 - ``L25n256``. This folder contains the data from the simulations with :math:`256^3` dark matter particles (plus :math:`256^3` initial gas elements if hydrodynamic) in a periodic box of :math:`25~h^{-1}{\rm Mpc}` side.
 - ``L50n512``. This folder contains the data from the simulations with :math:`512^3` dark matter particles (plus :math:`512^3` initial gas elements if hydrodynamic) in a periodic box of :math:`50~h^{-1}{\rm Mpc}` side.

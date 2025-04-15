@@ -42,10 +42,12 @@ Generations
 
 Each suite contains simulations run at different volumes and number of particles. This allow us to classify the simulations into three generations:
 
-- | **First generation**. All simulations follow the evolution of :math:`256^3` dark matter particles plus :math:`256^3` initial gas elements in a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3`. The first generation simulations are located in folders called L25n256.
-- | **Second generation**. All simulations follow the evolution of :math:`512^3` dark matter particles plus :math:`512^3` initial gas elements in a periodic comoving volume of :math:`(50~h^{-1}{\rm Mpc})^3`. The second generation simulations are located in folders called L50n512.
-- | **Third generation**. All simulations follow the evolution of :math:`1024^3` dark matter particles plus :math:`1024^3` initial gas elements in a periodic comoving volume of :math:`(100~h^{-1}{\rm Mpc})^3`. The third generation simulations are located in folders called L100n1024.
+- | **First generation**. All simulations follow the evolution of :math:`256^3` dark matter particles plus :math:`256^3` initial gas elements in a periodic comoving volume of :math:`(25~h^{-1}{\rm Mpc})^3`. The first generation simulations are located in folders called ``L25n256``.
+- | **Second generation**. All simulations follow the evolution of :math:`512^3` dark matter particles plus :math:`512^3` initial gas elements in a periodic comoving volume of :math:`(50~h^{-1}{\rm Mpc})^3`. The second generation simulations are located in folders called ``L50n512``.
+- | **Third generation**. All simulations follow the evolution of :math:`1024^3` dark matter particles plus :math:`1024^3` initial gas elements in a periodic comoving volume of :math:`(100~h^{-1}{\rm Mpc})^3`. The third generation simulations are located in folders called ``L100n1024``.
 
+We note that all simulations of all generations have the same mass and spatial resolution.
+  
 .. Note::
 
    If there is no *generation* folder present, then the data should be considered to belong to the ``L25n256`` category.

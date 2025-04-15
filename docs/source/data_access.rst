@@ -12,11 +12,38 @@ CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York
 | `Binder link <https://binder.flatironinstitute.org/~sgenel/CAMELS_PUBLIC>`_ | `Globus link <https://app.globus.org/file-manager?origin_id=58bdcd24-6590-11ec-9b60-f9dfb1abb183&origin_path=%2F>`_ | `URL link <https://users.flatironinstitute.org/~camels/>`_ | `FlatHUB link <https://flathub.flatironinstitute.org/camels>`_ | ``/mnt/ceph/users/camels/PUBLIC_RELEASE`` |
 +-----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+----------------------------------------------------------------+-------------------------------------------+
 
+This table shows the availability of the different simulations:
+
++------------------+---------------------+---------------------+---------------------+
+|                  | First generation    | Second generation   | Third generation    |
++==================+=====================+=====================+=====================+
+| **IllustrisTNG** |  Public             | Private             |                     |
++------------------+---------------------+---------------------+---------------------+
+| **SIMBA**        |  Public             |                     |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Astrid**       |  Public             | Private (running)   |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Swift-EAGLE**  |  Public             |                     |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Magneticum**   |  Private            |                     |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Ramses**       |  Private            | Private (running)   |                     |
++------------------+---------------------+---------------------+---------------------+
+| **CROCODILE**    |  Private            | Private (running)   |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Obsidian**     |  Private            |                     |                     |
++------------------+---------------------+---------------------+---------------------+
+| **Enzo**         |  Private            |                     |                     |
++------------------+---------------------+---------------------+---------------------+
+| **N-body**       |  Public             | Public              |                     |
++------------------+---------------------+---------------------+---------------------+
+
+
 .. attention::
 
-   All the simulations in the IllustrisTNG, SIMBA, Astrid, Swift-EAGLE, and N-body suites are publicly available. To access other simulations (e.g. Magneticum, Ramses, IllustrisTNG second-generation...etc) please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
+   To access simulations marked as private above, please fill up `this form <https://forms.gle/XMVwuzhCMvnhFiaHA>`_.
 
-
+We now describe the particularities of the different methods.
 
 
 Binder

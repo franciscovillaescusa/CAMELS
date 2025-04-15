@@ -30,8 +30,11 @@ The ``Sims`` folder contains different *suite folders*, that contain all simulat
 - ``Astrid``. This folder contains all simulations of the Astrid suite.
 - ``Magneticum``. This folder contains all simulations of the Magneticum suite.
 - ``Ramses``. This folder contains all simulations of the Ramses suite.
-- ``EAGLE``. This folder contains all simulations of the Swift-EAGLE suite.
+- ``Swift-EAGLE``. This folder contains all simulations of the Swift-EAGLE suite.
 - ``Enzo``. This folder contains all simulations of the Enzo suite.
+- ``CROCODILE``. This folder contains all simulations of the CROCODILE suite.
+- ``Obsidian``. This folder contains all simulations of the Obsidian suite.
+  
 
 Each of the above suites have an associated N-body suite. Those simulations are located in a folder with the name of the suite followed by ``DM``. For instance, the folder ``IllustrisTNG_DM`` contains all the N-body simulations that are the counterpart of the full hydrodynamic simulations contained in the ``IllustrisTNG`` folder.
 
@@ -40,12 +43,10 @@ Each of the above suites have an associated N-body suite. Those simulations are 
    The value of the cosmological, astrophysical, and initial random seed for simulations in the different suites can be found in :ref:`params`. Those files also hold for the N-body simulations; each N-body simulation has the same value of the cosmological parameters and initial random seed as their hydrodynamic counterpart.
    
 
-Volume folders
-~~~~~~~~~~~~~~
+Generation folders
+~~~~~~~~~~~~~~~~~~
 
-The vast majority of the CAMELS simulations follow the evolution of :math:`256^3` dark matter and :math:`256^3` initial fluid elements in a periodic :math:`(25~h^{-1}{\rm Mpc})^3` volume. As the CAMELS project evolves and matures, it will contain simulations with larger volumes while keeping the same mass and spatial resolution. As of January 2024, only simulations in the IllustrisTNG suite have simulations at two different volumes: :math:`(25~{\rm Mpc/h})^3` and :math:`(50~{\rm Mpc/h})^3`.
-
-In general, between the *suite* and the *set folders*, there may be some *volume folders* indicating the volume and number of particles of the simulations. For the foreseable future, only these three folders will exist:
+In general, between the *suite* and the *set folders*, there may be some *generation folders* indicating the volume and number of particles of the simulations. For the foreseable future, only these three folders will exist:
 
 - ``L25n256``. This folder contains the simulations that follow the evolution of :math:`256^3` dark matter particles and :math:`256^3` initial fluid elements in a :math:`(25~{\rm Mpc/h})^3` volume.
 - ``L50n512``. This folder contains the simulations that follow the evolution of :math:`512^3` dark matter particles and :math:`512^3` initial fluid elements in a :math:`(50~{\rm Mpc/h})^3` volume.

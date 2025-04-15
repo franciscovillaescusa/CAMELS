@@ -6,7 +6,15 @@ General description
 
 .. include:: sims.txt
 
-The N-body simulations only model the spatial phase-space distribution of total matter under the influence of gravity, while the hydrodynamic simulations account for gravity + (magento-)hydrodynamics + astrophysical processes (e.g. supernova and AGN feedback). All simulations start at redshift :math:`z=127` and finish at :math:`z=0`. The simulations are run with different codes, have different volumes and number of particles and sample different points in parameter space (defined as the space formed from cosmological and astrophysical parameters and different initial conditions). For each simulation, we store multiple snapshots. We also keep a variety of post-processed data such as halo catalogs, power spectra...etc; see :ref:`organization`.
+The simulations are run with different codes (suites), cover different volumes and number of particles (generations), and sample different points in parameter space (sets), defined as the space formed from cosmological and astrophysical parameters and different initial conditions.
+	     
+All CAMELS simulations share a few characteristics:
+
+- All simulations start at redshift :math:`z=127` and finish at :math:`z=0`.
+- All simulations have the same mass and spatial resolution.
+- For each simulation we store multiple snapshots, halo/subhalo catalogs, and summary statistics (e.g. power spectra) see :ref:`organization`.
+- The N-body simulations only model the spatial phase-space distribution of total matter under the influence of gravity.
+- The hydrodynamic simulations account for gravity + (magento-)hydrodynamics + astrophysical processes (e.g. supernova and AGN feedback).
 
 Organization
 ~~~~~~~~~~~~
@@ -14,33 +22,70 @@ Organization
 The simulations can be classified into:
 
 - **Suites**: depending on the code and subgrid physics model used to run them. CAMELS has 9 suites:
-  
-  - **IllustrisTNG**: simulations run with AREPO code and IllustrisTNG subgrid physics model
-  - **SIMBA**: simulations run with GIZMO and SIMBA subgrid physics model
-  - **Astrid**: simulations run with MP-Gadget and Astrid subgrid physics model
-  - **Magneticum**: simulations run with OpenGadget and Magneticum-like subgrid physics model
-  - **Swift-EAGLE**: simulations run Swift with EAGLE subgrid physics model
-  - **Ramses**: simulations run with Ramses code.
-  - **Enzo**: simulations run with Enzo code
-  - **CROCODILE**: simulations run with Gadget4-Osaka and CROCODILE subgrid physics model
-  - **Obsidian**: simulations run with GIZMO and Obsidian subgrid physics model
+
++------------------+-------------------+---------------------------------------------+
+| Suite            | Code              | Subgrid Physics Model                       |
++==================+===================+=============================================+
+| IllustrisTNG     | AREPO             | IllustrisTNG                                |
++------------------+-------------------+---------------------------------------------+
+| SIMBA            | GIZMO             | SIMBA                                       |
++------------------+-------------------+---------------------------------------------+
+| Astrid           | MP-Gadget         | Astrid                                      |
++------------------+-------------------+---------------------------------------------+
+| Magneticum       | OpenGadget        | Magneticum-like                             |
++------------------+-------------------+---------------------------------------------+
+| Swift-EAGLE      | Swift             | EAGLE                                       |
++------------------+-------------------+---------------------------------------------+
+| Ramses           | Ramses            | —                                           |
++------------------+-------------------+---------------------------------------------+
+| Enzo             | Enzo              | —                                           |
++------------------+-------------------+---------------------------------------------+
+| CROCODILE        | Gadget4-Osaka     | CROCODILE                                   |
++------------------+-------------------+---------------------------------------------+
+| Obsidian         | GIZMO             | Obsidian                                    |
++------------------+-------------------+---------------------------------------------+
     
 - **Generations**: depending on the volume and number of particles in the simulations. CAMELS has 3 generations:
-  
-  - **First generation**: :math:`256^3` dark matter plus :math:`256^3` intial fluid elements in a 25 Mpc/h box
-  - **Second generation**: :math:`512^3` dark matter plus :math:`512^3` intial fluid elements in a 50 Mpc/h box
-  - **Third generation**: :math:`1024^3` dark matter plus :math:`1024^3` intial fluid elements in a 100 Mpc/h box
+
++---------------------+--------------------------------------------------------------+
+| Generation          | Description                                                  |
++=====================+==============================================================+
+| First generation    | :math:`256^3` dark matter + :math:`256^3` initial fluid      |
+|                     | elements in a 25 Mpc/h box                                   |
++---------------------+--------------------------------------------------------------+
+| Second generation   | :math:`512^3` dark matter + :math:`512^3` initial fluid      |
+|                     | elements in a 50 Mpc/h box                                   |
++---------------------+--------------------------------------------------------------+
+| Third generation    | :math:`1024^3` dark matter + :math:`1024^3` initial fluid    |
+|                     | elements in a 100 Mpc/h box                                  |
++---------------------+--------------------------------------------------------------+
     
 - **Sets**: depending on how their cosmological and astrophysical parameters, and initial random seed values are organized. CAMELS has 6 sets:
-  
-  - **SB**: variations in cosmology, astrophysics and initial conditions at the same time
-  - **LH**: variations in cosmology, astrophysics and initial conditions at the same time
-  - **1P**: variations on a single cosmological or astrophysical parameter. Initial conditions fixed
-  - **CV**: fixed cosmology and astrophysics. Variations in initial conditions
-  - **EX**: fixed cosmology and initial conditions. Extreme variations in astrophysics
-  - **BE**: fixed cosmology, astrophysics, and initial conditions
 
-See :ref:`suites_sets` for further details. The table below shows the number of available hydrodynamic and N-body simulations:
++-------------+-------------------------------------------------------------------------+
+| Set         | Description                                                             |
++=============+=========================================================================+
+| SB          | Variations in cosmology, astrophysics, and initial conditions           |
++-------------+-------------------------------------------------------------------------+
+| LH          | Variations in cosmology, astrophysics, and initial conditions           |
++-------------+-------------------------------------------------------------------------+
+| 1P          | Variations on a single cosmological or astrophysical parameter.         |
+|             | Initial conditions fixed                                                |
++-------------+-------------------------------------------------------------------------+
+| CV          | Fixed cosmology and astrophysics. Variations in initial conditions      |
++-------------+-------------------------------------------------------------------------+
+| EX          | Fixed cosmology and initial conditions. Extreme variations in           |
+|             | astrophysics                                                            |
++-------------+-------------------------------------------------------------------------+
+| BE          | Fixed cosmology, astrophysics, and initial conditions                   |
++-------------+-------------------------------------------------------------------------+
+
+See :ref:`suites_sets` for further details.
+
+Simulations available
+~~~~~~~~~~~~~~~~~~~~~
+
+The tables below shows the number of available hydrodynamic and N-body simulations:
 
 +------------------------------------------------------------------------------------------------------+
 |                                    **First generation hydrodynamic simulations**                     |

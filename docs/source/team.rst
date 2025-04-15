@@ -26,6 +26,7 @@ Team
 - Michael Eickenberg (CCM)
 - Matthew Gebhardt (UConn)
 - Vid Irsic (Cambridge)
+- Natali de Santi (Berkeley)
 - Yongseok Jo (CTP/Seoul)
 - Neerav Kaushal (Michigan Tech)
 - Katarina Kraljic (LAM/Marseille)
@@ -58,5 +59,13 @@ Team
 - Digvijay Wadekar (IAS)
 - Benjamin Wandelt (IAP & CCA)
 - Kaze W.K. Wong (CCA)
+- Kentaro Nagamine (Osaka)
+- Yuri Oku (Osaka)
+- Atsushi Nishizawa (Nagoya)
+- Jun-Young Lee (KSU)
+- Sagan Sutherland (UConn)
+- Doug Rennehan (CCA)
+- Carolina Cuesta-Lazaro (Harvard)
+- Shivam Pandey (John Hopkings)
 
 :superscript:`*` core team
