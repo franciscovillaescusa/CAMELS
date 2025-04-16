@@ -1,7 +1,7 @@
 .. _subfind:
 
 ****************
-SUBFIND catalogs
+Subfind catalogs
 ****************
 
 .. important::
