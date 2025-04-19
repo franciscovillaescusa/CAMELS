@@ -1,6 +1,4 @@
-from setuptools import setup
-from setuptools import find_packages
-from setuptools import Extension
+from setuptools import setup, find_packages
 import numpy
 
 with open("README.md", "r") as f:
@@ -17,12 +15,8 @@ setup(
     long_description_content_type = "text/markdown",
     long_description = documentation,
     packages=find_packages(where="library/"),
-    include_dirs=[numpy.get_include()],
-    install_requires=['scipy', 'h5py', 'Pylians', 'tables'],
-    package_dir={'':'library/'},
-    py_modules=['camels_library']
+    package_dir={"": "library"},
+    install_requires=['scipy', 'h5py', 'Pylians', 'tables',
+                      'pynbody==1.2.3'],
 )
-
-
-
 
