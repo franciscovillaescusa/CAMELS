@@ -1,3 +1,11 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
 .DS_Store
 docs/.DS_Store
 docs/*/.DS_Store
@@ -5,3 +13,5 @@ docs/*/*/.DS_Store
 docs/build
 docs/*~
 *~
+
+

@@ -17,6 +17,6 @@ setup(
     packages=find_packages(where="library/"),
     package_dir={"": "library"},
     install_requires=['scipy', 'h5py', 'Pylians', 'tables',
-                      'pynbody==1.2.3'],
+                      'pynbody==1.2.3', 'tqdm'],
 )
 
