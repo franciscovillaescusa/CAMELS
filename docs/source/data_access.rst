@@ -4,6 +4,10 @@
 Data Access
 ***********
 
+.. warning::
+
+   A bug was recently identified in the generation of the FOF/Subfind catalogs for SIMBA, SIMBA_DM and Illustris_DM 1P and CV sets, as well as a small number of Astrid_DM 1P simulations and EX simulations. The bug affected mostly global DM and gas properties of FOF/Subfind objects, less so their galaxy-scale properties such as their stellar properties. We believe that in particular some studies using these 1P sets might have been non-negligibly affected by this. A separate bug affected the FOF/Subfind catalogs for all sets (1P, CV, LH) of Swift-EAGLE. We welcome hearing from anyone who is concerned their study might have been affected, so that we can help figure things out. All the data in the public FOF/Subfind directories is now fixed, and the old buggy data are available upon request. Apologies for any inconvenience!
+
 CAMELS data is stored at the Rusty cluster of the Flatiron Institute in New York City and its data can be accessed in different ways:
 
 +-----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+----------------------------------------------------------------+-------------------------------------------+

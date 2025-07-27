@@ -1,6 +1,8 @@
 News
 ====
 
+**July 2025:** A bug was recently identified in the generation of the FOF/Subfind catalogs for SIMBA, SIMBA_DM and Illustris_DM 1P and CV sets, as well as a small number of Astrid_DM 1P simulations and EX simulations. The bug affected mostly global DM and gas properties of FOF/Subfind objects, less so their galaxy-scale properties such as their stellar properties. We believe that in particular some studies using these 1P sets might have been non-negligibly affected by this. A separate bug affected the FOF/Subfind catalogs for all sets (1P, CV, LH) of Swift-EAGLE. We welcome hearing from anyone who is concerned their study might have been affected, so that we can help figure things out. All the data in the public FOF/Subfind directories is now fixed, and the old buggy data are available upon request. Apologies for any inconvenience!
+
 **March 2025:** We have created a set of `AI agents <https://camels-agents.streamlit.app/>`__ to help users work with CAMELS data. See :ref:`agents` for details.
 
 **November 2024:** Photometric catalogues for the IllustrisTNG, Simba, Astrid and Swift-EAGLE simulation sets have been added. These have been run on all snapshots, and are based on the SUBFIND catalogues. They include two different stellar population synthesis models, intrinsic and dust attenuated emission, luminosities and observer-frame fluxes, and a range of filters from the ultraviolet to the near-infrared. See :ref:`photometry` for details.
