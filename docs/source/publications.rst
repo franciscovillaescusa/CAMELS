@@ -22,6 +22,10 @@ Publications
    | Megan Pirecki, Megan Taylor Tillman, Blakesley Burkhart, Stephanie Tonnesen, Simeon Bird
    | `2509.18260 <https://arxiv.org/abs/2509.18260>`_
 
+#. | **One latent to fit them all: a unified representation of baryonic feedback on matter distribution**
+   | Shurui Lin, Yin Li, Shy Genel, Francisco Villaescusa-Navarro, Biwei Dai, Wentao Luo, Yang Wang
+   | `2509.01881 <https://arxiv.org/abs/2509.01881>`_
+
 #. | **How does feedback affect the star formation histories of galaxies?**
    | Kartheik G. Iyer, Tjitske K. Starkenburg, Greg L. Bryan, Rachel S. Somerville, Juan Pablo Alfonzo, Daniel Angles-Alcazar, Suchetha Cooray, Romeel Davé, Austen Gabrielpillai, Shy Genel, Sultan Hassan, Lars Hernquist, Christian Kragh Jespersen, Christopher C. Lovell, Boon Kiat Oh, Camilla Pacifici, Lucia A. Perez, Laura Sommovigo, Joshua S. Speagle, Sandro Tacchella, Megan T. Tillman, Francisco Villaescusa-Navarro, John F. Wu
    | `2508.21152 <https://arxiv.org/abs/2508.21152>`_
@@ -78,6 +82,15 @@ Publications
    | Francesco Shankar, Mariangela Bernardi, Daniel Roberts, Miguel Arana-Catania, Tobias Grubenmann, Melanie Habouzit, Amy Smith, Christopher Marsden, Karthik Mahesh Varadarajan, Alba Vega Alonso Tetilla, Daniel Angles-Alcazar, Lumen Boco, Duncan Farrah, Hao Fu, Henryk Haniewicz, Andrea Lapi, Christopher C. Lovell, Nicola Menci, Meredith Powell, Federica Ricci
    | `2505.02920 <https://arxiv.org/abs/2505.02920>`_
 
+#. | **A hydrodynamical simulations-based model that connects the FRB DM--redshift relation to suppression of the matter power spectrum via feedback**
+   | Kritti Sharma, Elisabeth Krause, Vikram Ravi, Robert Reischke, Pranjal R. S., Liam Connor
+   | `2504.18745 <https://arxiv.org/abs/2504.18745>`_
+
+
+#. | **Fast Baryonic Field Painting for Sunyaev-Zel'dovich Analyses: Transfer Function vs. Hybrid Effective Field Theory**
+   | R. Henry Liu, Boryana Hadzhiyska, Simone Ferraro, Sownak Bose, Cesar Hernandez-Aguayo
+   | `2504.11794 <https://arxiv.org/abs/2504.11794>`_
+   
 #. | **Interpreting Cosmological Information from Neural Networks in the Hydrodynamic Universe**
    | Arnab Lahiry, Adrian E. Bayer, Francisco Villaescusa-Navarro
    | `2504.17839 <https://arxiv.org/abs/2504.17839>`_
