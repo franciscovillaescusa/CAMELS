@@ -2,6 +2,90 @@
 Publications
 ************
 
+#. | **BaryonBridge: Stochastic Interpolant Model for Fast Hydrodynamical Simulations**
+   | Benjamin Horowitz, Carolina Cuesta-Lazaro, Omar Yehia
+   | `2510.19224 <https://arxiv.org/abs/2510.19224>`_
+
+#. | **Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics**
+   | Arne Thomsen, Tilman Tröster, Francois Lanusse
+   | `2510.26593 <https://arxiv.org/abs/2510.26593>`_
+
+#. | **Strong Evidence for Cosmic Ray-Supported ∼L∗ Galaxy Halos via X-ray & tSZ Constraints**
+   | Sam B. Ponnada, Philip F. Hopkins, Yue Samuel Lu, Emily M. Silich, Iryna S. Butsky, Dusan Keres
+   | `2510.13959 <https://arxiv.org/abs/2510.13959>`_
+
+#. | **Leveraging Machine Learning and Hydrodynamic Simulations of Galaxy Formation to Illuminate the Effects of Incident Radiation Fields on Atomic Gas Cooling and Heating Functions**
+   | David B. Robinson
+   | `PhD Thesis <https://backend.production.deepblue-documents.lib.umich.edu/server/api/core/bitstreams/99e25db7-e1e5-4d4e-9ded-acc8e33c56f2/content>`_
+
+#. | **Exploring the impact of AGN feedback model variations on the Lyman-α Forest Flux Power Spectrum**
+   | Megan Pirecki, Megan Taylor Tillman, Blakesley Burkhart, Stephanie Tonnesen, Simeon Bird
+   | `2509.18260 <https://arxiv.org/abs/2509.18260>`_
+
+#. | **How does feedback affect the star formation histories of galaxies?**
+   | Kartheik G. Iyer, Tjitske K. Starkenburg, Greg L. Bryan, Rachel S. Somerville, Juan Pablo Alfonzo, Daniel Angles-Alcazar, Suchetha Cooray, Romeel Davé, Austen Gabrielpillai, Shy Genel, Sultan Hassan, Lars Hernquist, Christian Kragh Jespersen, Christopher C. Lovell, Boon Kiat Oh, Camilla Pacifici, Lucia A. Perez, Laura Sommovigo, Joshua S. Speagle, Sandro Tacchella, Megan T. Tillman, Francisco Villaescusa-Navarro, John F. Wu
+   | `2508.21152 <https://arxiv.org/abs/2508.21152>`_
+
+#. | **Probabilistic cosmological inference on HI tomographic data**
+   | Sambatra Andrianomena
+   | `2507.21682 <https://arxiv.org/abs/2507.21682>`_
+
+#. | **Stellar Mass-Dispersion Measure Correlations Constrain Baryonic Feedback in Fast Radio Burst Host Galaxies**
+   | Calvin Leung, Sunil Simha, Isabel Medlock, Daisuke Nagai, Kiyoshi W. Masui, Lordrick A. Kahinga, Adam E. Lanman, Shion Andrew, Kevin Bandura, Alice P. Curtin, B. M. Gaensler, Nina Gusinskaia, Ronniy C. Joseph, Mattias Lazda, Lluis Mas-Ribas, Bradley W. Meyers, Kenzie Nimmo, Aaron B. Pearlman, J. Xavier Prochaska, Mawson W. Sammons, Kaitlyn Shin, Kendrick Smith, Haochen Wang
+   | `2507.16816 <https://arxiv.org/abs/2507.16816>`_
+
+#. | **Detecting Model Misspecification in Cosmology with Scale-Dependent Normalizing Flows**
+   | Aizhan Akhmetzhanova, Carolina Cuesta-Lazaro, Siddharth Mishra-Sharma
+   | `2508.05744 <https://www.arxiv.org/abs/2508.05744>`_
+
+#. | **Reconstruction of Dark Matter and Baryon Density From Galaxies: A Comparison of Linear, Halo Model and Machine Learning-Based Methods**
+   | Jordan Krywonos, Yurii Kvasiuk, Matthew C. Johnson, Moritz Munchmeyer
+   | `2507.12530 <https://arxiv.org/abs/2507.12530>`_
+
+#. | **CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning**
+   | Ningyuan Huang, Richard Stiskalek, Jun-Young Lee, Adrian E. Bayer, Charles C. Margossian, Christian Kragh Jespersen, Lucia A. Perez, Lawrence K. Saul, Francisco Villaescusa-Navarro
+   | `2507.03707 <https://arxiv.org/abs/2507.03707>`_
+
+#. | **The Cosmological analysis of X-ray cluster surveys VII. Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inference**
+   | Nicolas Cerardi, Marguerite Pierre, Francois Lanusse, Xavier Corap
+   | `2507.01820 <https://arxiv.org/abs/2507.01820>`_
+
+#. | **Investigating the Parameters Driving Black Hole-Galaxy Coevolution**
+   | Rachel Cleveland 
+   | `University Scholar Project <https://digitalcommons.lib.uconn.edu/cgi/viewcontent.cgi?article=1111&context=usp_projects>`_
+
+#. | **syren-baryon: Analytic emulators for the impact of baryons on the matter power spectrum**
+   | Lukas Kammerer, Deaglan J. Bartlett, Gabriel Kronberger, Harry Desmond, Pedro G. Ferreira
+   | `2506.08783 <https://arxiv.org/abs/2506.08783>`_
+
+#. | **Multilevel neural simulation-based inference**
+   | Yuga Hikida, Ayush Bharti, Niall Jeffrey, François-Xavier Briol
+   | `2506.06087 <https://arxiv.org/abs/2506.06087>`_
+
+#. | **Cosmology with Topological Deep Learning**
+   | Jun-Young Lee, Francisco Villaescusa-Navarro
+   | `2505.23904 <https://arxiv.org/abs/2505.23904>`_
+
+#. | **Transfer learning for multifidelity simulation-based inference in cosmology**
+   | Alex A. Saoulis, Davide Piras, Niall Jeffrey, Alessio Spurio Mancini, Ana M. G. Ferreira, Benjamin Joachimi
+   | `2505.21215 <https://arxiv.org/abs/2505.21215>`_
+
+#. | **Field-Level Comparison and Robustness Analysis of Cosmological N-body Simulations**
+   | Adrian E. Bayer, Francisco Villaescusa-Navarro, Sammy Sharief, Romain Teyssier, Lehman H. Garrison, Laurence Perreault-Levasseur, Greg L. Bryan, Marco Gatti, Eli Visbal
+   | `2505.13620 <https://arxiv.org/abs/2505.13620>`_
+
+#. | **Probing the co-evolution of SMBHs and their hosts from scaling relations pairwise residuals: dominance of stellar velocity dispersion and host halo mass**
+   | Francesco Shankar, Mariangela Bernardi, Daniel Roberts, Miguel Arana-Catania, Tobias Grubenmann, Melanie Habouzit, Amy Smith, Christopher Marsden, Karthik Mahesh Varadarajan, Alba Vega Alonso Tetilla, Daniel Angles-Alcazar, Lumen Boco, Duncan Farrah, Hao Fu, Henryk Haniewicz, Andrea Lapi, Christopher C. Lovell, Nicola Menci, Meredith Powell, Federica Ricci
+   | `2505.02920 <https://arxiv.org/abs/2505.02920>`_
+
+#. | **Interpreting Cosmological Information from Neural Networks in the Hydrodynamic Universe**
+   | Arnab Lahiry, Adrian E. Bayer, Francisco Villaescusa-Navarro
+   | `2504.17839 <https://arxiv.org/abs/2504.17839>`_
+
+#. | **On the effects of parameters on galaxy properties in CAMELS and the predictability of Omega_m**
+   | Gabriella Contardo, Roberto Trotta, Serafina Di Gioia, David W. Hogg, Francisco Villaescusa-Navarro
+   | `2503.22654 <https://arxiv.org/abs/2503.22654>`_
+
 #. | **Local Primordial non-Gaussian Bias from Time Evolution**
    | James M. Sullivan, Uros Seljak
    | `2503.21736 <https://arxiv.org/abs/2503.21736>`_ 
