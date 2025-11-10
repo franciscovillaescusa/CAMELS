@@ -2,13 +2,13 @@
 Publications
 ************
 
-#. | **BaryonBridge: Stochastic Interpolant Model for Fast Hydrodynamical Simulations**
-   | Benjamin Horowitz, Carolina Cuesta-Lazaro, Omar Yehia
-   | `2510.19224 <https://arxiv.org/abs/2510.19224>`_
-
 #. | **Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics**
    | Arne Thomsen, Tilman Tröster, Francois Lanusse
    | `2510.26593 <https://arxiv.org/abs/2510.26593>`_
+
+#. | **BaryonBridge: Stochastic Interpolant Model for Fast Hydrodynamical Simulations**
+   | Benjamin Horowitz, Carolina Cuesta-Lazaro, Omar Yehia
+   | `2510.19224 <https://arxiv.org/abs/2510.19224>`_
 
 #. | **Strong Evidence for Cosmic Ray-Supported ∼L∗ Galaxy Halos via X-ray & tSZ Constraints**
    | Sam B. Ponnada, Philip F. Hopkins, Yue Samuel Lu, Emily M. Silich, Iryna S. Butsky, Dusan Keres
@@ -26,6 +26,10 @@ Publications
    | Kartheik G. Iyer, Tjitske K. Starkenburg, Greg L. Bryan, Rachel S. Somerville, Juan Pablo Alfonzo, Daniel Angles-Alcazar, Suchetha Cooray, Romeel Davé, Austen Gabrielpillai, Shy Genel, Sultan Hassan, Lars Hernquist, Christian Kragh Jespersen, Christopher C. Lovell, Boon Kiat Oh, Camilla Pacifici, Lucia A. Perez, Laura Sommovigo, Joshua S. Speagle, Sandro Tacchella, Megan T. Tillman, Francisco Villaescusa-Navarro, John F. Wu
    | `2508.21152 <https://arxiv.org/abs/2508.21152>`_
 
+#. | **Detecting Model Misspecification in Cosmology with Scale-Dependent Normalizing Flows**
+   | Aizhan Akhmetzhanova, Carolina Cuesta-Lazaro, Siddharth Mishra-Sharma
+   | `2508.05744 <https://www.arxiv.org/abs/2508.05744>`_
+
 #. | **Probabilistic cosmological inference on HI tomographic data**
    | Sambatra Andrianomena
    | `2507.21682 <https://arxiv.org/abs/2507.21682>`_
@@ -33,11 +37,7 @@ Publications
 #. | **Stellar Mass-Dispersion Measure Correlations Constrain Baryonic Feedback in Fast Radio Burst Host Galaxies**
    | Calvin Leung, Sunil Simha, Isabel Medlock, Daisuke Nagai, Kiyoshi W. Masui, Lordrick A. Kahinga, Adam E. Lanman, Shion Andrew, Kevin Bandura, Alice P. Curtin, B. M. Gaensler, Nina Gusinskaia, Ronniy C. Joseph, Mattias Lazda, Lluis Mas-Ribas, Bradley W. Meyers, Kenzie Nimmo, Aaron B. Pearlman, J. Xavier Prochaska, Mawson W. Sammons, Kaitlyn Shin, Kendrick Smith, Haochen Wang
    | `2507.16816 <https://arxiv.org/abs/2507.16816>`_
-
-#. | **Detecting Model Misspecification in Cosmology with Scale-Dependent Normalizing Flows**
-   | Aizhan Akhmetzhanova, Carolina Cuesta-Lazaro, Siddharth Mishra-Sharma
-   | `2508.05744 <https://www.arxiv.org/abs/2508.05744>`_
-
+   
 #. | **Reconstruction of Dark Matter and Baryon Density From Galaxies: A Comparison of Linear, Halo Model and Machine Learning-Based Methods**
    | Jordan Krywonos, Yurii Kvasiuk, Matthew C. Johnson, Moritz Munchmeyer
    | `2507.12530 <https://arxiv.org/abs/2507.12530>`_
