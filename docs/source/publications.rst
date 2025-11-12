@@ -10,6 +10,10 @@ Publications
    | Arne Thomsen, Tilman Tröster, Francois Lanusse
    | `2510.26593 <https://arxiv.org/abs/2510.26593>`_
 
+#. | **jFoF: GPU Cluster Finding with Gradient Propagation**
+   | Benjamin Horowitz, Adrian E. Bayer
+   | `2510.26851 <https://arxiv.org/abs/2510.26851>`_
+
 #. | **BaryonBridge: Stochastic Interpolant Model for Fast Hydrodynamical Simulations**
    | Benjamin Horowitz, Carolina Cuesta-Lazaro, Omar Yehia
    | `2510.19224 <https://arxiv.org/abs/2510.19224>`_
