@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Galactification: painting galaxies onto dark matter only simulations using a transformer-based model**
+   | Shivam Pandey, Christopher C. Lovell, Chirag Modi, Benjamin D. Wandelt
+   | `2511.08438 <https://arxiv.org/abs/2511.08438>`_
+
 #. | **Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics**
    | Arne Thomsen, Tilman Tröster, Francois Lanusse
    | `2510.26593 <https://arxiv.org/abs/2510.26593>`_
