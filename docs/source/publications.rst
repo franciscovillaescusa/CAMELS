@@ -2,10 +2,6 @@
 Publications
 ************
 
-#. | **Learning Cosmology from Nearest Neighbour Statistics**
-   | Atrideb Chatterjee, Arka Banerjee, Francisco Villaescusa-Navarro, Tom Abel
-   | `2511.13393 <https://arxiv.org/abs/2511.13393>`_ 
-
 #. | **Galactification: painting galaxies onto dark matter only simulations using a transformer-based model**
    | Shivam Pandey, Christopher C. Lovell, Chirag Modi, Benjamin D. Wandelt
    | `2511.08438 <https://arxiv.org/abs/2511.08438>`_
