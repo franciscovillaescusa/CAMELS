@@ -2,6 +2,22 @@
 Publications
 ************
 
+#. | **A Correlation Between Black Hole Mass and Dark Matter Halo Concentration in Cosmological Simulations**
+   | John K. Nino
+   | `2512.17964 <https://arxiv.org/abs/2512.17964>`_ 
+
+#. | **Intrinsic galaxy alignments in CAMELS simulations and the significant impact of baryon model**
+   | Daniel Bilsborrow, Niall Jeffrey
+   | `2511.21881 <https://arxiv.org/abs/2511.21881>`_ 
+
+#. | **Galaxy Phase-Space and Field-Level Cosmology: The Strength of Semi-Analytic Models**
+   | Natalí S. M. de Santi, Francisco Villaescusa-Navarro, Pablo Araya-Araya, Gabriella De Lucia, Fabio Fontanot, Lucia A. Perez, Manuel Arnés-Curto, Violeta Gonzalez-Pérez, Ángel Chandro-Gómez, Rachel S. Somerville, Tiago Castro
+   | `2512.10222 <https://arxiv.org/abs/2512.10222>`_
+
+#. | **A new constraint on the y-distortion with FIRAS: implications for feedback models in galaxy formation and cosmic shear measurements**
+   | Giulio Fabbian, Federico Bianchini, Alina Sabyr, J. Colin Hill, Christopher C. Lovell, Leander Thiele, David N. Spergel
+   | `2512.03038 <https://arxiv.org/abs/2512.03038>`_  
+
 #. | **Galactification: painting galaxies onto dark matter only simulations using a transformer-based model**
    | Shivam Pandey, Christopher C. Lovell, Chirag Modi, Benjamin D. Wandelt
    | `2511.08438 <https://arxiv.org/abs/2511.08438>`_
