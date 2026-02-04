@@ -2,6 +2,18 @@
 Publications
 ************
 
+#. | **Cosmo-FOLD: Fast generation and upscaling of field-level cosmological maps with overlap latent diffusion**
+   | Satvik, Mishra; Roberto, Trotta; Matteo, Viel
+   | `2601.14377 <https://arxiv.org/abs/2601.14377>`_
+
+#. | **CAMELS Environments: The Impact of Local Neighbours on Galaxy Evolution across the SIMBA, IllustrisTNG, ASTRID, and Swift-EAGLE Simulations**
+   | Xavier, Sims; Daniel, Anglés-Alcázar; Boon-Kiat, Oh; Daisuke, Nagai; Jonathan, Mercedes-Feliz; Isabel, Medlock; Yueying, Ni; Christopher C., Lovell; Francisco, Villaescusa-Navarro
+   | `2601.06290 <https://arxiv.org/abs/2601.06290>`_  
+
+#. | **Cosmological back-reaction of baryons on dark matter in the CAMELS simulations**
+   | Matthew, Gebhardt; Daniel, Anglés-Alcázar; Shy, Genel; Daisuke, Nagai; Boon Kiat, Oh; Isabel, Medlock; Jonathan, Mercedes-Feliz; Sagan, Sutherland; Max E., Lee; Xavier, Sims; Christopher C., Lovell; David N., Spergel; Romeel, Davé; Matthieu, Schaller; Joop, Schaye; Francisco, Villaescusa-Navarro
+   | `2601.06258 <https://arxiv.org/abs/2601.06258>`_
+
 #. | **A Correlation Between Black Hole Mass and Dark Matter Halo Concentration in Cosmological Simulations**
    | John K. Nino
    | `2512.17964 <https://arxiv.org/abs/2512.17964>`_ 
