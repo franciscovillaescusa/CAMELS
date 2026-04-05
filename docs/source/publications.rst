@@ -2,6 +2,21 @@
 Publications
 ************
 
+#. | **Simulation-based inference from the Lyman-alpha forest 1D power spectrum with CAMELS**
+   | Francesco Sinigaglia, Patricia Iglesias-Navarro, Matteo Viel
+   | `2603.13011 <https://arxiv.org/abs/2603.13011>`_
+#. | **Cosmology with one galaxy: An analytic formula relating Ωm with galaxy properties**
+   | Kito Liao, Francisco Villaescusa-Navarro, Romain Teysser, Natalí S. M. de Santi
+   | `2602.07651 <https://arxiv.org/abs/2602.07651>`_
+
+#. | **Assembly bias and local Primordial non-Gaussianity from DESI DR1 Quasars**
+   | E. Fondi, L. Verde, E. Chaussidon, J. Aguilar, S. Ahlen, S. BenZvi, D. Bianchi, D. Brooks, T. Claybaugh, A. Cuceu, A. de la Macorra, P. Doel, S. Ferraro, J. E. Forero-Romero, E. Gaztañaga, S. Gontcho A Gontcho, G. Gutierrez, H. K. Herrera-Alcantar, D. Huterer, M. Ishak, R. Joyce, A. Kremin, O. Lahav, C. Lamman, M. Landriau, L. Le Guillou, M. Manera, P. Martini, A. Meisner, R. Miquel, S. Nadathur, N. Palanque-Delabrouille, W. J. Percival, F. Prada, I. Pérez-Ràfols, G. Rossi, L. Samushia, E. Sanchez, D. Schlegel, D. Sprayberry, G. Tarlé, B. A. Weaver, H. Zou  
+   | `2602.12357 <https://arxiv.org/abs/2602.12357>`_  
+
+#. | **Implications of the nanoHertz Gravitational-Wave Background for Galactic Feedback and Massive Black Hole Growth**
+   | Megan Taylor Tillman, Blakesley Burkhart, Chiara M. F. Mingarelli, J. Andrew Casey-Clyde, Lars Hernquist, Sownak Bose, Eniko Regos, César Hernández-Aguayo  
+   | `2602.15938 <https://arxiv.org/abs/2602.15938>`_
+
 #. | **Cosmo-FOLD: Fast generation and upscaling of field-level cosmological maps with overlap latent diffusion**
    | Satvik, Mishra; Roberto, Trotta; Matteo, Viel
    | `2601.14377 <https://arxiv.org/abs/2601.14377>`_
@@ -45,10 +60,6 @@ Publications
 #. | **BaryonBridge: Stochastic Interpolant Model for Fast Hydrodynamical Simulations**
    | Benjamin Horowitz, Carolina Cuesta-Lazaro, Omar Yehia
    | `2510.19224 <https://arxiv.org/abs/2510.19224>`_
-
-#. | **Strong Evidence for Cosmic Ray-Supported ∼L∗ Galaxy Halos via X-ray & tSZ Constraints**
-   | Sam B. Ponnada, Philip F. Hopkins, Yue Samuel Lu, Emily M. Silich, Iryna S. Butsky, Dusan Keres
-   | `2510.13959 <https://arxiv.org/abs/2510.13959>`_
 
 #. | **Leveraging Machine Learning and Hydrodynamic Simulations of Galaxy Formation to Illuminate the Effects of Incident Radiation Fields on Atomic Gas Cooling and Heating Functions**
    | David B. Robinson
