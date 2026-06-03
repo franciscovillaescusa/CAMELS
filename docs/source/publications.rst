@@ -2,7 +2,7 @@
 Publications
 ************
 
-#. | **BOA Constrictor: A Mamba-based lossless compressor for High Energy Physics data**
+#. | **BOA Constrictor: A Mamba-based lossless compressor for scientific data**
    | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
    | `2026MLS&T <https://ui.adsabs.harvard.edu/abs/2026MLS%26T...7c5014G/abstract>`_
 
