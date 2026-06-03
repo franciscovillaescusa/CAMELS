@@ -2,9 +2,14 @@
 Publications
 ************
 
+#. | **BOA Constrictor: A Mamba-based lossless compressor for High Energy Physics data**
+   | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
+   | `2026MLS&T <https://ui.adsabs.harvard.edu/abs/2026MLS%26T...7c5014G/abstract>`_
+
 #. | **Simulation-based inference from the Lyman-alpha forest 1D power spectrum with CAMELS**
    | Francesco Sinigaglia, Patricia Iglesias-Navarro, Matteo Viel
    | `2603.13011 <https://arxiv.org/abs/2603.13011>`_
+
 #. | **Cosmology with one galaxy: An analytic formula relating Ωm with galaxy properties**
    | Kito Liao, Francisco Villaescusa-Navarro, Romain Teysser, Natalí S. M. de Santi
    | `2602.07651 <https://arxiv.org/abs/2602.07651>`_
