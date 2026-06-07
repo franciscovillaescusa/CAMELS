@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Field-level multi-tracers simulation-based inference of cosmological parameters from 3D maps**
+   | Giulio Scelfo, Satvik Mishra, Mauro Rigo, Roberto Trotta, Matteo Viel
+   | `2605.26210 <https://arxiv.org/abs/2605.26210>`_
+
 #. | **BOA Constrictor: A Mamba-based lossless compressor for scientific data**
    | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
    | `2026MLS&T <https://ui.adsabs.harvard.edu/abs/2026MLS%26T...7c5014G/abstract>`_
