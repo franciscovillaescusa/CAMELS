@@ -7,6 +7,18 @@ Parameters
 As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified into different sets, depending on how their parameters (cosmological, astrophysical, and initial random seed) are organized. Here we provide details about this.
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    Second generation                                                                                                                                                                                                                                                                     |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   Suite          | Set                                                                                                                                                                                                                                                                   |
++                  +-------------------------------------------+-------------------------------------------+-------------------------------------------+
+|                  | CV                                        | 1P                                        | SB                                        |
++==================+===========================================+===========================================+===========================================+
+| **IllustrisTNG** | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_CV.txt>`__  | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_1P.txt>`__  | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_SB35.txt>`__ |
+|                  |                                           |                                           |                                           |
+|                  |                                           | `info <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/Info_IllustrisTNG_L50n512_35params.csv>`__        | `info <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/Info_IllustrisTNG_L50n512_35params.csv>`__        |
++------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |    First generation                                                                                                                                                                                                                                                                      |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |   Suite          | Set                                                                                                                                                                                                                                                                   |
@@ -125,6 +137,10 @@ The meaning and range of variation of the 4 *standard* IllustrisTNG parameters a
    A value of 1 in the astrophysical parameters :math:`A_{\rm SN1}`, :math:`A_{\rm SN2}`, :math:`A_{\rm AGN1}`, :math:`A_{\rm AGN2}`, represents the value chosen in the original flagship simulation of each suite. For instance, the original IllustrisTNG simulation has :math:`A_{\rm SN1}=1`, :math:`A_{\rm SN2}=1`, :math:`A_{\rm AGN1}=1`, :math:`A_{\rm AGN2}=1`.
 
 We refer the reader to `here <https://tinyurl.com/bdfpc5zr>`__ for a description and range of the 23 astrophysical parameters varied in the first generation of IllustrisTNG simulations.
+
+The second-generation SB35 set varies 35 parameters in total (5 cosmological + 30 astrophysical). It includes all 28 parameters of SB28 plus 7 new ones.
+
+We refer the reader to `here <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/Info_IllustrisTNG_L50n512_35params.csv>`__ for the full description and range of all 35 parameters varied in the second generation of IllustrisTNG simulations.
    
 
   
