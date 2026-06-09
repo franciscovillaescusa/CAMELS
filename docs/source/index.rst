@@ -1,6 +1,10 @@
 CAMELS
 ======
 
+.. note::
+
+   **New data release!** A new set of 1,192 second-generation IllustrisTNG simulations in :math:`(50~h^{-1}{\rm Mpc})^3` boxes, varying 35 parameters, has been publicly released. See the :doc:`News <news>` page for details.
+
 .. warning::
 
    A bug was recently identified in the generation of the FOF/Subfind catalogs for SIMBA, SIMBA_DM and Illustris_DM 1P and CV sets, as well as a small number of Astrid_DM 1P simulations and EX simulations. The bug affected mostly global DM and gas properties of FOF/Subfind objects, less so their galaxy-scale properties such as their stellar properties. We believe that in particular some studies using these 1P sets might have been non-negligibly affected by this. A separate bug affected the FOF/Subfind catalogs for all sets (1P, CV, LH) of Swift-EAGLE. We welcome hearing from anyone who is concerned their study might have been affected, so that we can help figure things out. All the data in the public FOF/Subfind directories is now fixed, and the old buggy data are available upon request. Apologies for any inconvenience!
