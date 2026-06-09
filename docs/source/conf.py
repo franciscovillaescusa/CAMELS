@@ -19,7 +19,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'CAMELS'
-copyright = '2020, CAMELS team'
+copyright = '2020-2026, CAMELS team'
 author = 'CAMELS team'
 
 # The full version, including alpha/beta/rc tags

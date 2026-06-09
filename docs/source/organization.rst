@@ -98,7 +98,7 @@ Inside a `suite folder` there are different `generation folders`:
 
 .. Note::
 
-   Note that not all simulations, and its associated data, are available. For instance, as of April 2024, for most of the suites, ``L25n256`` is pretty complete, while ``L50n512`` only contains IllustrisTNG simulations and there are no simulations in the ``L100n1024`` volume for any suite.
+   Note that not all simulations, and its associated data, are available. For instance, as of June 2026, for most of the suites, ``L25n256`` is pretty complete, while ``L50n512`` only contains IllustrisTNG simulations and there are no simulations in the ``L100n1024`` volume for any suite.
 
    
    
