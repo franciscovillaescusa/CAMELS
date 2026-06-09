@@ -6,16 +6,16 @@ Parameters
 
 As discussed in :ref:`suites_sets`, the CAMELS simulations can be classified into different sets, depending on how their parameters (cosmological, astrophysical, and initial random seed) are organized. Here we provide details about this.
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|    Second generation                                                                                                                                                                                                                                                                     |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|   Suite          | Set                                                                                                                                                                                                                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    Second generation                                                                                                                                 |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+|   Suite          | Set                                                                                                                               |
 +                  +-------------------------------------------+-------------------------------------------+-------------------------------------------+
 |                  | CV                                        | 1P                                        | SB                                        |
 +==================+===========================================+===========================================+===========================================+
-| **IllustrisTNG** | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_CV.txt>`__  | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_1P.txt>`__  | `params <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/CosmoAstroSeed_IllustrisTNG_L50n512_SB35.txt>`__ |
+| **IllustrisTNG** | `params <https://tinyurl.com/ytv5uf5w>`__ | `params <https://tinyurl.com/3arpne8w>`__ | `params <https://tinyurl.com/3jhzyjf5>`__ |
 |                  |                                           |                                           |                                           |
-|                  |                                           | `info <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/Info_IllustrisTNG_L50n512_35params.csv>`__        | `info <https://raw.githubusercontent.com/franciscovillaescusa/CAMELS/master/docs/params/IllustrisTNG/Info_IllustrisTNG_L50n512_35params.csv>`__        |
+|                  | `info <https://tinyurl.com/mrykxj93>`__   | `info <https://tinyurl.com/mrykxj93>`__   | `info <https://tinyurl.com/mrykxj93>`__   |
 +------------------+-------------------------------------------+-------------------------------------------+-------------------------------------------+
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
