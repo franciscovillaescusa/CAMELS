@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in (50Mpc/h)^3 boxes**
+   | Shy Genel, Yongseok Jo, Boon Kiat Oh , and Megan Taylor Tillman, Max E. Lee, Jun-Young Lee, Elena Hernández-Martı́nez, Christopher C. Lovell, Xavier Sims, Blakesley Burkhart, Kentaro Nagamine, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro
+   | `2606.10038 <https://arxiv.org/abs/2606.10038>`_
+
 #. | **Field-level multi-tracers simulation-based inference of cosmological parameters from 3D maps**
    | Giulio Scelfo, Satvik Mishra, Mauro Rigo, Roberto Trotta, Matteo Viel
    | `2605.26210 <https://arxiv.org/abs/2605.26210>`_
