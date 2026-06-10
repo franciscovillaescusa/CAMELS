@@ -7,7 +7,7 @@ Please consider citing the relevant papers if you use CAMELS data.
 CAMELS
 ~~~~~~
 
-If you use CAMELS data you may consider citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_, `first data release <https://arxiv.org/abs/2201.01300>`_, `second data release <https://arxiv.org/abs/2304.02096>`_, and `2nd-generation data release <https://arxiv.org/abs/2506.XXXXX>`_ papers:
+If you use CAMELS data you may consider citing the CAMELS `presentation <https://arxiv.org/abs/2010.00619>`_, `first data release <https://arxiv.org/abs/2201.01300>`_, `second data release <https://arxiv.org/abs/2304.02096>`_, and `2nd-generation data release <https://arxiv.org/abs/2606.10038>`_ papers:
 
 ::
 
@@ -72,10 +72,10 @@ If you use CAMELS data you may consider citing the CAMELS `presentation <https:/
       title={Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in $(50\,h^{-1}{\rm Mpc})^3$ boxes},
       author={Shy Genel and Yongseok Jo and Boon Kiat Oh and Megan Taylor Tillman and Max E. Lee and Jun-Young Lee and Elena Hern\'andez-Mart\'inez and Christopher C. Lovell and Xavier Sims and Blakesley Burkhart and Kentaro Nagamine and Daniel Angl\'es-Alc\'azar and Francisco Villaescusa-Navarro},
       year={2026},
-      eprint={2506.XXXXX},
+      eprint={2606.10038},
       archivePrefix={arXiv},
       primaryClass={astro-ph.CO},
-      url={https://arxiv.org/abs/2506.XXXXX},
+      url={https://arxiv.org/abs/2606.10038},
       }
 
 
