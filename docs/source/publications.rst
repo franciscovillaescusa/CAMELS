@@ -2,25 +2,6 @@
 Publications
 ************
 
-#. | ****
-   |
-   | ` <>`_
-
-#. | ****
-   |
-   | ` <>`_
-
-#. | ****
-   |
-   | ` <>`_
-
-#. | ****
-   |
-   | ` <>`_
-
-#. | ****
-   |
-   | ` <>`_
 
 #. | **Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in (50Mpc/h)^3 boxes**
    | Shy Genel, Yongseok Jo, Boon Kiat Oh , and Megan Taylor Tillman, Max E. Lee, Jun-Young Lee, Elena Hernández-Martı́nez, Christopher C. Lovell, Xavier Sims, Blakesley Burkhart, Kentaro Nagamine, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro
