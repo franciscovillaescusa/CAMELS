@@ -2,13 +2,41 @@
 Publications
 ************
 
+#. | ****
+   |
+   | ` <>`_
+
+#. | ****
+   |
+   | ` <>`_
+
+#. | ****
+   |
+   | ` <>`_
+
+#. | ****
+   |
+   | ` <>`_
+
+#. | ****
+   |
+   | ` <>`_
+
 #. | **Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in (50Mpc/h)^3 boxes**
    | Shy Genel, Yongseok Jo, Boon Kiat Oh , and Megan Taylor Tillman, Max E. Lee, Jun-Young Lee, Elena Hernández-Martı́nez, Christopher C. Lovell, Xavier Sims, Blakesley Burkhart, Kentaro Nagamine, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro
    | `2606.10038 <https://arxiv.org/abs/2606.10038>`_
 
+#. | **Conservative neural posterior estimation via distributionally robust training**
+   | William Laplante, Yuga Hikida, Charita Dellaporta, Francois-Xavier Briol, Ayush Bharti
+   | `2605.28516 <https://arxiv.org/abs/2605.28516>`_
+
 #. | **Field-level multi-tracers simulation-based inference of cosmological parameters from 3D maps**
    | Giulio Scelfo, Satvik Mishra, Mauro Rigo, Roberto Trotta, Matteo Viel
    | `2605.26210 <https://arxiv.org/abs/2605.26210>`_
+
+#. | **Physics-Informed Variational Autoencoders for Cosmological Field Reconstruction and Parameter Inference**
+   | Labiba Zahin, Zarin Tasnim, Tasnim Zaman, Mehrabul Islam, Safkat Zahir
+   | `BS thesis <https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/28000/22101114,%2022101249,%2022101343,%2024341179,%2022101414_CSE.pdf?sequence=1>`_ 
 
 #. | **BOA Constrictor: A Mamba-based lossless compressor for scientific data**
    | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
