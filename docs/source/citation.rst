@@ -68,15 +68,21 @@ If you use CAMELS data you may consider citing the CAMELS `presentation <https:/
    adsnote = {Provided by the SAO/NASA Astrophysics Data System}
    }
 
-   @misc{CAMELS_DR3,
-      title={Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in $(50\,h^{-1}{\rm Mpc})^3$ boxes},
-      author={Shy Genel and Yongseok Jo and Boon Kiat Oh and Megan Taylor Tillman and Max E. Lee and Jun-Young Lee and Elena Hern\'andez-Mart\'inez and Christopher C. Lovell and Xavier Sims and Blakesley Burkhart and Kentaro Nagamine and Daniel Angl\'es-Alc\'azar and Francisco Villaescusa-Navarro},
-      year={2026},
-      eprint={2606.10038},
-      archivePrefix={arXiv},
-      primaryClass={astro-ph.CO},
-      url={https://arxiv.org/abs/2606.10038},
-      }
+  @ARTICLE{CAMELS_DR3,
+  author = {{Genel}, Shy and {Jo}, Yongseok and {Oh}, Boon Kiat and {Tillman}, Megan Taylor and {Lee}, Max E. and {Lee}, Jun-Young and {Hern{\'a}ndez-Mart{\'\i}nez}, Elena and {Lovell}, Christopher C. and {Sims}, Xavier and {Burkhart}, Blakesley and {Nagamine}, Kentaro and {Angl{\'e}s-Alc{\'a}zar}, Daniel and {Villaescusa-Navarro}, Francisco},
+  title = {{Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in (50 Mpc/h)³ boxes}},
+  journal = {arXiv e-prints},
+  keywords = {Cosmology and Nongalactic Astrophysics, Astrophysics of Galaxies},
+  year = {2026},
+  month = jun,
+  eid = {arXiv:2606.10038},
+  pages = {arXiv:2606.10038},
+  archiveprefix = {arXiv},
+  eprint = {2606.10038},
+  primaryclass = {astro-ph.CO},
+  adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260610038G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+}
 
 
 CAMELS photometry
