@@ -24,7 +24,7 @@ Publications
 
 #. | **Physics-Informed Variational Autoencoders for Cosmological Field Reconstruction and Parameter Inference**
    | Labiba Zahin, Zarin Tasnim, Tasnim Zaman, Mehrabul Islam, Safkat Zahir
-   | `BS thesis <https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/28000/22101114,%2022101249,%2022101343,%2024341179,%2022101414_CSE.pdf?sequence=1>`_ 
+   | `BS thesis <https://dspace.bracu.ac.bd/items/5c545635-ac27-4307-8f29-825f61ca067c>`_ 
 
 #. | **BOA Constrictor: A Mamba-based lossless compressor for scientific data**
    | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
