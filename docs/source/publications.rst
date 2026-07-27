@@ -10,9 +10,6 @@ Publications
    | Richard Stiskalek, Lucia A. Perez, Shy Genel, Rachel S. Somerville, Raul E. Angulo, Sergio Contreras
    | `2606.10024 <https://arxiv.org/abs/2606.10024>`_
 
-#. | **The baryonic Tully-Fisher relation as an independent direct probe of cosmology and of the nature of dark matter**
-   | Francesco Sinigaglia
-   | `2606.13936 <https://arxiv.org/abs/2606.13936>`_
 
 #. | **Field-level multi-tracers simulation-based inference of cosmological parameters from 3D maps**
    | Giulio Scelfo, Satvik Mishra, Mauro Rigo, Roberto Trotta, Matteo Viel
