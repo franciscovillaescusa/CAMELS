@@ -2,6 +2,13 @@
 Publications
 ************
 
+#. | **Breaking the f_NL -- b_phi degeneracy with the time evolution of tracer number counts**
+   | Caio B. de S. Nascimento, Neal Dalal
+   | `2607.18229 <https://arxiv.org/abs/2607.18229>`_
+
+#. | **Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models**
+   | Richard Stiskalek, Lucia A. Perez, Shy Genel, Rachel S. Somerville, Raul E. Angulo, Sergio Contreras
+   | `2606.10024 <https://arxiv.org/abs/2606.10024>`_
 
 #. | **Learning the Universe with the 2nd Generation of CAMELS: Varying 35 parameters of the IllustrisTNG model in (50Mpc/h)^3 boxes**
    | Shy Genel, Yongseok Jo, Boon Kiat Oh , and Megan Taylor Tillman, Max E. Lee, Jun-Young Lee, Elena Hernández-Martı́nez, Christopher C. Lovell, Xavier Sims, Blakesley Burkhart, Kentaro Nagamine, Daniel Anglés-Alcázar, Francisco Villaescusa-Navarro
@@ -22,6 +29,10 @@ Publications
 #. | **BOA Constrictor: A Mamba-based lossless compressor for scientific data**
    | Akshat Gupta, Caterina Doglioni, Thomas J. Elliott
    | `2026MLS&T <https://ui.adsabs.harvard.edu/abs/2026MLS%26T...7c5014G/abstract>`_
+
+#. | **Informative Priors on Primordial Non-Gaussianity Bias b_phi From Galaxy Formation**
+   | Anne Moore, Lucia A. Perez, Elisabeth Krause
+   | `2604.21790 <https://arxiv.org/abs/2604.21790>`_
 
 #. | **Simulation-based inference from the Lyman-alpha forest 1D power spectrum with CAMELS**
    | Francesco Sinigaglia, Patricia Iglesias-Navarro, Matteo Viel
