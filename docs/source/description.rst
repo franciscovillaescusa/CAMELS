@@ -45,7 +45,7 @@ The simulations can be classified into:
 | Obsidian         | GIZMO             | Obsidian                                    |
 +------------------+-------------------+---------------------------------------------+
     
-- **Generations**: depending on the volume and number of particles in the simulations. CAMELS has 3 generations:
+- **Generations**: depending on the volume and number of particles in the simulations. CAMELS has 2 generations:
 
 +---------------------+--------------------------------------------------------------+
 | Generation          | Description                                                  |
@@ -55,9 +55,6 @@ The simulations can be classified into:
 +---------------------+--------------------------------------------------------------+
 | Second generation   | :math:`512^3` dark matter + :math:`512^3` initial fluid      |
 |                     | elements in a 50 Mpc/h box                                   |
-+---------------------+--------------------------------------------------------------+
-| Third generation    | :math:`1024^3` dark matter + :math:`1024^3` initial fluid    |
-|                     | elements in a 100 Mpc/h box                                  |
 +---------------------+--------------------------------------------------------------+
     
 - **Sets**: depending on how their cosmological and astrophysical parameters, and initial random seed values are organized. CAMELS has 6 sets:
