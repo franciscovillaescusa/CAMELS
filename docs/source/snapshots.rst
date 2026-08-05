@@ -46,11 +46,10 @@ Each of the above suites have an associated N-body suite. Those simulations are 
 Generation folders
 ~~~~~~~~~~~~~~~~~~
 
-In general, between the *suite* and the *set folders*, there may be some *generation folders* indicating the volume and number of particles of the simulations. For the foreseable future, only these three folders will exist:
+In general, between the *suite* and the *set folders*, there may be some *generation folders* indicating the volume and number of particles of the simulations. For now, only these two folders will exist:
 
 - ``L25n256``. This folder contains the simulations that follow the evolution of :math:`256^3` dark matter particles and :math:`256^3` initial fluid elements in a :math:`(25~{\rm Mpc/h})^3` volume.
 - ``L50n512``. This folder contains the simulations that follow the evolution of :math:`512^3` dark matter particles and :math:`512^3` initial fluid elements in a :math:`(50~{\rm Mpc/h})^3` volume.
-- ``L100n1024``. This folder contains the simulations that follow the evolution of :math:`1024^3` dark matter particles and :math:`1024^3` initial fluid elements in a :math:`(100~{\rm Mpc/h})^3` volume.
   
 In general, the volume folders will follow the convention ``LXnY``, where ``X`` is the box size in Mpc/h and Y is the cubic root of the number of dark matter particles in the simulations.
 
