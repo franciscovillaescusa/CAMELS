@@ -2,6 +2,10 @@
 Publications
 ************
 
+#. | **Baryonic feedback suppression of the matter power spectrum: a three-parameter fitting formula and its single-parameter reduction**
+   | Pengjie Zhang
+   | `2609.00807 <https://arxiv.org/abs/2609.00807>`_
+
 #. | **Breaking the f_NL -- b_phi degeneracy with the time evolution of tracer number counts**
    | Caio B. de S. Nascimento, Neal Dalal
    | `2607.18229 <https://arxiv.org/abs/2607.18229>`_
@@ -49,6 +53,10 @@ Publications
 #. | **Implications of the nanoHertz Gravitational-Wave Background for Galactic Feedback and Massive Black Hole Growth**
    | Megan Taylor Tillman, Blakesley Burkhart, Chiara M. F. Mingarelli, J. Andrew Casey-Clyde, Lars Hernquist, Sownak Bose, Eniko Regos, César Hernández-Aguayo  
    | `2602.15938 <https://arxiv.org/abs/2602.15938>`_
+
+#. | **MadEvolve: Evolutionary Optimization of Cosmological Algorithms with Large Language Models**
+   | Tianyi Li, Shihui Zang, Moritz Münchmeyer
+   | `2602.15951 <https://arxiv.org/abs/2602.15951>`_
 
 #. | **Cosmo-FOLD: Fast generation and upscaling of field-level cosmological maps with overlap latent diffusion**
    | Satvik, Mishra; Roberto, Trotta; Matteo, Viel
