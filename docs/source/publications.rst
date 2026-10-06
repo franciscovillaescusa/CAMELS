@@ -2,6 +2,38 @@
 Publications
 ************
 
+#. | **Gas reservoirs predict future galaxy growth beyond halo assembly history in CAMELS**
+   | Kunal Bhatia
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2027NewA..13002638B/abstract>`_
+
+#. | **Multiscale Rotational-Compressive Organization in Cosmological Baryonic Flows**
+   | Waleed Mouhali
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..242M/abstract>`_
+
+#. | **Emulation of the Halo Mass Function with Neural Networks**
+   | Olive Ross, Nicholas Battaglia
+   | `2610.00725 <https://arxiv.org/abs/2610.00725>`_
+
+#. | **The CAMELS-CROCODILE Simulation Suite: A New Cosmology--Astrophysics Playground for Machine Learning**
+   | Kentaro Nagamine, Yuri Oku, Atsushi J. Nishizawa, Jun-Young Lee, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar
+   | `2609.23982 <https://arxiv.org/abs/2609.23982>`_
+
+#. | **Reconstructing the Projected Dark Matter Field across 0.1-100 Mpc Scales from the SDSS Survey**
+   | Kunyao Zhao, Yingjie Peng, Dingyi Zhao, Xiaohu Yang, Luis C. Ho, Kai Wang, Jing Dou, Zeyu Gao, Qiusheng Gu, Yukun Liu, Roberto Maiolino, Houjun Mo, Alvio Renzini, Canpo Su, Bitao Wang, Yu-Chen Wang, Bingxiao Xu, Feng Yuan, Xingye Zhu
+   | `2609.19295 <https://arxiv.org/abs/2609.19295>`_
+
+#. | **BINDing the lightcone: A suite of astrophysical ray-traced weak lensing and SZ maps**
+   | Max E. Lee, Shy Genel, Zoltan Haiman, Greg L. Bryan, Boryana Hadzhiyska
+   | `2609.10710 <https://arxiv.org/abs/2609.10710>`_
+
+#. | **BIND (Baryonic INpainting with Deep learning): A Field-level Emulator for Galaxy Groups and Clusters**
+   | Max E. Lee, Shy Genel, Zoltan Haiman, Greg L. Bryan, Christopher C. Lovell, Boryana Hadzhiyska
+   | `2609.10709 <https://arxiv.org/abs/2609.10709>`_
+
+#. | **Inductive Biases in Field-Level Cosmological Inference from Galaxy Catalogs**
+   | James O. Baldwin, Shy Genel, Francisco Villaescusa-Navarro
+   | `2609.09504 <https://arxiv.org/abs/2609.09504>`_
+
 #. | **Baryonic feedback suppression of the matter power spectrum: a three-parameter fitting formula and its single-parameter reduction**
    | Pengjie Zhang
    | `2609.00807 <https://arxiv.org/abs/2609.00807>`_
