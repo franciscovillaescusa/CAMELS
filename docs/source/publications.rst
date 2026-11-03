@@ -10,6 +10,22 @@ Publications
    | Waleed Mouhali
    | `ADS <https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..242M/abstract>`_
 
+#. | **Celia: Catalog Embeddings Learned from cosmologIcal simulAtions**
+   | Xiaowen Zhang, Matthew Ho, Anshul Kumar, Tiziana Di Matteo, Rupert A. C. Croft, Barnabás Póczos
+   | `2610.40218 <https://arxiv.org/abs/2610.40218>`_
+
+#. | **Probing Cosmology with Diffusion Models: Memorization, Generalization, and Parameter Estimation**
+   | Jiaming Pan, Nicholas Kern
+   | `2610.37825 <https://arxiv.org/abs/2610.37825>`_
+
+#. | **FastPM: Fast Pretrained Model for Cosmological Simulation-Based Inference**
+   | Masaya Yamamoto, Adrian E. Bayer
+   | `2610.33955 <https://arxiv.org/abs/2610.33955>`_
+
+#. | **Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on 28 model parameters in the CAMELS suite**
+   | Cami Delgado, Dhayaa Anbajagane
+   | `2610.03544 <https://arxiv.org/abs/2610.03544>`_
+
 #. | **Emulation of the Halo Mass Function with Neural Networks**
    | Olive Ross, Nicholas Battaglia
    | `2610.00725 <https://arxiv.org/abs/2610.00725>`_
