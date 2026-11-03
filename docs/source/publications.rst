@@ -22,6 +22,10 @@ Publications
    | Masaya Yamamoto, Adrian E. Bayer
    | `2610.33955 <https://arxiv.org/abs/2610.33955>`_
 
+#. | **Baryonic Imprints on DM Halos: characterizing the full concentration-mass probability distribution with CAMELS**
+   | Elisa J. Gao, Dhayaa Anbajagane
+   | `2610.03946 <https://arxiv.org/abs/2610.03946>`_
+
 #. | **Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on 28 model parameters in the CAMELS suite**
    | Cami Delgado, Dhayaa Anbajagane
    | `2610.03544 <https://arxiv.org/abs/2610.03544>`_
