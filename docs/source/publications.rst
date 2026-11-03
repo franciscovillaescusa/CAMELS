@@ -2,14 +2,6 @@
 Publications
 ************
 
-#. | **Gas reservoirs predict future galaxy growth beyond halo assembly history in CAMELS**
-   | Kunal Bhatia
-   | `ADS <https://ui.adsabs.harvard.edu/abs/2027NewA..13002638B/abstract>`_
-
-#. | **Multiscale Rotational-Compressive Organization in Cosmological Baryonic Flows**
-   | Waleed Mouhali
-   | `ADS <https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..242M/abstract>`_
-
 #. | **Celia: Catalog Embeddings Learned from cosmologIcal simulAtions**
    | Xiaowen Zhang, Matthew Ho, Anshul Kumar, Tiziana Di Matteo, Rupert A. C. Croft, Barnabás Póczos
    | `2610.40218 <https://arxiv.org/abs/2610.40218>`_
@@ -33,6 +25,14 @@ Publications
 #. | **Baryonic Imprints on DM Halos: the concentration-mass relation and its dependence on 28 model parameters in the CAMELS suite**
    | Cami Delgado, Dhayaa Anbajagane
    | `2610.03544 <https://arxiv.org/abs/2610.03544>`_
+
+#. | **Gas reservoirs predict future galaxy growth beyond halo assembly history in CAMELS**
+   | Kunal Bhatia
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2027NewA..13002638B/abstract>`_
+
+#. | **Multiscale Rotational-Compressive Organization in Cosmological Baryonic Flows**
+   | Waleed Mouhali
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2026ApJ..1008..242M/abstract>`_
 
 #. | **Emulation of the Halo Mass Function with Neural Networks**
    | Olive Ross, Nicholas Battaglia
