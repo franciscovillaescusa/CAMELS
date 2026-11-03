@@ -22,6 +22,10 @@ Publications
    | Masaya Yamamoto, Adrian E. Bayer
    | `2610.33955 <https://arxiv.org/abs/2610.33955>`_
 
+#. | **Feedback-Conditional 3D Reconstruction of Cosmic Baryons with Flow Matching**
+   | Maryam Hussaini, Aizhan Akhmetzhanova, Carolina Cuesta-Lazaro, Liam Connor
+   | `2610.10741 <https://arxiv.org/abs/2610.10741>`_
+
 #. | **Baryonic Imprints on DM Halos: characterizing the full concentration-mass probability distribution with CAMELS**
    | Elisa J. Gao, Dhayaa Anbajagane
    | `2610.03946 <https://arxiv.org/abs/2610.03946>`_
