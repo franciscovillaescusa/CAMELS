@@ -2,6 +2,11 @@
 Publications
 ************
 
+.. tip::
+
+   Explore these papers interactively in the `CAMELS Literature Atlas <https://franciscovillaescusa.github.io/camels-atlas/>`_:
+   a topic map, citation and co-author networks, publication trends and a searchable table, updated weekly from this list.
+
 #. | **Celia: Catalog Embeddings Learned from cosmologIcal simulAtions**
    | Xiaowen Zhang, Matthew Ho, Anshul Kumar, Tiziana Di Matteo, Rupert A. C. Croft, Barnabás Póczos
    | `2610.40218 <https://arxiv.org/abs/2610.40218>`_
