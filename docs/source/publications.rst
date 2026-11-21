@@ -11,6 +11,10 @@ Publications
    | Divij Sharma, Roger de Belsunce, Mikhail M. Ivanov
    | `2611.17299 <https://arxiv.org/abs/2611.17299>`_
 
+#. | **Understanding galaxies and the origin of the golden mass through the study of scaling relations across cosmic history**
+   | C. Tortora, A. Gallazzi, A. Gargiulo, F. La Barbera, N. R. Napolitano, R. Ragusa, S. Zibetti
+   | `2611.06333 <https://arxiv.org/abs/2611.06333>`_
+
 #. | **Celia: Catalog Embeddings Learned from cosmologIcal simulAtions**
    | Xiaowen Zhang, Matthew Ho, Anshul Kumar, Tiziana Di Matteo, Rupert A. C. Croft, Barnabás Póczos
    | `2610.40218 <https://arxiv.org/abs/2610.40218>`_
@@ -38,6 +42,10 @@ Publications
 #. | **Gas reservoirs predict future galaxy growth beyond halo assembly history in CAMELS**
    | Kunal Bhatia
    | `ADS <https://ui.adsabs.harvard.edu/abs/2027NewA..13002638B/abstract>`_
+
+#. | **DENARIO Project: Deep Knowledge Artificial Intelligence Agents for Scientific Discovery**
+   | Francisco Villaescusa-Navarro, Boris Bolliet, Pablo Villanueva-Domingo, Adrian E. Bayer, Aidan Acquah, Chetana Amancharla, Almog Barzilay-Siegal, Pablo Bermejo, Camille Bilodeau, Pablo Cárdenas Ramírez, Miles Cranmer, Urbano L. França, ChangHoon Hahn, Yan-Fei Jiang, Raul Jimenez, Jun-Young Lee, Antonio Lerario, Osman Mamun, Thomas Meier, Anupam A. Ojha, Pavlos Protopapas, Shimanto Roy, David N. Spergel, Pedro Tarancón-Álvarez, Ujjwal Tiwari, Matteo Viel, Digvijay Wadekar, Chi Wang, Bonny Y. Wang, Licong Xu, Yossi Yovel, Shuwen Yue, Wen-Han Zhou, Qiyao Zhu, Jiajun Zou, Íñigo Zubeldia
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2026PRXI....121001V/abstract>`__
 
 #. | **Multiscale Rotational-Compressive Organization in Cosmological Baryonic Flows**
    | Waleed Mouhali
@@ -74,6 +82,14 @@ Publications
 #. | **Two bits about lossy compression: On the limits of compression in cosmology**
    | Hurum Maksora Tohfa, Matthew McQuinn
    | `2609.40239 <https://arxiv.org/abs/2609.40239>`_
+
+#. | **Peering Beyond the Veil of Last Scattering: A View of the Universe with CMB Spectral Distortions**
+   | Bryce Cyr, Nabila Aghanim, Ethan Baker, Elia Stefano Battistelli, Richard Battye, José Luis Bernal, Jens Chluba, Xavier Coulon, William Coulton, Paolo de Bernardis, Eleonora Di Valentino, Guillem Domènech, Sara Evangelista, Giulio Fabbian, Fabio Finelli, J. Colin Hill, Rishi Khatri, Alan Kogut, Guilaine Lagache, Hongwan Liu, Bruno Maffei, Fereshteh Majidi, Abhishek S. Maniyar, C. J. A. P. Martins, Silvia Masi, Jeff McMahon, Daniela Paoletti, Vivian Poulin, Wenzer Qin, Mathieu Remazeilles, José Alberto Rubiño-Martín, Alina Sabyr, Mayuri Sathyanarayana Rao, Carlos Sierra, Jack Singal, Tracy R. Slatyer, Elsa M. Teixeira, Leander Thiele, Léo Vacher, Duncan Watts
+   | `2609.16194 <https://arxiv.org/abs/2609.16194>`_
+
+#. | **FOSSIL: A future mission for CMB spectral distortion measurements**
+   | N. Aghanim, B. Maffei, J. Aumont, A. Beelen, B. Borgo, E. Bozzo, J. Chluba, X. Coulon, S. Couturier, F. Cuttaia, B. Cyr, P. De Bernardis, C. De Jabrun, J.-J. Diaz-Garcia, D. Eckert, G. Fabbian, L. Ferrari, F. Finelli, T. Gascard, J. E. Gudmundsson, A. Kogut, G. Lagache, M. Loquet Le Gall, S. Martin, A. I. Silva Martins, A. Monfardini, C. O'Sullivan, L. Pagano, D. Paoletti, G. Pisano, M. Remazeilles, V. Reveret, J. A. Rubino-Martin, V. Sauvage, G. Savini, L. Spencer, A. Tartari, L. Terenzi, N. Trappe, D. Watts, B. Winter, E. Baker, E. S. Battistelli, R. Battye, J. L. Bernal, A. Besnard, F. R. Bouchet, M. Braglia, C. Burigana, M. Calvo, S. Caminade, M. Citran, D. Clements, W. Coulton, E. Courau, G. De Zotti, E. Di Valentino, H. Dole, G. Domenech, S. Evangelista, S. Farrens, M. Frailis, K. A. Glasscock, V. Hervier, E. Kovetz, H. Liu, T. Louis, F. Madec, A. S. Maniyar, C. J. A. P. Martins, S. Masi, L. Maurin, F. Moll, L. Morelli, S. K. Naess, A. Nicola, F. Pace, N. Ponthieu, V. Poulin, E. Prele, N. Sanchez, W. Qin, L. Rodriguez, D. Scott, F. Simon, J. Singal, T. Slatyer, E. M. Teixeira, L. Thiele, M. Tristram, T. Trombetti, L. Vacher, S. Vinzl, A. Zacchei, E. Allys, K. Aryan, J. M. Casas Gonzales, O. Lahav, C. Sidiropoulos
+   | `2609.17618 <https://arxiv.org/abs/2609.17618>`_
 
 #. | **Breaking the f_NL -- b_phi degeneracy with the time evolution of tracer number counts**
    | Caio B. de S. Nascimento, Neal Dalal
@@ -151,9 +167,17 @@ Publications
    | Matthew, Gebhardt; Daniel, Anglés-Alcázar; Shy, Genel; Daisuke, Nagai; Boon Kiat, Oh; Isabel, Medlock; Jonathan, Mercedes-Feliz; Sagan, Sutherland; Max E., Lee; Xavier, Sims; Christopher C., Lovell; David N., Spergel; Romeel, Davé; Matthieu, Schaller; Joop, Schaye; Francisco, Villaescusa-Navarro
    | `2601.06258 <https://arxiv.org/abs/2601.06258>`_
 
+#. | **CASCO: Cosmological and AStrophysical parameters from Cosmological simulations and Observations: IV. Testing warm dark matter cosmologies with galaxy scaling relations: A joint simulation─observation study using DREAMS simulations**
+   | M. Silvestrini, C. Tortora, V. Busillo, Alyson M. Brooks, A. Farahi, A. M. Garcia, N. Kallivayalil, N. R. Napolitano, J. C. Rose, P. Torrey, F. Villaescusa-Navarro, M. Vogelsberger
+   | `2601.07543 <https://arxiv.org/abs/2601.07543>`_
+
 #. | **A Correlation Between Black Hole Mass and Dark Matter Halo Concentration in Cosmological Simulations**
    | John K. Nino
    | `2512.17964 <https://arxiv.org/abs/2512.17964>`_ 
+
+#. | **OMNICOSMOS: Transferring Particle Physics Knowledge Across the Cosmos**
+   | Vinicius Mikuni, Ibrahim Elsharkawy, Benjamin Nachman
+   | `2512.24422 <https://arxiv.org/abs/2512.24422>`_
 
 #. | **Intrinsic galaxy alignments in CAMELS simulations and the significant impact of baryon model**
    | Daniel Bilsborrow, Niall Jeffrey
@@ -238,6 +262,10 @@ Publications
 #. | **Multilevel neural simulation-based inference**
    | Yuga Hikida, Ayush Bharti, Niall Jeffrey, François-Xavier Briol
    | `2506.06087 <https://arxiv.org/abs/2506.06087>`_
+
+#. | **Large, fast, and accurate H I intensity maps with latent overlap diffusion**
+   | Satvik Mishra, Roberto Trotta, Matteo Viel
+   | `2506.08086 <https://arxiv.org/abs/2506.08086>`_
 
 #. | **Cosmology with Topological Deep Learning**
    | Jun-Young Lee, Francisco Villaescusa-Navarro
@@ -347,6 +375,10 @@ Publications
 #. | **The evolving role of astrophysical modelling in dark matter halo relaxation response**
    | Premvijay Velmani, Aseem Paranjape
    | `2408.04864 <https://arxiv.org/abs/2408.04864>`_
+
+#. | **Inpainting Galaxy Counts onto N-Body Simulations over Multiple Cosmologies and Astrophysics**
+   | Antoine Bourdin, Ronan Legin, Matthew Ho, Alexandre Adam, Yashar Hezaveh, Laurence Perreault-Levasseur
+   | `2408.00839 <https://arxiv.org/abs/2408.00839>`_
 
 #. | **Stirring the cosmic pot: how black hole feedback shapes the matter power spectrum in the Fable simulations**
    | Sergio Martin-Alvarez, Vid Iršič, Sophie Koudmani, Martin Bourne, Leah Bigwood, Debora Sijacki
