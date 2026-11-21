@@ -7,6 +7,10 @@ Publications
    Explore these papers interactively in the `CAMELS Literature Atlas <https://franciscovillaescusa.github.io/camels-atlas/>`_:
    a topic map, citation and co-author networks, publication trends and a searchable table, updated twice a month from this list.
 
+#. | **Simulation-Based Priors and BAO Shifts from the Lyman-α Forest at the Field Level**
+   | Divij Sharma, Roger de Belsunce, Mikhail M. Ivanov
+   | `2611.17299 <https://arxiv.org/abs/2611.17299>`_
+
 #. | **Celia: Catalog Embeddings Learned from cosmologIcal simulAtions**
    | Xiaowen Zhang, Matthew Ho, Anshul Kumar, Tiziana Di Matteo, Rupert A. C. Croft, Barnabás Póczos
    | `2610.40218 <https://arxiv.org/abs/2610.40218>`_
@@ -67,9 +71,21 @@ Publications
    | Pengjie Zhang
    | `2609.00807 <https://arxiv.org/abs/2609.00807>`_
 
+#. | **Two bits about lossy compression: On the limits of compression in cosmology**
+   | Hurum Maksora Tohfa, Matthew McQuinn
+   | `2609.40239 <https://arxiv.org/abs/2609.40239>`_
+
 #. | **Breaking the f_NL -- b_phi degeneracy with the time evolution of tracer number counts**
    | Caio B. de S. Nascimento, Neal Dalal
    | `2607.18229 <https://arxiv.org/abs/2607.18229>`_
+
+#. | **Fast(er)PM and Moving Mesh: JAX-native Geometric Multigrid Methods**
+   | Benjamin Horowitz
+   | `2607.10983 <https://arxiv.org/abs/2607.10983>`_
+
+#. | **Exploring the potential of Quantum Graph Neural Networks in analyzing Large-Scale Structure of Universe**
+   | Farida Farsian, Francesco Schilliró, Andrea Bulgarelli, Carlo Burigana, Vincenzo Cardone, Luca Cappelli, Irene Graziotti, Massimo Meneghetti, Giuseppe Murante, Nicoló Parmiggiani, Alessandro Rizzo, Giuseppe Sarracino, Roberto Scaramella, Vincenzo Testa, Tiziana Trombetti
+   | `ADS <https://ui.adsabs.harvard.edu/abs/2026A%26C....5601095F/abstract>`__
 
 #. | **Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models**
    | Richard Stiskalek, Lucia A. Perez, Shy Genel, Rachel S. Somerville, Raul E. Angulo, Sergio Contreras
@@ -119,6 +135,10 @@ Publications
    | Tianyi Li, Shihui Zang, Moritz Münchmeyer
    | `2602.15951 <https://arxiv.org/abs/2602.15951>`_
 
+#. | **The Impact of Galaxy Formation on Galaxy Biasing, and Implications for Primordial non-Gaussianity Constraints**
+   | Lucia A. Perez, Shy Genel, Elisabeth Krause, Rachel S. Somerville
+   | `2602.04987 <https://arxiv.org/abs/2602.04987>`_
+
 #. | **Cosmo-FOLD: Fast generation and upscaling of field-level cosmological maps with overlap latent diffusion**
    | Satvik, Mishra; Roberto, Trotta; Matteo, Viel
    | `2601.14377 <https://arxiv.org/abs/2601.14377>`_
@@ -150,6 +170,10 @@ Publications
 #. | **Galactification: painting galaxies onto dark matter only simulations using a transformer-based model**
    | Shivam Pandey, Christopher C. Lovell, Chirag Modi, Benjamin D. Wandelt
    | `2511.08438 <https://arxiv.org/abs/2511.08438>`_
+
+#. | **Towards Mitigating Systematics in Large-Scale Surveys via Few-Shot Optimal Transport-Based Feature Alignment**
+   | Sultan Hassan, Sambatra Andrianomena, Benjamin D. Wandelt
+   | `2511.11787 <https://arxiv.org/abs/2511.11787>`_
 
 #. | **Hybrid Physical-Neural Simulator for Fast Cosmological Hydrodynamics**
    | Arne Thomsen, Tilman Tröster, Francois Lanusse
@@ -283,6 +307,10 @@ Publications
 #. | **X-raying CAMELS: Constraining Baryonic Feedback in the Circum-Galactic Medium with the CAMELS simulations and eRASS X-ray Observations**
    | Erwin T. Lau, Daisuke Nagai, Akos Bogdán, Isabel Medlock, Benjamin D. Oppenheimer, Nicholas Battaglia, Daniel Angles-Alcazar, Shy Genel, Yueying Ni, Francisco Villaescusa-Navarro
    | `2412.04559 <https://arxiv.org/abs/2412.04559>`_
+
+#. | **CASCO: Cosmological and AStrophysical parameters from Cosmological simulations and Observations: II. Constraining cosmology and astrophysical processes with early- and late-type galaxies**
+   | V. Busillo, C. Tortora, G. Covone, L. V. E. Koopmans, M. Silvestrini, N. R. Napolitano
+   | `2412.00217 <https://arxiv.org/abs/2412.00217>`_
 
 #. | **An analytical model for the dispersion measure of Fast Radio Burst host galaxies**
    | Robert Reischke, Michael Kovac, Andrina Nicola, Steffen Hagstotz, Aurel Schneider
@@ -556,6 +584,10 @@ Publications
    | David Valles-Perez, Susana Planelles, Vicent Quilis
    | `2205.02245 <https://arxiv.org/abs/2205.02245>`_
 
+#. | **Cosmology with X-RAY galaxy cluster surveys ?**
+   | Marguerite Pierre
+   | `2205.05499 <https://arxiv.org/abs/2205.05499>`_
+
 #. | **Learning cosmology and clustering with cosmic graphs**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro
    | `2204.13713 <https://arxiv.org/abs/2204.13713>`_
@@ -587,6 +619,10 @@ Publications
 #. | **Percent-level constraints on baryonic feedback with spectral distortion measurements**
    | Leander Thiele, Digvijay Wadekar, J. Colin Hill, Nicholas Battaglia, Jens Chluba, Francisco Villaescusa-Navarro, Lars Hernquist, Mark Vogelsberger, Daniel Anglés-Alcázar, Federico Marinacci
    | | `2201.01663 <https://arxiv.org/abs/2201.01663>`_ | `video <https://www.youtube.com/watch?v=u2tEG1nLwV8&t=2s>`__ | `blog <https://www.camel-simulations.org/single-post/what-can-we-learn-from-our-universe-s-climate>`__ | 
+
+#. | **Properties beyond mass for unresolved haloes across redshift and cosmology using correlations with local halo environment**
+   | Sujatha Ramakrishnan, Premvijay Velmani
+   | `2112.15305 <https://arxiv.org/abs/2112.15305>`_
 
 #. | **Weighing the Milky Way and Andromeda with Artificial Intelligence**
    | Pablo Villanueva-Domingo, Francisco Villaescusa-Navarro, Shy Genel, Daniel Anglés-Alcázar, Lars Hernquist, Federico Marinacci, David N. Spergel, Mark Vogelsberger, Desika Narayanan
