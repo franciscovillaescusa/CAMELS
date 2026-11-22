@@ -4,8 +4,7 @@ Publications
 
 .. tip::
 
-   Explore these papers interactively in the `CAMELS Literature Atlas <https://franciscovillaescusa.github.io/camels-atlas/>`_:
-   a topic map, citation and co-author networks, publication trends and a searchable table, updated twice a month from this list.
+   Explore all these papers interactively in the :ref:`atlas`: a map of the CAMELS literature organized by topic, with the citation and co-author networks, publication trends and a searchable table, where you can find related work and open research directions. It is updated twice a month from this list.
 
 #. | **Simulation-Based Priors and BAO Shifts from the Lyman-α Forest at the Field Level**
    | Divij Sharma, Roger de Belsunce, Mikhail M. Ivanov

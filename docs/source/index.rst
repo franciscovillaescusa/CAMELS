@@ -68,6 +68,7 @@ CAMELS
    </figure>
    <br>
 
+   <!-- Game hidden until the Hugging Face space fvillaescusa/camels-fields is public again; remove these comment markers to restore it.
    <figure>
      <figcaption><b>Do you want to play a game?</b><br>
      See how well you can distinguish between different physical fields created from CAMELS.</figcaption>
@@ -78,6 +79,7 @@ CAMELS
      <gradio-app src="https://fvillaescusa-camels-fields.hf.space"></gradio-app>
    </figure>
    <br>
+   -->
 
    <figure>
    <figcaption>
@@ -91,6 +93,28 @@ CAMELS
 
    
 	 
+CAMELS Literature Atlas
+-----------------------
+
+Dozens of papers have been written using the CAMELS simulations, covering topics from simulation-based and field-level inference to baryonic feedback, generative models, and galaxy properties. To help navigate this body of work, we have built the **CAMELS Literature Atlas**: an interactive map of all papers that use CAMELS. With it you can explore how the papers relate to each other by topic, follow the citation and co-author networks, and identify connections between research lines as well as gaps that are still open.
+
+.. raw:: html
+
+   <div style="margin: 1.5em 0;">
+     <iframe src="https://franciscovillaescusa.github.io/literature-atlas/camels/#topics"
+             title="CAMELS Literature Atlas"
+             loading="lazy"
+             style="width: 100%; height: 800px; border: 1px solid #e1e4e5; border-radius: 6px;"
+             allowfullscreen></iframe>
+     <p style="text-align: center; margin-top: 0.8em;">
+       <a href="https://franciscovillaescusa.github.io/literature-atlas/camels/#topics"
+          target="_blank" rel="noopener"
+          style="display: inline-block; padding: 0.5em 1.2em; background: #2980b9; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold;">
+         Open the atlas in full screen &#8599;
+       </a>
+     </p>
+   </div>
+
 .. toctree::
    :maxdepth: 2
    :caption: CAMELS
@@ -98,6 +122,7 @@ CAMELS
    news
    goals
    publications
+   atlas
    data_access
    agents
    citation
